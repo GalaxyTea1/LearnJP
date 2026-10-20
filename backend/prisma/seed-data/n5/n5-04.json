@@ -1,0 +1,1818 @@
+{
+  "module": {
+    "code": "N5-04",
+    "level": "N5",
+    "unit": 4,
+    "title": "Daily Life",
+    "titleJp": "毎日の生活",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-04.vocab.001",
+      "japanese": "食べます",
+      "hiragana": "たべます",
+      "romaji": "tabemasu",
+      "english": "to eat",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "パンを食べます。",
+      "exampleEn": "I eat bread."
+    },
+    {
+      "sourceRef": "N5-04.vocab.002",
+      "japanese": "飲みます",
+      "hiragana": "のみます",
+      "romaji": "nomimasu",
+      "english": "to drink",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "水を飲みます。",
+      "exampleEn": "I drink water."
+    },
+    {
+      "sourceRef": "N5-04.vocab.003",
+      "japanese": "見ます",
+      "hiragana": "みます",
+      "romaji": "mimasu",
+      "english": "to see, watch",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "映画を見ます。",
+      "exampleEn": "I watch a movie."
+    },
+    {
+      "sourceRef": "N5-04.vocab.004",
+      "japanese": "聞きます",
+      "hiragana": "ききます",
+      "romaji": "kikimasu",
+      "english": "to listen, hear",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "音楽を聞きます。",
+      "exampleEn": "I listen to music."
+    },
+    {
+      "sourceRef": "N5-04.vocab.005",
+      "japanese": "読みます",
+      "hiragana": "よみます",
+      "romaji": "yomimasu",
+      "english": "to read",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "本を読みます。",
+      "exampleEn": "I read a book."
+    },
+    {
+      "sourceRef": "N5-04.vocab.006",
+      "japanese": "書きます",
+      "hiragana": "かきます",
+      "romaji": "kakimasu",
+      "english": "to write",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "手紙を書きます。",
+      "exampleEn": "I write a letter."
+    },
+    {
+      "sourceRef": "N5-04.vocab.007",
+      "japanese": "買います",
+      "hiragana": "かいます",
+      "romaji": "kaimasu",
+      "english": "to buy",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "りんごを買います。",
+      "exampleEn": "I buy an apple."
+    },
+    {
+      "sourceRef": "N5-04.vocab.008",
+      "japanese": "撮ります",
+      "hiragana": "とります",
+      "romaji": "torimasu",
+      "english": "to take (a photo)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "写真を撮ります。",
+      "exampleEn": "I take a photo."
+    },
+    {
+      "sourceRef": "N5-04.vocab.009",
+      "japanese": "します",
+      "hiragana": "します",
+      "romaji": "shimasu",
+      "english": "to do",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "宿題をします。",
+      "exampleEn": "I do my homework."
+    },
+    {
+      "sourceRef": "N5-04.vocab.010",
+      "japanese": "会います",
+      "hiragana": "あいます",
+      "romaji": "aimasu",
+      "english": "to meet",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "友達に会います。",
+      "exampleEn": "I meet a friend."
+    },
+    {
+      "sourceRef": "N5-04.vocab.011",
+      "japanese": "ごはん",
+      "hiragana": "ごはん",
+      "romaji": "gohan",
+      "english": "meal, cooked rice",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "ごはんを食べます。",
+      "exampleEn": "I eat a meal."
+    },
+    {
+      "sourceRef": "N5-04.vocab.012",
+      "japanese": "朝ごはん",
+      "hiragana": "あさごはん",
+      "romaji": "asagohan",
+      "english": "breakfast",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "朝ごはんを食べます。",
+      "exampleEn": "I eat breakfast."
+    },
+    {
+      "sourceRef": "N5-04.vocab.013",
+      "japanese": "昼ごはん",
+      "hiragana": "ひるごはん",
+      "romaji": "hirugohan",
+      "english": "lunch",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "昼ごはんを食べます。",
+      "exampleEn": "I eat lunch."
+    },
+    {
+      "sourceRef": "N5-04.vocab.014",
+      "japanese": "晩ごはん",
+      "hiragana": "ばんごはん",
+      "romaji": "bangohan",
+      "english": "dinner",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "晩ごはんを食べます。",
+      "exampleEn": "I eat dinner."
+    },
+    {
+      "sourceRef": "N5-04.vocab.015",
+      "japanese": "パン",
+      "hiragana": "ぱん",
+      "romaji": "pan",
+      "english": "bread",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "パンを買います。",
+      "exampleEn": "I buy bread."
+    },
+    {
+      "sourceRef": "N5-04.vocab.016",
+      "japanese": "肉",
+      "hiragana": "にく",
+      "romaji": "niku",
+      "english": "meat",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "肉を食べます。",
+      "exampleEn": "I eat meat."
+    },
+    {
+      "sourceRef": "N5-04.vocab.017",
+      "japanese": "魚",
+      "hiragana": "さかな",
+      "romaji": "sakana",
+      "english": "fish",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "魚を食べます。",
+      "exampleEn": "I eat fish."
+    },
+    {
+      "sourceRef": "N5-04.vocab.018",
+      "japanese": "卵",
+      "hiragana": "たまご",
+      "romaji": "tamago",
+      "english": "egg",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "卵を買います。",
+      "exampleEn": "I buy eggs."
+    },
+    {
+      "sourceRef": "N5-04.vocab.019",
+      "japanese": "野菜",
+      "hiragana": "やさい",
+      "romaji": "yasai",
+      "english": "vegetable",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "野菜を食べます。",
+      "exampleEn": "I eat vegetables."
+    },
+    {
+      "sourceRef": "N5-04.vocab.020",
+      "japanese": "果物",
+      "hiragana": "くだもの",
+      "romaji": "kudamono",
+      "english": "fruit",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "果物を買います。",
+      "exampleEn": "I buy fruit."
+    },
+    {
+      "sourceRef": "N5-04.vocab.021",
+      "japanese": "水",
+      "hiragana": "みず",
+      "romaji": "mizu",
+      "english": "water",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "水を飲みます。",
+      "exampleEn": "I drink water."
+    },
+    {
+      "sourceRef": "N5-04.vocab.022",
+      "japanese": "お茶",
+      "hiragana": "おちゃ",
+      "romaji": "ocha",
+      "english": "green tea",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "お茶を飲みます。",
+      "exampleEn": "I drink green tea."
+    },
+    {
+      "sourceRef": "N5-04.vocab.023",
+      "japanese": "紅茶",
+      "hiragana": "こうちゃ",
+      "romaji": "koucha",
+      "english": "black tea",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "紅茶を飲みます。",
+      "exampleEn": "I drink black tea."
+    },
+    {
+      "sourceRef": "N5-04.vocab.024",
+      "japanese": "牛乳",
+      "hiragana": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "english": "milk",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "牛乳を飲みます。",
+      "exampleEn": "I drink milk."
+    },
+    {
+      "sourceRef": "N5-04.vocab.025",
+      "japanese": "お酒",
+      "hiragana": "おさけ",
+      "romaji": "osake",
+      "english": "alcohol, sake",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "お酒を飲みます。",
+      "exampleEn": "I drink alcohol."
+    },
+    {
+      "sourceRef": "N5-04.vocab.026",
+      "japanese": "手紙",
+      "hiragana": "てがみ",
+      "romaji": "tegami",
+      "english": "letter",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "手紙を書きます。",
+      "exampleEn": "I write a letter."
+    },
+    {
+      "sourceRef": "N5-04.vocab.027",
+      "japanese": "映画",
+      "hiragana": "えいが",
+      "romaji": "eiga",
+      "english": "movie",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "映画を見ます。",
+      "exampleEn": "I watch a movie."
+    },
+    {
+      "sourceRef": "N5-04.vocab.028",
+      "japanese": "写真",
+      "hiragana": "しゃしん",
+      "romaji": "shashin",
+      "english": "photo",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "写真を撮ります。",
+      "exampleEn": "I take a photo."
+    },
+    {
+      "sourceRef": "N5-04.vocab.029",
+      "japanese": "宿題",
+      "hiragana": "しゅくだい",
+      "romaji": "shukudai",
+      "english": "homework",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "宿題をします。",
+      "exampleEn": "I do my homework."
+    },
+    {
+      "sourceRef": "N5-04.vocab.030",
+      "japanese": "音楽",
+      "hiragana": "おんがく",
+      "romaji": "ongaku",
+      "english": "music",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "音楽を聞きます。",
+      "exampleEn": "I listen to music."
+    },
+    {
+      "sourceRef": "N5-04.vocab.031",
+      "japanese": "店",
+      "hiragana": "みせ",
+      "romaji": "mise",
+      "english": "shop, store",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "店で買います。",
+      "exampleEn": "I buy it at the store."
+    },
+    {
+      "sourceRef": "N5-04.vocab.032",
+      "japanese": "うち",
+      "hiragana": "うち",
+      "romaji": "uchi",
+      "english": "home, house",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "うちで食べます。",
+      "exampleEn": "I eat at home."
+    },
+    {
+      "sourceRef": "N5-04.vocab.033",
+      "japanese": "スーパー",
+      "hiragana": "すーぱー",
+      "romaji": "suupaa",
+      "english": "supermarket",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "スーパーで買います。",
+      "exampleEn": "I buy it at the supermarket."
+    },
+    {
+      "sourceRef": "N5-04.vocab.034",
+      "japanese": "レストラン",
+      "hiragana": "れすとらん",
+      "romaji": "resutoran",
+      "english": "restaurant",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "レストランで食べます。",
+      "exampleEn": "I eat at a restaurant."
+    },
+    {
+      "sourceRef": "N5-04.vocab.035",
+      "japanese": "公園",
+      "hiragana": "こうえん",
+      "romaji": "kouen",
+      "english": "park",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "公園で写真を撮ります。",
+      "exampleEn": "I take photos at the park."
+    },
+    {
+      "sourceRef": "N5-04.vocab.036",
+      "japanese": "いつも",
+      "hiragana": "いつも",
+      "romaji": "itsumo",
+      "english": "always",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "いつもパンを食べます。",
+      "exampleEn": "I always eat bread."
+    },
+    {
+      "sourceRef": "N5-04.vocab.037",
+      "japanese": "よく",
+      "hiragana": "よく",
+      "romaji": "yoku",
+      "english": "often",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "よく映画を見ます。",
+      "exampleEn": "I often watch movies."
+    },
+    {
+      "sourceRef": "N5-04.vocab.038",
+      "japanese": "ときどき",
+      "hiragana": "ときどき",
+      "romaji": "tokidoki",
+      "english": "sometimes",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "ときどきお茶を飲みます。",
+      "exampleEn": "I sometimes drink tea."
+    },
+    {
+      "sourceRef": "N5-04.vocab.039",
+      "japanese": "あまり",
+      "hiragana": "あまり",
+      "romaji": "amari",
+      "english": "not very often (with neg)",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "あまりテレビを見ません。",
+      "exampleEn": "I don't watch TV very often."
+    },
+    {
+      "sourceRef": "N5-04.vocab.040",
+      "japanese": "ぜんぜん",
+      "hiragana": "ぜんぜん",
+      "romaji": "zenzen",
+      "english": "not at all (with neg)",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "ぜんぜんお酒を飲みません。",
+      "exampleEn": "I don't drink alcohol at all."
+    },
+    {
+      "sourceRef": "N5-04.vocab.041",
+      "japanese": "何",
+      "hiragana": "なに",
+      "romaji": "nani",
+      "english": "what",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "何を買いますか。",
+      "exampleEn": "What will you buy?"
+    },
+    {
+      "sourceRef": "N5-04.vocab.042",
+      "japanese": "それから",
+      "hiragana": "それから",
+      "romaji": "sorekara",
+      "english": "and then",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "それから、勉強します。",
+      "exampleEn": "And then, I study."
+    },
+    {
+      "sourceRef": "N5-04.vocab.043",
+      "japanese": "いっしょに",
+      "hiragana": "いっしょに",
+      "romaji": "isshoni",
+      "english": "together",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "いっしょに行きませんか。",
+      "exampleEn": "Won't you go together?"
+    },
+    {
+      "sourceRef": "N5-04.vocab.044",
+      "japanese": "ちょっと",
+      "hiragana": "ちょっと",
+      "romaji": "chotto",
+      "english": "a little, a bit",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "ちょっと休みます。",
+      "exampleEn": "I rest a little."
+    },
+    {
+      "sourceRef": "N5-04.vocab.045",
+      "japanese": "ええ",
+      "hiragana": "ええ",
+      "romaji": "ee",
+      "english": "yes (informal)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-04",
+      "introducedIn": "N5-04",
+      "exampleJp": "ええ、いいですね。",
+      "exampleEn": "Yes, that sounds good."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-04.kanji.001",
+      "character": "食",
+      "meaning": "eat, food",
+      "onyomi": "ショク",
+      "kunyomi": "た.べる",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "食",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "食べます (tabemasu)",
+          "en": "to eat"
+        }
+      ],
+      "mnemonic": "Learn the kanji for eat, food."
+    },
+    {
+      "sourceRef": "N5-04.kanji.002",
+      "character": "飲",
+      "meaning": "drink",
+      "onyomi": "イン",
+      "kunyomi": "の.む",
+      "level": "N5",
+      "strokeCount": 12,
+      "radical": "食",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "飲みます (nomimasu)",
+          "en": "to drink"
+        }
+      ],
+      "mnemonic": "Learn the kanji for drink."
+    },
+    {
+      "sourceRef": "N5-04.kanji.003",
+      "character": "見",
+      "meaning": "see, look",
+      "onyomi": "ケン",
+      "kunyomi": "み.る",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "見",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "見ます (mimasu)",
+          "en": "to see"
+        }
+      ],
+      "mnemonic": "Learn the kanji for see, look."
+    },
+    {
+      "sourceRef": "N5-04.kanji.004",
+      "character": "聞",
+      "meaning": "hear, listen",
+      "onyomi": "ブン、モン",
+      "kunyomi": "き.く",
+      "level": "N5",
+      "strokeCount": 14,
+      "radical": "耳",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "聞きます (kikimasu)",
+          "en": "to listen"
+        }
+      ],
+      "mnemonic": "Learn the kanji for hear, listen."
+    },
+    {
+      "sourceRef": "N5-04.kanji.005",
+      "character": "読",
+      "meaning": "read",
+      "onyomi": "ドク",
+      "kunyomi": "よ.む",
+      "level": "N5",
+      "strokeCount": 14,
+      "radical": "言",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "読みます (yomimasu)",
+          "en": "to read"
+        }
+      ],
+      "mnemonic": "Learn the kanji for read."
+    },
+    {
+      "sourceRef": "N5-04.kanji.006",
+      "character": "書",
+      "meaning": "write",
+      "onyomi": "ショ",
+      "kunyomi": "か.く",
+      "level": "N5",
+      "strokeCount": 10,
+      "radical": "日",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "書きます (kakimasu)",
+          "en": "to write"
+        }
+      ],
+      "mnemonic": "Learn the kanji for write."
+    },
+    {
+      "sourceRef": "N5-04.kanji.007",
+      "character": "買",
+      "meaning": "buy",
+      "onyomi": "バイ",
+      "kunyomi": "か.う",
+      "level": "N5",
+      "strokeCount": 12,
+      "radical": "貝",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "買います (kaimasu)",
+          "en": "to buy"
+        }
+      ],
+      "mnemonic": "Learn the kanji for buy."
+    },
+    {
+      "sourceRef": "N5-04.kanji.008",
+      "character": "物",
+      "meaning": "thing, object",
+      "onyomi": "ブツ、モツ",
+      "kunyomi": "もの",
+      "level": "N5",
+      "strokeCount": 8,
+      "radical": "牛",
+      "introducedIn": "N5-04",
+      "exampleWords": [
+        {
+          "jp": "果物 (kudamono)",
+          "en": "fruit"
+        }
+      ],
+      "mnemonic": "Learn the kanji for thing, object."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-04.grammar.001",
+      "pattern": "Vます / Vません",
+      "meaningVn": "Làm / Không làm",
+      "meaningEn": "Do / Do not do",
+      "explanation": "Vます dùng để nói thói quen hiện tại hoặc việc sẽ làm tương lai. Vません là dạng phủ định.",
+      "introducedIn": "N5-04",
+      "examples": [
+        {
+          "japanese": "私はパンを食べます。",
+          "romaji": "Watashi wa pan o tabemasu.",
+          "english": "I eat bread.",
+          "vietnamese": "Tôi ăn bánh mì."
+        },
+        {
+          "japanese": "お酒を飲みません。",
+          "romaji": "Osake o nomimasen.",
+          "english": "I do not drink alcohol.",
+          "vietnamese": "Tôi không uống rượu."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-04.grammar.002",
+      "pattern": "N(Object) を Vます",
+      "meaningVn": "Làm tác động lên N (Tân ngữ)",
+      "meaningEn": "Direct object marker",
+      "explanation": "Trợ từ を (o) đứng sau tân ngữ trực tiếp chịu tác động của động từ.",
+      "introducedIn": "N5-04",
+      "examples": [
+        {
+          "japanese": "本を読みます。",
+          "romaji": "Hon o yomimasu.",
+          "english": "I read a book.",
+          "vietnamese": "Tôi đọc sách."
+        },
+        {
+          "japanese": "写真を撮ります。",
+          "romaji": "Shashin o torimasu.",
+          "english": "I take a photo.",
+          "vietnamese": "Tôi chụp ảnh."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-04.grammar.003",
+      "pattern": "N(Place) で Vます",
+      "meaningVn": "Làm V ở / tại N",
+      "meaningEn": "Action at Place",
+      "explanation": "Trợ từ で (de) đứng sau danh từ chỉ địa điểm để diễn tả nơi xảy ra hành động.",
+      "introducedIn": "N5-04",
+      "examples": [
+        {
+          "japanese": "うちでご飯を食べます。",
+          "romaji": "Uchi de gohan o tabemasu.",
+          "english": "I eat a meal at home.",
+          "vietnamese": "Tôi ăn cơm ở nhà."
+        },
+        {
+          "japanese": "スーパーで買います。",
+          "romaji": "Suupaa de kaimasu.",
+          "english": "I buy it at the supermarket.",
+          "vietnamese": "Tôi mua ở siêu thị."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-04.grammar.004",
+      "pattern": "何をしますか",
+      "meaningVn": "Bạn làm gì?",
+      "meaningEn": "What do you do?",
+      "explanation": "何 (nani) nghĩa là 'cái gì', kết hợp với をしますか dùng để hỏi ai đó làm việc gì.",
+      "introducedIn": "N5-04",
+      "examples": [
+        {
+          "japanese": "明日、何をしますか。",
+          "romaji": "Ashita, nani o shimasu ka.",
+          "english": "What will you do tomorrow?",
+          "vietnamese": "Ngày mai, bạn làm gì?"
+        },
+        {
+          "japanese": "公園で何をしますか。",
+          "romaji": "Kouen de nani o shimasu ka.",
+          "english": "What do you do at the park?",
+          "vietnamese": "Bạn làm gì ở công viên?"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-04.grammar.005",
+      "pattern": "Trạng từ tần suất (いつも, よく, あまり...)",
+      "meaningVn": "Mức độ thường xuyên",
+      "meaningEn": "Frequency adverbs",
+      "explanation": "いつも (luôn luôn), よく (thường xuyên), ときどき (thỉnh thoảng) đi với Vます. あまり (không lắm), ぜんぜん (hoàn toàn không) phải đi với Vません.",
+      "introducedIn": "N5-04",
+      "examples": [
+        {
+          "japanese": "よく映画を見ます。",
+          "romaji": "Yoku eiga o mimasu.",
+          "english": "I often watch movies.",
+          "vietnamese": "Tôi thường xem phim."
+        },
+        {
+          "japanese": "あまりお茶を飲みません。",
+          "romaji": "Amari ocha o nomimasen.",
+          "english": "I do not drink tea very often.",
+          "vietnamese": "Tôi không uống trà lắm."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-04.kaiwa.001",
+      "title": "What will you do tomorrow?",
+      "titleJp": "明日、何をしますか",
+      "situation": "Asking a friend about tomorrow's plan",
+      "lines": [
+        {
+          "speaker": "A",
+          "japanese": "明日、何をしますか。",
+          "hiragana": "あした、なにをしますか。",
+          "romaji": "Ashita, nani o shimasu ka.",
+          "translation": "What will you do tomorrow?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "B",
+          "japanese": "スーパーで果物を買います。",
+          "hiragana": "すーぱーでくだものをかいます。",
+          "romaji": "Suupaa de kudamono o kaimasu.",
+          "translation": "I will buy fruit at the supermarket.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "A",
+          "japanese": "そうですか。いっしょに行きませんか。",
+          "hiragana": "そうですか。いっしょにいきませんか。",
+          "romaji": "Sou desu ka. Isshoni ikimasen ka.",
+          "translation": "I see. Won't you go together?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "B",
+          "japanese": "ええ、いいですね。",
+          "hiragana": "ええ、いいですね。",
+          "romaji": "Ee, ii desu ne.",
+          "translation": "Yes, sounds good.",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-04.kaiwa.002",
+      "title": "Breakfast habits",
+      "titleJp": "朝ごはん",
+      "situation": "Talking about daily breakfast",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "毎朝、朝ごはんを食べますか。",
+          "hiragana": "まいあさ、あさごはんをたべますか。",
+          "romaji": "Maiasa, asagohan o tabemasu ka.",
+          "translation": "Do you eat breakfast every morning?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "山田",
+          "japanese": "はい、食べます。",
+          "hiragana": "はい、たべます。",
+          "romaji": "Hai, tabemasu.",
+          "translation": "Yes, I eat it.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "田中",
+          "japanese": "何を食べますか。",
+          "hiragana": "なにをたべますか。",
+          "romaji": "Nani o tabemasu ka.",
+          "translation": "What do you eat?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "山田",
+          "japanese": "いつもパンと卵を食べます。",
+          "hiragana": "いつもぱんとたまごをたべます。",
+          "romaji": "Itsumo pan to tamago o tabemasu.",
+          "translation": "I always eat bread and eggs.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-04.listening.001",
+      "title": "Weekend plans",
+      "instructions": "Listen to the conversation about the weekend.",
+      "audioUrl": "PENDING_AUDIO:n5-04-listening-01",
+      "transcriptJp": "A: 今日の午後、何をしますか。\nB: 公園で写真を撮ります。\nA: そうですか。私も写真を撮ります。\nB: じゃ、いっしょに公園に行きませんか。\nA: ええ、いいですね。",
+      "transcriptRomaji": "A: Kyou no gogo, nani o shimasu ka.\nB: Kouen de shashin o torimasu.\nA: Sou desu ka. Watashi mo shashin o torimasu.\nB: Ja, isshoni kouen ni ikimasen ka.\nA: Ee, ii desu ne.",
+      "transcriptEn": "A: What will you do this afternoon?\nB: I will take photos at the park.\nA: I see. I also take photos.\nB: Well then, won't you go to the park together?\nA: Yes, sounds good.",
+      "durationSeconds": 35,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-04.listening.002",
+      "title": "Eating habits",
+      "instructions": "Listen to the person talking about their eating habits.",
+      "audioUrl": "PENDING_AUDIO:n5-04-listening-02",
+      "transcriptJp": "私は毎日うちで晩ごはんを食べます。よく肉と野菜を食べます。魚はあまり食べません。それから、いつもお茶を飲みます。お酒はぜんぜん飲みません。",
+      "transcriptRomaji": "Watashi wa mainichi uchi de bangohan o tabemasu. Yoku niku to yasai o tabemasu. Sakana wa amari tabemasen. Sorekara, itsumo ocha o nomimasu. Osake wa zenzen nomimasen.",
+      "transcriptEn": "I eat dinner at home every day. I often eat meat and vegetables. I don't eat fish very often. And then, I always drink green tea. I don't drink alcohol at all.",
+      "durationSeconds": 45,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-04.reading.001",
+      "title": "My Day",
+      "passage": "私は毎朝６時に起きます。それから、朝ごはんを食べます。いつもパンと卵を食べます。コーヒーを飲みます。昼ごはんはレストランで食べます。夜、うちで宿題をします。それから、１１時に寝ます。",
+      "reading": "わたしはまいあさろくじにおきます。それから、あさごはんをたべます。いつもぱんとたまごをたべます。こーひーをのみます。ひるごはんはれすとらんでたべます。よる、うちでしゅくだいをします。それから、じゅういちじにねます。",
+      "translation": "I wake up at 6 every morning. And then, I eat breakfast. I always eat bread and eggs. I drink coffee. I eat lunch at a restaurant. At night, I do my homework at home. And then, I sleep at 11.",
+      "questions": [
+        {
+          "question": "朝ごはんによく何を食べますか。",
+          "options": [
+            "パンと卵",
+            "肉と魚",
+            "野菜",
+            "パンだけ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: いつもパンと卵を食べます。"
+        },
+        {
+          "question": "どこで昼ごはんを食べますか。",
+          "options": [
+            "うち",
+            "学校",
+            "レストラン",
+            "スーパー"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 昼ごはんはレストランで食べます。"
+        },
+        {
+          "question": "うちで何をしますか。",
+          "options": [
+            "写真を撮ります",
+            "宿題をします",
+            "映画を見ます",
+            "音楽を聞きます"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: うちで宿題をします。"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-04.reading.002",
+      "title": "Hobbies",
+      "passage": "私は音楽が好きです。毎日、うちで音楽を聞きます。ときどき、映画を見ます。土曜日の午後、友達と公園でサッカーをします。日曜日はあまりサッカーをしません。うちで本を読みます。",
+      "reading": "わたしはおんがくがすきです。まいにち、うちでおんがくをききます。ときどき、えいがをみます。どようびのごご、ともだちとこうえんでさっかーをします。にちようびはあまりさっかーをしません。うちでほんをよみます。",
+      "translation": "I like music. I listen to music at home every day. Sometimes, I watch movies. On Saturday afternoon, I play soccer at the park with friends. On Sunday, I don't play soccer much. I read books at home.",
+      "questions": [
+        {
+          "question": "毎日何をしますか。",
+          "options": [
+            "映画を見ます",
+            "本を読みます",
+            "音楽を聞きます",
+            "サッカーをします"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 毎日、うちで音楽を聞きます。"
+        },
+        {
+          "question": "どこでサッカーをしますか。",
+          "options": [
+            "学校",
+            "公園",
+            "うち",
+            "スーパー"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 公園でサッカーをします。"
+        },
+        {
+          "question": "日曜日はよくサッカーをしますか。",
+          "options": [
+            "はい、します",
+            "いいえ、あまりしません",
+            "ぜんぜんしません",
+            "いつもします"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 日曜日はあまりサッカーをしません。"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-04.writing.001",
+      "prompt": "Write about your breakfast.",
+      "instructions": "Write 2-3 sentences about what you usually eat and drink for breakfast.",
+      "sampleAnswer": "毎朝パンと卵を食べます。牛乳を飲みます。",
+      "rubric": "Use を and verbs correctly.",
+      "minLength": 2,
+      "maxLength": 4,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-04.writing.002",
+      "prompt": "Write about your weekend activities.",
+      "instructions": "Write 2-3 sentences about what you do on weekends and where.",
+      "sampleAnswer": "土曜日に公園で友達に会います。いっしょに写真を撮ります。",
+      "rubric": "Use で for place and を for objects.",
+      "minLength": 2,
+      "maxLength": 4,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-04.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Ăn' trong tiếng Nhật là gì?",
+      "options": [
+        "飲みます",
+        "食べます",
+        "見ます",
+        "聞きます"
+      ],
+      "correctIndex": 1,
+      "explanation": "食べます (tabemasu) là ăn.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Đọc sách' tiếng Nhật là gì?",
+      "options": [
+        "本を見ます",
+        "本を書きます",
+        "本を読みます",
+        "本を聞きます"
+      ],
+      "correctIndex": 2,
+      "explanation": "読みます (yomimasu) là đọc.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Siêu thị'?",
+      "options": [
+        "うち",
+        "スーパー",
+        "公園",
+        "レストラン"
+      ],
+      "correctIndex": 1,
+      "explanation": "スーパー là siêu thị.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "牛乳 (gyuunyuu) nghĩa là gì?",
+      "options": [
+        "Nước",
+        "Trà xanh",
+        "Rượu",
+        "Sữa bò"
+      ],
+      "correctIndex": 3,
+      "explanation": "牛乳 là sữa bò.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "公園で写真を（　　）。",
+      "options": [
+        "読みます",
+        "見ます",
+        "撮ります",
+        "します"
+      ],
+      "correctIndex": 2,
+      "explanation": "写真を撮ります (chụp ảnh).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Luôn luôn' là gì?",
+      "options": [
+        "よく",
+        "いつも",
+        "ときどき",
+        "あまり"
+      ],
+      "correctIndex": 1,
+      "explanation": "いつも là luôn luôn.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch từ 'Thịt' sang tiếng Nhật.",
+      "options": [
+        "魚",
+        "野菜",
+        "肉",
+        "果物"
+      ],
+      "correctIndex": 2,
+      "explanation": "肉 (niku) là thịt.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "手紙 (tegami) nghĩa là gì?",
+      "options": [
+        "Báo",
+        "Sách",
+        "Tạp chí",
+        "Bức thư"
+      ],
+      "correctIndex": 3,
+      "explanation": "手紙 là bức thư.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-04.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 飲 đọc là gì trong 飲みます?",
+      "options": [
+        "よ",
+        "の",
+        "た",
+        "み"
+      ],
+      "correctIndex": 1,
+      "explanation": "飲みます đọc là nomimasu.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-04.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 見 có nghĩa là gì?",
+      "options": [
+        "Nghe",
+        "Ăn",
+        "Nhìn, xem",
+        "Viết"
+      ],
+      "correctIndex": 2,
+      "explanation": "見 (kiến) có nghĩa là nhìn, xem.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-04.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 聞 đọc là gì trong 聞きます?",
+      "options": [
+        "き",
+        "み",
+        "し",
+        "か"
+      ],
+      "correctIndex": 0,
+      "explanation": "聞きます đọc là kikimasu.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-04.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đọc sách' chứa chữ Hán nào?",
+      "options": [
+        "書",
+        "買",
+        "読",
+        "食"
+      ],
+      "correctIndex": 2,
+      "explanation": "読 (độc) là đọc.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-04.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 食 có nghĩa là gì?",
+      "options": [
+        "Uống",
+        "Ăn",
+        "Viết",
+        "Đọc"
+      ],
+      "correctIndex": 1,
+      "explanation": "食 (thực) nghĩa là ăn.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-04.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 書 đọc là gì trong 書きます?",
+      "options": [
+        "か",
+        "き",
+        "く",
+        "け"
+      ],
+      "correctIndex": 0,
+      "explanation": "書きます đọc là kakimasu (viết).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-04.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "手紙（　　）書きます。",
+      "options": [
+        "は",
+        "を",
+        "に",
+        "で"
+      ],
+      "correctIndex": 1,
+      "explanation": "を đi sau tân ngữ trực tiếp (viết thư).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "レストラン（　　）昼ごはんを食べます。",
+      "options": [
+        "に",
+        "へ",
+        "で",
+        "を"
+      ],
+      "correctIndex": 2,
+      "explanation": "で dùng để chỉ địa điểm xảy ra hành động.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "お酒はあまり（　　）。",
+      "options": [
+        "飲みます",
+        "飲みません",
+        "食べます",
+        "食べません"
+      ],
+      "correctIndex": 1,
+      "explanation": "あまり phải đi với động từ phủ định ません.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "明日、何（　　）しますか。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctIndex": 2,
+      "explanation": "何を (làm cái gì).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng ngữ pháp.",
+      "options": [
+        "本に読みます。",
+        "本で読みます。",
+        "本が読みます。",
+        "本を読みます。"
+      ],
+      "correctIndex": 3,
+      "explanation": "本を読みます (Đọc sách).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "私は（　　）テレビを見ません。",
+      "options": [
+        "いつも",
+        "よく",
+        "ときどき",
+        "ぜんぜん"
+      ],
+      "correctIndex": 3,
+      "explanation": "ぜんぜん đi với phủ định (hoàn toàn không).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "スーパー（　　）果物（　　）買います。",
+      "options": [
+        "で / を",
+        "を / で",
+        "に / を",
+        "を / に"
+      ],
+      "correctIndex": 0,
+      "explanation": "スーパーで (tại siêu thị) 果物を (mua trái cây).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Tôi thường xem phim.",
+      "options": [
+        "いつも映画を見ます。",
+        "ときどき映画を見ます。",
+        "よく映画を見ます。",
+        "あまり映画を見ません。"
+      ],
+      "correctIndex": 2,
+      "explanation": "よく (yoku) nghĩa là thường xuyên.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người A sẽ làm gì vào chiều nay?",
+      "options": [
+        "Chụp ảnh",
+        "Nghe nhạc",
+        "Đọc sách",
+        "Làm bài tập"
+      ],
+      "correctIndex": 0,
+      "explanation": "Audio nói: 公園で写真を撮ります (chụp ảnh).",
+      "points": 2,
+      "listeningRef": "N5-04.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-04.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Họ sẽ cùng đi đâu?",
+      "options": [
+        "Siêu thị",
+        "Trường học",
+        "Công viên",
+        "Nhà hàng"
+      ],
+      "correctIndex": 2,
+      "explanation": "いっしょに公園に行きませんか (đi công viên).",
+      "points": 2,
+      "listeningRef": "N5-04.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-04.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Người nói trong bài 2 uống rượu rất thường xuyên.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: お酒はぜんぜん飲みません (hoàn toàn không uống rượu).",
+      "points": 2,
+      "listeningRef": "N5-04.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-04.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 1, người viết uống gì vào buổi sáng?",
+      "options": [
+        "Trà xanh",
+        "Cà phê",
+        "Nước",
+        "Sữa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: コーヒーを飲みます。",
+      "points": 2,
+      "readingRef": "N5-04.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-04.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 2, người viết có thích âm nhạc không?",
+      "options": [
+        "Có",
+        "Không",
+        "Không rõ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bài đọc ghi: 私は音楽が好きです。",
+      "points": 2,
+      "readingRef": "N5-04.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-04.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, người viết chơi bóng đá mỗi ngày.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chỉ chơi bóng đá vào chiều thứ 7, Chủ nhật ít khi chơi.",
+      "points": 2,
+      "readingRef": "N5-04.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-04.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Tôi ăn tối ở nhà.",
+      "options": [
+        "うちで",
+        "晩ごはん",
+        "を",
+        "食べます"
+      ],
+      "correctIndex": 0,
+      "explanation": "うちで晩ごはんを食べます。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-04.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Bạn có thường xuyên nghe nhạc không?",
+      "options": [
+        "よく",
+        "音楽",
+        "を",
+        "聞きますか"
+      ],
+      "correctIndex": 0,
+      "explanation": "よく音楽を聞きますか。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-04.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Mua'?",
+      "options": [
+        "買います",
+        "書きます",
+        "読みます",
+        "見ます"
+      ],
+      "correctIndex": 0,
+      "explanation": "買います (kaimasu) là mua.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 買 đọc là gì trong 買います?",
+      "options": [
+        "か",
+        "き",
+        "く",
+        "け"
+      ],
+      "correctIndex": 0,
+      "explanation": "買います đọc là kaimasu.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Quả trứng tiếng Nhật là gì?",
+      "options": [
+        "魚",
+        "卵",
+        "肉",
+        "野菜"
+      ],
+      "correctIndex": 1,
+      "explanation": "卵 (tamago) là trứng.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 物 trong 果物 có nghĩa là gì?",
+      "options": [
+        "Trái cây",
+        "Thịt",
+        "Vật, đồ vật",
+        "Màu sắc"
+      ],
+      "correctIndex": 2,
+      "explanation": "物 (vật) là đồ vật.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Thỉnh thoảng' tiếng Nhật là gì?",
+      "options": [
+        "いつも",
+        "よく",
+        "ときどき",
+        "ぜんぜん"
+      ],
+      "correctIndex": 2,
+      "explanation": "ときどき (tokidoki) là thỉnh thoảng.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: パン（　　）買います。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctIndex": 2,
+      "explanation": "パンを買います (mua bánh mì).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: どこ（　　）写真を撮りますか。",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "へ"
+      ],
+      "correctIndex": 0,
+      "explanation": "どこで (ở đâu - nơi xảy ra hành động).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: テレビはあまり（　　）。",
+      "options": [
+        "見ます",
+        "見ません",
+        "読みます",
+        "読みません"
+      ],
+      "correctIndex": 1,
+      "explanation": "あまり + phủ định (見ません).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Bạn làm gì ở công viên?':",
+      "options": [
+        "公園で何をしますか。",
+        "公園に何をしますか。",
+        "公園を何をしますか。",
+        "公園へ何をしますか。"
+      ],
+      "correctIndex": 0,
+      "explanation": "公園で何をしますか。",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 毎朝、牛乳を（　　）。",
+      "options": [
+        "飲みません",
+        "食べます",
+        "飲みます",
+        "食べません"
+      ],
+      "correctIndex": 2,
+      "explanation": "飲みます (uống sữa). Vì là 毎朝 (mỗi sáng) nên chia dạng khẳng định Vます.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn rủ ai đó cùng đi, bạn nói câu nào?",
+      "options": [
+        "いっしょに行きます。",
+        "いっしょに行きませんか。",
+        "いっしょに行きません。",
+        "いっしょに行きますか。"
+      ],
+      "correctIndex": 1,
+      "explanation": "行きませんか là lời rủ rê (Cùng đi không?).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Để đáp lại lời rủ 'ええ、いいですね', nghĩa là gì?",
+      "options": [
+        "Vâng, tốt quá.",
+        "Không, tôi không đi.",
+        "Tuyệt vời, tôi đi.",
+        "Vâng, cũng được."
+      ],
+      "correctIndex": 0,
+      "explanation": "ええ、いいですね là cách đồng ý một lời rủ rê.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Tôi ăn sáng lúc 6 giờ':",
+      "options": [
+        "６時で朝ごはんを食べます。",
+        "６時に朝ごはんを食べます。",
+        "６時を朝ごはんを食べます。",
+        "６時は朝ごはんを食べます。"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chỉ thời điểm dùng に.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'それから' dùng để làm gì trong câu?",
+      "options": [
+        "Nối 2 danh từ",
+        "Chỉ lý do",
+        "Nghĩa là 'Sau đó/Tiếp theo'",
+        "Nghĩa là 'Bởi vì'"
+      ],
+      "correctIndex": 2,
+      "explanation": "それから nghĩa là sau đó (and then).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-04.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong tiếng Nhật, cấu trúc cơ bản của câu là:",
+      "options": [
+        "Chủ ngữ + Động từ + Tân ngữ",
+        "Chủ ngữ + Tân ngữ + Động từ",
+        "Động từ + Chủ ngữ + Tân ngữ",
+        "Tân ngữ + Chủ ngữ + Động từ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tiếng Nhật là ngôn ngữ S-O-V (Chủ ngữ - Tân ngữ - Động từ).",
+      "points": 10
+    }
+  ]
+}

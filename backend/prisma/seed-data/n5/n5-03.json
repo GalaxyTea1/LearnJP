@@ -1,0 +1,1781 @@
+{
+  "module": {
+    "code": "N5-03",
+    "level": "N5",
+    "unit": 3,
+    "title": "Numbers, Date and Time",
+    "titleJp": "数字・日付・時間",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-03.vocab.001",
+      "japanese": "一",
+      "hiragana": "いち",
+      "romaji": "ichi",
+      "english": "one",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "一です。",
+      "exampleEn": "It is one."
+    },
+    {
+      "sourceRef": "N5-03.vocab.002",
+      "japanese": "二",
+      "hiragana": "に",
+      "romaji": "ni",
+      "english": "two",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "二です。",
+      "exampleEn": "It is two."
+    },
+    {
+      "sourceRef": "N5-03.vocab.003",
+      "japanese": "三",
+      "hiragana": "さん",
+      "romaji": "san",
+      "english": "three",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "三です。",
+      "exampleEn": "It is three."
+    },
+    {
+      "sourceRef": "N5-03.vocab.004",
+      "japanese": "四",
+      "hiragana": "よん/し",
+      "romaji": "yon/shi",
+      "english": "four",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "四です。",
+      "exampleEn": "It is four."
+    },
+    {
+      "sourceRef": "N5-03.vocab.005",
+      "japanese": "五",
+      "hiragana": "ご",
+      "romaji": "go",
+      "english": "five",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "五です。",
+      "exampleEn": "It is five."
+    },
+    {
+      "sourceRef": "N5-03.vocab.006",
+      "japanese": "六",
+      "hiragana": "ろく",
+      "romaji": "roku",
+      "english": "six",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "六です。",
+      "exampleEn": "It is six."
+    },
+    {
+      "sourceRef": "N5-03.vocab.007",
+      "japanese": "七",
+      "hiragana": "なな/しち",
+      "romaji": "nana/shichi",
+      "english": "seven",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "七です。",
+      "exampleEn": "It is seven."
+    },
+    {
+      "sourceRef": "N5-03.vocab.008",
+      "japanese": "八",
+      "hiragana": "はち",
+      "romaji": "hachi",
+      "english": "eight",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "八です。",
+      "exampleEn": "It is eight."
+    },
+    {
+      "sourceRef": "N5-03.vocab.009",
+      "japanese": "九",
+      "hiragana": "きゅう/く",
+      "romaji": "kyuu/ku",
+      "english": "nine",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "九です。",
+      "exampleEn": "It is nine."
+    },
+    {
+      "sourceRef": "N5-03.vocab.010",
+      "japanese": "十",
+      "hiragana": "じゅう",
+      "romaji": "juu",
+      "english": "ten",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "十です。",
+      "exampleEn": "It is ten."
+    },
+    {
+      "sourceRef": "N5-03.vocab.011",
+      "japanese": "今",
+      "hiragana": "いま",
+      "romaji": "ima",
+      "english": "now",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "今は９時です。",
+      "exampleEn": "It is 9 o'clock now."
+    },
+    {
+      "sourceRef": "N5-03.vocab.012",
+      "japanese": "～時",
+      "hiragana": "じ",
+      "romaji": "ji",
+      "english": "o'clock",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "８時です。",
+      "exampleEn": "It is 8 o'clock."
+    },
+    {
+      "sourceRef": "N5-03.vocab.013",
+      "japanese": "～分",
+      "hiragana": "ふん/ぷん",
+      "romaji": "fun/pun",
+      "english": "minute",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "１０分です。",
+      "exampleEn": "It is 10 minutes."
+    },
+    {
+      "sourceRef": "N5-03.vocab.014",
+      "japanese": "半",
+      "hiragana": "はん",
+      "romaji": "han",
+      "english": "half past",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "９時半です。",
+      "exampleEn": "It is half past 9."
+    },
+    {
+      "sourceRef": "N5-03.vocab.015",
+      "japanese": "何時",
+      "hiragana": "なんじ",
+      "romaji": "nanji",
+      "english": "what time",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "今、何時ですか。",
+      "exampleEn": "What time is it now?"
+    },
+    {
+      "sourceRef": "N5-03.vocab.016",
+      "japanese": "何分",
+      "hiragana": "なんぷん",
+      "romaji": "nanpun",
+      "english": "what minute",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "何分ですか。",
+      "exampleEn": "What minute is it?"
+    },
+    {
+      "sourceRef": "N5-03.vocab.017",
+      "japanese": "午前",
+      "hiragana": "ごぜん",
+      "romaji": "gozen",
+      "english": "AM (morning)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "午前９時です。",
+      "exampleEn": "It is 9 AM."
+    },
+    {
+      "sourceRef": "N5-03.vocab.018",
+      "japanese": "午後",
+      "hiragana": "ごご",
+      "romaji": "gogo",
+      "english": "PM (afternoon)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "午後３時です。",
+      "exampleEn": "It is 3 PM."
+    },
+    {
+      "sourceRef": "N5-03.vocab.019",
+      "japanese": "朝",
+      "hiragana": "あさ",
+      "romaji": "asa",
+      "english": "morning",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "朝です。",
+      "exampleEn": "It is morning."
+    },
+    {
+      "sourceRef": "N5-03.vocab.020",
+      "japanese": "昼",
+      "hiragana": "ひる",
+      "romaji": "hiru",
+      "english": "daytime, noon",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "昼です。",
+      "exampleEn": "It is daytime."
+    },
+    {
+      "sourceRef": "N5-03.vocab.021",
+      "japanese": "晩",
+      "hiragana": "ばん",
+      "romaji": "ban",
+      "english": "evening, night",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "晩です。",
+      "exampleEn": "It is evening."
+    },
+    {
+      "sourceRef": "N5-03.vocab.022",
+      "japanese": "夜",
+      "hiragana": "よる",
+      "romaji": "yoru",
+      "english": "night",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "夜です。",
+      "exampleEn": "It is night."
+    },
+    {
+      "sourceRef": "N5-03.vocab.023",
+      "japanese": "月曜日",
+      "hiragana": "げつようび",
+      "romaji": "getsuyoubi",
+      "english": "Monday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "月曜日です。",
+      "exampleEn": "It is Monday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.024",
+      "japanese": "火曜日",
+      "hiragana": "かようび",
+      "romaji": "kayoubi",
+      "english": "Tuesday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "火曜日です。",
+      "exampleEn": "It is Tuesday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.025",
+      "japanese": "水曜日",
+      "hiragana": "すいようび",
+      "romaji": "suiyoubi",
+      "english": "Wednesday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "水曜日です。",
+      "exampleEn": "It is Wednesday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.026",
+      "japanese": "木曜日",
+      "hiragana": "もくようび",
+      "romaji": "mokuyoubi",
+      "english": "Thursday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "木曜日です。",
+      "exampleEn": "It is Thursday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.027",
+      "japanese": "金曜日",
+      "hiragana": "きんようび",
+      "romaji": "kin'youbi",
+      "english": "Friday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "金曜日です。",
+      "exampleEn": "It is Friday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.028",
+      "japanese": "土曜日",
+      "hiragana": "どようび",
+      "romaji": "doyoubi",
+      "english": "Saturday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "土曜日です。",
+      "exampleEn": "It is Saturday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.029",
+      "japanese": "日曜日",
+      "hiragana": "にちようび",
+      "romaji": "nichiyoubi",
+      "english": "Sunday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "日曜日です。",
+      "exampleEn": "It is Sunday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.030",
+      "japanese": "何曜日",
+      "hiragana": "なんようび",
+      "romaji": "naniyoubi",
+      "english": "what day of the week",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "今日は何曜日ですか。",
+      "exampleEn": "What day is it today?"
+    },
+    {
+      "sourceRef": "N5-03.vocab.031",
+      "japanese": "昨日",
+      "hiragana": "きのう",
+      "romaji": "kinou",
+      "english": "yesterday",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "昨日は休みでした。",
+      "exampleEn": "Yesterday was a holiday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.032",
+      "japanese": "今日",
+      "hiragana": "きょう",
+      "romaji": "kyou",
+      "english": "today",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "今日は月曜日です。",
+      "exampleEn": "Today is Monday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.033",
+      "japanese": "明日",
+      "hiragana": "あした",
+      "romaji": "ashita",
+      "english": "tomorrow",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "明日は火曜日です。",
+      "exampleEn": "Tomorrow is Tuesday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.034",
+      "japanese": "明後日",
+      "hiragana": "あさって",
+      "romaji": "asatte",
+      "english": "day after tomorrow",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "明後日は水曜日です。",
+      "exampleEn": "The day after tomorrow is Wednesday."
+    },
+    {
+      "sourceRef": "N5-03.vocab.035",
+      "japanese": "毎日",
+      "hiragana": "まいにち",
+      "romaji": "mainichi",
+      "english": "every day",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "毎日勉強します。",
+      "exampleEn": "I study every day."
+    },
+    {
+      "sourceRef": "N5-03.vocab.036",
+      "japanese": "休み",
+      "hiragana": "やすみ",
+      "romaji": "yasumi",
+      "english": "rest, holiday, day off",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "明日は休みです。",
+      "exampleEn": "Tomorrow is a day off."
+    },
+    {
+      "sourceRef": "N5-03.vocab.037",
+      "japanese": "昼休み",
+      "hiragana": "ひるやすみ",
+      "romaji": "hiruyasumi",
+      "english": "lunch break",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "昼休みは１２時からです。",
+      "exampleEn": "Lunch break is from 12 o'clock."
+    },
+    {
+      "sourceRef": "N5-03.vocab.038",
+      "japanese": "会議",
+      "hiragana": "かいぎ",
+      "romaji": "kaigi",
+      "english": "meeting",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "会議は９時半からです。",
+      "exampleEn": "The meeting is from 9:30."
+    },
+    {
+      "sourceRef": "N5-03.vocab.039",
+      "japanese": "試験",
+      "hiragana": "しけん",
+      "romaji": "shiken",
+      "english": "exam",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "試験は明日です。",
+      "exampleEn": "The exam is tomorrow."
+    },
+    {
+      "sourceRef": "N5-03.vocab.040",
+      "japanese": "仕事",
+      "hiragana": "しごと",
+      "romaji": "shigoto",
+      "english": "work, job",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "仕事は午後５時までです。",
+      "exampleEn": "Work is until 5 PM."
+    },
+    {
+      "sourceRef": "N5-03.vocab.041",
+      "japanese": "銀行",
+      "hiragana": "ぎんこう",
+      "romaji": "ginkou",
+      "english": "bank",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "銀行は３時までです。",
+      "exampleEn": "The bank is open until 3."
+    },
+    {
+      "sourceRef": "N5-03.vocab.042",
+      "japanese": "郵便局",
+      "hiragana": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "english": "post office",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "郵便局は５時までです。",
+      "exampleEn": "The post office is open until 5."
+    },
+    {
+      "sourceRef": "N5-03.vocab.043",
+      "japanese": "始まります",
+      "hiragana": "はじまります",
+      "romaji": "hajimarimasu",
+      "english": "to start, to begin",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "会議は９時に始まります。",
+      "exampleEn": "The meeting starts at 9."
+    },
+    {
+      "sourceRef": "N5-03.vocab.044",
+      "japanese": "終わります",
+      "hiragana": "おわります",
+      "romaji": "owarimasu",
+      "english": "to end, to finish",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "仕事は５時に終わります。",
+      "exampleEn": "Work finishes at 5."
+    },
+    {
+      "sourceRef": "N5-03.vocab.045",
+      "japanese": "いつ",
+      "hiragana": "いつ",
+      "romaji": "itsu",
+      "english": "when",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-03",
+      "introducedIn": "N5-03",
+      "exampleJp": "試験はいつですか。",
+      "exampleEn": "When is the exam?"
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-03.kanji.001",
+      "character": "月",
+      "meaning": "moon, month",
+      "onyomi": "ゲツ、ガツ",
+      "kunyomi": "つき",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "月",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "月曜日 (getsuyoubi)",
+          "en": "Monday"
+        }
+      ],
+      "mnemonic": "Learn the kanji for moon, month."
+    },
+    {
+      "sourceRef": "N5-03.kanji.002",
+      "character": "火",
+      "meaning": "fire",
+      "onyomi": "カ",
+      "kunyomi": "ひ、び、ほ",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "火",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "火曜日 (kayoubi)",
+          "en": "Tuesday"
+        }
+      ],
+      "mnemonic": "Learn the kanji for fire."
+    },
+    {
+      "sourceRef": "N5-03.kanji.003",
+      "character": "水",
+      "meaning": "water",
+      "onyomi": "スイ",
+      "kunyomi": "みず",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "水",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "水曜日 (suiyoubi)",
+          "en": "Wednesday"
+        }
+      ],
+      "mnemonic": "Learn the kanji for water."
+    },
+    {
+      "sourceRef": "N5-03.kanji.004",
+      "character": "木",
+      "meaning": "tree, wood",
+      "onyomi": "モク、ボク",
+      "kunyomi": "き、こ",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "木",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "木曜日 (mokuyoubi)",
+          "en": "Thursday"
+        }
+      ],
+      "mnemonic": "Learn the kanji for tree, wood."
+    },
+    {
+      "sourceRef": "N5-03.kanji.005",
+      "character": "金",
+      "meaning": "gold, money",
+      "onyomi": "キン、コン",
+      "kunyomi": "かね、かな",
+      "level": "N5",
+      "strokeCount": 8,
+      "radical": "金",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "金曜日 (kin'youbi)",
+          "en": "Friday"
+        }
+      ],
+      "mnemonic": "Learn the kanji for gold, money."
+    },
+    {
+      "sourceRef": "N5-03.kanji.006",
+      "character": "土",
+      "meaning": "earth, soil",
+      "onyomi": "ド、ト",
+      "kunyomi": "つち",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "土",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "土曜日 (doyoubi)",
+          "en": "Saturday"
+        }
+      ],
+      "mnemonic": "Learn the kanji for earth, soil."
+    },
+    {
+      "sourceRef": "N5-03.kanji.007",
+      "character": "時",
+      "meaning": "time, hour",
+      "onyomi": "ジ",
+      "kunyomi": "とき",
+      "level": "N5",
+      "strokeCount": 10,
+      "radical": "日",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "時計 (tokei)",
+          "en": "clock"
+        }
+      ],
+      "mnemonic": "Learn the kanji for time, hour."
+    },
+    {
+      "sourceRef": "N5-03.kanji.008",
+      "character": "分",
+      "meaning": "minute, to divide",
+      "onyomi": "フン、プン、ブン",
+      "kunyomi": "わ.かる、わ.ける",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "刀",
+      "introducedIn": "N5-03",
+      "exampleWords": [
+        {
+          "jp": "半分 (hanbun)",
+          "en": "half"
+        }
+      ],
+      "mnemonic": "Learn the kanji for minute, to divide."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-03.grammar.001",
+      "pattern": "今 ～時 ～分 です",
+      "meaningVn": "Bây giờ là ~ giờ ~ phút",
+      "meaningEn": "It is ~ o'clock ~ minute(s) now",
+      "explanation": "Dùng để nói giờ hiện tại. 今 (ima) nghĩa là bây giờ.",
+      "introducedIn": "N5-03",
+      "examples": [
+        {
+          "japanese": "今は９時半です。",
+          "romaji": "Ima wa kuji han desu.",
+          "english": "It is 9:30 now.",
+          "vietnamese": "Bây giờ là 9 rưỡi."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-03.grammar.002",
+      "pattern": "N1 から N2 まで",
+      "meaningVn": "Từ N1 đến N2",
+      "meaningEn": "From N1 to N2",
+      "explanation": "から nghĩa là 'từ', まで nghĩa là 'đến'. Dùng để biểu thị khoảng thời gian hoặc không gian.",
+      "introducedIn": "N5-03",
+      "examples": [
+        {
+          "japanese": "会議は９時から５時までです。",
+          "romaji": "Kaigi wa kuji kara goji made desu.",
+          "english": "The meeting is from 9 to 5.",
+          "vietnamese": "Cuộc họp từ 9 giờ đến 5 giờ."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-03.grammar.003",
+      "pattern": "N (thời gian) に",
+      "meaningVn": "Vào lúc (thời gian)",
+      "meaningEn": "At (time)",
+      "explanation": "Trợ từ に dùng sau danh từ chỉ thời gian có con số cụ thể để chỉ thời điểm một hành động hoặc sự kiện xảy ra.",
+      "introducedIn": "N5-03",
+      "examples": [
+        {
+          "japanese": "会議は９時に始まります。",
+          "romaji": "Kaigi wa kuji ni hajimarimasu.",
+          "english": "The meeting starts at 9 o'clock.",
+          "vietnamese": "Cuộc họp bắt đầu lúc 9 giờ."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-03.grammar.004",
+      "pattern": "N1 と N2",
+      "meaningVn": "N1 và N2",
+      "meaningEn": "N1 and N2",
+      "explanation": "Trợ từ と dùng để nối hai danh từ với nhau, mang nghĩa là 'và'.",
+      "introducedIn": "N5-03",
+      "examples": [
+        {
+          "japanese": "休みは土曜日と日曜日です。",
+          "romaji": "Yasumi wa doyoubi to nichiyoubi desu.",
+          "english": "The days off are Saturday and Sunday.",
+          "vietnamese": "Ngày nghỉ là thứ Bảy và Chủ Nhật."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-03.grammar.005",
+      "pattern": "いつ",
+      "meaningVn": "Khi nào",
+      "meaningEn": "When",
+      "explanation": "いつ là từ để hỏi thời gian nói chung (Khi nào). Không dùng trợ từ に sau いつ.",
+      "introducedIn": "N5-03",
+      "examples": [
+        {
+          "japanese": "試験はいつですか。",
+          "romaji": "Shiken wa itsu desu ka.",
+          "english": "When is the exam?",
+          "vietnamese": "Kỳ thi là khi nào?"
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-03.kaiwa.001",
+      "title": "What time is it?",
+      "titleJp": "今、何時ですか",
+      "situation": "Asking the current time",
+      "lines": [
+        {
+          "speaker": "A",
+          "japanese": "すみません、今、何時ですか。",
+          "hiragana": "すみません、いま、なんじですか。",
+          "romaji": "Sumimasen, ima, nanji desu ka.",
+          "translation": "Excuse me, what time is it now?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "B",
+          "japanese": "午後３時半です。",
+          "hiragana": "ごごさんじはんです。",
+          "romaji": "Gogo sanji han desu.",
+          "translation": "It is 3:30 PM.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "A",
+          "japanese": "そうですか。ありがとうございます。",
+          "hiragana": "そうですか。ありがとうございます。",
+          "romaji": "Sou desu ka. Arigatou gozaimasu.",
+          "translation": "I see. Thank you very much.",
+          "sortOrder": 3
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-03.kaiwa.002",
+      "title": "Store business hours",
+      "titleJp": "デパートの休み",
+      "situation": "Asking about business days",
+      "lines": [
+        {
+          "speaker": "客",
+          "japanese": "すみません、銀行は何時から何時までですか。",
+          "hiragana": "すみません、ぎんこうはなんじからなんじまでですか。",
+          "romaji": "Sumimasen, ginkou wa nanji kara nanji made desu ka.",
+          "translation": "Excuse me, from what time to what time is the bank open?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "店員",
+          "japanese": "午前９時から午後３時までです。",
+          "hiragana": "ごぜんくじからごごさんじまでです。",
+          "romaji": "Gozen kuji kara gogo sanji made desu.",
+          "translation": "It is from 9 AM to 3 PM.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "客",
+          "japanese": "休みは何曜日ですか。",
+          "hiragana": "やすみはなんようびですか。",
+          "romaji": "Yasumi wa naniyoubi desu ka.",
+          "translation": "What day of the week is it closed?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "店員",
+          "japanese": "土曜日と日曜日です。",
+          "hiragana": "どようびとにちようびです。",
+          "romaji": "Doyoubi to nichiyoubi desu.",
+          "translation": "Saturday and Sunday.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-03.listening.001",
+      "title": "Meeting Time",
+      "instructions": "Listen to the conversation about the meeting time.",
+      "audioUrl": "PENDING_AUDIO:n5-03-listening-01",
+      "transcriptJp": "A: 会議はいつですか。\nB: 明日です。\nA: 何時からですか。\nB: 午前１０時から１１時半までです。",
+      "transcriptRomaji": "A: Kaigi wa itsu desu ka.\nB: Ashita desu.\nA: Nanji kara desu ka.\nB: Gozen juuji kara juuichiji han made desu.",
+      "transcriptEn": "A: When is the meeting?\nB: It is tomorrow.\nA: From what time is it?\nB: It is from 10 AM to 11:30 AM.",
+      "durationSeconds": 30,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-03.listening.002",
+      "title": "Library hours",
+      "instructions": "Listen to the announcement about the library hours.",
+      "audioUrl": "PENDING_AUDIO:n5-03-listening-02",
+      "transcriptJp": "図書館は朝９時から夜８時までです。休みは月曜日です。",
+      "transcriptRomaji": "Toshokan wa asa kuji kara yoru hachiji made desu. Yasumi wa getsuyoubi desu.",
+      "transcriptEn": "The library is open from 9 AM to 8 PM. The closing day is Monday.",
+      "durationSeconds": 25,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-03.reading.001",
+      "title": "My Schedule",
+      "passage": "私は毎日朝７時に起きます。９時から午後５時まで働きます。仕事は月曜日から金曜日までです。休みは土曜日と日曜日です。",
+      "reading": "わたしはまいにちあさしちじにおきます。くじからごごごじまではたらきます。しごとはげつようびからきんようびまでです。やすみはどようびとにちようびです。",
+      "translation": "I wake up at 7 AM every day. I work from 9 to 5 PM. Work is from Monday to Friday. My days off are Saturday and Sunday.",
+      "questions": [
+        {
+          "question": "何時に起きますか。",
+          "options": [
+            "6時",
+            "7時",
+            "8時",
+            "9時"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 朝７時に起きます (thức dậy lúc 7h sáng)."
+        },
+        {
+          "question": "仕事は何時から何時までですか。",
+          "options": [
+            "7時から5時",
+            "9時から5時",
+            "8時から4時",
+            "10時から6時"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: ９時から午後５時まで働きます (làm việc từ 9h đến 5h chiều)."
+        },
+        {
+          "question": "休みは何曜日ですか。",
+          "options": [
+            "土曜日と日曜日",
+            "月曜日と火曜日",
+            "金曜日と土曜日",
+            "日曜日だけ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: 休みは土曜日と日曜日です (ngày nghỉ là thứ Bảy và Chủ Nhật)."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-03.reading.002",
+      "title": "Store Notice",
+      "passage": "ＡＢＣデパート\n営業時間（えいぎょうじかん）：午前１０時～午後８時半\n休み：水曜日",
+      "reading": "ＡＢＣデパート\nえいぎょうじかん：ごぜんじゅうじ～ごごはちじはん\nやすみ：すいようび",
+      "translation": "ABC Department Store\nBusiness Hours: 10:00 AM - 8:30 PM\nClosed: Wednesday",
+      "questions": [
+        {
+          "question": "デパートは何時に終わりますか。",
+          "options": [
+            "8時",
+            "8時半",
+            "9時",
+            "10時"
+          ],
+          "correctIndex": 1,
+          "explanation": "Giờ mở cửa đến 午後８時半 (8h30 tối)."
+        },
+        {
+          "question": "デパートは午前何時からですか。",
+          "options": [
+            "8時",
+            "9時",
+            "10時",
+            "11時"
+          ],
+          "correctIndex": 2,
+          "explanation": "Mở cửa từ 午前１０時 (10h sáng)."
+        },
+        {
+          "question": "休みは何曜日ですか。",
+          "options": [
+            "月曜日",
+            "火曜日",
+            "水曜日",
+            "木曜日"
+          ],
+          "correctIndex": 2,
+          "explanation": "休み：水曜日 (Nghỉ thứ Tư)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-03.writing.001",
+      "prompt": "Write about your daily schedule.",
+      "instructions": "Write 2-3 sentences about what time you wake up and your work/study hours.",
+      "sampleAnswer": "私は朝６時に起きます。９時から５時まで勉強します。",
+      "rubric": "Use time words correctly with に, から, まで.",
+      "minLength": 2,
+      "maxLength": 4,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-03.writing.002",
+      "prompt": "Write about your days off.",
+      "instructions": "Write 1-2 sentences stating what days of the week you have off.",
+      "sampleAnswer": "休みは土曜日と日曜日です。",
+      "rubric": "Use days of the week and と.",
+      "minLength": 1,
+      "maxLength": 2,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-03.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Ngày mai' trong tiếng Nhật là gì?",
+      "options": [
+        "きのう",
+        "きょう",
+        "あした",
+        "あさって"
+      ],
+      "correctIndex": 2,
+      "explanation": "あした (ashita) là ngày mai.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Thứ Hai' trong tiếng Nhật là gì?",
+      "options": [
+        "火曜日",
+        "月曜日",
+        "水曜日",
+        "木曜日"
+      ],
+      "correctIndex": 1,
+      "explanation": "月曜日 (getsuyoubi) là thứ Hai.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ nào sau đây có nghĩa là 'Cuộc họp'?",
+      "options": [
+        "試験",
+        "休み",
+        "会議",
+        "仕事"
+      ],
+      "correctIndex": 2,
+      "explanation": "会議 (kaigi) là cuộc họp.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "午前 (gozen) nghĩa là gì?",
+      "options": [
+        "Buổi sáng (AM)",
+        "Buổi chiều (PM)",
+        "Buổi tối",
+        "Ngày mai"
+      ],
+      "correctIndex": 0,
+      "explanation": "午前 là giờ sáng (AM).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "（　　）、何時ですか。",
+      "options": [
+        "今",
+        "明日",
+        "今日",
+        "昨日"
+      ],
+      "correctIndex": 0,
+      "explanation": "今 (ima) là bây giờ. 'Bây giờ là mấy giờ?'",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ '試験' (shiken) có nghĩa là gì?",
+      "options": [
+        "Công việc",
+        "Cuộc họp",
+        "Kỳ thi",
+        "Ngày nghỉ"
+      ],
+      "correctIndex": 2,
+      "explanation": "試験 là kỳ thi.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch từ 'When' sang tiếng Nhật.",
+      "options": [
+        "だれ",
+        "いつ",
+        "なんじ",
+        "なん曜日"
+      ],
+      "correctIndex": 1,
+      "explanation": "いつ (itsu) nghĩa là khi nào.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "4 giờ tiếng Nhật nói là gì?",
+      "options": [
+        "しじ",
+        "よんじ",
+        "よじ",
+        "しちじ"
+      ],
+      "correctIndex": 2,
+      "explanation": "4 giờ là よじ (yoji).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-03.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 月 đọc là gì trong 月曜日?",
+      "options": [
+        "げつ",
+        "がつ",
+        "つき",
+        "か"
+      ],
+      "correctIndex": 0,
+      "explanation": "月曜日 đọc là getsuyoubi.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-03.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 水 có nghĩa là gì?",
+      "options": [
+        "Lửa",
+        "Nước",
+        "Cây",
+        "Đất"
+      ],
+      "correctIndex": 1,
+      "explanation": "水 (mizu) có nghĩa là nước.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-03.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 土 đọc là gì trong 土曜日?",
+      "options": [
+        "ど",
+        "と",
+        "つち",
+        "すい"
+      ],
+      "correctIndex": 0,
+      "explanation": "土曜日 đọc là doyoubi.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-03.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Thứ Sáu' chứa chữ Hán nào?",
+      "options": [
+        "月",
+        "火",
+        "木",
+        "金"
+      ],
+      "correctIndex": 3,
+      "explanation": "Thứ Sáu là 金曜日 (chứa chữ Kim).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-03.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ 時 (ji) có nghĩa là gì?",
+      "options": [
+        "Phút",
+        "Giây",
+        "Giờ",
+        "Ngày"
+      ],
+      "correctIndex": 2,
+      "explanation": "時 có nghĩa là giờ/thời gian.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-03.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán nào có nghĩa là 'Cây' (Thứ Năm)?",
+      "options": [
+        "火",
+        "水",
+        "木",
+        "金"
+      ],
+      "correctIndex": 2,
+      "explanation": "木 (moku/ki) có nghĩa là cây (Thứ Năm là 木曜日).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-03.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "会議は３時（　　）です。",
+      "options": [
+        "は",
+        "から",
+        "に",
+        "を"
+      ],
+      "correctIndex": 1,
+      "explanation": "から mang nghĩa là 'từ' 3 giờ.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "休みは土曜日（　　）日曜日です。",
+      "options": [
+        "から",
+        "まで",
+        "と",
+        "に"
+      ],
+      "correctIndex": 2,
+      "explanation": "と dùng để nối hai danh từ (Thứ Bảy và Chủ Nhật).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "毎朝６時（　　）起きます。",
+      "options": [
+        "に",
+        "は",
+        "から",
+        "と"
+      ],
+      "correctIndex": 0,
+      "explanation": "に đi sau danh từ chỉ thời gian cụ thể (lúc 6 giờ).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "試験は９時から１１時（　　）です。",
+      "options": [
+        "から",
+        "に",
+        "まで",
+        "と"
+      ],
+      "correctIndex": 2,
+      "explanation": "まで mang nghĩa là 'đến'.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Câu 'Bây giờ là 8 rưỡi' tiếng Nhật là gì?",
+      "options": [
+        "今、８時半です。",
+        "今、８時分です。",
+        "今、半８時です。",
+        "今、９時半です。"
+      ],
+      "correctIndex": 0,
+      "explanation": "半 (han) là rưỡi, đặt sau chữ 時.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "今日は何（　　）ですか。",
+      "options": [
+        "時",
+        "曜日",
+        "分",
+        "月"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hỏi thứ dùng 何曜日 (naniyoubi).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "（　　）に終わりますか。",
+      "options": [
+        "何時",
+        "何曜日",
+        "何",
+        "いつ"
+      ],
+      "correctIndex": 0,
+      "explanation": "何時に (lúc mấy giờ). Không dùng に sau いつ.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng ngữ pháp.",
+      "options": [
+        "いつに始まりますか。",
+        "何時に始まりますか。",
+        "何時始まりますか。",
+        "いつで始まりますか。"
+      ],
+      "correctIndex": 1,
+      "explanation": "何時に (lúc mấy giờ). いつ không đi với に.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Cuộc họp diễn ra vào ngày nào?",
+      "options": [
+        "Hôm nay",
+        "Ngày mai",
+        "Ngày mốt",
+        "Hôm qua"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 明日です (Ngày mai).",
+      "points": 2,
+      "listeningRef": "N5-03.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-03.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Cuộc họp diễn ra từ mấy giờ?",
+      "options": [
+        "9:00",
+        "9:30",
+        "10:00",
+        "10:30"
+      ],
+      "correctIndex": 2,
+      "explanation": "午前１０時から (từ 10h sáng).",
+      "points": 2,
+      "listeningRef": "N5-03.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-03.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Thư viện nghỉ vào Chủ Nhật.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 休みは月曜日です (Nghỉ thứ Hai).",
+      "points": 2,
+      "listeningRef": "N5-03.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-03.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người viết bài làm việc từ thứ mấy đến thứ mấy?",
+      "options": [
+        "Thứ 2 đến Thứ 6",
+        "Thứ 3 đến Thứ 7",
+        "Thứ 2 đến Thứ 7",
+        "Thứ 2 đến Chủ Nhật"
+      ],
+      "correctIndex": 0,
+      "explanation": "月曜日から金曜日まで (từ thứ 2 đến thứ 6).",
+      "points": 2,
+      "readingRef": "N5-03.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-03.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Cửa hàng bách hóa ABC mở cửa lúc mấy giờ?",
+      "options": [
+        "9:00",
+        "9:30",
+        "10:00",
+        "10:30"
+      ],
+      "correctIndex": 2,
+      "explanation": "午前１０時 (10h sáng).",
+      "points": 2,
+      "readingRef": "N5-03.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-03.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Cửa hàng bách hóa ABC nghỉ vào thứ Tư.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0,
+      "explanation": "休み：水曜日 (Nghỉ thứ Tư).",
+      "points": 2,
+      "readingRef": "N5-03.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-03.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Ngân hàng làm việc từ 9 giờ đến 3 giờ.",
+      "options": [
+        "銀行は",
+        "９時から",
+        "３時まで",
+        "です"
+      ],
+      "correctIndex": 0,
+      "explanation": "銀行は９時から３時までです。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-03.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Cuộc họp bắt đầu lúc mấy giờ?",
+      "options": [
+        "会議",
+        "は",
+        "何時に",
+        "始まりますか"
+      ],
+      "correctIndex": 0,
+      "explanation": "会議は何時に始まりますか。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-03.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Thứ Ba'?",
+      "options": [
+        "月曜日",
+        "火曜日",
+        "水曜日",
+        "木曜日"
+      ],
+      "correctIndex": 1,
+      "explanation": "火曜日 là thứ Ba.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 休み đọc là gì?",
+      "options": [
+        "やすみ",
+        "ひるみ",
+        "しゅつみ",
+        "きゅうみ"
+      ],
+      "correctIndex": 0,
+      "explanation": "休み đọc là yasumi (nghỉ ngơi/ngày nghỉ).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Buổi chiều tiếng Nhật là gì?",
+      "options": [
+        "午前",
+        "午後",
+        "今日",
+        "明日"
+      ],
+      "correctIndex": 1,
+      "explanation": "午後 (gogo) là buổi chiều.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 金 trong 金曜日 có nghĩa là gì?",
+      "options": [
+        "Đất",
+        "Nước",
+        "Vàng/Tiền",
+        "Cây"
+      ],
+      "correctIndex": 2,
+      "explanation": "金 (kim) là vàng hoặc tiền.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Bây giờ' tiếng Nhật là gì?",
+      "options": [
+        "昨日",
+        "今日",
+        "明日",
+        "今"
+      ],
+      "correctIndex": 3,
+      "explanation": "今 (ima) là bây giờ.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 仕事は５時（　　）です。",
+      "options": [
+        "から",
+        "まで",
+        "に",
+        "は"
+      ],
+      "correctIndex": 1,
+      "explanation": "５時まで (đến 5 giờ).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 休みは土曜日（　　）日曜日です。",
+      "options": [
+        "と",
+        "に",
+        "から",
+        "まで"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nối 2 danh từ bằng と (và).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 毎朝６時（　　）起きます。",
+      "options": [
+        "を",
+        "は",
+        "に",
+        "と"
+      ],
+      "correctIndex": 2,
+      "explanation": "に chỉ thời điểm cụ thể (lúc 6 giờ).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Bây giờ là 7 giờ':",
+      "options": [
+        "今、７分です。",
+        "今、７時半です。",
+        "今、７時です。",
+        "今日、７時です。"
+      ],
+      "correctIndex": 2,
+      "explanation": "今、７時です。",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 試験は（　　）ですか。",
+      "options": [
+        "いつ",
+        "何時",
+        "何曜日",
+        "Tất cả đều đúng"
+      ],
+      "correctIndex": 3,
+      "explanation": "Có thể hỏi bằng いつ (khi nào), 何時 (mấy giờ), 何曜日 (thứ mấy) tùy ngữ cảnh.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn hỏi 'Bây giờ là mấy giờ?', bạn nói câu nào?",
+      "options": [
+        "今、何ですか。",
+        "今、何時ですか。",
+        "今日、何時ですか。",
+        "いつですか。"
+      ],
+      "correctIndex": 1,
+      "explanation": "今、何時ですか (Bây giờ là mấy giờ?).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu ngân hàng làm việc từ 9h đến 3h, nhân viên sẽ nói:",
+      "options": [
+        "９時と３時です。",
+        "９時から３時までです。",
+        "９時に３時までです。",
+        "９時から３時にです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "９時から３時までです (Từ 9 giờ đến 3 giờ).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Hôm nay là thứ mấy?':",
+      "options": [
+        "今日は何曜日ですか。",
+        "今日は何日ですか。",
+        "明日は何曜日ですか。",
+        "昨日は何曜日ですか。"
+      ],
+      "correctIndex": 0,
+      "explanation": "今日は何曜日ですか。",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc, thời gian làm việc là '９時から午後５時まで', làm việc mấy tiếng một ngày?",
+      "options": [
+        "7 tiếng",
+        "8 tiếng",
+        "9 tiếng",
+        "10 tiếng"
+      ],
+      "correctIndex": 1,
+      "explanation": "Từ 9h sáng đến 5h chiều là 8 tiếng.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-03.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu cửa hàng nghỉ vào 水曜日, hôm đó là thứ mấy?",
+      "options": [
+        "Thứ Hai",
+        "Thứ Ba",
+        "Thứ Tư",
+        "Thứ Năm"
+      ],
+      "correctIndex": 2,
+      "explanation": "水曜日 là Thứ Tư.",
+      "points": 10
+    }
+  ]
+}

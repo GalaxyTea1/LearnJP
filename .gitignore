@@ -1,0 +1,34 @@
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.env
+**/.env.*
+!**/.env.example
+**/.dev.vars*
+**/.wrangler/
+**/.vercel/
+**/*.log
+**/*.pem
+**/*.key
+**/*.pfx
+**/*.p12
+worker-configuration.d.ts
+# Keep only reproducible course snapshots; never track runtime state or backups.
+.local/*
+!.local/content/
+.local/content/*
+!.local/content/n5.json
+!.local/content-review/
+.local/content-review/*
+!.local/content-review/n5-candidate.json
+
+**/*.tsbuildinfo
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/.DS_Store
+**/Thumbs.db
+# Local audit captures are not application assets.
+frontend/docs/**/*.png
+backend/docs/audit-09-review/local-withdrawal.json

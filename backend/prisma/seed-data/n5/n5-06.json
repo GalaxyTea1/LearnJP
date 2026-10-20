@@ -1,0 +1,1821 @@
+{
+  "module": {
+    "code": "N5-06",
+    "level": "N5",
+    "unit": 6,
+    "title": "Food and Drink",
+    "titleJp": "食べ物と飲み物",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-06.vocab.001",
+      "japanese": "好き",
+      "hiragana": "すき",
+      "romaji": "suki",
+      "english": "like, favorite",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "私は寿司が好きです。",
+      "exampleEn": "I like sushi."
+    },
+    {
+      "sourceRef": "N5-06.vocab.002",
+      "japanese": "嫌い",
+      "hiragana": "きらい",
+      "romaji": "kirai",
+      "english": "dislike, hate",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "私は魚が嫌いです。",
+      "exampleEn": "I dislike fish."
+    },
+    {
+      "sourceRef": "N5-06.vocab.003",
+      "japanese": "おいしい",
+      "hiragana": "おいしい",
+      "romaji": "oishii",
+      "english": "delicious, tasty",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "このケーキはおいしいです。",
+      "exampleEn": "This cake is delicious."
+    },
+    {
+      "sourceRef": "N5-06.vocab.004",
+      "japanese": "まずい",
+      "hiragana": "まずい",
+      "romaji": "mazui",
+      "english": "bad tasting",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "このコーヒーはまずいです。",
+      "exampleEn": "This coffee tastes bad."
+    },
+    {
+      "sourceRef": "N5-06.vocab.005",
+      "japanese": "甘い",
+      "hiragana": "あまい",
+      "romaji": "amai",
+      "english": "sweet",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "チョコレートは甘いです。",
+      "exampleEn": "Chocolate is sweet."
+    },
+    {
+      "sourceRef": "N5-06.vocab.006",
+      "japanese": "辛い",
+      "hiragana": "からい",
+      "romaji": "karai",
+      "english": "spicy, hot",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "カレーは辛いです。",
+      "exampleEn": "Curry is spicy."
+    },
+    {
+      "sourceRef": "N5-06.vocab.007",
+      "japanese": "苦い",
+      "hiragana": "にがい",
+      "romaji": "nigai",
+      "english": "bitter",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "お茶は苦いです。",
+      "exampleEn": "Green tea is bitter."
+    },
+    {
+      "sourceRef": "N5-06.vocab.008",
+      "japanese": "酸っぱい",
+      "hiragana": "すっぱい",
+      "romaji": "suppai",
+      "english": "sour",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "レモンは酸っぱいです。",
+      "exampleEn": "Lemons are sour."
+    },
+    {
+      "sourceRef": "N5-06.vocab.009",
+      "japanese": "熱い",
+      "hiragana": "あつい",
+      "romaji": "atsui",
+      "english": "hot (thing)",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "熱いお茶を飲みます。",
+      "exampleEn": "I drink hot tea."
+    },
+    {
+      "sourceRef": "N5-06.vocab.010",
+      "japanese": "冷たい",
+      "hiragana": "つめたい",
+      "romaji": "tsumetai",
+      "english": "cold (thing)",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "冷たい水をください。",
+      "exampleEn": "Please give me cold water."
+    },
+    {
+      "sourceRef": "N5-06.vocab.011",
+      "japanese": "食べ物",
+      "hiragana": "たべもの",
+      "romaji": "tabemono",
+      "english": "food",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "好きな食べ物は何ですか。",
+      "exampleEn": "What is your favorite food?"
+    },
+    {
+      "sourceRef": "N5-06.vocab.012",
+      "japanese": "飲み物",
+      "hiragana": "のみもの",
+      "romaji": "nomimono",
+      "english": "drink, beverage",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "飲み物は何がいいですか。",
+      "exampleEn": "What would you like to drink?"
+    },
+    {
+      "sourceRef": "N5-06.vocab.013",
+      "japanese": "料理",
+      "hiragana": "りょうり",
+      "romaji": "ryouri",
+      "english": "cooking, cuisine",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "日本料理が好きです。",
+      "exampleEn": "I like Japanese cuisine."
+    },
+    {
+      "sourceRef": "N5-06.vocab.014",
+      "japanese": "寿司",
+      "hiragana": "すし",
+      "romaji": "sushi",
+      "english": "sushi",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "寿司を食べましょう。",
+      "exampleEn": "Let's eat sushi."
+    },
+    {
+      "sourceRef": "N5-06.vocab.015",
+      "japanese": "天ぷら",
+      "hiragana": "てんぷら",
+      "romaji": "tenpura",
+      "english": "tempura",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "天ぷらはおいしいです。",
+      "exampleEn": "Tempura is delicious."
+    },
+    {
+      "sourceRef": "N5-06.vocab.016",
+      "japanese": "ラーメン",
+      "hiragana": "らーめん",
+      "romaji": "raamen",
+      "english": "ramen",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "ラーメンを食べます。",
+      "exampleEn": "I eat ramen."
+    },
+    {
+      "sourceRef": "N5-06.vocab.017",
+      "japanese": "カレー",
+      "hiragana": "かれー",
+      "romaji": "karee",
+      "english": "curry",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "カレーは辛いです。",
+      "exampleEn": "Curry is spicy."
+    },
+    {
+      "sourceRef": "N5-06.vocab.018",
+      "japanese": "刺身",
+      "hiragana": "さしみ",
+      "romaji": "sashimi",
+      "english": "sashimi",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "刺身が好きですか。",
+      "exampleEn": "Do you like sashimi?"
+    },
+    {
+      "sourceRef": "N5-06.vocab.019",
+      "japanese": "うどん",
+      "hiragana": "うどん",
+      "romaji": "udon",
+      "english": "udon noodles",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "熱いうどんを食べます。",
+      "exampleEn": "I eat hot udon."
+    },
+    {
+      "sourceRef": "N5-06.vocab.020",
+      "japanese": "そば",
+      "hiragana": "そば",
+      "romaji": "soba",
+      "english": "soba noodles",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "冷たいそばが好きです。",
+      "exampleEn": "I like cold soba."
+    },
+    {
+      "sourceRef": "N5-06.vocab.021",
+      "japanese": "ケーキ",
+      "hiragana": "けーき",
+      "romaji": "keeki",
+      "english": "cake",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "甘いケーキを食べます。",
+      "exampleEn": "I eat sweet cake."
+    },
+    {
+      "sourceRef": "N5-06.vocab.022",
+      "japanese": "チョコレート",
+      "hiragana": "ちょこれーと",
+      "romaji": "chokoreeto",
+      "english": "chocolate",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "チョコレートをください。",
+      "exampleEn": "Please give me chocolate."
+    },
+    {
+      "sourceRef": "N5-06.vocab.023",
+      "japanese": "アイスクリーム",
+      "hiragana": "あいすくりーむ",
+      "romaji": "aisukuriimu",
+      "english": "ice cream",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "アイスクリームが好きです。",
+      "exampleEn": "I like ice cream."
+    },
+    {
+      "sourceRef": "N5-06.vocab.024",
+      "japanese": "ビール",
+      "hiragana": "びーる",
+      "romaji": "biiru",
+      "english": "beer",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "冷たいビールを飲みましょう。",
+      "exampleEn": "Let's drink cold beer."
+    },
+    {
+      "sourceRef": "N5-06.vocab.025",
+      "japanese": "ワイン",
+      "hiragana": "わいん",
+      "romaji": "wain",
+      "english": "wine",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "ワインが好きです。",
+      "exampleEn": "I like wine."
+    },
+    {
+      "sourceRef": "N5-06.vocab.026",
+      "japanese": "ジュース",
+      "hiragana": "じゅーす",
+      "romaji": "juusu",
+      "english": "juice",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "ジュースをください。",
+      "exampleEn": "Please give me juice."
+    },
+    {
+      "sourceRef": "N5-06.vocab.027",
+      "japanese": "コーヒー",
+      "hiragana": "こーひー",
+      "romaji": "koohii",
+      "english": "coffee",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "コーヒーを飲みますか。",
+      "exampleEn": "Will you drink coffee?"
+    },
+    {
+      "sourceRef": "N5-06.vocab.028",
+      "japanese": "メニュー",
+      "hiragana": "めにゅー",
+      "romaji": "menyuu",
+      "english": "menu",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "メニューを見せてください。",
+      "exampleEn": "Please show me the menu."
+    },
+    {
+      "sourceRef": "N5-06.vocab.029",
+      "japanese": "注文",
+      "hiragana": "ちゅうもん",
+      "romaji": "chuumon",
+      "english": "order",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "注文をお願いします。",
+      "exampleEn": "I would like to order please."
+    },
+    {
+      "sourceRef": "N5-06.vocab.030",
+      "japanese": "お会計",
+      "hiragana": "おかいけい",
+      "romaji": "okaikei",
+      "english": "bill, check",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "お会計をお願いします。",
+      "exampleEn": "Check, please."
+    },
+    {
+      "sourceRef": "N5-06.vocab.031",
+      "japanese": "水",
+      "hiragana": "みず",
+      "romaji": "mizu",
+      "english": "water",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "水をください。",
+      "exampleEn": "Water, please."
+    },
+    {
+      "sourceRef": "N5-06.vocab.032",
+      "japanese": "お茶",
+      "hiragana": "おちゃ",
+      "romaji": "ocha",
+      "english": "green tea",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "お茶を飲みます。",
+      "exampleEn": "I drink green tea."
+    },
+    {
+      "sourceRef": "N5-06.vocab.033",
+      "japanese": "ください",
+      "hiragana": "ください",
+      "romaji": "kudasai",
+      "english": "please give me",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "メニューをください。",
+      "exampleEn": "Please give me the menu."
+    },
+    {
+      "sourceRef": "N5-06.vocab.034",
+      "japanese": "少々お待ちください",
+      "hiragana": "しょうしょうおまちください",
+      "romaji": "shoushou omachi kudasai",
+      "english": "please wait a moment",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "少々お待ちください。",
+      "exampleEn": "Please wait a moment."
+    },
+    {
+      "sourceRef": "N5-06.vocab.035",
+      "japanese": "いただきます",
+      "hiragana": "いただきます",
+      "romaji": "itadakimasu",
+      "english": "expression of gratitude before meals",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "いただきます。",
+      "exampleEn": "Let's eat."
+    },
+    {
+      "sourceRef": "N5-06.vocab.036",
+      "japanese": "ごちそうさまでした",
+      "hiragana": "ごちそうさまでした",
+      "romaji": "gochisousama deshita",
+      "english": "expression of gratitude after meals",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "ごちそうさまでした。",
+      "exampleEn": "Thank you for the meal."
+    },
+    {
+      "sourceRef": "N5-06.vocab.037",
+      "japanese": "いらっしゃいませ",
+      "hiragana": "いらっしゃいませ",
+      "romaji": "irasshaimase",
+      "english": "welcome (in shops/restaurants)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "いらっしゃいませ。",
+      "exampleEn": "Welcome."
+    },
+    {
+      "sourceRef": "N5-06.vocab.038",
+      "japanese": "どんな",
+      "hiragana": "どんな",
+      "romaji": "donna",
+      "english": "what kind of",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "どんな食べ物が好きですか。",
+      "exampleEn": "What kind of food do you like?"
+    },
+    {
+      "sourceRef": "N5-06.vocab.039",
+      "japanese": "一番",
+      "hiragana": "いちばん",
+      "romaji": "ichiban",
+      "english": "number one, the most",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "一番好きな料理は何ですか。",
+      "exampleEn": "What is your most favorite cuisine?"
+    },
+    {
+      "sourceRef": "N5-06.vocab.040",
+      "japanese": "ましょう",
+      "hiragana": "ましょう",
+      "romaji": "mashou",
+      "english": "let's",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "食べましょう。",
+      "exampleEn": "Let's eat."
+    },
+    {
+      "sourceRef": "N5-06.vocab.041",
+      "japanese": "ましょうか",
+      "hiragana": "ましょうか",
+      "romaji": "mashouka",
+      "english": "shall we?",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "飲みましょうか。",
+      "exampleEn": "Shall we drink?"
+    },
+    {
+      "sourceRef": "N5-06.vocab.042",
+      "japanese": "とても",
+      "hiragana": "とても",
+      "romaji": "totemo",
+      "english": "very",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "とてもおいしいです。",
+      "exampleEn": "It is very delicious."
+    },
+    {
+      "sourceRef": "N5-06.vocab.043",
+      "japanese": "少し",
+      "hiragana": "すこし",
+      "romaji": "sukoshi",
+      "english": "a little",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "少し辛いです。",
+      "exampleEn": "It is a little spicy."
+    },
+    {
+      "sourceRef": "N5-06.vocab.044",
+      "japanese": "たくさん",
+      "hiragana": "たくさん",
+      "romaji": "takusan",
+      "english": "a lot, many",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "たくさん食べます。",
+      "exampleEn": "I eat a lot."
+    },
+    {
+      "sourceRef": "N5-06.vocab.045",
+      "japanese": "全部",
+      "hiragana": "ぜんぶ",
+      "romaji": "zenbu",
+      "english": "all, everything",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-06",
+      "introducedIn": "N5-06",
+      "exampleJp": "全部食べました。",
+      "exampleEn": "I ate everything."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-06.kanji.001",
+      "character": "魚",
+      "meaning": "fish",
+      "onyomi": "ギョ",
+      "kunyomi": "さかな",
+      "level": "N5",
+      "strokeCount": 11,
+      "radical": "魚",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "魚 (sakana)",
+          "en": "fish"
+        }
+      ],
+      "mnemonic": "Learn the kanji for fish."
+    },
+    {
+      "sourceRef": "N5-06.kanji.002",
+      "character": "肉",
+      "meaning": "meat",
+      "onyomi": "ニク",
+      "kunyomi": "にく",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "肉",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "肉 (niku)",
+          "en": "meat"
+        }
+      ],
+      "mnemonic": "Learn the kanji for meat."
+    },
+    {
+      "sourceRef": "N5-06.kanji.003",
+      "character": "茶",
+      "meaning": "tea",
+      "onyomi": "チャ、サ",
+      "kunyomi": "ちゃ",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "艸",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "お茶 (ocha)",
+          "en": "green tea"
+        }
+      ],
+      "mnemonic": "Learn the kanji for tea."
+    },
+    {
+      "sourceRef": "N5-06.kanji.004",
+      "character": "酒",
+      "meaning": "alcohol, sake",
+      "onyomi": "シュ",
+      "kunyomi": "さけ、さか",
+      "level": "N5",
+      "strokeCount": 10,
+      "radical": "酉",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "お酒 (osake)",
+          "en": "alcohol"
+        }
+      ],
+      "mnemonic": "Learn the kanji for alcohol, sake."
+    },
+    {
+      "sourceRef": "N5-06.kanji.005",
+      "character": "牛",
+      "meaning": "cow",
+      "onyomi": "ギュウ",
+      "kunyomi": "うし",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "牛",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "牛乳 (gyuunyuu)",
+          "en": "milk"
+        }
+      ],
+      "mnemonic": "Learn the kanji for cow."
+    },
+    {
+      "sourceRef": "N5-06.kanji.006",
+      "character": "好",
+      "meaning": "like",
+      "onyomi": "コウ",
+      "kunyomi": "す.き、この.む",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "女",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "好き (suki)",
+          "en": "like"
+        }
+      ],
+      "mnemonic": "Learn the kanji for like."
+    },
+    {
+      "sourceRef": "N5-06.kanji.007",
+      "character": "甘",
+      "meaning": "sweet",
+      "onyomi": "カン",
+      "kunyomi": "あま.い",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "甘",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "甘い (amai)",
+          "en": "sweet"
+        }
+      ],
+      "mnemonic": "Learn the kanji for sweet."
+    },
+    {
+      "sourceRef": "N5-06.kanji.008",
+      "character": "辛",
+      "meaning": "spicy, hot",
+      "onyomi": "シン",
+      "kunyomi": "から.い",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "辛",
+      "introducedIn": "N5-06",
+      "exampleWords": [
+        {
+          "jp": "辛い (karai)",
+          "en": "spicy"
+        }
+      ],
+      "mnemonic": "Learn the kanji for spicy, hot."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-06.grammar.001",
+      "pattern": "N を ください",
+      "meaningVn": "Làm ơn cho tôi N",
+      "meaningEn": "Please give me N",
+      "explanation": "Dùng để yêu cầu người khác lấy/cho mình cái gì đó, thường dùng khi gọi món ở nhà hàng hoặc mua đồ.",
+      "introducedIn": "N5-06",
+      "examples": [
+        {
+          "japanese": "メニューをください。",
+          "romaji": "Menyuu o kudasai.",
+          "english": "Please give me the menu.",
+          "vietnamese": "Làm ơn cho tôi xin thực đơn."
+        },
+        {
+          "japanese": "水をください。",
+          "romaji": "Mizu o kudasai.",
+          "english": "Water, please.",
+          "vietnamese": "Làm ơn cho xin nước."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-06.grammar.002",
+      "pattern": "N が 好き / 嫌い です",
+      "meaningVn": "Thích / Ghét N",
+      "meaningEn": "Like / Dislike N",
+      "explanation": "好き (thích) và 嫌い (ghét) là tính từ đuôi な. Đối tượng được thích/ghét đi với trợ từ が.",
+      "introducedIn": "N5-06",
+      "examples": [
+        {
+          "japanese": "私は寿司が好きです。",
+          "romaji": "Watashi wa sushi ga suki desu.",
+          "english": "I like sushi.",
+          "vietnamese": "Tôi thích sushi."
+        },
+        {
+          "japanese": "野菜が嫌いです。",
+          "romaji": "Yasai ga kirai desu.",
+          "english": "I dislike vegetables.",
+          "vietnamese": "Tôi ghét rau."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-06.grammar.003",
+      "pattern": "Vましょう / Vましょうか",
+      "meaningVn": "Hãy cùng làm V / Cùng làm V nhé?",
+      "meaningEn": "Let's do V / Shall we do V?",
+      "explanation": "Dùng để rủ rê, đề nghị người nghe cùng làm một việc gì đó. ましょうか mang tính chất hỏi ý kiến.",
+      "introducedIn": "N5-06",
+      "examples": [
+        {
+          "japanese": "昼ごはんを食べましょう。",
+          "romaji": "Hirugohan o tabemashou.",
+          "english": "Let's eat lunch.",
+          "vietnamese": "Cùng ăn trưa nào."
+        },
+        {
+          "japanese": "コーヒーを飲みましょうか。",
+          "romaji": "Koohii o nomimashou ka.",
+          "english": "Shall we drink coffee?",
+          "vietnamese": "Cùng uống cà phê nhé?"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-06.grammar.004",
+      "pattern": "どんな N",
+      "meaningVn": "N như thế nào / Loại N nào",
+      "meaningEn": "What kind of N",
+      "explanation": "Dùng để hỏi về tính chất, trạng thái hoặc loại của một danh từ.",
+      "introducedIn": "N5-06",
+      "examples": [
+        {
+          "japanese": "どんな食べ物が好きですか。",
+          "romaji": "Donna tabemono ga suki desu ka.",
+          "english": "What kind of food do you like?",
+          "vietnamese": "Bạn thích loại đồ ăn nào?"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-06.grammar.005",
+      "pattern": "N は Tính từ です",
+      "meaningVn": "N thì (tính từ)",
+      "meaningEn": "N is (adjective)",
+      "explanation": "Dùng tính từ để miêu tả vị giác (ngon, dở, ngọt, cay...) của đồ ăn thức uống.",
+      "introducedIn": "N5-06",
+      "examples": [
+        {
+          "japanese": "このケーキは甘いです。",
+          "romaji": "Kono keeki wa amai desu.",
+          "english": "This cake is sweet.",
+          "vietnamese": "Cái bánh này ngọt."
+        },
+        {
+          "japanese": "カレーはとても辛いです。",
+          "romaji": "Karee wa totemo karai desu.",
+          "english": "Curry is very spicy.",
+          "vietnamese": "Cà ri thì rất cay."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-06.kaiwa.001",
+      "title": "Ordering at a restaurant",
+      "titleJp": "レストランで注文",
+      "situation": "Ordering food and drinks at a restaurant",
+      "lines": [
+        {
+          "speaker": "店員",
+          "japanese": "いらっしゃいませ。ご注文をどうぞ。",
+          "hiragana": "いらっしゃいませ。ごちゅうもんをどうぞ。",
+          "romaji": "Irasshaimase. Gochuumon o douzo.",
+          "translation": "Welcome. What would you like to order?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "客",
+          "japanese": "ラーメンと寿司をください。",
+          "hiragana": "らーめんとすしをください。",
+          "romaji": "Raamen to sushi o kudasai.",
+          "translation": "Please give me ramen and sushi.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "店員",
+          "japanese": "飲み物は何がいいですか。",
+          "hiragana": "のみものはなにがいいですか。",
+          "romaji": "Nomimono wa nani ga ii desu ka.",
+          "translation": "What would you like to drink?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "客",
+          "japanese": "冷たいビールをください。",
+          "hiragana": "つめたいびーるをください。",
+          "romaji": "Tsumetai biiru o kudasai.",
+          "translation": "Cold beer, please.",
+          "sortOrder": 4
+        },
+        {
+          "speaker": "店員",
+          "japanese": "はい、少々お待ちください。",
+          "hiragana": "はい、しょうしょうおまちください。",
+          "romaji": "Hai, shoushou omachi kudasai.",
+          "translation": "Yes, please wait a moment.",
+          "sortOrder": 5
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-06.kaiwa.002",
+      "title": "Likes and Dislikes",
+      "titleJp": "好きな食べ物",
+      "situation": "Talking about food preferences",
+      "lines": [
+        {
+          "speaker": "山田",
+          "japanese": "田中さんはどんな食べ物が好きですか。",
+          "hiragana": "たなかさんはどんなたべものがすきですか。",
+          "romaji": "Tanaka-san wa donna tabemono ga suki desu ka.",
+          "translation": "Mr. Tanaka, what kind of food do you like?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "田中",
+          "japanese": "私は天ぷらが一番好きです。おいしいですね。",
+          "hiragana": "わたしはてんぷらがいちばんすきです。おいしいですね。",
+          "romaji": "Watashi wa tenpura ga ichiban suki desu. Oishii desu ne.",
+          "translation": "I like tempura the best. It's delicious, isn't it.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "山田",
+          "japanese": "私は甘いケーキが好きです。辛い料理は嫌いです。",
+          "hiragana": "わたしはあまいけーきがすきです。からいりょうりはきらいです。",
+          "romaji": "Watashi wa amai keeki ga suki desu. Karai ryouri wa kirai desu.",
+          "translation": "I like sweet cake. I dislike spicy food.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "田中",
+          "japanese": "じゃ、いっしょにケーキを食べましょうか。",
+          "hiragana": "じゃ、いっしょにけーきをたべましょうか。",
+          "romaji": "Ja, isshoni keeki o tabemashou ka.",
+          "translation": "Well then, shall we eat cake together?",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-06.listening.001",
+      "title": "At a cafe",
+      "instructions": "Listen to a couple ordering at a cafe.",
+      "audioUrl": "PENDING_AUDIO:n5-06-listening-01",
+      "transcriptJp": "A: コーヒーと紅茶、どちらがいいですか。\nB: 私は熱いコーヒーをください。\nA: じゃ、コーヒーを２つお願いします。あと、チョコレートケーキを１つください。\n店員: はい、コーヒー２つとチョコレートケーキ１つですね。",
+      "transcriptRomaji": "A: Koohii to koucha, dochira ga ii desu ka.\nB: Watashi wa atsui koohii o kudasai.\nA: Ja, koohii o futatsu onegaishimasu. Ato, chokoreeto keeki o hitotsu kudasai.\nTen'in: Hai, koohii futatsu to chokoreeto keeki hitotsu desu ne.",
+      "transcriptEn": "A: Coffee and black tea, which is better?\nB: I'll have hot coffee please.\nA: Well then, two coffees please. Also, one chocolate cake please.\nClerk: Yes, two coffees and one chocolate cake, right?",
+      "durationSeconds": 35,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-06.listening.002",
+      "title": "Food preferences",
+      "instructions": "Listen to the man talking about what he likes and dislikes.",
+      "audioUrl": "PENDING_AUDIO:n5-06-listening-02",
+      "transcriptJp": "私は日本料理がとても好きです。一番好きな料理は寿司です。よく友達とレストランで寿司を食べます。天ぷらも好きです。でも、辛いカレーはあまり好きじゃありません。",
+      "transcriptRomaji": "Watashi wa nihon ryouri ga totemo suki desu. Ichiban suki na ryouri wa sushi desu. Yoku tomodachi to resutoran de sushi o tabemasu. Tenpura mo suki desu. Demo, karai karee wa amari suki ja arimasen.",
+      "transcriptEn": "I like Japanese cuisine very much. My favorite dish is sushi. I often eat sushi at restaurants with my friends. I also like tempura. But I don't really like spicy curry.",
+      "durationSeconds": 40,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-06.reading.001",
+      "title": "My Favorite Restaurant",
+      "passage": "私のうちの近くにレストランがあります。私はよくそこで晩ごはんを食べます。レストランの料理はとてもおいしいです。私はいつもラーメンと冷たいビールを注文します。ラーメンは少し辛いです。ケーキも甘くておいしいです。",
+      "reading": "わたしのうちのちかくにれすとらんがあります。わたしはよくそこでばんごはんをたべます。れすとらんのりょうりはとてもおいしいです。わたしはいつもらーめんとつめたいびーるをちゅうもんします。らーめんはすこしからいです。けーきもあまくておいしいです。",
+      "translation": "There is a restaurant near my house. I often eat dinner there. The food at the restaurant is very delicious. I always order ramen and cold beer. The ramen is a little spicy. The cake is also sweet and delicious.",
+      "questions": [
+        {
+          "question": "レストランはどこにありますか。",
+          "options": [
+            "会社の近く",
+            "うちの近く",
+            "駅の中",
+            "公園の中"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 私のうちの近くにレストランがあります。"
+        },
+        {
+          "question": "この人はいつも何を注文しますか。",
+          "options": [
+            "寿司とお茶",
+            "カレーと水",
+            "ラーメンとビール",
+            "ケーキとコーヒー"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: いつもラーメンと冷たいビールを注文します。"
+        },
+        {
+          "question": "ラーメンはどうですか。",
+          "options": [
+            "甘い",
+            "苦い",
+            "酸っぱい",
+            "少し辛い"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài đọc ghi: ラーメンは少し辛いです (hơi cay)."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-06.reading.002",
+      "title": "Menu Message",
+      "passage": "さくらカフェ\nコーヒー：300円\n紅茶：300円\nケーキ：400円\nアイスクリーム：200円\n※ケーキとコーヒーのセットは600円です。",
+      "reading": "さくらかふぇ\nこーひー：300えん\nこうちゃ：300えん\nけーき：400えん\nあいすくりーむ：200えん\n※けーきとこーひーのせっとは600えんです。",
+      "translation": "Sakura Cafe\nCoffee: 300 yen\nBlack Tea: 300 yen\nCake: 400 yen\nIce Cream: 200 yen\n* Cake and coffee set is 600 yen.",
+      "questions": [
+        {
+          "question": "コーヒーはいくらですか。",
+          "options": [
+            "200円",
+            "300円",
+            "400円",
+            "600円"
+          ],
+          "correctIndex": 1,
+          "explanation": "Menu ghi: コーヒー：300円."
+        },
+        {
+          "question": "一番安い（rẻ nhất）のはどれですか。",
+          "options": [
+            "コーヒー",
+            "紅茶",
+            "ケーキ",
+            "アイスクリーム"
+          ],
+          "correctIndex": 3,
+          "explanation": "Ice cream giá 200 yen là rẻ nhất."
+        },
+        {
+          "question": "ケーキとコーヒーをセットで注文すると、いくらですか。",
+          "options": [
+            "600円",
+            "700円",
+            "800円",
+            "1000円"
+          ],
+          "correctIndex": 0,
+          "explanation": "Dòng cuối ghi: ケーキとコーヒーのセットは600円です (Combo giá 600 yen, rẻ hơn mua lẻ 700 yen)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-06.writing.001",
+      "prompt": "Write about your favorite food.",
+      "instructions": "Write 2-3 sentences about what food you like and how it tastes.",
+      "sampleAnswer": "私は寿司が好きです。とてもおいしいです。",
+      "rubric": "Use 好きです and an adjective like おいしい.",
+      "minLength": 2,
+      "maxLength": 4,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-06.writing.002",
+      "prompt": "Invite a friend to a restaurant.",
+      "instructions": "Write 1-2 sentences inviting your friend to eat something together.",
+      "sampleAnswer": "いっしょにレストランでカレーを食べましょう。",
+      "rubric": "Use ましょう or ましょうか to invite.",
+      "minLength": 1,
+      "maxLength": 2,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-06.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Đồ ăn' trong tiếng Nhật là gì?",
+      "options": [
+        "飲み物",
+        "食べ物",
+        "買い物",
+        "動物"
+      ],
+      "correctIndex": 1,
+      "explanation": "食べ物 (tabemono) là đồ ăn.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Ngon' trong tiếng Nhật là gì?",
+      "options": [
+        "おいしい",
+        "まずい",
+        "あまい",
+        "からい"
+      ],
+      "correctIndex": 0,
+      "explanation": "おいしい (oishii) là ngon.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ nào sau đây có nghĩa là 'Ngọt'?",
+      "options": [
+        "辛い",
+        "苦い",
+        "甘い",
+        "酸っぱい"
+      ],
+      "correctIndex": 2,
+      "explanation": "甘い (amai) là ngọt.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch từ 'Đồ uống' sang tiếng Nhật.",
+      "options": [
+        "水",
+        "お茶",
+        "食べ物",
+        "飲み物"
+      ],
+      "correctIndex": 3,
+      "explanation": "飲み物 (nomimono) là đồ uống.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "レストランで（　　）をお願いします。",
+      "options": [
+        "お会計",
+        "メニュー",
+        "水",
+        "Tất cả đều đúng"
+      ],
+      "correctIndex": 3,
+      "explanation": "Đều có thể xin thanh toán (お会計), xin menu hoặc nước.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Khi nhân viên nói 'Xin quý khách đợi một lát', họ nói gì?",
+      "options": [
+        "いらっしゃいませ",
+        "ごちそうさまでした",
+        "いただきます",
+        "少々お待ちください"
+      ],
+      "correctIndex": 3,
+      "explanation": "少々お待ちください (shoushou omachi kudasai).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Rượu' tiếng Nhật là gì?",
+      "options": [
+        "ビール",
+        "お茶",
+        "お酒",
+        "水"
+      ],
+      "correctIndex": 2,
+      "explanation": "お酒 (osake) là rượu.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Lạnh (nhiệt độ đồ vật)' là gì?",
+      "options": [
+        "熱い",
+        "冷たい",
+        "甘い",
+        "苦い"
+      ],
+      "correctIndex": 1,
+      "explanation": "冷たい (tsumetai) là lạnh, buốt.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-06.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 肉 có nghĩa là gì?",
+      "options": [
+        "Cá",
+        "Thịt",
+        "Rau",
+        "Gạo"
+      ],
+      "correctIndex": 1,
+      "explanation": "肉 (nhục) là thịt.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-06.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 魚 đọc là gì?",
+      "options": [
+        "にく",
+        "やさい",
+        "さかな",
+        "すし"
+      ],
+      "correctIndex": 2,
+      "explanation": "魚 (ngư) đọc là sakana (cá).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-06.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 牛 trong 牛乳 (sữa bò) có nghĩa là gì?",
+      "options": [
+        "Ngựa",
+        "Trâu",
+        "Bò",
+        "Dê"
+      ],
+      "correctIndex": 2,
+      "explanation": "牛 (ngưu) là con bò.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-06.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Thích' chứa chữ Hán nào?",
+      "options": [
+        "好",
+        "甘",
+        "辛",
+        "茶"
+      ],
+      "correctIndex": 0,
+      "explanation": "好き (suki - hảo) là thích.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-06.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 茶 đọc là gì trong お茶?",
+      "options": [
+        "ちゃ",
+        "さ",
+        "酒",
+        "肉"
+      ],
+      "correctIndex": 0,
+      "explanation": "お茶 đọc là ocha (trà).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-06.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 辛 có nghĩa là gì?",
+      "options": [
+        "Ngọt",
+        "Mặn",
+        "Cay",
+        "Đắng"
+      ],
+      "correctIndex": 2,
+      "explanation": "辛い (karai - tân) là cay.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-06.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "メニュー（　　）ください。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nをください (Hãy cho tôi N).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "私はケーキ（　　）好きです。",
+      "options": [
+        "を",
+        "が",
+        "は",
+        "に"
+      ],
+      "correctIndex": 1,
+      "explanation": "Đi với 好き (thích) dùng trợ từ が.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "いっしょにコーヒーを（　　）。",
+      "options": [
+        "飲みます",
+        "飲みません",
+        "飲みましょう",
+        "飲みましょうか"
+      ],
+      "correctIndex": 2,
+      "explanation": "飲みましょう (Hãy cùng uống). (Cũng có thể dùng 飲みましょうか nếu có dấu hỏi).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "（　　）食べ物が好きですか。",
+      "options": [
+        "どんな",
+        "何の",
+        "どれ",
+        "だれ"
+      ],
+      "correctIndex": 0,
+      "explanation": "どんな (Loại nào, như thế nào).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng ngữ pháp.",
+      "options": [
+        "水がください。",
+        "水はください。",
+        "水をください。",
+        "水にください。"
+      ],
+      "correctIndex": 2,
+      "explanation": "水をください (Cho tôi nước).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "このカレーはとても（　　）です。",
+      "options": [
+        "辛い",
+        "辛く",
+        "辛かった",
+        "辛くない"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tính từ đuôi い giữ nguyên + です (辛いです - rất cay).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "ラーメン（　　）うどん（　　）食べましょう。",
+      "options": [
+        "と / を",
+        "を / と",
+        "が / を",
+        "と / が"
+      ],
+      "correctIndex": 0,
+      "explanation": "ラーメン と うどん を 食べましょう (Cùng ăn ramen và udon).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Hãy cùng đi nào!",
+      "options": [
+        "行きます。",
+        "行きません。",
+        "行きましょう。",
+        "行ってください。"
+      ],
+      "correctIndex": 2,
+      "explanation": "行きましょう (Let's go).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 1, người B chọn đồ uống gì?",
+      "options": [
+        "Hồng trà lạnh",
+        "Hồng trà nóng",
+        "Cà phê lạnh",
+        "Cà phê nóng"
+      ],
+      "correctIndex": 3,
+      "explanation": "Audio nói: 熱いコーヒーをください (cà phê nóng).",
+      "points": 2,
+      "listeningRef": "N5-06.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-06.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 1, người A gọi tổng cộng bao nhiêu thứ?",
+      "options": [
+        "1 cà phê, 1 bánh",
+        "2 cà phê, 1 bánh",
+        "2 trà, 2 bánh",
+        "1 trà, 2 bánh"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: コーヒーを２つお願いします。あと、チョコレートケーキを１つください。",
+      "points": 2,
+      "listeningRef": "N5-06.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-06.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, người đàn ông ghét ăn Sushi.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 一番好きな料理は寿司です (Thích sushi nhất).",
+      "points": 2,
+      "listeningRef": "N5-06.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-06.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1, tác giả thường ăn tối ở đâu?",
+      "options": [
+        "Nhà",
+        "Nhà hàng gần nhà",
+        "Công ty",
+        "Siêu thị"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 私のうちの近くにレストランがあります。私はよくそこで晩ごはんを食べます。",
+      "points": 2,
+      "readingRef": "N5-06.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-06.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Bánh ngọt ở nhà hàng đó có vị như thế nào?",
+      "options": [
+        "Ngọt và ngon",
+        "Cay",
+        "Đắng",
+        "Dở"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bài đọc ghi: ケーキも甘くておいしいです。",
+      "points": 2,
+      "readingRef": "N5-06.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-06.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Theo menu Sakura Cafe, mua lẻ 1 cafe và 1 bánh ngọt sẽ đắt hơn mua Combo.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mua lẻ là 300 + 400 = 700 yên, combo là 600 yên -> Mua lẻ đắt hơn.",
+      "points": 2,
+      "readingRef": "N5-06.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-06.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Tôi thích ăn rau.",
+      "options": [
+        "私",
+        "は",
+        "野菜が",
+        "好きです"
+      ],
+      "correctIndex": 0,
+      "explanation": "私は野菜が好きです。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-06.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Cùng uống bia nhé?",
+      "options": [
+        "ビール",
+        "を",
+        "飲みましょう",
+        "か"
+      ],
+      "correctIndex": 0,
+      "explanation": "ビールを飲みましょうか。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-06.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Cà ri'?",
+      "options": [
+        "ラーメン",
+        "うどん",
+        "カレー",
+        "寿司"
+      ],
+      "correctIndex": 2,
+      "explanation": "カレー là cà ri.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 酒 đọc là gì?",
+      "options": [
+        "さけ",
+        "にく",
+        "さかな",
+        "ちゃ"
+      ],
+      "correctIndex": 0,
+      "explanation": "酒 đọc là sake (rượu).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Nóng (đồ vật, đồ ăn)' tiếng Nhật là gì?",
+      "options": [
+        "冷たい",
+        "熱い",
+        "甘い",
+        "苦い"
+      ],
+      "correctIndex": 1,
+      "explanation": "熱い (atsui) là nóng.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 甘 trong 甘い có nghĩa là gì?",
+      "options": [
+        "Cay",
+        "Mặn",
+        "Đắng",
+        "Ngọt"
+      ],
+      "correctIndex": 3,
+      "explanation": "甘い (amai) là ngọt.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi bước vào cửa hàng, nhân viên sẽ nói câu gì?",
+      "options": [
+        "いらっしゃいませ",
+        "いただきます",
+        "ごちそうさまでした",
+        "ありがとう"
+      ],
+      "correctIndex": 0,
+      "explanation": "いらっしゃいませ là xin chào/kính chào quý khách.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 天ぷら（　　）ください。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctIndex": 2,
+      "explanation": "天ぷらをください (Hãy cho tôi Tempura).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 私は肉（　　）嫌いです。",
+      "options": [
+        "で",
+        "を",
+        "が",
+        "へ"
+      ],
+      "correctIndex": 2,
+      "explanation": "嫌い đi với trợ từ が (肉が嫌いです).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: いっしょに映画を（　　）。",
+      "options": [
+        "見ます",
+        "見ません",
+        "見ましょう",
+        "見てください"
+      ],
+      "correctIndex": 2,
+      "explanation": "見ましょう (Cùng xem nhé). Rủ rê làm gì đó.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Bạn thích đồ uống nào?':",
+      "options": [
+        "どんな飲み物が好きですか。",
+        "何を飲み物が好きですか。",
+        "どう飲み物が好きですか。",
+        "どれ飲み物が好きですか。"
+      ],
+      "correctIndex": 0,
+      "explanation": "どんな (Loại nào).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: このお茶はとても（　　）です。",
+      "options": [
+        "苦い",
+        "苦く",
+        "苦かった",
+        "苦くない"
+      ],
+      "correctIndex": 0,
+      "explanation": "苦いです (rất đắng).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Ăn xong bữa, người Nhật thường nói câu gì?",
+      "options": [
+        "いただきます",
+        "ごちそうさまでした",
+        "いらっしゃいませ",
+        "少々お待ちください"
+      ],
+      "correctIndex": 1,
+      "explanation": "ごちそうさまでした (Cảm ơn vì bữa ăn).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu muốn thanh toán hóa đơn, bạn nói:",
+      "options": [
+        "注文をお願いします。",
+        "メニューをお願いします。",
+        "お会計をお願いします。",
+        "水をください。"
+      ],
+      "correctIndex": 2,
+      "explanation": "お会計をお願いします (Làm ơn cho tính tiền).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Xin quý khách đợi một lát':",
+      "options": [
+        "ちょっと待ってください。",
+        "少々お待ちください。",
+        "待って。",
+        "お待ちします。"
+      ],
+      "correctIndex": 1,
+      "explanation": "少々お待ちください (Shoushou omachi kudasai - rất lịch sự).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1, người đàn ông không gọi món gì?",
+      "options": [
+        "Ramen",
+        "Bia lạnh",
+        "Sushi",
+        "Bánh ngọt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ông ấy gọi Ramen, bia lạnh, và bánh ngọt. Không gọi Sushi.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-06.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ '注文' (Chuumon) nghĩa là gì?",
+      "options": [
+        "Tính tiền",
+        "Gọi món, Đặt hàng",
+        "Thực đơn",
+        "Đồ uống"
+      ],
+      "correctIndex": 1,
+      "explanation": "注文 (chuumon) là gọi món/order.",
+      "points": 10
+    }
+  ]
+}

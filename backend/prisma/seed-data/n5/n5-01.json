@@ -1,0 +1,1856 @@
+{
+  "module": {
+    "code": "N5-01",
+    "level": "N5",
+    "unit": 1,
+    "title": "Kana, greetings and self-introduction",
+    "titleJp": "ひらがな・カタカナ・あいさつ・自己紹介",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Mục tiêu, cách học, tự kiểm tra đầu vào"
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Lời chào, quốc gia, nghề nghiệp, lớp học"
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "日, 本, 人, 学, 生, 語, 私, 先"
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "は, です, ですか và tự giới thiệu"
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Gặp lần đầu; tự giới thiệu trong lớp học"
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Nghe lời chào và nghe bài tự giới thiệu"
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Hồ sơ học viên và đoạn tự giới thiệu ngắn"
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Viết profile và viết 5-8 câu giới thiệu"
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Bài tập tổng hợp theo kỹ năng"
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "status": "DRAFT",
+      "version": 1,
+      "isRequired": true,
+      "content": "Tóm tắt, lỗi sai thường gặp, checklist"
+    }
+  ],
+  "vocabulary": [
+    {
+      "japanese": "おはようございます",
+      "hiragana": "おはようございます",
+      "romaji": "ohayou gozaimasu",
+      "english": "Good morning (polite)",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "先生、おはようございます。",
+      "exampleEn": "Good morning, teacher."
+    },
+    {
+      "japanese": "おはよう",
+      "hiragana": "おはよう",
+      "romaji": "ohayou",
+      "english": "Good morning (casual)",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "ケン、おはよう。",
+      "exampleEn": "Good morning, Ken."
+    },
+    {
+      "japanese": "こんにちは",
+      "hiragana": "こんにちは",
+      "romaji": "konnichiwa",
+      "english": "Good afternoon / Hello",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "皆さん、こんにちは。",
+      "exampleEn": "Hello, everyone."
+    },
+    {
+      "japanese": "こんばんは",
+      "hiragana": "こんばんは",
+      "romaji": "konbanwa",
+      "english": "Good evening",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "先生、こんばんは。",
+      "exampleEn": "Good evening, teacher."
+    },
+    {
+      "japanese": "さようなら",
+      "hiragana": "さようなら",
+      "romaji": "sayounara",
+      "english": "Goodbye",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "先生、さようなら。",
+      "exampleEn": "Goodbye, teacher."
+    },
+    {
+      "japanese": "ありがとう",
+      "hiragana": "ありがとう",
+      "romaji": "arigatou",
+      "english": "Thank you",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "ケン、ありがとう。",
+      "exampleEn": "Thank you, Ken."
+    },
+    {
+      "japanese": "ありがとうございます",
+      "hiragana": "ありがとうございます",
+      "romaji": "arigatou gozaimasu",
+      "english": "Thank you very much",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "先生、ありがとうございます。",
+      "exampleEn": "Thank you very much, teacher."
+    },
+    {
+      "japanese": "すみません",
+      "hiragana": "すみません",
+      "romaji": "sumimasen",
+      "english": "Excuse me / I'm sorry",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "すみません、質問があります。",
+      "exampleEn": "Excuse me, I have a question."
+    },
+    {
+      "japanese": "おやすみなさい",
+      "hiragana": "おやすみなさい",
+      "romaji": "oyasuminasai",
+      "english": "Good night",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "お母さん、おやすみなさい。",
+      "exampleEn": "Good night, Mom."
+    },
+    {
+      "japanese": "はじめまして",
+      "hiragana": "はじめまして",
+      "romaji": "hajimemashite",
+      "english": "How do you do? / Nice to meet you",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "はじめまして、マイクです。",
+      "exampleEn": "Nice to meet you, I am Mike."
+    },
+    {
+      "japanese": "私",
+      "hiragana": "わたし",
+      "romaji": "watashi",
+      "english": "I",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私は学生です。",
+      "exampleEn": "I am a student."
+    },
+    {
+      "japanese": "あなた",
+      "hiragana": "あなた",
+      "romaji": "anata",
+      "english": "You",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "あなたは学生ですか。",
+      "exampleEn": "Are you a student?"
+    },
+    {
+      "japanese": "あの人",
+      "hiragana": "あのひと",
+      "romaji": "ano hito",
+      "english": "That person",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "あの人は先生です。",
+      "exampleEn": "That person is a teacher."
+    },
+    {
+      "japanese": "あの方",
+      "hiragana": "あのかた",
+      "romaji": "ano kata",
+      "english": "That person (polite)",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "あの方は医者です。",
+      "exampleEn": "That person is a doctor."
+    },
+    {
+      "japanese": "さん",
+      "hiragana": "さん",
+      "romaji": "san",
+      "english": "Mr./Ms. (suffix)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "田中さんは会社員です。",
+      "exampleEn": "Mr. Tanaka is a company employee."
+    },
+    {
+      "japanese": "ちゃん",
+      "hiragana": "ちゃん",
+      "romaji": "chan",
+      "english": "Suffix for child",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "さくらちゃんは5歳です。",
+      "exampleEn": "Sakura is 5 years old."
+    },
+    {
+      "japanese": "くん",
+      "hiragana": "くん",
+      "romaji": "kun",
+      "english": "Suffix for boy",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "ケンくんは学生です。",
+      "exampleEn": "Ken is a student."
+    },
+    {
+      "japanese": "じん",
+      "hiragana": "じん",
+      "romaji": "jin",
+      "english": "Suffix for nationality",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私はアメリカ人です。",
+      "exampleEn": "I am American."
+    },
+    {
+      "japanese": "日本",
+      "hiragana": "にほん",
+      "romaji": "nihon",
+      "english": "Japan",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "日本から来ました。",
+      "exampleEn": "I came from Japan."
+    },
+    {
+      "japanese": "アメリカ",
+      "hiragana": "あめりか",
+      "romaji": "amerika",
+      "english": "USA",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "マイクさんはアメリカ人です。",
+      "exampleEn": "Mike is American."
+    },
+    {
+      "japanese": "イギリス",
+      "hiragana": "いぎりす",
+      "romaji": "igirisu",
+      "english": "UK",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "ジョンさんはイギリス人です。",
+      "exampleEn": "John is British."
+    },
+    {
+      "japanese": "ベトナム",
+      "hiragana": "べとなむ",
+      "romaji": "betonamu",
+      "english": "Vietnam",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私はベトナム人です。",
+      "exampleEn": "I am Vietnamese."
+    },
+    {
+      "japanese": "中国",
+      "hiragana": "ちゅうごく",
+      "romaji": "chuugoku",
+      "english": "China",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "王さんは中国人です。",
+      "exampleEn": "Mr. Wang is Chinese."
+    },
+    {
+      "japanese": "韓国",
+      "hiragana": "かんこく",
+      "romaji": "kankoku",
+      "english": "South Korea",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "キムさんは韓国人です。",
+      "exampleEn": "Mr. Kim is South Korean."
+    },
+    {
+      "japanese": "語",
+      "hiragana": "ご",
+      "romaji": "go",
+      "english": "Suffix for language",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私は英語を話します。",
+      "exampleEn": "I speak English."
+    },
+    {
+      "japanese": "日本語",
+      "hiragana": "にほんご",
+      "romaji": "nihongo",
+      "english": "Japanese language",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "日本語は面白いです。",
+      "exampleEn": "Japanese is interesting."
+    },
+    {
+      "japanese": "先生",
+      "hiragana": "せんせい",
+      "romaji": "sensei",
+      "english": "Teacher",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "田中先生は日本人です。",
+      "exampleEn": "Teacher Tanaka is Japanese."
+    },
+    {
+      "japanese": "教師",
+      "hiragana": "きょうし",
+      "romaji": "kyoushi",
+      "english": "Teacher (occupation)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私の仕事は教師です。",
+      "exampleEn": "My job is a teacher."
+    },
+    {
+      "japanese": "学生",
+      "hiragana": "がくせい",
+      "romaji": "gakusei",
+      "english": "Student",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私は学生です。",
+      "exampleEn": "I am a student."
+    },
+    {
+      "japanese": "会社員",
+      "hiragana": "かいしゃいん",
+      "romaji": "kaishain",
+      "english": "Company employee",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "父は会社員です。",
+      "exampleEn": "My father is a company employee."
+    },
+    {
+      "japanese": "医者",
+      "hiragana": "いしゃ",
+      "romaji": "isha",
+      "english": "Medical doctor",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "あの人は医者です。",
+      "exampleEn": "That person is a doctor."
+    },
+    {
+      "japanese": "エンジニア",
+      "hiragana": "えんじにあ",
+      "romaji": "enjinia",
+      "english": "Engineer",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "マイクさんはエンジニアです。",
+      "exampleEn": "Mike is an engineer."
+    },
+    {
+      "japanese": "学校",
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "english": "School",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "これは学校です。",
+      "exampleEn": "This is a school."
+    },
+    {
+      "japanese": "クラス",
+      "hiragana": "くらす",
+      "romaji": "kurasu",
+      "english": "Class",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私のクラスはここです。",
+      "exampleEn": "My class is here."
+    },
+    {
+      "japanese": "勉強します",
+      "hiragana": "べんきょうします",
+      "romaji": "benkyou shimasu",
+      "english": "To study",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "日本語を勉強します。",
+      "exampleEn": "I study Japanese."
+    },
+    {
+      "japanese": "読みます",
+      "hiragana": "よみます",
+      "romaji": "yomimasu",
+      "english": "To read",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "本を読みます。",
+      "exampleEn": "I read a book."
+    },
+    {
+      "japanese": "話します",
+      "hiragana": "はなします",
+      "romaji": "hanashimasu",
+      "english": "To speak",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "英語を話します。",
+      "exampleEn": "I speak English."
+    },
+    {
+      "japanese": "聞きます",
+      "hiragana": "ききます",
+      "romaji": "kikimasu",
+      "english": "To listen / To ask",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "先生に聞きます。",
+      "exampleEn": "I ask the teacher."
+    },
+    {
+      "japanese": "住みます",
+      "hiragana": "すみます",
+      "romaji": "sumimasu",
+      "english": "To live",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "東京に住みます。",
+      "exampleEn": "I live in Tokyo."
+    },
+    {
+      "japanese": "します",
+      "hiragana": "します",
+      "romaji": "shimasu",
+      "english": "To do",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "仕事をします。",
+      "exampleEn": "I do my work."
+    },
+    {
+      "japanese": "名前",
+      "hiragana": "なまえ",
+      "romaji": "namae",
+      "english": "Name",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "名前は何ですか。",
+      "exampleEn": "What is your name?"
+    },
+    {
+      "japanese": "歳",
+      "hiragana": "さい",
+      "romaji": "sai",
+      "english": "Years old",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "私は二十歳です。",
+      "exampleEn": "I am twenty years old."
+    },
+    {
+      "japanese": "から",
+      "hiragana": "から",
+      "romaji": "kara",
+      "english": "From",
+      "type": "PARTICLE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "ベトナムから来ました。",
+      "exampleEn": "I came from Vietnam."
+    },
+    {
+      "japanese": "来ました",
+      "hiragana": "きました",
+      "romaji": "kimashita",
+      "english": "Came",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "アメリカから来ました。",
+      "exampleEn": "I came from America."
+    },
+    {
+      "japanese": "よろしくお願いします",
+      "hiragana": "よろしくおねがいします",
+      "romaji": "yoroshiku onegaishimasu",
+      "english": "Nice to meet you / Please treat me well",
+      "type": "PHRASE",
+      "level": "N5",
+      "lesson": "N5-01",
+      "exampleJp": "どうぞよろしくお願いします。",
+      "exampleEn": "Please treat me well."
+    }
+  ],
+  "kanji": [
+    {
+      "character": "日",
+      "meaning": "Sun, day",
+      "onyomi": "ニチ, ジツ",
+      "kunyomi": "ひ, -び, -か",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "日",
+      "exampleWords": [
+        {
+          "jp": "日本 (にほん)",
+          "en": "Japan"
+        },
+        {
+          "jp": "日曜日 (にちようび)",
+          "en": "Sunday"
+        }
+      ],
+      "mnemonic": "Hình dáng giống như một cửa sổ mặt trời."
+    },
+    {
+      "character": "本",
+      "meaning": "Book, origin",
+      "onyomi": "ホン",
+      "kunyomi": "もと",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "木",
+      "exampleWords": [
+        {
+          "jp": "本 (ほん)",
+          "en": "Book"
+        },
+        {
+          "jp": "日本 (にほん)",
+          "en": "Japan"
+        }
+      ],
+      "mnemonic": "Gốc rễ (một nét gạch) của cây (木) là cội nguồn."
+    },
+    {
+      "character": "人",
+      "meaning": "Person",
+      "onyomi": "ジン, ニン",
+      "kunyomi": "ひと",
+      "level": "N5",
+      "strokeCount": 2,
+      "radical": "人",
+      "exampleWords": [
+        {
+          "jp": "日本人 (にほんじん)",
+          "en": "Japanese person"
+        },
+        {
+          "jp": "あの人 (あのひと)",
+          "en": "That person"
+        }
+      ],
+      "mnemonic": "Hình người đang dang chân đứng."
+    },
+    {
+      "character": "学",
+      "meaning": "Study, learning",
+      "onyomi": "ガク",
+      "kunyomi": "まな.ぶ",
+      "level": "N5",
+      "strokeCount": 8,
+      "radical": "子",
+      "exampleWords": [
+        {
+          "jp": "学生 (がくせい)",
+          "en": "Student"
+        },
+        {
+          "jp": "学校 (がっこう)",
+          "en": "School"
+        }
+      ],
+      "mnemonic": "Đứa trẻ (子) đội mũ đi học."
+    },
+    {
+      "character": "生",
+      "meaning": "Life, birth",
+      "onyomi": "セイ, ショウ",
+      "kunyomi": "い.きる, う.まれる",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "生",
+      "exampleWords": [
+        {
+          "jp": "学生 (がくせい)",
+          "en": "Student"
+        },
+        {
+          "jp": "先生 (せんせい)",
+          "en": "Teacher"
+        }
+      ],
+      "mnemonic": "Mầm cây đâm chồi từ mặt đất."
+    },
+    {
+      "character": "語",
+      "meaning": "Language, word",
+      "onyomi": "ゴ",
+      "kunyomi": "かた.る",
+      "level": "N5",
+      "strokeCount": 14,
+      "radical": "言",
+      "exampleWords": [
+        {
+          "jp": "日本語 (にほんご)",
+          "en": "Japanese language"
+        },
+        {
+          "jp": "英語 (えいご)",
+          "en": "English"
+        }
+      ],
+      "mnemonic": "Dùng lời nói (言) và số năm (五) cái miệng (口) để nói ngoại ngữ."
+    },
+    {
+      "character": "私",
+      "meaning": "I, private",
+      "onyomi": "シ",
+      "kunyomi": "わたし, わたくし",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "禾",
+      "exampleWords": [
+        {
+          "jp": "私 (わたし)",
+          "en": "I"
+        },
+        {
+          "jp": "私立 (しりつ)",
+          "en": "Private"
+        }
+      ],
+      "mnemonic": "Lúa (禾) của riêng tư (ム) là của tôi (私)."
+    },
+    {
+      "character": "先",
+      "meaning": "Previous, ahead",
+      "onyomi": "セン",
+      "kunyomi": "さき",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "儿",
+      "exampleWords": [
+        {
+          "jp": "先生 (せんせい)",
+          "en": "Teacher"
+        },
+        {
+          "jp": "先月 (せんげつ)",
+          "en": "Last month"
+        }
+      ],
+      "mnemonic": "Đôi chân (儿) đi trước (先)."
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "A は B です",
+      "meaningVi": "A là B",
+      "meaningEn": "A is B",
+      "explanation": "Mẫu câu khẳng định cơ bản nhất. Trợ từ は (đọc là 'wa') dùng để xác định chủ đề của câu. です đặt ở cuối câu để thể hiện sự lịch sự.",
+      "examples": [
+        {
+          "jp": "私は学生です。",
+          "en": "I am a student.",
+          "vi": "Tôi là học sinh."
+        },
+        {
+          "jp": "マイクさんはアメリカ人です。",
+          "en": "Mike is American.",
+          "vi": "Mike là người Mỹ."
+        },
+        {
+          "jp": "田中さんは先生です。",
+          "en": "Mr. Tanaka is a teacher.",
+          "vi": "Ông Tanaka là giáo viên."
+        }
+      ],
+      "commonMistakes": "Quên trợ từ は hoặc phát âm は thành 'ha' thay vì 'wa'.",
+      "pronunciationNote": "Trợ từ は luôn được phát âm là 'wa'."
+    },
+    {
+      "pattern": "A は B ですか",
+      "meaningVi": "A là B phải không?",
+      "meaningEn": "Is A B?",
+      "explanation": "Mẫu câu hỏi. Thêm trợ từ nghi vấn か vào cuối câu khẳng định và lên giọng ở cuối câu. Không dùng dấu chấm hỏi (?) trong tiếng Nhật truyền thống mà dùng dấu chấm tròn (。).",
+      "examples": [
+        {
+          "jp": "あなたは学生ですか。",
+          "en": "Are you a student?",
+          "vi": "Bạn có phải là học sinh không?"
+        },
+        {
+          "jp": "あの人は先生ですか。",
+          "en": "Is that person a teacher?",
+          "vi": "Người kia có phải là giáo viên không?"
+        },
+        {
+          "jp": "ワンさんは中国人ですか。",
+          "en": "Is Mr. Wang Chinese?",
+          "vi": "Ông Wang là người Trung Quốc phải không?"
+        }
+      ],
+      "commonMistakes": "Dùng dấu chấm hỏi thay vì chấm tròn, hoặc không lên giọng ở cuối câu.",
+      "pronunciationNote": "Lên giọng ở âm 'ka' cuối câu."
+    },
+    {
+      "pattern": "A は B ではありません",
+      "meaningVi": "A không phải là B",
+      "meaningEn": "A is not B",
+      "explanation": "Mẫu câu phủ định của です. ではありません là cách nói lịch sự thường dùng trong văn viết và hội thoại trang trọng. Trong hội thoại hàng ngày, có thể dùng じゃありません.",
+      "examples": [
+        {
+          "jp": "私は医者ではありません。",
+          "en": "I am not a doctor.",
+          "vi": "Tôi không phải là bác sĩ."
+        },
+        {
+          "jp": "ジョンさんは日本人ではありません。",
+          "en": "John is not Japanese.",
+          "vi": "John không phải là người Nhật."
+        },
+        {
+          "jp": "あの人は先生ではありません。",
+          "en": "That person is not a teacher.",
+          "vi": "Người kia không phải là giáo viên."
+        }
+      ],
+      "commonMistakes": "Sử dụng sai thể phủ định hoặc nhầm lẫn giữa ではありません và じゃありません.",
+      "pronunciationNote": "Đọc rõ từng âm tiết."
+    },
+    {
+      "pattern": "N1 の N2",
+      "meaningVi": "N2 của N1 / N2 thuộc về N1",
+      "meaningEn": "N2 of N1",
+      "explanation": "Trợ từ の dùng để nối hai danh từ. N1 giải thích, bổ nghĩa cho N2. Thường dùng để chỉ sự sở hữu hoặc thuộc về.",
+      "examples": [
+        {
+          "jp": "私の本",
+          "en": "My book",
+          "vi": "Sách của tôi"
+        },
+        {
+          "jp": "日本語の先生",
+          "en": "Japanese teacher",
+          "vi": "Giáo viên tiếng Nhật"
+        },
+        {
+          "jp": "IMCの社員",
+          "en": "IMC employee",
+          "vi": "Nhân viên của IMC"
+        }
+      ],
+      "commonMistakes": "Đảo ngược thứ tự N1 và N2 so với tiếng Việt.",
+      "pronunciationNote": ""
+    },
+    {
+      "pattern": "これ / それ / あれ は N です",
+      "meaningVi": "Cái này / Cái đó / Cái kia là N",
+      "meaningEn": "This / That / That over there is N",
+      "explanation": "Dùng để chỉ vật. これ chỉ vật gần người nói. それ chỉ vật gần người nghe. あれ chỉ vật xa cả hai người.",
+      "examples": [
+        {
+          "jp": "これは本です。",
+          "en": "This is a book.",
+          "vi": "Đây là quyển sách."
+        },
+        {
+          "jp": "それはかばんです。",
+          "en": "That is a bag.",
+          "vi": "Đó là cái cặp."
+        },
+        {
+          "jp": "あれは学校です。",
+          "en": "That over there is a school.",
+          "vi": "Kia là trường học."
+        }
+      ],
+      "commonMistakes": "Nhầm lẫn khoảng cách của これ, それ, あれ.",
+      "pronunciationNote": ""
+    }
+  ],
+  "conversations": [
+    {
+      "title": "Meeting for the first time",
+      "context": "Hai người học gặp nhau lần đầu tiên.",
+      "lines": [
+        {
+          "speaker": "A",
+          "japanese": "おはようございます。",
+          "hiragana": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "translation": "Chào buổi sáng.",
+          "sortOrder": 1,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "B",
+          "japanese": "おはようございます。",
+          "hiragana": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "translation": "Chào buổi sáng.",
+          "sortOrder": 2,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "A",
+          "japanese": "はじめまして。私はマイクです。",
+          "hiragana": "はじめまして。わたしはマイクです。",
+          "romaji": "Hajimemashite. Watashi wa Maiku desu.",
+          "translation": "Rất vui được gặp bạn. Tôi là Mike.",
+          "sortOrder": 3,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "B",
+          "japanese": "はじめまして。私はホアンです。",
+          "hiragana": "はじめまして。わたしはホアンです。",
+          "romaji": "Hajimemashite. Watashi wa Hoan desu.",
+          "translation": "Rất vui được gặp bạn. Tôi là Hoàng.",
+          "sortOrder": 4,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "A",
+          "japanese": "ホアンさんはベトナム人ですか。",
+          "hiragana": "ホアンさんはベトナムじんですか。",
+          "romaji": "Hoan-san wa Betonamu-jin desu ka.",
+          "translation": "Bạn Hoàng là người Việt Nam phải không?",
+          "sortOrder": 5,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "B",
+          "japanese": "はい、ベトナム人です。マイクさんは？",
+          "hiragana": "はい、ベトナムじんです。マイクさんは？",
+          "romaji": "Hai, Betonamu-jin desu. Maiku-san wa?",
+          "translation": "Vâng, tôi là người Việt Nam. Còn bạn Mike?",
+          "sortOrder": 6,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "A",
+          "japanese": "私はアメリカ人です。",
+          "hiragana": "わたしはアメリカじんです。",
+          "romaji": "Watashi wa Amerika-jin desu.",
+          "translation": "Tôi là người Mỹ.",
+          "sortOrder": 7,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "B",
+          "japanese": "どうぞよろしくお願いします。",
+          "hiragana": "どうぞよろしくおねがいします。",
+          "romaji": "Douzo yoroshiku onegaishimasu.",
+          "translation": "Rất mong được giúp đỡ.",
+          "sortOrder": 8,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        },
+        {
+          "speaker": "A",
+          "japanese": "こちらこそ、よろしくお願いします。",
+          "hiragana": "こちらこそ、よろしくおねがいします。",
+          "romaji": "Kochirakoso, yoroshiku onegaishimasu.",
+          "translation": "Chính tôi cũng mong được bạn giúp đỡ.",
+          "sortOrder": 9,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-01"
+        }
+      ]
+    },
+    {
+      "title": "In the classroom",
+      "context": "Giới thiệu bản thân trong lớp học.",
+      "lines": [
+        {
+          "speaker": "Teacher",
+          "japanese": "皆さん、おはようございます。",
+          "hiragana": "みなさん、おはようございます。",
+          "romaji": "Minasan, ohayou gozaimasu.",
+          "translation": "Chào buổi sáng cả lớp.",
+          "sortOrder": 1,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Class",
+          "japanese": "先生、おはようございます。",
+          "hiragana": "せんせい、おはようございます。",
+          "romaji": "Sensei, ohayou gozaimasu.",
+          "translation": "Chúng em chào cô/thầy ạ.",
+          "sortOrder": 2,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Teacher",
+          "japanese": "私は田中です。日本語の教師です。",
+          "hiragana": "わたしはたなかです。にほんごのきょうしです。",
+          "romaji": "Watashi wa Tanaka desu. Nihongo no kyoushi desu.",
+          "translation": "Tôi là Tanaka. Tôi là giáo viên tiếng Nhật.",
+          "sortOrder": 3,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Teacher",
+          "japanese": "あなたの名前は何ですか。",
+          "hiragana": "あなたのなまえはなんですか。",
+          "romaji": "Anata no namae wa nan desu ka.",
+          "translation": "Tên của em là gì?",
+          "sortOrder": 4,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Student 1",
+          "japanese": "私はアリです。",
+          "hiragana": "わたしはアリです。",
+          "romaji": "Watashi wa Ari desu.",
+          "translation": "Em là Ali.",
+          "sortOrder": 5,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Teacher",
+          "japanese": "アリさんは学生ですか。",
+          "hiragana": "アリさんはがくせいですか。",
+          "romaji": "Ari-san wa gakusei desu ka.",
+          "translation": "Ali là học sinh phải không?",
+          "sortOrder": 6,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Student 1",
+          "japanese": "はい、学生です。",
+          "hiragana": "はい、がくせいです。",
+          "romaji": "Hai, gakusei desu.",
+          "translation": "Vâng, em là học sinh.",
+          "sortOrder": 7,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Teacher",
+          "japanese": "あの方は誰ですか。",
+          "hiragana": "あのかたはだれですか。",
+          "romaji": "Ano kata wa dare desu ka.",
+          "translation": "Người kia là ai?",
+          "sortOrder": 8,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Student 1",
+          "japanese": "リンさんです。リンさんも学生です。",
+          "hiragana": "リンさんです。リンさんもがくせいです。",
+          "romaji": "Rin-san desu. Rin-san mo gakusei desu.",
+          "translation": "Là bạn Lin. Lin cũng là học sinh.",
+          "sortOrder": 9,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        },
+        {
+          "speaker": "Teacher",
+          "japanese": "そうですか。よろしくお願いします。",
+          "hiragana": "そうですか。よろしくおねがいします。",
+          "romaji": "Sou desu ka. Yoroshiku onegaishimasu.",
+          "translation": "Vậy à. Rất vui được làm quen với các em.",
+          "sortOrder": 10,
+          "audioUrl": "PENDING_AUDIO:n5-01-kaiwa-02"
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "title": "Greetings",
+      "instructions": "Listen to the greetings and understand the context.",
+      "transcriptJp": "A: おはようございます。\nB: おはようございます。\nA: 今日はいい天気ですね。\nB: そうですね。",
+      "transcriptRomaji": "A: Ohayou gozaimasu.\nB: Ohayou gozaimasu.\nA: Kyou wa ii tenki desu ne.\nB: Sou desu ne.",
+      "transcriptEn": "A: Good morning.\nB: Good morning.\nA: Nice weather today, isn't it?\nB: Yes, it is.",
+      "durationSeconds": 25,
+      "playbackSpeed": 0.8,
+      "source": "Original SumaryJapanese content",
+      "audioUrl": "PENDING_AUDIO:n5-01-listening-01"
+    },
+    {
+      "title": "Self-introduction",
+      "instructions": "Listen to the self-introduction carefully.",
+      "transcriptJp": "はじめまして。私はキムです。韓国から来ました。二十歳です。学生です。どうぞよろしくお願いします。",
+      "transcriptRomaji": "Hajimemashite. Watashi wa Kimu desu. Kankoku kara kimashita. Hatachi desu. Gakusei desu. Douzo yoroshiku onegaishimasu.",
+      "transcriptEn": "Nice to meet you. I am Kim. I came from South Korea. I am 20 years old. I am a student. Nice to meet you.",
+      "durationSeconds": 40,
+      "playbackSpeed": 0.8,
+      "source": "Original SumaryJapanese content",
+      "audioUrl": "PENDING_AUDIO:n5-01-listening-02"
+    }
+  ],
+  "reading": [
+    {
+      "title": "Student Profile",
+      "passage": "名前：キム・ミンジュン\n国：韓国\n仕事：学生\n年齢：２０歳\n学校：さくら日本語学校",
+      "questions": [
+        {
+          "question": "キムさんはどこの国の人ですか。",
+          "options": [
+            "日本",
+            "韓国",
+            "中国",
+            "アメリカ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hồ sơ ghi '国：韓国' nghĩa là quốc gia Hàn Quốc."
+        },
+        {
+          "question": "キムさんの仕事は何ですか。",
+          "options": [
+            "先生",
+            "医者",
+            "学生",
+            "会社員"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hồ sơ ghi '仕事：学生' nghĩa là công việc học sinh/sinh viên."
+        },
+        {
+          "question": "キムさんは何歳ですか。",
+          "options": [
+            "18歳",
+            "19歳",
+            "20歳",
+            "21歳"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hồ sơ ghi '年齢：２０歳' nghĩa là tuổi 20."
+        }
+      ]
+    },
+    {
+      "title": "Short Self-introduction",
+      "passage": "はじめまして。私の名前はジョンです。アメリカから来ました。２５歳です。私はエンジニアです。IMCの社員です。どうぞよろしくお願いします。",
+      "questions": [
+        {
+          "question": "ジョンさんはアメリカ人ですか。",
+          "options": [
+            "はい",
+            "いいえ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Đoạn văn nói 'アメリカから来ました' (đến từ Mỹ) nên John là người Mỹ."
+        },
+        {
+          "question": "ジョンさんは学生ですか。",
+          "options": [
+            "はい",
+            "いいえ"
+          ],
+          "correctIndex": 1,
+          "explanation": "Đoạn văn nói '私はエンジニアです' (Tôi là kỹ sư) nên không phải học sinh."
+        },
+        {
+          "question": "ジョンさんの会社はどこですか。",
+          "options": [
+            "IMC",
+            "さくら",
+            "東京",
+            "アップル"
+          ],
+          "correctIndex": 0,
+          "explanation": "Đoạn văn có nhắc tới 'IMCの社員です' (nhân viên của IMC)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "prompt": "Điền thông tin hồ sơ cá nhân của bạn.",
+      "instructions": "Viết tên, quốc tịch và nghề nghiệp của bạn bằng tiếng Nhật.",
+      "sampleAnswer": "名前：グエン・バン・ナム\n国：ベトナム\n仕事：エンジニア",
+      "rubric": "Vocabulary: sử dụng đúng từ vựng về quốc gia và nghề nghiệp.",
+      "minLength": 10,
+      "maxLength": 50,
+      "unit": "characters"
+    },
+    {
+      "prompt": "Viết đoạn văn tự giới thiệu bản thân.",
+      "instructions": "Viết 5-8 câu tự giới thiệu bản thân bao gồm lời chào, tên, quốc tịch, nghề nghiệp và câu kết thúc.",
+      "sampleAnswer": "はじめまして。私はナムです。ベトナムから来ました。２５歳です。私はエンジニアです。どうぞよろしくお願いします。",
+      "rubric": "Grammar: sử dụng đúng mẫu câu A は B です, Completeness: đủ số câu yêu cầu.",
+      "minLength": 5,
+      "maxLength": 8,
+      "unit": "sentences"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-01.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Ý nghĩa của câu 'おはようございます' là gì?",
+      "options": [
+        "Chào buổi sáng",
+        "Chào buổi chiều",
+        "Chào buổi tối",
+        "Cảm ơn"
+      ],
+      "correctIndex": 0,
+      "explanation": "おはようございます là chào buổi sáng.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Học sinh'?",
+      "options": [
+        "先生",
+        "学生",
+        "医者",
+        "会社員"
+      ],
+      "correctIndex": 1,
+      "explanation": "学生 (gakusei) là học sinh.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch từ 'Cảm ơn' sang tiếng Nhật.",
+      "options": [
+        "すみません",
+        "ありがとうございます",
+        "おはよう",
+        "さようなら"
+      ],
+      "correctIndex": 1,
+      "explanation": "ありがとうございます là cảm ơn.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'America' trong tiếng Nhật viết bằng Katakana như thế nào?",
+      "options": [
+        "アメリカ",
+        "イギリス",
+        "ベトナム",
+        "フランス"
+      ],
+      "correctIndex": 0,
+      "explanation": "アメリカ là nước Mỹ.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "私は（　　）です。",
+      "options": [
+        "ベトナム人",
+        "ベトナム語",
+        "国",
+        "人"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tôi là người Việt Nam (ベトナム人).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ '先生' (sensei) có nghĩa là gì?",
+      "options": [
+        "Học sinh",
+        "Giáo viên",
+        "Bác sĩ",
+        "Kỹ sư"
+      ],
+      "correctIndex": 1,
+      "explanation": "先生 là giáo viên.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Cách nói 'Xin lỗi' khi làm phiền ai đó?",
+      "options": [
+        "おはよう",
+        "すみません",
+        "ありがとう",
+        "はい"
+      ],
+      "correctIndex": 1,
+      "explanation": "すみません là xin lỗi.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Nhật Bản' tiếng Nhật là gì?",
+      "options": [
+        "中国",
+        "韓国",
+        "日本",
+        "タイ"
+      ],
+      "correctIndex": 2,
+      "explanation": "日本 (Nihon) là Nhật Bản.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-01.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 日 đọc là gì trong 日本?",
+      "options": [
+        "に",
+        "ひ",
+        "か",
+        "び"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trong 日本, chữ 日 đọc là に (Nihon).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-01.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ 人 có nghĩa là gì?",
+      "options": [
+        "Cây",
+        "Người",
+        "Sách",
+        "Lửa"
+      ],
+      "correctIndex": 1,
+      "explanation": "人 có nghĩa là người.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-01.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 学生 (học sinh) chứa chữ Hán nào?",
+      "options": [
+        "学 và 生",
+        "先 và 生",
+        "日 và 本",
+        "私 và 人"
+      ],
+      "correctIndex": 0,
+      "explanation": "学生 (gakusei).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-01.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 私 có nghĩa là gì?",
+      "options": [
+        "Người khác",
+        "Tôi",
+        "Thầy giáo",
+        "Bạn bè"
+      ],
+      "correctIndex": 1,
+      "explanation": "私 (watashi) là tôi.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-01.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 日本語 (tiếng Nhật) có chữ Hán cuối cùng là chữ gì?",
+      "options": [
+        "日",
+        "本",
+        "語",
+        "人"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chữ 語 (go) nghĩa là ngôn ngữ.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-01.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 先 xuất hiện trong từ nào sau đây?",
+      "options": [
+        "学生",
+        "先生",
+        "日本語",
+        "私"
+      ],
+      "correctIndex": 1,
+      "explanation": "先生 (sensei).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-01.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "私（　　）学生です。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trợ từ は (wa) đi sau chủ ngữ.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "キムさんは韓国人（　　）。",
+      "options": [
+        "は",
+        "です",
+        "ですか",
+        "の"
+      ],
+      "correctIndex": 1,
+      "explanation": "です đứng cuối câu khẳng định.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "あなたは先生（　　）。",
+      "options": [
+        "ですか",
+        "です",
+        "は",
+        "の"
+      ],
+      "correctIndex": 0,
+      "explanation": "ですか dùng cho câu hỏi.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "私は医者（　　）。",
+      "options": [
+        "です",
+        "ではありません",
+        "ですか",
+        "の"
+      ],
+      "correctIndex": 1,
+      "explanation": "ではありません dùng cho câu phủ định.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.019",
+      "exerciseType": "FILL_BLANK",
+      "question": "これ（　　）本です。",
+      "options": [
+        "は",
+        "の",
+        "か",
+        "を"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trợ từ は (wa).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "私（　　）本です。",
+      "options": [
+        "は",
+        "の",
+        "か",
+        "を"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trợ từ の chỉ sở hữu (sách của tôi).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.021",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Câu 'Đó là máy tính của tôi' tiếng Nhật là gì?",
+      "options": [
+        "あれは私のコンピューターです。",
+        "これはコンピューターの私です。",
+        "それは私のコンピューターです。",
+        "それはコンピューターの私です。"
+      ],
+      "correctIndex": 2,
+      "explanation": "それ là 'đó', 私のコンピューター là máy tính của tôi.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Câu 'Tôi không phải là giáo viên' tiếng Nhật là gì?",
+      "options": [
+        "私は先生ではありません。",
+        "私は先生ですか。",
+        "先生は私ではありません。",
+        "私は学生ではありません。"
+      ],
+      "correctIndex": 0,
+      "explanation": "ではありません là dạng phủ định của です.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Hai người trong đoạn hội thoại (Greetings) đang chào nhau vào buổi nào?",
+      "options": [
+        "Buổi sáng",
+        "Buổi chiều",
+        "Buổi tối",
+        "Lúc chia tay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Họ nói おはようございます.",
+      "points": 2,
+      "listeningRef": "N5-01-listening-01",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-01.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Họ nói gì về thời tiết?",
+      "options": [
+        "Trời mưa",
+        "Thời tiết xấu",
+        "Thời tiết đẹp",
+        "Trời lạnh"
+      ],
+      "correctIndex": 2,
+      "explanation": "いい天気ですね (thời tiết đẹp nhỉ).",
+      "points": 2,
+      "listeningRef": "N5-01-listening-01",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-01.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Người tên Kim trong đoạn tự giới thiệu (Self-introduction) đến từ Trung Quốc.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kim đến từ Hàn Quốc (韓国から来ました).",
+      "points": 2,
+      "listeningRef": "N5-01-listening-02",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-01.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Kim bao nhiêu tuổi?",
+      "options": [
+        "18 tuổi",
+        "19 tuổi",
+        "20 tuổi",
+        "21 tuổi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hồ sơ ghi 年齢：２０歳.",
+      "points": 2,
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-01.exercise.027",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Kim là bác sĩ.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kim là 学生 (học sinh).",
+      "points": 2,
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-01.exercise.028",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Kim học ở đâu?",
+      "options": [
+        "Trường đại học Tokyo",
+        "Trường Sakura",
+        "Trường IMC",
+        "Không đi học"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hồ sơ ghi さくら日本語学校.",
+      "points": 2,
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-01.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Tôi là người Việt Nam.",
+      "options": [
+        "私",
+        "は",
+        "ベトナム人",
+        "です"
+      ],
+      "correctIndex": 0,
+      "explanation": "私はベトナム人です。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-01.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Đó là sách của tôi.",
+      "options": [
+        "それ",
+        "は",
+        "私の本",
+        "です"
+      ],
+      "correctIndex": 0,
+      "explanation": "それは私の本です。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-01.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Học sinh'?",
+      "options": [
+        "先生",
+        "学生",
+        "医者",
+        "会社員"
+      ],
+      "correctIndex": 1,
+      "explanation": "学生 (gakusei) là học sinh.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chọn cách đọc đúng cho chữ 先生.",
+      "options": [
+        "がくせい",
+        "せんせい",
+        "いしゃ",
+        "かいしゃいん"
+      ],
+      "correctIndex": 1,
+      "explanation": "先生 đọc là sensei.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 語 có nghĩa là gì trong 日本語?",
+      "options": [
+        "Tiếng/Ngôn ngữ",
+        "Nước",
+        "Người",
+        "Sách"
+      ],
+      "correctIndex": 0,
+      "explanation": "語 có nghĩa là ngôn ngữ (tiếng).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Nước Mỹ' viết bằng Katakana thế nào?",
+      "options": [
+        "ベトナム",
+        "アメリカ",
+        "イギリス",
+        "フランス"
+      ],
+      "correctIndex": 1,
+      "explanation": "アメリカ là nước Mỹ.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi lần đầu gặp mặt, người Nhật nói gì?",
+      "options": [
+        "さようなら",
+        "ありがとうございます",
+        "はじめまして",
+        "すみません"
+      ],
+      "correctIndex": 2,
+      "explanation": "はじめまして là Rất vui được gặp (lần đầu).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 私（　　）田中です。",
+      "options": [
+        "が",
+        "の",
+        "か",
+        "は"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tôi là Tanaka (私は田中です).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: これは私（　　）本です。",
+      "options": [
+        "の",
+        "は",
+        "か",
+        "を"
+      ],
+      "correctIndex": 0,
+      "explanation": "私の本 (sách của tôi).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: あなたは学生（　　）。",
+      "options": [
+        "です",
+        "ですか",
+        "の",
+        "は"
+      ],
+      "correctIndex": 1,
+      "explanation": "Câu hỏi dùng ですか.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Câu 'Tôi không phải là giáo viên' là gì?",
+      "options": [
+        "私は先生です。",
+        "私は先生ですか。",
+        "私は先生ではありません。",
+        "先生は私ではありません。"
+      ],
+      "correctIndex": 2,
+      "explanation": "ではありません mang nghĩa phủ định.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Kia là cái gì?': あれは（　　）ですか。",
+      "options": [
+        "だれ",
+        "何",
+        "どこ",
+        "いつ"
+      ],
+      "correctIndex": 1,
+      "explanation": "何 (nani) là cái gì.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chào buổi sáng tiếng Nhật là gì?",
+      "options": [
+        "おはようございます",
+        "こんにちは",
+        "こんばんは",
+        "おやすみなさい"
+      ],
+      "correctIndex": 0,
+      "explanation": "おはようございます.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Kết thúc bài tự giới thiệu thường nói câu gì?",
+      "options": [
+        "はじめまして",
+        "ありがとうございます",
+        "どうぞよろしくお願いします",
+        "さようなら"
+      ],
+      "correctIndex": 2,
+      "explanation": "どうぞよろしくお願いします.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu ai đó hỏi 'お元気ですか' (Bạn khỏe không?), bạn nên trả lời thế nào?",
+      "options": [
+        "はい、元気です。",
+        "いいえ、元気です。",
+        "はい、元気ではありません。",
+        "ありがとうございます。"
+      ],
+      "correctIndex": 0,
+      "explanation": "はい、元気です (Vâng, tôi khoẻ).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong câu '私はエンジニアです', người nói làm nghề gì?",
+      "options": [
+        "Giáo viên",
+        "Bác sĩ",
+        "Kỹ sư",
+        "Nhân viên"
+      ],
+      "correctIndex": 2,
+      "explanation": "エンジニア (enjinia) là kỹ sư.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-01.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'アメリカから来ました' nghĩa là gì?",
+      "options": [
+        "Tôi đến từ Mỹ",
+        "Tôi là người Mỹ",
+        "Tôi thích nước Mỹ",
+        "Tôi đi Mỹ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đến từ Mỹ.",
+      "points": 10
+    }
+  ]
+}

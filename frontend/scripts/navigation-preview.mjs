@@ -1,0 +1,12 @@
+import { build } from 'esbuild';
+import { createServer } from 'node:http';
+import { readFile,readdir } from 'node:fs/promises';
+const bundle=await build({stdin:{resolveDir:process.cwd(),loader:'tsx',contents:`import React from 'react';import {createRoot} from 'react-dom/client';import App from './src/app/App';createRoot(document.getElementById('root')).render(<App/>);`},bundle:true,write:false,format:'iife',jsx:'automatic',plugins:[{name:'fixture',setup(b){
+b.onResolve({filter:/AuthProvider$/},()=>({path:'auth',namespace:'fixture'}));
+b.onResolve({filter:/useCourseCatalog$/},()=>({path:'catalog',namespace:'fixture'}));
+b.onResolve({filter:/ModuleStudyViewer$/},()=>({path:'viewer',namespace:'fixture'}));
+b.onResolve({filter:/screens\/(Translate|Dictionary|Writing|Flashcards|Games|Admin)Page$/},()=>({path:'empty',namespace:'fixture'}));
+b.onLoad({filter:/.*/,namespace:'fixture'},({path})=>({resolveDir:process.cwd(),loader:'tsx',contents:`import React from 'react';`+({auth:`export const AuthProvider=({children})=>children;export const AccountButton=()=>null;export const GuestNotice=()=>null;export const useAuth=()=>({user:null,checking:false});`,catalog:`export const useCourseCatalog=()=>({modules:[{id:7,title:'Bài thử L4',unitNumber:1,contentStatus:'PUBLISHED',level:{level:'N5'},status:'NOT_STARTED',progressPercent:0,_count:{vocabulary:1,kanji:0,grammarPatterns:0,quizQuestions:1}}],loading:false,error:false,progressLoading:false,progressError:false});`,viewer:`export const ModuleStudyViewer=({moduleId,onBack})=><section><h1>Bài thử {moduleId}</h1><button onClick={onBack}>Quay lại lộ trình</button><p>Fixture L4: điều hướng thật, dữ liệu giả.</p></section>;`,empty:`export default ()=>null;`}[path])}));}}]});
+const files=await readdir('dist/assets');const css=await readFile('dist/assets/'+files.find(f=>f.endsWith('.css')));
+createServer((req,res)=>{res.setHeader('Cache-Control','no-store');if(req.url==='/fixture.js'){res.setHeader('Content-Type','text/javascript');res.end(bundle.outputFiles[0].text)}else if(req.url==='/fixture.css'){res.setHeader('Content-Type','text/css');res.end(css)}else{res.setHeader('Content-Type','text/html;charset=utf-8');res.end('<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/fixture.css"><title>L4 navigation fixture</title></head><body><div id="root"></div><script src="/fixture.js"></script></body></html>')}}).listen(5180,'127.0.0.1',()=>console.log('L4 fixture: http://127.0.0.1:5180'));
+

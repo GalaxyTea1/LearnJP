@@ -1,0 +1,1819 @@
+{
+  "module": {
+    "code": "N5-11",
+    "level": "N5",
+    "unit": 11,
+    "title": "Hobbies and Plans",
+    "titleJp": "趣味と計画",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-11.vocab.001",
+      "japanese": "趣味",
+      "hiragana": "しゅみ",
+      "romaji": "shumi",
+      "english": "hobby",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "私の趣味は音楽です。",
+      "exampleEn": "My hobby is music."
+    },
+    {
+      "sourceRef": "N5-11.vocab.002",
+      "japanese": "絵",
+      "hiragana": "え",
+      "romaji": "e",
+      "english": "picture, painting",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "絵を描きます。",
+      "exampleEn": "I draw a picture."
+    },
+    {
+      "sourceRef": "N5-11.vocab.003",
+      "japanese": "歌",
+      "hiragana": "うた",
+      "romaji": "uta",
+      "english": "song",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "歌を歌います。",
+      "exampleEn": "I sing a song."
+    },
+    {
+      "sourceRef": "N5-11.vocab.004",
+      "japanese": "ピアノ",
+      "hiragana": "ぴあの",
+      "romaji": "piano",
+      "english": "piano",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "ピアノを弾きます。",
+      "exampleEn": "I play the piano."
+    },
+    {
+      "sourceRef": "N5-11.vocab.005",
+      "japanese": "ギター",
+      "hiragana": "ぎたー",
+      "romaji": "gitaa",
+      "english": "guitar",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "ギターが好きです。",
+      "exampleEn": "I like guitars."
+    },
+    {
+      "sourceRef": "N5-11.vocab.006",
+      "japanese": "ダンス",
+      "hiragana": "だんす",
+      "romaji": "dansu",
+      "english": "dance",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "ダンスをします。",
+      "exampleEn": "I dance."
+    },
+    {
+      "sourceRef": "N5-11.vocab.007",
+      "japanese": "切手",
+      "hiragana": "きって",
+      "romaji": "kitte",
+      "english": "stamp",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "切手を集めます。",
+      "exampleEn": "I collect stamps."
+    },
+    {
+      "sourceRef": "N5-11.vocab.008",
+      "japanese": "計画",
+      "hiragana": "けいかく",
+      "romaji": "keikaku",
+      "english": "plan",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "旅行の計画をします。",
+      "exampleEn": "I make a travel plan."
+    },
+    {
+      "sourceRef": "N5-11.vocab.009",
+      "japanese": "準備",
+      "hiragana": "じゅんび",
+      "romaji": "junbi",
+      "english": "preparation",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "パーティーの準備をします。",
+      "exampleEn": "I prepare for the party."
+    },
+    {
+      "sourceRef": "N5-11.vocab.010",
+      "japanese": "切符",
+      "hiragana": "きっぷ",
+      "romaji": "kippu",
+      "english": "ticket",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "電車の切符を買います。",
+      "exampleEn": "I buy a train ticket."
+    },
+    {
+      "sourceRef": "N5-11.vocab.011",
+      "japanese": "予約",
+      "hiragana": "よやく",
+      "romaji": "yoyaku",
+      "english": "reservation",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "ホテルの予約をします。",
+      "exampleEn": "I make a hotel reservation."
+    },
+    {
+      "sourceRef": "N5-11.vocab.012",
+      "japanese": "旅館",
+      "hiragana": "りょかん",
+      "romaji": "ryokan",
+      "english": "traditional Japanese inn",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "旅館に泊まります。",
+      "exampleEn": "I stay at a ryokan."
+    },
+    {
+      "sourceRef": "N5-11.vocab.013",
+      "japanese": "温泉",
+      "hiragana": "おんせん",
+      "romaji": "onsen",
+      "english": "hot spring",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "温泉に入りたいです。",
+      "exampleEn": "I want to enter a hot spring."
+    },
+    {
+      "sourceRef": "N5-11.vocab.014",
+      "japanese": "お寺",
+      "hiragana": "おてら",
+      "romaji": "otera",
+      "english": "Buddhist temple",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "京都のお寺へ行きます。",
+      "exampleEn": "I go to a temple in Kyoto."
+    },
+    {
+      "sourceRef": "N5-11.vocab.015",
+      "japanese": "神社",
+      "hiragana": "じんじゃ",
+      "romaji": "jinja",
+      "english": "Shinto shrine",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "神社で写真を撮ります。",
+      "exampleEn": "I take photos at the shrine."
+    },
+    {
+      "sourceRef": "N5-11.vocab.016",
+      "japanese": "飛行機",
+      "hiragana": "ひこうき",
+      "romaji": "hikouki",
+      "english": "airplane",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "飛行機に乗ります。",
+      "exampleEn": "I ride an airplane."
+    },
+    {
+      "sourceRef": "N5-11.vocab.017",
+      "japanese": "新幹線",
+      "hiragana": "しんかんせん",
+      "romaji": "shinkansen",
+      "english": "bullet train",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "新幹線は速いです。",
+      "exampleEn": "The bullet train is fast."
+    },
+    {
+      "sourceRef": "N5-11.vocab.018",
+      "japanese": "連休",
+      "hiragana": "れんきゅう",
+      "romaji": "renkyuu",
+      "english": "consecutive holidays",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "連休に海へ行きます。",
+      "exampleEn": "I go to the sea during the long weekend."
+    },
+    {
+      "sourceRef": "N5-11.vocab.019",
+      "japanese": "外国",
+      "hiragana": "がいこく",
+      "romaji": "gaikoku",
+      "english": "foreign country",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "外国へ行きたいです。",
+      "exampleEn": "I want to go to a foreign country."
+    },
+    {
+      "sourceRef": "N5-11.vocab.020",
+      "japanese": "言葉",
+      "hiragana": "ことば",
+      "romaji": "kotoba",
+      "english": "word, language",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "日本の言葉を勉強します。",
+      "exampleEn": "I study Japanese words."
+    },
+    {
+      "sourceRef": "N5-11.vocab.021",
+      "japanese": "歌う",
+      "hiragana": "うたう",
+      "romaji": "utau",
+      "english": "to sing (dict form)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "歌を歌うことができます。",
+      "exampleEn": "I can sing songs."
+    },
+    {
+      "sourceRef": "N5-11.vocab.022",
+      "japanese": "弾く",
+      "hiragana": "ひく",
+      "romaji": "hiku",
+      "english": "to play string instrument (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "ギターを弾くのが好きです。",
+      "exampleEn": "I like playing the guitar."
+    },
+    {
+      "sourceRef": "N5-11.vocab.023",
+      "japanese": "集める",
+      "hiragana": "あつめる",
+      "romaji": "atsumeru",
+      "english": "to collect (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "切手を集めるのが趣味です。",
+      "exampleEn": "Collecting stamps is my hobby."
+    },
+    {
+      "sourceRef": "N5-11.vocab.024",
+      "japanese": "書く",
+      "hiragana": "かく",
+      "romaji": "kaku",
+      "english": "to write, draw (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "絵を書きます。",
+      "exampleEn": "I draw a picture."
+    },
+    {
+      "sourceRef": "N5-11.vocab.025",
+      "japanese": "走る",
+      "hiragana": "はしる",
+      "romaji": "hashiru",
+      "english": "to run (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "毎朝、走ります。",
+      "exampleEn": "I run every morning."
+    },
+    {
+      "sourceRef": "N5-11.vocab.026",
+      "japanese": "登る",
+      "hiragana": "のぼる",
+      "romaji": "noboru",
+      "english": "to climb (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "山に登るつもりです。",
+      "exampleEn": "I plan to climb a mountain."
+    },
+    {
+      "sourceRef": "N5-11.vocab.027",
+      "japanese": "洗う",
+      "hiragana": "あらう",
+      "romaji": "arau",
+      "english": "to wash (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "手を洗ってください。",
+      "exampleEn": "Please wash your hands."
+    },
+    {
+      "sourceRef": "N5-11.vocab.028",
+      "japanese": "帰る",
+      "hiragana": "かえる",
+      "romaji": "kaeru",
+      "english": "to return (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "うちへ帰る前に、買います。",
+      "exampleEn": "I will buy it before returning home."
+    },
+    {
+      "sourceRef": "N5-11.vocab.029",
+      "japanese": "乗る",
+      "hiragana": "のる",
+      "romaji": "noru",
+      "english": "to ride (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "バスに乗ります。",
+      "exampleEn": "I ride a bus."
+    },
+    {
+      "sourceRef": "N5-11.vocab.030",
+      "japanese": "予約する",
+      "hiragana": "よやくする",
+      "romaji": "yoyaku suru",
+      "english": "to reserve (dict)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "レストランを予約します。",
+      "exampleEn": "I reserve a restaurant."
+    },
+    {
+      "sourceRef": "N5-11.vocab.031",
+      "japanese": "いつも",
+      "hiragana": "いつも",
+      "romaji": "itsumo",
+      "english": "always",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "いつもコーヒーを飲みます。",
+      "exampleEn": "I always drink coffee."
+    },
+    {
+      "sourceRef": "N5-11.vocab.032",
+      "japanese": "たいてい",
+      "hiragana": "たいてい",
+      "romaji": "taitei",
+      "english": "usually",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "休みの日はたいてい家にいます。",
+      "exampleEn": "On holidays, I am usually at home."
+    },
+    {
+      "sourceRef": "N5-11.vocab.033",
+      "japanese": "時々",
+      "hiragana": "ときどき",
+      "romaji": "tokidoki",
+      "english": "sometimes",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "時々、映画を見ます。",
+      "exampleEn": "Sometimes, I watch a movie."
+    },
+    {
+      "sourceRef": "N5-11.vocab.034",
+      "japanese": "初めて",
+      "hiragana": "はじめて",
+      "romaji": "hajimete",
+      "english": "for the first time",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "初めて日本へ来ました。",
+      "exampleEn": "I came to Japan for the first time."
+    },
+    {
+      "sourceRef": "N5-11.vocab.035",
+      "japanese": "次",
+      "hiragana": "つぎ",
+      "romaji": "tsugi",
+      "english": "next",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "次の駅で降ります。",
+      "exampleEn": "I will get off at the next station."
+    },
+    {
+      "sourceRef": "N5-11.vocab.036",
+      "japanese": "前に",
+      "hiragana": "まえに",
+      "romaji": "mae ni",
+      "english": "before",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "寝る前に、本を読みます。",
+      "exampleEn": "Before sleeping, I read a book."
+    },
+    {
+      "sourceRef": "N5-11.vocab.037",
+      "japanese": "後で",
+      "hiragana": "あとで",
+      "romaji": "ato de",
+      "english": "after, later",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "食事の後で、お茶を飲みます。",
+      "exampleEn": "After a meal, I drink tea."
+    },
+    {
+      "sourceRef": "N5-11.vocab.038",
+      "japanese": "もう",
+      "hiragana": "もう",
+      "romaji": "mou",
+      "english": "already",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "もう宿題をしました。",
+      "exampleEn": "I already did my homework."
+    },
+    {
+      "sourceRef": "N5-11.vocab.039",
+      "japanese": "まだ",
+      "hiragana": "まだ",
+      "romaji": "mada",
+      "english": "not yet",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "まだ食べていません。",
+      "exampleEn": "I haven't eaten yet."
+    },
+    {
+      "sourceRef": "N5-11.vocab.040",
+      "japanese": "何か",
+      "hiragana": "なにか",
+      "romaji": "nanika",
+      "english": "something",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "何か飲みますか。",
+      "exampleEn": "Will you drink something?"
+    },
+    {
+      "sourceRef": "N5-11.vocab.041",
+      "japanese": "どこか",
+      "hiragana": "どこか",
+      "romaji": "dokoka",
+      "english": "somewhere",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "週末、どこかへ行きましたか。",
+      "exampleEn": "Did you go somewhere on the weekend?"
+    },
+    {
+      "sourceRef": "N5-11.vocab.042",
+      "japanese": "だれか",
+      "hiragana": "だれか",
+      "romaji": "dareka",
+      "english": "someone",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "だれかいますか。",
+      "exampleEn": "Is someone there?"
+    },
+    {
+      "sourceRef": "N5-11.vocab.043",
+      "japanese": "いつか",
+      "hiragana": "いつか",
+      "romaji": "itsuka",
+      "english": "sometime, someday",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "いつか日本へ行きたいです。",
+      "exampleEn": "I want to go to Japan someday."
+    },
+    {
+      "sourceRef": "N5-11.vocab.044",
+      "japanese": "楽しみ",
+      "hiragana": "たのしみ",
+      "romaji": "tanoshimi",
+      "english": "looking forward to",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "旅行は楽しみです。",
+      "exampleEn": "I am looking forward to the trip."
+    },
+    {
+      "sourceRef": "N5-11.vocab.045",
+      "japanese": "本当に",
+      "hiragana": "ほんとうに",
+      "romaji": "hontouni",
+      "english": "really, truly",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-11",
+      "introducedIn": "N5-11",
+      "exampleJp": "本当にありがとうございました。",
+      "exampleEn": "Thank you very much indeed."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-11.kanji.001",
+      "character": "歌",
+      "meaning": "song, sing",
+      "onyomi": "カ",
+      "kunyomi": "うた、うた.う",
+      "level": "N5",
+      "strokeCount": 14,
+      "radical": "欠",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "歌 (uta)",
+          "en": "song"
+        }
+      ],
+      "mnemonic": "Learn the kanji for song, sing."
+    },
+    {
+      "sourceRef": "N5-11.kanji.002",
+      "character": "帰",
+      "meaning": "return",
+      "onyomi": "キ",
+      "kunyomi": "かえ.る",
+      "level": "N5",
+      "strokeCount": 10,
+      "radical": "彐",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "帰る (kaeru)",
+          "en": "to return"
+        }
+      ],
+      "mnemonic": "Learn the kanji for return."
+    },
+    {
+      "sourceRef": "N5-11.kanji.003",
+      "character": "乗",
+      "meaning": "ride",
+      "onyomi": "ジョウ",
+      "kunyomi": "の.る",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "丿",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "乗る (noru)",
+          "en": "to ride"
+        }
+      ],
+      "mnemonic": "Learn the kanji for ride."
+    },
+    {
+      "sourceRef": "N5-11.kanji.004",
+      "character": "画",
+      "meaning": "picture, stroke",
+      "onyomi": "ガ、カク",
+      "kunyomi": "",
+      "level": "N5",
+      "strokeCount": 8,
+      "radical": "田",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "計画 (keikaku)",
+          "en": "plan"
+        }
+      ],
+      "mnemonic": "Learn the kanji for picture, stroke."
+    },
+    {
+      "sourceRef": "N5-11.kanji.005",
+      "character": "寺",
+      "meaning": "temple",
+      "onyomi": "ジ",
+      "kunyomi": "てら",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "寸",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "お寺 (otera)",
+          "en": "temple"
+        }
+      ],
+      "mnemonic": "Learn the kanji for temple."
+    },
+    {
+      "sourceRef": "N5-11.kanji.006",
+      "character": "社",
+      "meaning": "company, shrine",
+      "onyomi": "シャ",
+      "kunyomi": "やしろ",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "示",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "神社 (jinja)",
+          "en": "shrine"
+        }
+      ],
+      "mnemonic": "Learn the kanji for company, shrine."
+    },
+    {
+      "sourceRef": "N5-11.kanji.007",
+      "character": "音",
+      "meaning": "sound",
+      "onyomi": "オン",
+      "kunyomi": "おと",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "音",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "音楽 (ongaku)",
+          "en": "music"
+        }
+      ],
+      "mnemonic": "Learn the kanji for sound."
+    },
+    {
+      "sourceRef": "N5-11.kanji.008",
+      "character": "楽",
+      "meaning": "music, fun",
+      "onyomi": "ガク、ラク",
+      "kunyomi": "たの.しい",
+      "level": "N5",
+      "strokeCount": 13,
+      "radical": "木",
+      "introducedIn": "N5-11",
+      "exampleWords": [
+        {
+          "jp": "楽しみ (tanoshimi)",
+          "en": "looking forward to"
+        }
+      ],
+      "mnemonic": "Learn the kanji for music, fun."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-11.grammar.001",
+      "pattern": "Thể từ điển (Dictionary form - Vる)",
+      "meaningVn": "Thể nguyên dạng (Vる)",
+      "meaningEn": "Dictionary form",
+      "explanation": "Nhóm 1: Đuôi [i] -> [u] (ex: 買います -> 買う, 泳ぎます -> 泳ぐ). Nhóm 2: Bỏ ます + る (ex: 食べます -> 食べる). Nhóm 3: します -> する, 来ます -> 来る(くる).",
+      "introducedIn": "N5-11",
+      "examples": [
+        {
+          "japanese": "書きます -> 書く",
+          "romaji": "kakimasu -> kaku",
+          "english": "write -> write",
+          "vietnamese": "viết -> viết (thể từ điển)"
+        },
+        {
+          "japanese": "見ます -> 見る",
+          "romaji": "mimasu -> miru",
+          "english": "see -> see",
+          "vietnamese": "nhìn -> nhìn (thể từ điển)"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-11.grammar.002",
+      "pattern": "趣味は N / Vること です",
+      "meaningVn": "Sở thích là ~",
+      "meaningEn": "My hobby is ~",
+      "explanation": "Dùng để nói về sở thích. Nếu sở thích là một hành động, ta phải biến động từ thành danh từ bằng cách thêm 'こと' sau thể từ điển (Vること).",
+      "introducedIn": "N5-11",
+      "examples": [
+        {
+          "japanese": "私の趣味は音楽です。",
+          "romaji": "Watashi no shumi wa ongaku desu.",
+          "english": "My hobby is music.",
+          "vietnamese": "Sở thích của tôi là âm nhạc."
+        },
+        {
+          "japanese": "私の趣味は絵を書くことです。",
+          "romaji": "Watashi no shumi wa e o kaku koto desu.",
+          "english": "My hobby is drawing pictures.",
+          "vietnamese": "Sở thích của tôi là vẽ tranh."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-11.grammar.003",
+      "pattern": "Vる / Nの まえに",
+      "meaningVn": "Trước khi ~",
+      "meaningEn": "Before ~",
+      "explanation": "Dùng để diễn tả một hành động xảy ra TRƯỚC một hành động/sự việc khác. Đi với động từ thể từ điển (Vる) hoặc Danh từ + の.",
+      "introducedIn": "N5-11",
+      "examples": [
+        {
+          "japanese": "寝る前に、本を読みます。",
+          "romaji": "Neru mae ni, hon o yomimasu.",
+          "english": "Before sleeping, I read a book.",
+          "vietnamese": "Trước khi ngủ, tôi đọc sách."
+        },
+        {
+          "japanese": "食事の前に、手を洗います。",
+          "romaji": "Shokuji no mae ni, te o araimasu.",
+          "english": "Before the meal, I wash my hands.",
+          "vietnamese": "Trước bữa ăn, tôi rửa tay."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-11.grammar.004",
+      "pattern": "Vる つもりです",
+      "meaningVn": "Dự định làm V",
+      "meaningEn": "Plan to do V",
+      "explanation": "Thể hiện một ý định, kế hoạch đã được suy nghĩ từ trước và quyết định sẽ thực hiện trong tương lai.",
+      "introducedIn": "N5-11",
+      "examples": [
+        {
+          "japanese": "来年、日本へ行くつもりです。",
+          "romaji": "Rainen, Nihon e iku tsumori desu.",
+          "english": "I plan to go to Japan next year.",
+          "vietnamese": "Năm sau, tôi dự định đi Nhật."
+        },
+        {
+          "japanese": "週末はうちで休むつもりです。",
+          "romaji": "Shuumatsu wa uchi de yasumu tsumori desu.",
+          "english": "I plan to rest at home on the weekend.",
+          "vietnamese": "Cuối tuần tôi dự định nghỉ ngơi ở nhà."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-11.grammar.005",
+      "pattern": "何か / どこか / だれか",
+      "meaningVn": "Cái gì đó / Đâu đó / Ai đó",
+      "meaningEn": "Something / Somewhere / Someone",
+      "explanation": "Các đại từ nghi vấn thêm 'か' trở thành đại từ phiếm chỉ. Trợ từ へ, を thường có thể được lược bỏ phía sau nó.",
+      "introducedIn": "N5-11",
+      "examples": [
+        {
+          "japanese": "夏休みに どこか[へ] 行きましたか。",
+          "romaji": "Natsuyasumi ni dokoka [e] ikimashita ka.",
+          "english": "Did you go somewhere during summer vacation?",
+          "vietnamese": "Kỳ nghỉ hè bạn có đi đâu không?"
+        },
+        {
+          "japanese": "のどが渇きましたから、何か飲みたいです。",
+          "romaji": "Nodo ga kawakimashita kara, nanika nomitai desu.",
+          "english": "Because I am thirsty, I want to drink something.",
+          "vietnamese": "Vì khát nước nên tôi muốn uống cái gì đó."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-11.kaiwa.001",
+      "title": "What is your hobby?",
+      "titleJp": "趣味は何ですか",
+      "situation": "Talking about hobbies with a new friend",
+      "lines": [
+        {
+          "speaker": "マリア",
+          "japanese": "田中さんの趣味は何ですか。",
+          "hiragana": "たなかさんのしゅみはなんですか。",
+          "romaji": "Tanaka-san no shumi wa nan desu ka.",
+          "translation": "Mr. Tanaka, what is your hobby?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "田中",
+          "japanese": "私の趣味は写真を撮ることです。マリアさんは？",
+          "hiragana": "わたしのしゅみはしゃしんをとることです。まりあさんは？",
+          "romaji": "Watashi no shumi wa shashin o toru koto desu. Maria-san wa?",
+          "translation": "My hobby is taking photos. How about you, Maria?",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "マリア",
+          "japanese": "私は音楽が好きです。いつも寝る前に、音楽を聞きます。",
+          "hiragana": "わたしはおんがくがすきです。いつもねるまえに、おんがくをききます。",
+          "romaji": "Watashi wa ongaku ga suki desu. Itsumo neru mae ni, ongaku o kikimasu.",
+          "translation": "I like music. I always listen to music before sleeping.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "田中",
+          "japanese": "そうですか。どんな音楽を聞きますか。",
+          "hiragana": "そうですか。どんなおんがくをききますか。",
+          "romaji": "Sou desu ka. Donna ongaku o kikimasu ka.",
+          "translation": "I see. What kind of music do you listen to?",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-11.kaiwa.002",
+      "title": "Holiday Plans",
+      "titleJp": "連休の計画",
+      "situation": "Discussing plans for the upcoming long weekend",
+      "lines": [
+        {
+          "speaker": "鈴木",
+          "japanese": "もうすぐ連休ですね。どこかへ行きますか。",
+          "hiragana": "もうすぐれんきゅうですね。どこかへいきますか。",
+          "romaji": "Mousugu renkyuu desu ne. Dokoka e ikimasu ka.",
+          "translation": "It's almost the long weekend. Are you going somewhere?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "山田",
+          "japanese": "はい、京都のお寺を見に行くつもりです。",
+          "hiragana": "はい、きょうとのおてらをみにいくつもりです。",
+          "romaji": "Hai, Kyouto no otera o mi ni iku tsumori desu.",
+          "translation": "Yes, I plan to go see temples in Kyoto.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "鈴木",
+          "japanese": "いいですね。もうホテルの予約をしましたか。",
+          "hiragana": "いいですね。もうほてるのよやくをしましたか。",
+          "romaji": "Ii desu ne. Mou hoteru no yoyaku o shimashita ka.",
+          "translation": "That's nice. Have you already made a hotel reservation?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "山田",
+          "japanese": "はい、しました。古い旅館に泊まります。とても楽しみです。",
+          "hiragana": "はい、しました。ふるいりょかんにとまります。とてもたのしみです。",
+          "romaji": "Hai, shimashita. Furui ryokan ni tomarimasu. Totemo tanoshimi desu.",
+          "translation": "Yes, I did. I will stay at an old ryokan. I am really looking forward to it.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-11.listening.001",
+      "title": "Summer vacation plans",
+      "instructions": "Listen to the man talk about his summer plans.",
+      "audioUrl": "PENDING_AUDIO:n5-11-listening-01",
+      "transcriptJp": "来月、夏休みがあります。私は夏休みに北海道へ行くつもりです。北海道で山に登ったり、おいしい魚を食べたりしたいです。飛行機の切符はもう買いました。でも、ホテルの予約はまだです。明日予約するつもりです。",
+      "transcriptRomaji": "Raigetsu, natsuyasumi ga arimasu. Watashi wa natsuyasumi ni Hokkaidou e iku tsumori desu. Hokkaidou de yama ni nobottari, oishii sakana o tabetari shitai desu. Hikouki no kippu wa mou kaimashita. Demo, hoteru no yoyaku wa mada desu. Ashita yoyaku suru tsumori desu.",
+      "transcriptEn": "Next month, there is summer vacation. I plan to go to Hokkaido during the summer vacation. I want to climb mountains and eat delicious fish in Hokkaido. I already bought the airplane ticket. But, I haven't made a hotel reservation yet. I plan to reserve it tomorrow.",
+      "durationSeconds": 45,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-11.listening.002",
+      "title": "Daily routine",
+      "instructions": "Listen to the woman talk about her daily habits.",
+      "audioUrl": "PENDING_AUDIO:n5-11-listening-02",
+      "transcriptJp": "私の趣味は泳ぐことです。毎朝、会社へ行く前に、プールで泳ぎます。それから、朝ごはんを食べて、会社へ行きます。夜、うちへ帰った後で、たいてい本を読みます。週末は友達とテニスをします。",
+      "transcriptRomaji": "Watashi no shumi wa oyogu koto desu. Maiasa, kaisha e iku mae ni, puuru de oyogimasu. Sorekara, asagohan o tabete, kaisha e ikimasu. Yoru, uchi e kaetta ato de, taitei hon o yomimasu. Shuumatsu wa tomodachi to tenisu o shimasu.",
+      "transcriptEn": "My hobby is swimming. Every morning, before going to the company, I swim in the pool. Then, I eat breakfast and go to the company. At night, after returning home, I usually read books. On weekends, I play tennis with friends.",
+      "durationSeconds": 40,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-11.reading.001",
+      "title": "My Hobby is Collecting Stamps",
+      "passage": "私の趣味は古い切手を集めることです。子供の時から、切手を集めています。今、日本の切手と外国の切手がたくさんあります。外国の切手の中で、フランスの切手が一番好きです。いつかフランスへ行くつもりです。",
+      "reading": "わたしのしゅみはふるいきってをあつめることです。こどものときから、きってをあつめています。いま、にほんのきってとがいこくのきってがたくさんあります。がいこくのきってのなかで、ふらんすのきってがいちばんすきです。いつかふらんすへいくつもりです。",
+      "translation": "My hobby is collecting old stamps. I have been collecting stamps since I was a child. Now, I have many Japanese stamps and foreign stamps. Among foreign stamps, I like French stamps the most. I plan to go to France someday.",
+      "questions": [
+        {
+          "question": "この人の趣味は何ですか。",
+          "options": [
+            "外国へ行くこと",
+            "切手を買うこと",
+            "古い切手を集めること",
+            "フランス語を勉強すること"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 私の趣味は古い切手を集めることです (Sở thích là sưu tầm tem cũ)."
+        },
+        {
+          "question": "いつから切手を集めていますか。",
+          "options": [
+            "去年から",
+            "先月から",
+            "子供の時から",
+            "大人になってから"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 子供の時から (Từ lúc còn nhỏ)."
+        },
+        {
+          "question": "いつかどこへ行くつもりですか。",
+          "options": [
+            "日本",
+            "フランス",
+            "外国",
+            "イギリス"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: いつかフランスへ行くつもりです (Dự định đi Pháp)."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-11.reading.002",
+      "title": "Kyoto Trip Plan",
+      "passage": "来週の連休に、友達と京都へ行きます。新幹線で行くつもりです。京都で有名なお寺と神社を見ます。夜は温泉に入りたいです。ホテルはもう予約しました。旅行の前に、カメラを新しく買うつもりです。",
+      "reading": "らいしゅうのれんきゅうに、ともだちときょうとへいきます。しんかんせんでいくつもりです。きょうとでゆうめいなおてらとじんじゃをみます。よるはおんせんにはいりたいです。ほてるはもうよやくしました。りょこうのまえに、かめらをあたらしくかいくつもりです。",
+      "translation": "During the long weekend next week, I will go to Kyoto with a friend. I plan to go by bullet train. I will see famous temples and shrines in Kyoto. At night, I want to enter a hot spring. I have already booked the hotel. Before the trip, I plan to buy a new camera.",
+      "questions": [
+        {
+          "question": "どうやって京都へ行きますか。",
+          "options": [
+            "飛行機で",
+            "バスで",
+            "新幹線で",
+            "車で"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 新幹線で行くつもりです (Dự định đi bằng Shinkansen)."
+        },
+        {
+          "question": "ホテルは予約しましたか。",
+          "options": [
+            "はい、もう予約しました",
+            "いいえ、まだです",
+            "明日予約するつもりです",
+            "予約しません"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: ホテルはもう予約しました (Đã đặt khách sạn rồi)."
+        },
+        {
+          "question": "旅行の前に、何をしますか。",
+          "options": [
+            "お寺を見ます",
+            "温泉に入ります",
+            "ホテルを予約します",
+            "カメラを買うつもりです"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài đọc ghi: 旅行の前に、カメラを新しく買うつもりです (Trước chuyến đi, định mua máy ảnh mới)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-11.writing.001",
+      "prompt": "What is your hobby?",
+      "instructions": "Write 1 sentence describing your hobby using Vることです.",
+      "sampleAnswer": "私の趣味は映画を見ることです。",
+      "rubric": "Use 趣味は [Verb dict form] こと です.",
+      "minLength": 1,
+      "maxLength": 1,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-11.writing.002",
+      "prompt": "Your plan for tomorrow.",
+      "instructions": "Write 1-2 sentences about what you plan to do tomorrow using Vる つもりです.",
+      "sampleAnswer": "明日は友達と遊ぶつもりです。",
+      "rubric": "Use Vる つもりです.",
+      "minLength": 1,
+      "maxLength": 2,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-11.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Sở thích' tiếng Nhật là gì?",
+      "options": [
+        "計画",
+        "準備",
+        "趣味",
+        "予約"
+      ],
+      "correctIndex": 2,
+      "explanation": "趣味 (shumi) là sở thích.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Kế hoạch' là gì?",
+      "options": [
+        "規則",
+        "計画",
+        "問題",
+        "答え"
+      ],
+      "correctIndex": 1,
+      "explanation": "計画 (keikaku) là kế hoạch.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Đền thờ Thần đạo' tiếng Nhật là gì?",
+      "options": [
+        "お寺",
+        "神社",
+        "教会",
+        "公園"
+      ],
+      "correctIndex": 1,
+      "explanation": "神社 (jinja) là đền thờ Thần đạo (Shinto shrine).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đặt trước (phòng, vé)' là động từ nào?",
+      "options": [
+        "予約します",
+        "準備します",
+        "集めます",
+        "洗います"
+      ],
+      "correctIndex": 0,
+      "explanation": "予約します (yoyaku shimasu) là đặt chỗ, đặt trước.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "切手を（　　）のが好きです。",
+      "options": [
+        "集める",
+        "遊ぶ",
+        "歌う",
+        "弾く"
+      ],
+      "correctIndex": 0,
+      "explanation": "集める (atsumeru - sưu tầm tem).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Một cái gì đó' là gì?",
+      "options": [
+        "だれか",
+        "いつか",
+        "どこか",
+        "何か"
+      ],
+      "correctIndex": 3,
+      "explanation": "何か (nanika) là một cái gì đó.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đã ~ rồi' (đi với quá khứ) là gì?",
+      "options": [
+        "まだ",
+        "もう",
+        "いつも",
+        "時々"
+      ],
+      "correctIndex": 1,
+      "explanation": "もう (mou) là đã ~ rồi.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Kỳ nghỉ dài ngày' tiếng Nhật là gì?",
+      "options": [
+        "週末",
+        "今週",
+        "来週",
+        "連休"
+      ],
+      "correctIndex": 3,
+      "explanation": "連休 (renkyuu) là kỳ nghỉ lễ kéo dài nhiều ngày.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-11.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 歌 đọc là gì trong 歌います (hát)?",
+      "options": [
+        "うた",
+        "はな",
+        "おと",
+        "がく"
+      ],
+      "correctIndex": 0,
+      "explanation": "歌います đọc là utaimasu.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-11.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 乗 có nghĩa là gì trong 乗ります?",
+      "options": [
+        "Đi bộ",
+        "Lên (xe, tàu)",
+        "Xuống (xe)",
+        "Chạy"
+      ],
+      "correctIndex": 1,
+      "explanation": "乗ります (norimasu) là lên xe/tàu.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-11.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 寺 đọc là gì trong お寺 (ngôi chùa)?",
+      "options": [
+        "てら",
+        "じん",
+        "しゃ",
+        "えき"
+      ],
+      "correctIndex": 0,
+      "explanation": "お寺 đọc là otera.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-11.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 音 có nghĩa là gì trong 音楽?",
+      "options": [
+        "Hình ảnh",
+        "Âm thanh",
+        "Lời nói",
+        "Chữ viết"
+      ],
+      "correctIndex": 1,
+      "explanation": "音 (Âm) là âm thanh (trong 音楽 - Âm nhạc).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-11.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Kế hoạch' (計画) chứa chữ Hán nào?",
+      "options": [
+        "音",
+        "画",
+        "社",
+        "寺"
+      ],
+      "correctIndex": 1,
+      "explanation": "計画 chứa chữ Họa (画) - keikaku.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-11.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 帰 đọc là gì trong 帰ります?",
+      "options": [
+        "かえ",
+        "の",
+        "うた",
+        "はし"
+      ],
+      "correctIndex": 0,
+      "explanation": "帰ります đọc là kaerimasu (trở về).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-11.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "私の趣味は映画を（　　）ことです。",
+      "options": [
+        "見る",
+        "見",
+        "見て",
+        "見ます"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sở thích là: Vる + こと です. 見ること (việc xem).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "寝る（　　）、本を読みます。",
+      "options": [
+        "前",
+        "前に",
+        "後",
+        "後で"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vる + 前に (Trước khi ngủ).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "食事の（　　）、手を洗います。",
+      "options": [
+        "前",
+        "前に",
+        "後",
+        "後で"
+      ],
+      "correctIndex": 1,
+      "explanation": "Danh từ + の + 前に (Trước bữa ăn).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "来年、日本へ（　　）つもりです。",
+      "options": [
+        "行く",
+        "行きます",
+        "行って",
+        "行った"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dự định: Vる + つもりです. 行くつもりです (Định đi).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng diễn tả: Tôi dự định mua máy ảnh mới.",
+      "options": [
+        "新しいカメラを買いますつもりです。",
+        "新しいカメラを買うつもりです。",
+        "新しいカメラを買ってつもりです。",
+        "新しいカメラを買いたいつもりです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "買う (thể từ điển) + つもりです.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "週末、（　　）へ行きましたか。",
+      "options": [
+        "どこか",
+        "どこで",
+        "どこも",
+        "どこが"
+      ],
+      "correctIndex": 0,
+      "explanation": "どこかへ (Đi đâu đó không?).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "Thể từ điển của 泳ぎます là gì?",
+      "options": [
+        "泳いて",
+        "泳ぐ",
+        "泳む",
+        "泳ぶ"
+      ],
+      "correctIndex": 1,
+      "explanation": "泳ぎます (nhóm 1, đuôi ぎ) -> 泳ぐ (oyogu).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Vì đói nên tôi muốn ăn một cái gì đó.",
+      "options": [
+        "お腹がすきましたから、何か食べたいです。",
+        "お腹がすきましたから、どこか食べたいです。",
+        "お腹がすきましたから、だれか食べたいです。",
+        "お腹がすきましたから、いつか食べたいです。"
+      ],
+      "correctIndex": 0,
+      "explanation": "何か (nanika - một cái gì đó).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 1, tác giả có dự định làm gì ở Hokkaido?",
+      "options": [
+        "Trượt tuyết",
+        "Leo núi và ăn cá ngon",
+        "Thăm bạn bè",
+        "Đi tắm suối nước nóng"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 北海道で山に登ったり、おいしい魚を食べたりしたいです (Leo núi và ăn cá).",
+      "points": 2,
+      "listeningRef": "N5-11.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-11.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người đó ĐÃ CHƯA làm việc gì? (Bài 1)",
+      "options": [
+        "Mua vé máy bay",
+        "Chuẩn bị hành lý",
+        "Đặt khách sạn",
+        "Xin nghỉ phép"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói: ホテルの予約はまだです (Chưa đặt khách sạn).",
+      "points": 2,
+      "listeningRef": "N5-11.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-11.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, người phụ nữ bơi sau khi đi làm về.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 毎朝、会社へ行く前に、プールで泳ぎます (Bơi TRƯỚC khi đi làm). Sai.",
+      "points": 2,
+      "listeningRef": "N5-11.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-11.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Sở thích của tác giả bài đọc 1 là gì?",
+      "options": [
+        "Vẽ tranh Pháp",
+        "Sưu tầm tem cũ",
+        "Du lịch nước ngoài",
+        "Học tiếng Nhật"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 私の趣味は古い切手を集めることです (Sưu tầm tem cũ).",
+      "points": 2,
+      "readingRef": "N5-11.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-11.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 2, tác giả lên kế hoạch đi Kyoto bằng phương tiện gì?",
+      "options": [
+        "Tàu điện thường",
+        "Xe buýt",
+        "Máy bay",
+        "Shinkansen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bài đọc ghi: 新幹線で行くつもりです (Shinkansen).",
+      "points": 2,
+      "readingRef": "N5-11.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-11.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài đọc 2, tác giả sẽ mua máy ảnh mới sau khi đi du lịch về.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 旅行の前に、カメラを新しく買うつもりです (Định mua TRƯỚC chuyến đi). Sai.",
+      "points": 2,
+      "readingRef": "N5-11.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-11.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Sở thích của tôi là chơi piano.",
+      "options": [
+        "趣味は",
+        "私の",
+        "ピアノを弾く",
+        "ことです"
+      ],
+      "correctIndex": 1,
+      "explanation": "私の趣味はピアノを弾くことです。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-11.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Cuối tuần bạn có đi đâu không?",
+      "options": [
+        "どこかへ",
+        "週末",
+        "行きました",
+        "か"
+      ],
+      "correctIndex": 1,
+      "explanation": "週末、どこかへ行きましたか。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-11.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Thể từ điển (Vる) của 待ちます là gì?",
+      "options": [
+        "待つ",
+        "待る",
+        "待う",
+        "待む"
+      ],
+      "correctIndex": 0,
+      "explanation": "待ちます (nhóm 1, đuôi ち) -> 待つ (matsu).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 帰 đọc là gì trong 帰ります?",
+      "options": [
+        "の",
+        "かえ",
+        "はし",
+        "うた"
+      ],
+      "correctIndex": 1,
+      "explanation": "帰ります đọc là kaerimasu (trở về).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Chuẩn bị' tiếng Nhật là gì?",
+      "options": [
+        "予約",
+        "計画",
+        "準備",
+        "趣味"
+      ],
+      "correctIndex": 2,
+      "explanation": "準備 (junbi) là chuẩn bị.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 寺 trong お寺 có nghĩa là gì?",
+      "options": [
+        "Ngôi chùa",
+        "Đền thờ Thần",
+        "Trường học",
+        "Công ty"
+      ],
+      "correctIndex": 0,
+      "explanation": "お寺 (otera) là ngôi chùa Phật giáo.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Suối nước nóng' tiếng Nhật là gì?",
+      "options": [
+        "旅館",
+        "温泉",
+        "旅行",
+        "切符"
+      ],
+      "correctIndex": 1,
+      "explanation": "温泉 (onsen) là suối nước nóng.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 私の趣味は絵を（　　）ことです。",
+      "options": [
+        "書く",
+        "書き",
+        "書いて",
+        "書きます"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vる + ことです. 趣味は絵を書くことです.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 寝る（　　）、音楽を聞きます。",
+      "options": [
+        "前",
+        "前に",
+        "後",
+        "後で"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vる + 前に (Trước khi).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Tôi dự định nghỉ ngơi ở nhà':",
+      "options": [
+        "うちで休むつもりです。",
+        "うちで休みつもりです。",
+        "うちで休んでつもりです。",
+        "うちで休みたいつもりです。"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vる + つもりです (Dự định làm gì).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: どこか（　　）行きましょう。",
+      "options": [
+        "へ",
+        "が",
+        "を",
+        "の"
+      ],
+      "correctIndex": 0,
+      "explanation": "どこかへ (Đi đến một nơi nào đó).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Trước bữa ăn, tôi chụp ảnh':",
+      "options": [
+        "食事の前に、写真を撮ります。",
+        "食事前に、写真を撮ります。",
+        "食事の後で、写真を撮ります。",
+        "食事が前に、写真を撮ります。"
+      ],
+      "correctIndex": 0,
+      "explanation": "Danh từ + の + 前に.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn hỏi ai đó 'Sở thích của bạn là gì?', bạn nói:",
+      "options": [
+        "趣味はだれですか。",
+        "趣味はどこですか。",
+        "趣味は何ですか。",
+        "趣味はいつですか。"
+      ],
+      "correctIndex": 2,
+      "explanation": "趣味は何ですか (Sở thích là gì).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong giao tiếp, 'いつでもいいです' (Từ vựng mở rộng) có nghĩa là gì?",
+      "options": [
+        "Lúc nào cũng được",
+        "Tôi luôn đi",
+        "Lúc đó thì không được",
+        "Bao nhiêu tiền"
+      ],
+      "correctIndex": 0,
+      "explanation": "いつ (khi nào) + でも = Bất cứ lúc nào (cũng được).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi diễn tả sự háo hức mong chờ một chuyến đi, bạn dùng từ nào?",
+      "options": [
+        "残念です",
+        "楽しみです",
+        "忙しいです",
+        "暇です"
+      ],
+      "correctIndex": 1,
+      "explanation": "楽しみです (tanoshimi desu - Rất mong chờ/háo hức).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ '外国' (Gaikoku) có nghĩa là gì?",
+      "options": [
+        "Trong nước",
+        "Nước ngoài",
+        "Thủ đô",
+        "Ngoại ô"
+      ],
+      "correctIndex": 1,
+      "explanation": "外国 (gaikoku) là nước ngoài, ngoại quốc.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-11.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Mẫu câu Vるつもりです có ý nghĩa gì?",
+      "options": [
+        "Có thể làm",
+        "Dự định làm",
+        "Đang làm",
+        "Muốn làm"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vるつもりです diễn tả dự định/kế hoạch (Plan to do).",
+      "points": 10
+    }
+  ]
+}

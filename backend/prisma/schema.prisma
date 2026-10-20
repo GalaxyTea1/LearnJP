@@ -1,0 +1,796 @@
+// Prisma Schema — SumaryJapanese Backend (backend-figma)
+// 26 tables across 6 groups
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Enums ──────────────────────────────────────────────────────────────────────
+
+enum UserRole {
+  USER
+  ADMIN
+  MODERATOR
+}
+
+enum VocabType {
+  PHRASE
+  EXPRESSION
+  PRONOUN
+  VERB
+  ADJECTIVE
+  NOUN
+  ADVERB
+  PARTICLE
+}
+
+enum ModuleStatus {
+  NOT_STARTED
+  IN_PROGRESS
+  COMPLETED
+  LOCKED
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  FILL_BLANK
+  TRUE_FALSE
+  MATCHING
+}
+
+enum SrsItemType {
+  VOCAB
+  KANJI
+  GRAMMAR
+}
+
+enum SrsStatus {
+  LEARNING
+  REVIEWING
+  MASTERED
+}
+
+enum GameType {
+  QUIZ
+  MATCH
+  SPEED
+}
+
+enum KanaType {
+  HIRAGANA
+  KATAKANA
+}
+
+enum KanaStatus {
+  LEARNING
+  MASTERED
+}
+
+enum TestSectionType {
+  VOCABULARY
+  GRAMMAR
+  READING
+  LISTENING
+}
+
+enum TestQuestionType {
+  MULTIPLE_CHOICE
+  FILL_BLANK
+  READING_COMP
+  LISTENING_COMP
+}
+
+enum TestAttemptStatus {
+  IN_PROGRESS
+  COMPLETED
+  ABANDONED
+}
+
+enum AnnouncementType {
+  INFO
+  WARNING
+  MAINTENANCE
+  UPDATE
+}
+
+enum ContentStatus {
+  DRAFT
+  IN_REVIEW
+  PUBLISHED
+  ARCHIVED
+}
+
+enum LessonSectionType {
+  OVERVIEW
+  VOCABULARY
+  KANJI
+  GRAMMAR
+  KAIWA
+  LISTENING
+  READING
+  WRITING
+  EXERCISE
+  SUMMARY
+}
+
+enum LessonExerciseType {
+  MULTIPLE_CHOICE
+  FILL_BLANK
+  TRUE_FALSE
+  MATCHING
+  SENTENCE_ORDERING
+  SHORT_ANSWER
+  DICTATION
+  SHADOWING
+}
+
+// ─── Group 1: Authentication & Users ────────────────────────────────────────────
+
+model User {
+  id            Int       @id @default(autoincrement())
+  email         String    @unique
+  username      String    @unique
+  passwordHash  String    @map("password_hash")
+  displayName   String?   @map("display_name")
+  avatarUrl     String?   @map("avatar_url")
+  role          UserRole  @default(USER)
+  currentStreak Int       @default(0) @map("current_streak")
+  lastStudyDate DateTime? @map("last_study_date")
+  isActive      Boolean   @default(true) @map("is_active")
+  createdAt     DateTime  @default(now()) @map("created_at")
+  updatedAt     DateTime  @updatedAt @map("updated_at")
+
+  refreshTokens      RefreshToken[]
+  learningSettings   UserLearningSettings?
+  moduleProgress     UserModuleProgress[]
+  quizAttempts       UserQuizAttempt[]
+  flashcardProgress  UserFlashcardProgress[]
+  gameScores         UserGameScore[]
+  kanaProgress       UserKanaProgress[]
+  gamification       UserGamification?
+  searchHistory      SearchHistory[]
+  translationHistory TranslationHistory[]
+  testAttempts       UserTestAttempt[]
+  activityLogs       ActivityLog[]
+  announcements      Announcement[]          @relation("AnnouncementCreator")
+  createdTests       TestTemplate[]          @relation("TestCreator")
+
+  @@map("users")
+}
+
+model RefreshToken {
+  id        Int      @id @default(autoincrement())
+  token     String   @unique
+  userId    Int      @map("user_id")
+  expiresAt DateTime @map("expires_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("refresh_tokens")
+}
+
+model AuthRateLimit {
+  key     String   @id
+  count   Int
+  resetAt DateTime @map("reset_at") @db.Timestamptz(6)
+
+  @@index([resetAt], map: "auth_rate_limits_reset_at_idx")
+  @@map("auth_rate_limits")
+}
+
+model UserLearningSettings {
+  userId            Int      @id @map("user_id")
+  weeklyGoalTarget  Int      @default(20) @map("weekly_goal_target")
+  dailyReminderTime String?  @map("daily_reminder_time")
+  preferredLevel    String?  @map("preferred_level")
+  createdAt         DateTime @default(now()) @map("created_at")
+  updatedAt         DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_learning_settings")
+}
+
+// ─── Group 2: JLPT Content ──────────────────────────────────────────────────────
+
+model JlptLevel {
+  id           Int      @id @default(autoincrement())
+  level        String   @unique // "N5", "N4", "N3", "N2", "N1"
+  title        String // "Sơ cấp 1 • Essential Foundation"
+  titleJp      String   @map("title_jp")
+  color        String // "#4A7C59"
+  badge        String // "800 từ vựng • 100 Hán tự • 80 Mẫu ngữ pháp"
+  description  String   @db.Text
+  totalVocab   Int      @map("total_vocab")
+  totalKanji   Int      @map("total_kanji")
+  totalGrammar Int      @map("total_grammar")
+  sortOrder    Int      @map("sort_order")
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  modules LearningModule[]
+
+  @@map("jlpt_levels")
+}
+
+model LearningModule {
+  id            Int           @id @default(autoincrement())
+  levelId       Int           @map("level_id")
+  unitNumber    Int           @map("unit_number")
+  title         String // "Bảng chữ cái & Chào hỏi cơ bản"
+  titleJp       String        @map("title_jp")
+  description   String        @db.Text
+  topics        Json // ["Hiragana & Katakana", ...]
+  sortOrder     Int           @map("sort_order")
+  contentStatus ContentStatus @default(DRAFT) @map("content_status")
+  version       Int           @default(1)
+  publishedAt   DateTime?     @map("published_at")
+  createdAt     DateTime      @default(now()) @map("created_at")
+  updatedAt     DateTime      @updatedAt @map("updated_at")
+
+  level           JlptLevel            @relation(fields: [levelId], references: [id], onDelete: Cascade)
+  vocabulary      Vocabulary[]
+  kanji           Kanji[]
+  grammarPatterns GrammarPattern[]
+  quizQuestions   QuizQuestion[]
+  sections        LessonSection[]
+  userProgress    UserModuleProgress[]
+  quizAttempts    UserQuizAttempt[]
+
+  @@unique([levelId, unitNumber])
+  @@map("learning_modules")
+}
+
+model LessonSection {
+  id           Int               @id @default(autoincrement())
+  moduleId     Int               @map("module_id")
+  sectionType  LessonSectionType @map("section_type")
+  title        String
+  titleJp      String?           @map("title_jp")
+  instructions String?           @db.Text
+  sortOrder    Int               @map("sort_order")
+  isRequired   Boolean           @default(true) @map("is_required")
+  status       ContentStatus     @default(DRAFT)
+  version      Int               @default(1)
+  reviewNotes  String?           @map("review_notes") @db.Text
+  publishedAt  DateTime?         @map("published_at")
+  createdAt    DateTime          @default(now()) @map("created_at")
+  updatedAt    DateTime          @updatedAt @map("updated_at")
+
+  module           LearningModule     @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+  conversations    Conversation[]
+  listeningContent ListeningContent[]
+  readingPassages  ReadingPassage[]
+  writingTasks     WritingTask[]
+  exercises        LessonExercise[]
+
+  @@unique([moduleId, sortOrder])
+  @@index([moduleId, status])
+  @@map("lesson_sections")
+}
+
+model Conversation {
+  id          Int           @id @default(autoincrement())
+  sectionId   Int           @map("section_id")
+  title       String
+  context     String?       @db.Text
+  audioUrl    String?       @map("audio_url")
+  sortOrder   Int           @map("sort_order")
+  status      ContentStatus @default(DRAFT)
+  version     Int           @default(1)
+  publishedAt DateTime?     @map("published_at")
+  createdAt   DateTime      @default(now()) @map("created_at")
+  updatedAt   DateTime      @updatedAt @map("updated_at")
+
+  section LessonSection      @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  lines   ConversationLine[]
+
+  @@unique([sectionId, sortOrder])
+  @@index([sectionId, status])
+  @@map("conversations")
+}
+
+model ConversationLine {
+  id             Int      @id @default(autoincrement())
+  conversationId Int      @map("conversation_id")
+  speaker        String
+  japanese       String   @db.Text
+  hiragana       String?  @db.Text
+  romaji         String?  @db.Text
+  translation    String?  @db.Text
+  audioUrl       String?  @map("audio_url")
+  notes          String?  @db.Text
+  sortOrder      Int      @map("sort_order")
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  @@unique([conversationId, sortOrder])
+  @@map("conversation_lines")
+}
+
+model ListeningContent {
+  id                    Int           @id @default(autoincrement())
+  sectionId             Int           @map("section_id")
+  title                 String
+  instructions          String?       @db.Text
+  audioUrl              String        @map("audio_url")
+  durationSeconds       Int?          @map("duration_seconds")
+  playbackSpeed         Float?        @map("playback_speed")
+  transcript            String        @db.Text
+  transcriptReading     String?       @map("transcript_reading") @db.Text
+  transcriptTranslation String?       @map("transcript_translation") @db.Text
+  source                String?
+  sortOrder             Int           @map("sort_order")
+  status                ContentStatus @default(DRAFT)
+  version               Int           @default(1)
+  publishedAt           DateTime?     @map("published_at")
+  createdAt             DateTime      @default(now()) @map("created_at")
+  updatedAt             DateTime      @updatedAt @map("updated_at")
+
+  section   LessonSection    @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  exercises LessonExercise[]
+
+  @@unique([sectionId, sortOrder])
+  @@index([sectionId, status])
+  @@map("listening_content")
+}
+
+model ReadingPassage {
+  id             Int           @id @default(autoincrement())
+  sectionId      Int           @map("section_id")
+  title          String
+  content        String        @db.Text
+  reading        String?       @db.Text
+  translation    String?       @db.Text
+  source         String?
+  estimatedLevel String?       @map("estimated_level")
+  sortOrder      Int           @map("sort_order")
+  status         ContentStatus @default(DRAFT)
+  version        Int           @default(1)
+  publishedAt    DateTime?     @map("published_at")
+  createdAt      DateTime      @default(now()) @map("created_at")
+  updatedAt      DateTime      @updatedAt @map("updated_at")
+
+  section   LessonSection    @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  exercises LessonExercise[]
+
+  @@unique([sectionId, sortOrder])
+  @@index([sectionId, status])
+  @@map("reading_passages")
+}
+
+model WritingTask {
+  id           Int           @id @default(autoincrement())
+  sectionId    Int           @map("section_id")
+  title        String
+  prompt       String        @db.Text
+  instructions String?       @db.Text
+  sampleAnswer String?       @map("sample_answer") @db.Text
+  rubric       Json?
+  minLength    Int?          @map("min_length")
+  maxLength    Int?          @map("max_length")
+  sortOrder    Int           @map("sort_order")
+  status       ContentStatus @default(DRAFT)
+  version      Int           @default(1)
+  publishedAt  DateTime?     @map("published_at")
+  createdAt    DateTime      @default(now()) @map("created_at")
+  updatedAt    DateTime      @updatedAt @map("updated_at")
+
+  section LessonSection @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+
+  @@unique([sectionId, sortOrder])
+  @@index([sectionId, status])
+  @@map("writing_tasks")
+}
+
+model LessonExercise {
+  id               Int                @id @default(autoincrement())
+  sectionId        Int                @map("section_id")
+  listeningId      Int?               @map("listening_id")
+  readingPassageId Int?               @map("reading_passage_id")
+  exerciseType     LessonExerciseType @map("exercise_type")
+  prompt           String             @db.Text
+  options          Json?
+  correctAnswer    Json?              @map("correct_answer")
+  explanation      String?            @db.Text
+  points           Int                @default(1)
+  sortOrder        Int                @map("sort_order")
+  status           ContentStatus      @default(DRAFT)
+  version          Int                @default(1)
+  metadata         Json?
+  publishedAt      DateTime?          @map("published_at")
+  createdAt        DateTime           @default(now()) @map("created_at")
+  updatedAt        DateTime           @updatedAt @map("updated_at")
+
+  section        LessonSection     @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  listening      ListeningContent? @relation(fields: [listeningId], references: [id], onDelete: Cascade)
+  readingPassage ReadingPassage?   @relation(fields: [readingPassageId], references: [id], onDelete: Cascade)
+
+  @@unique([sectionId, sortOrder])
+  @@index([sectionId, status])
+  @@index([listeningId])
+  @@index([readingPassageId])
+  @@map("lesson_exercises")
+}
+
+model Vocabulary {
+  id        Int       @id @default(autoincrement())
+  moduleId  Int?      @map("module_id")
+  japanese  String // "今日 (きょう)"
+  hiragana  String? // "きょう"
+  romaji    String // "kyou"
+  english   String // "Hôm nay / Today"
+  type      VocabType // NOUN, VERB, etc.
+  level     String? // "N5"
+  lesson    String? // "Bài 1"
+  exampleJp String?   @map("example_jp")
+  exampleEn String?   @map("example_en")
+  createdAt DateTime  @default(now()) @map("created_at")
+
+  module LearningModule? @relation(fields: [moduleId], references: [id], onDelete: SetNull)
+
+  @@map("vocabulary")
+}
+
+model Kanji {
+  id           Int      @id @default(autoincrement())
+  moduleId     Int?     @map("module_id")
+  character    String   @unique
+  meaning      String // "Ngày, Mặt trời / Day, Sun"
+  onyomi       String? // "ニチ・ジツ"
+  kunyomi      String? // "ひ・か"
+  level        String // "N5"
+  strokeCount  Int?     @map("stroke_count")
+  radical      String?
+  exampleWords Json?    @map("example_words") // [{"jp":"日本","en":"Japan"},...]
+  relatedChars Json?    @map("related_chars") // ["本","月","明"]
+  mnemonic     String?
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  module LearningModule? @relation(fields: [moduleId], references: [id], onDelete: SetNull)
+
+  @@map("kanji")
+}
+
+model GrammarPattern {
+  id          Int      @id @default(autoincrement())
+  moduleId    Int?     @map("module_id")
+  pattern     String // "A は B です"
+  meaning     String // "A là B / A is B"
+  explanation String   @db.Text
+  level       String // "N5"
+  lesson      String?
+  textbook    String? // "Minna No Nihongo"
+  createdAt   DateTime @default(now()) @map("created_at")
+
+  module   LearningModule?  @relation(fields: [moduleId], references: [id], onDelete: SetNull)
+  examples GrammarExample[]
+
+  @@map("grammar_patterns")
+}
+
+model GrammarExample {
+  id               Int     @id @default(autoincrement())
+  grammarPatternId Int     @map("grammar_pattern_id")
+  japanese         String // "私は日本人です。"
+  romaji           String? // "Watashi wa nihonjin desu."
+  english          String // "Tôi là người Nhật."
+  sortOrder        Int     @default(0) @map("sort_order")
+
+  grammarPattern GrammarPattern @relation(fields: [grammarPatternId], references: [id], onDelete: Cascade)
+
+  @@map("grammar_examples")
+}
+
+model QuizQuestion {
+  id           Int          @id @default(autoincrement())
+  moduleId     Int          @map("module_id")
+  question     String       @db.Text
+  options      Json // ["を (wo)", "は (wa)", "に (ni)", "が (ga)"]
+  correctIndex Int          @map("correct_index")
+  explanation  String       @db.Text
+  questionType QuestionType @default(MULTIPLE_CHOICE) @map("question_type")
+  points       Int          @default(10)
+  createdAt    DateTime     @default(now()) @map("created_at")
+
+  module LearningModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@map("quiz_questions")
+}
+
+// ─── Group 3: User Progress ─────────────────────────────────────────────────────
+
+model UserModuleProgress {
+  id              Int          @id @default(autoincrement())
+  userId          Int          @map("user_id")
+  moduleId        Int          @map("module_id")
+  status          ModuleStatus @default(NOT_STARTED)
+  progressPercent Int          @default(0) @map("progress_percent")
+  completedTabs   String[]     @default([]) @map("completed_tabs")
+  masteredVocabularyIds Int[]  @default([]) @map("mastered_vocabulary_ids")
+  startedAt       DateTime?    @map("started_at")
+  completedAt     DateTime?    @map("completed_at")
+  updatedAt       DateTime     @updatedAt @map("updated_at")
+
+  user   User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  module LearningModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, moduleId])
+  @@index([userId])
+  @@map("user_module_progress")
+}
+
+model UserQuizAttempt {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @map("user_id")
+  moduleId       Int      @map("module_id")
+  score          Int
+  totalQuestions Int      @map("total_questions")
+  answers        Json // [{questionId, selected, isCorrect}, ...]
+  timeTaken      Int?     @map("time_taken") // seconds
+  attemptedAt    DateTime @default(now()) @map("attempted_at")
+
+  requestId String? @map("request_id") @db.Uuid
+  requestHash String? @map("request_hash")
+  response Json?
+
+  user   User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  module LearningModule @relation(fields: [moduleId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, requestId])
+  @@index([userId])
+  @@map("user_quiz_attempts")
+}
+
+model UserFlashcardProgress {
+  id          Int         @id @default(autoincrement())
+  userId      Int         @map("user_id")
+  itemType    SrsItemType @map("item_type")
+  itemId      Int         @map("item_id")
+  repetitions Int         @default(0)
+  interval    Int         @default(0) // days
+  easeFactor  Float       @default(2.5) @map("ease_factor")
+  nextReview  DateTime    @default(now()) @map("next_review")
+  lastReview  DateTime?   @map("last_review")
+  status      SrsStatus   @default(LEARNING)
+  createdAt   DateTime    @default(now()) @map("created_at")
+  updatedAt   DateTime    @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, itemType, itemId])
+  @@index([userId, nextReview])
+  @@map("user_flashcard_progress")
+}
+
+model UserGameScore {
+  id       Int      @id @default(autoincrement())
+  userId   Int      @map("user_id")
+  gameType GameType @map("game_type")
+  score    Int
+  streak   Int?     @default(0)
+  details  Json?
+  playedAt DateTime @default(now()) @map("played_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([gameType, score(sort: Desc)])
+  @@map("user_game_scores")
+}
+
+model UserKanaProgress {
+  id           Int        @id @default(autoincrement())
+  userId       Int        @map("user_id")
+  kanaType     KanaType   @map("kana_type")
+  character    String
+  status       KanaStatus @default(LEARNING)
+  reviewCount  Int        @default(0) @map("review_count")
+  lastReviewed DateTime?  @map("last_reviewed")
+  createdAt    DateTime   @default(now()) @map("created_at")
+  updatedAt    DateTime   @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, kanaType, character])
+  @@map("user_kana_progress")
+}
+
+model UserGamification {
+  userId         Int       @id @map("user_id")
+  xp             Int       @default(0)
+  totalXpEarned  Int       @default(0) @map("total_xp_earned")
+  dailyXp        Int       @default(0) @map("daily_xp")
+  dailyXpDate    DateTime  @default(now()) @map("daily_xp_date") @db.Date
+  streak         Int       @default(0)
+  lastActiveDate DateTime? @map("last_active_date") @db.Date
+  badges         Json      @default("[]")
+  stats          Json      @default("{\"testsCompleted\":0,\"flashcardsFlipped\":0,\"vocabReviewed\":0,\"kanjiReviewed\":0,\"quizzesTaken\":0}")
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_gamification")
+}
+
+// ─── Group 4: Dictionary & History ──────────────────────────────────────────────
+
+model DictionaryEntry {
+  id        Int     @id @default(autoincrement())
+  japanese  String
+  romaji    String?
+  english   String
+  type      String? // "noun", "verb", "adjective", "phrase"
+  level     String? // "N5"
+  exampleJp String? @map("example_jp")
+  exampleEn String? @map("example_en")
+
+  @@map("dictionary_entries")
+}
+
+model SearchHistory {
+  id           Int      @id @default(autoincrement())
+  userId       Int      @map("user_id")
+  query        String
+  resultsCount Int      @default(0) @map("results_count")
+  searchedAt   DateTime @default(now()) @map("searched_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("search_history")
+}
+
+model TranslationHistory {
+  id             Int      @id @default(autoincrement())
+  userId         Int      @map("user_id")
+  sourceText     String   @map("source_text") @db.Text
+  translatedText String   @map("translated_text") @db.Text
+  direction      String // "en-ja" or "ja-en"
+  translatedAt   DateTime @default(now()) @map("translated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("translation_history")
+}
+
+// ─── Group 5: Test/Exam ─────────────────────────────────────────────────────────
+
+model TestTemplate {
+  id              Int      @id @default(autoincrement())
+  title           String
+  level           String // "N5", "N4", ...
+  description     String?  @db.Text
+  durationMinutes Int      @map("duration_minutes")
+  totalQuestions  Int      @map("total_questions")
+  isPublished     Boolean  @default(false) @map("is_published")
+  createdBy       Int?     @map("created_by")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+
+  creator  User?             @relation("TestCreator", fields: [createdBy], references: [id], onDelete: SetNull)
+  sections TestSection[]
+  attempts UserTestAttempt[]
+
+  @@map("test_templates")
+}
+
+model TestSection {
+  id              Int             @id @default(autoincrement())
+  templateId      Int             @map("template_id")
+  sectionType     TestSectionType @map("section_type")
+  title           String
+  durationMinutes Int?            @map("duration_minutes")
+  sortOrder       Int             @map("sort_order")
+
+  template  TestTemplate   @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  questions TestQuestion[]
+
+  @@map("test_sections")
+}
+
+model TestQuestion {
+  id            Int              @id @default(autoincrement())
+  sectionId     Int              @map("section_id")
+  questionType  TestQuestionType @map("question_type")
+  passage       String?          @db.Text
+  questionText  String           @map("question_text") @db.Text
+  options       Json
+  correctAnswer Int              @map("correct_answer")
+  explanation   String?          @db.Text
+  points        Int              @default(1)
+  sortOrder     Int              @map("sort_order")
+
+  section TestSection      @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  answers UserTestAnswer[]
+
+  @@map("test_questions")
+}
+
+model UserTestAttempt {
+  id         Int               @id @default(autoincrement())
+  userId     Int               @map("user_id")
+  templateId Int               @map("template_id")
+  startedAt  DateTime          @default(now()) @map("started_at")
+  finishedAt DateTime?         @map("finished_at")
+  totalScore Int               @default(0) @map("total_score")
+  maxScore   Int               @map("max_score")
+  status     TestAttemptStatus @default(IN_PROGRESS)
+  answers    Json              @default("[]")
+
+  user        User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  template    TestTemplate     @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  testAnswers UserTestAnswer[]
+
+  @@index([userId])
+  @@map("user_test_attempts")
+}
+
+model UserTestAnswer {
+  id             Int     @id @default(autoincrement())
+  attemptId      Int     @map("attempt_id")
+  questionId     Int     @map("question_id")
+  selectedAnswer Int     @map("selected_answer")
+  isCorrect      Boolean @map("is_correct")
+  pointsEarned   Int     @default(0) @map("points_earned")
+
+  attempt  UserTestAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  question TestQuestion    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([attemptId, questionId])
+  @@map("user_test_answers")
+}
+
+// ─── Group 6: Admin & Management ────────────────────────────────────────────────
+
+model SiteSetting {
+  id          Int      @id @default(autoincrement())
+  key         String   @unique
+  value       String
+  description String?
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@map("site_settings")
+}
+
+model Announcement {
+  id        Int              @id @default(autoincrement())
+  title     String
+  content   String           @db.Text
+  type      AnnouncementType @default(INFO)
+  isActive  Boolean          @default(true) @map("is_active")
+  createdBy Int?             @map("created_by")
+  createdAt DateTime         @default(now()) @map("created_at")
+  expiresAt DateTime?        @map("expires_at")
+
+  creator User? @relation("AnnouncementCreator", fields: [createdBy], references: [id], onDelete: SetNull)
+
+  @@map("announcements")
+}
+
+model ActivityLog {
+  id         Int      @id @default(autoincrement())
+  userId     Int?     @map("user_id")
+  action     String // "LOGIN", "MODULE_COMPLETED", etc.
+  entityType String?  @map("entity_type") // "module", "quiz", "test"
+  entityId   Int?     @map("entity_id")
+  details    Json?
+  ipAddress  String?  @map("ip_address")
+  createdAt  DateTime @default(now()) @map("created_at")
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([action])
+  @@map("activity_logs")
+}

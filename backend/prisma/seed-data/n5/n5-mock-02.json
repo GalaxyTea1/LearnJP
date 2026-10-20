@@ -1,0 +1,277 @@
+{
+  "module": {
+    "code": "N5-MOCK-02",
+    "level": "N5",
+    "unit": 14,
+    "title": "JLPT N5 Mock Test 02",
+    "titleJp": "JLPT N5 模擬試験 02",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Language Knowledge",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [],
+  "kanji": [],
+  "grammar": [],
+  "conversations": [],
+  "writing": [],
+  "listening": [
+    {
+      "sourceRef": "MOCK-02.listening.001",
+      "title": "Mondai 2: Point Comprehension (ポイント理解)",
+      "instructions": "Listen to the dialogue and answer the question.",
+      "audioUrl": "PENDING_AUDIO:mock-02-listening-01",
+      "transcriptJp": "男：すみません、カレーとコーヒーをお願いします。\n女：はい。コーヒーはいつお持ちしますか。\n男：料理の後でお願いします。\n女：かしこまりました。\n\n質問：男の人はいつコーヒーを飲みますか。",
+      "transcriptRomaji": "Otoko: Sumimasen, karee to koohii o onegai shimasu.\nOnna: Hai. Koohii wa itsu omochi shimasu ka.\nOtoko: Ryouri no ato de onegai shimasu.\nOnna: Kashikomarimashita.\n\nShitsumon: Otoko no hito wa itsu koohii o nomimasu ka.",
+      "transcriptEn": "Man: Excuse me, curry and coffee please.\nWoman: Yes. When should I bring the coffee?\nMan: Please bring it after the meal.\nWoman: Certainly.\n\nQuestion: When will the man drink coffee?",
+      "durationSeconds": 45,
+      "playbackSpeed": 1.0,
+      "source": "Mock Test Material"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "MOCK-02.reading.001",
+      "title": "Mondai 5: Mid-length Passage (中長文読解)",
+      "passage": "私は先週の日曜日、友達とデパートへ行きました。デパートで新しい靴とシャツを買いました。靴は少し高かったですが、とても軽いです。買い物の後で、デパートの上のレストランで晩ご飯を食べました。私は天ぷらを食べました。友達は寿司を食べました。とてもおいしかったです。今週の土曜日もまた行きたいです。",
+      "reading": "わたしはせんしゅうのにちようび、ともだちとでぱーとへいきました。でぱーとであたらしいくつとしゃつをかいました。くつはすこしたかかったですが、とてもかるいです。かいもののあとで、でぱーとのうえのれすとらんでばんごはんをたべました。わたしはてんぷらをたべました。ともだちはすしをたべました。とてもおいしかったです。こんしゅうのどようびもまたいきたいです。",
+      "translation": "I went to a department store with a friend last Sunday. I bought new shoes and a shirt at the department store. The shoes were a bit expensive, but very light. After shopping, we ate dinner at a restaurant at the top of the department store. I ate tempura. My friend ate sushi. It was very delicious. I want to go again this Saturday.",
+      "questions": [
+        {
+          "question": "この人はデパートで何を買いましたか。",
+          "options": [
+            "靴とシャツ",
+            "靴とカバン",
+            "シャツと帽子",
+            "天ぷらと寿司"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: 新しい靴とシャツを買いました (Đã mua giày và áo sơ mi mới)."
+        },
+        {
+          "question": "靴はどうでしたか。",
+          "options": [
+            "安くて、軽いです",
+            "高くて、重いです",
+            "少し高かったですが、軽いです",
+            "少し安かったですが、重いです"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 靴は少し高かったですが、とても軽いです (Giày hơi đắt nhưng rất nhẹ)."
+        },
+        {
+          "question": "この人は何を食べましたか。",
+          "options": [
+            "寿司",
+            "天ぷら",
+            "パン",
+            "カレー"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 私は天ぷらを食べました (Tôi đã ăn Tempura)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "MOCK-02.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題１】＿＿＿の言葉はどう読みますか。\n今日は『外』で遊びましょう。",
+      "options": [
+        "うち",
+        "そと",
+        "なか",
+        "まえ"
+      ],
+      "correctIndex": 1,
+      "explanation": "外 (ngoài) đọc là そと.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "MOCK-02.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題１】＿＿＿の言葉はどう読みますか。\n『時間』がありません。",
+      "options": [
+        "じかん",
+        "じはん",
+        "とき",
+        "じだい"
+      ],
+      "correctIndex": 0,
+      "explanation": "時間 (thời gian) đọc là じかん.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "MOCK-02.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題２】＿＿＿の言葉はどう書きますか。\n冷たい『みず』を飲みます。",
+      "options": [
+        "氷",
+        "水",
+        "木",
+        "火"
+      ],
+      "correctIndex": 1,
+      "explanation": "みず (nước) viết là 水.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "MOCK-02.exercise.004",
+      "exerciseType": "FILL_BLANK",
+      "question": "【問題３】（　　）に何を入れますか。\n雨が降っていますから、（　　）をさします。",
+      "options": [
+        "かばん",
+        "ぼうし",
+        "かさ",
+        "めがね"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trời mưa nên che ô (かさ - 傘).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "MOCK-02.exercise.005",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題４】＿＿＿の文とだいたい同じ意味の文はどれですか。\n『この部屋は暗いです。』",
+      "options": [
+        "この部屋は広くないです。",
+        "この部屋は明るくないです。",
+        "この部屋は狭くないです。",
+        "この部屋は暖かくないです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "暗い (tối) đồng nghĩa với 明るくない (không sáng).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "MOCK-02.exercise.006",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "【文法２】文を作ってください。\n田中さんは＿＿ ＿＿ ＿＿ ＿＿ですか。",
+      "options": [
+        "行き",
+        "どこ",
+        "ました",
+        "へ"
+      ],
+      "correctIndex": 1,
+      "explanation": "田中さんはどこへ行きましたか -> どこ (1) へ (2) 行き (3) ました (4). Do đáp án trong Database lưu theo options, bạn cần click thứ tự: どこ, へ, 行き, ました.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "MOCK-02.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "【文法１】（　　）に何を入れますか。\nハサミ（　　）紙を切ります。",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "correctIndex": 3,
+      "explanation": "Công cụ, phương tiện dùng で (ハサミで = Bằng kéo).",
+      "points": 1
+    },
+    {
+      "sourceRef": "MOCK-02.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "【文法１】（　　）に何を入れますか。\n１日（　　）３回、薬を飲みます。",
+      "options": [
+        "が",
+        "と",
+        "に",
+        "を"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tần suất trong một khoảng thời gian: Khoảng thời gian + に + Số lần (１日に３回 = 1 ngày 3 lần).",
+      "points": 1
+    }
+  ]
+}

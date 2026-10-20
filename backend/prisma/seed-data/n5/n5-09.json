@@ -1,0 +1,1817 @@
+{
+  "module": {
+    "code": "N5-09",
+    "level": "N5",
+    "unit": 9,
+    "title": "Weather and Adjectives",
+    "titleJp": "天気と形容詞",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-09.vocab.001",
+      "japanese": "天気",
+      "hiragana": "てんき",
+      "romaji": "tenki",
+      "english": "weather",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "今日はいい天気です。",
+      "exampleEn": "The weather is good today."
+    },
+    {
+      "sourceRef": "N5-09.vocab.002",
+      "japanese": "晴れ",
+      "hiragana": "はれ",
+      "romaji": "hare",
+      "english": "sunny, clear",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "明日は晴れです。",
+      "exampleEn": "Tomorrow will be sunny."
+    },
+    {
+      "sourceRef": "N5-09.vocab.003",
+      "japanese": "雨",
+      "hiragana": "あめ",
+      "romaji": "ame",
+      "english": "rain",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "雨が降っています。",
+      "exampleEn": "It is raining."
+    },
+    {
+      "sourceRef": "N5-09.vocab.004",
+      "japanese": "雪",
+      "hiragana": "ゆき",
+      "romaji": "yuki",
+      "english": "snow",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "雪が白いです。",
+      "exampleEn": "The snow is white."
+    },
+    {
+      "sourceRef": "N5-09.vocab.005",
+      "japanese": "曇り",
+      "hiragana": "くもり",
+      "romaji": "kumori",
+      "english": "cloudy",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "今日は曇りです。",
+      "exampleEn": "It is cloudy today."
+    },
+    {
+      "sourceRef": "N5-09.vocab.006",
+      "japanese": "風",
+      "hiragana": "かぜ",
+      "romaji": "kaze",
+      "english": "wind",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "風が強いです。",
+      "exampleEn": "The wind is strong."
+    },
+    {
+      "sourceRef": "N5-09.vocab.007",
+      "japanese": "季節",
+      "hiragana": "きせつ",
+      "romaji": "kisetsu",
+      "english": "season",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "日本の季節は４つあります。",
+      "exampleEn": "There are 4 seasons in Japan."
+    },
+    {
+      "sourceRef": "N5-09.vocab.008",
+      "japanese": "春",
+      "hiragana": "はる",
+      "romaji": "haru",
+      "english": "spring",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "春は暖かいです。",
+      "exampleEn": "Spring is warm."
+    },
+    {
+      "sourceRef": "N5-09.vocab.009",
+      "japanese": "夏",
+      "hiragana": "なつ",
+      "romaji": "natsu",
+      "english": "summer",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "夏はとても暑いです。",
+      "exampleEn": "Summer is very hot."
+    },
+    {
+      "sourceRef": "N5-09.vocab.010",
+      "japanese": "秋",
+      "hiragana": "あき",
+      "romaji": "aki",
+      "english": "autumn, fall",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "秋は涼しいです。",
+      "exampleEn": "Autumn is cool."
+    },
+    {
+      "sourceRef": "N5-09.vocab.011",
+      "japanese": "冬",
+      "hiragana": "ふゆ",
+      "romaji": "fuyu",
+      "english": "winter",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "冬は雪が降ります。",
+      "exampleEn": "It snows in winter."
+    },
+    {
+      "sourceRef": "N5-09.vocab.012",
+      "japanese": "暖かい",
+      "hiragana": "あたたかい",
+      "romaji": "atatakai",
+      "english": "warm",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "今日は暖かいですね。",
+      "exampleEn": "It's warm today, isn't it?"
+    },
+    {
+      "sourceRef": "N5-09.vocab.013",
+      "japanese": "涼しい",
+      "hiragana": "すずしい",
+      "romaji": "suzushii",
+      "english": "cool",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "風が涼しいです。",
+      "exampleEn": "The wind is cool."
+    },
+    {
+      "sourceRef": "N5-09.vocab.014",
+      "japanese": "暑い",
+      "hiragana": "あつい",
+      "romaji": "atsui",
+      "english": "hot (weather)",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "ベトナムは暑いです。",
+      "exampleEn": "Vietnam is hot."
+    },
+    {
+      "sourceRef": "N5-09.vocab.015",
+      "japanese": "寒い",
+      "hiragana": "さむい",
+      "romaji": "samui",
+      "english": "cold (weather)",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "日本の冬は寒いです。",
+      "exampleEn": "Winter in Japan is cold."
+    },
+    {
+      "sourceRef": "N5-09.vocab.016",
+      "japanese": "天気予報",
+      "hiragana": "てんきよほう",
+      "romaji": "tenkiyohou",
+      "english": "weather forecast",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "天気予報を見ます。",
+      "exampleEn": "I watch the weather forecast."
+    },
+    {
+      "sourceRef": "N5-09.vocab.017",
+      "japanese": "いい",
+      "hiragana": "いい",
+      "romaji": "ii",
+      "english": "good (conjugates as yoi)",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "いい天気ですね。",
+      "exampleEn": "It's good weather, isn't it?"
+    },
+    {
+      "sourceRef": "N5-09.vocab.018",
+      "japanese": "悪い",
+      "hiragana": "わるい",
+      "romaji": "warui",
+      "english": "bad",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "天気が悪いです。",
+      "exampleEn": "The weather is bad."
+    },
+    {
+      "sourceRef": "N5-09.vocab.019",
+      "japanese": "忙しい",
+      "hiragana": "いそがしい",
+      "romaji": "isogashii",
+      "english": "busy",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "仕事が忙しいです。",
+      "exampleEn": "I am busy with work."
+    },
+    {
+      "sourceRef": "N5-09.vocab.020",
+      "japanese": "暇",
+      "hiragana": "ひま",
+      "romaji": "hima",
+      "english": "free time, not busy",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "明日は暇です。",
+      "exampleEn": "I am free tomorrow."
+    },
+    {
+      "sourceRef": "N5-09.vocab.021",
+      "japanese": "元気",
+      "hiragana": "げんき",
+      "romaji": "genki",
+      "english": "healthy, lively",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "お元気ですか。",
+      "exampleEn": "Are you doing well?"
+    },
+    {
+      "sourceRef": "N5-09.vocab.022",
+      "japanese": "きれい",
+      "hiragana": "きれい",
+      "romaji": "kirei",
+      "english": "beautiful, clean",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "海がきれいでした。",
+      "exampleEn": "The sea was beautiful."
+    },
+    {
+      "sourceRef": "N5-09.vocab.023",
+      "japanese": "静か",
+      "hiragana": "しずか",
+      "romaji": "shizuka",
+      "english": "quiet",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "この町は静かです。",
+      "exampleEn": "This town is quiet."
+    },
+    {
+      "sourceRef": "N5-09.vocab.024",
+      "japanese": "賑やか",
+      "hiragana": "にぎやか",
+      "romaji": "nigiyaka",
+      "english": "lively",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "ハノイは賑やかです。",
+      "exampleEn": "Hanoi is lively."
+    },
+    {
+      "sourceRef": "N5-09.vocab.025",
+      "japanese": "親切",
+      "hiragana": "しんせつ",
+      "romaji": "shinsetsu",
+      "english": "kind",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "田中さんは親切です。",
+      "exampleEn": "Mr. Tanaka is kind."
+    },
+    {
+      "sourceRef": "N5-09.vocab.026",
+      "japanese": "便利",
+      "hiragana": "べんり",
+      "romaji": "benri",
+      "english": "convenient",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "車は便利です。",
+      "exampleEn": "Cars are convenient."
+    },
+    {
+      "sourceRef": "N5-09.vocab.027",
+      "japanese": "難しい",
+      "hiragana": "むずかしい",
+      "romaji": "muzukashii",
+      "english": "difficult",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "日本語は難しいです。",
+      "exampleEn": "Japanese is difficult."
+    },
+    {
+      "sourceRef": "N5-09.vocab.028",
+      "japanese": "やさしい",
+      "hiragana": "やさしい",
+      "romaji": "yasashii",
+      "english": "easy",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "このテストはやさしいです。",
+      "exampleEn": "This test is easy."
+    },
+    {
+      "sourceRef": "N5-09.vocab.029",
+      "japanese": "近い",
+      "hiragana": "ちかい",
+      "romaji": "chikai",
+      "english": "near, close",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "駅が近いです。",
+      "exampleEn": "The station is near."
+    },
+    {
+      "sourceRef": "N5-09.vocab.030",
+      "japanese": "遠い",
+      "hiragana": "とおい",
+      "romaji": "tooi",
+      "english": "far",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "学校は遠いです。",
+      "exampleEn": "The school is far."
+    },
+    {
+      "sourceRef": "N5-09.vocab.031",
+      "japanese": "多い",
+      "hiragana": "おおい",
+      "romaji": "ooi",
+      "english": "many",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "人が多いです。",
+      "exampleEn": "There are many people."
+    },
+    {
+      "sourceRef": "N5-09.vocab.032",
+      "japanese": "少ない",
+      "hiragana": "すくない",
+      "romaji": "sukunai",
+      "english": "few",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "車が少ないです。",
+      "exampleEn": "There are few cars."
+    },
+    {
+      "sourceRef": "N5-09.vocab.033",
+      "japanese": "どちら",
+      "hiragana": "どちら",
+      "romaji": "dochira",
+      "english": "which (of two)",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "どちらが好きですか。",
+      "exampleEn": "Which do you like?"
+    },
+    {
+      "sourceRef": "N5-09.vocab.034",
+      "japanese": "どっち",
+      "hiragana": "どっち",
+      "romaji": "dotchi",
+      "english": "which (informal)",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "どっちがいい？",
+      "exampleEn": "Which is better?"
+    },
+    {
+      "sourceRef": "N5-09.vocab.035",
+      "japanese": "より",
+      "hiragana": "より",
+      "romaji": "yori",
+      "english": "than (comparison)",
+      "type": "PARTICLE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "犬は猫より大きいです。",
+      "exampleEn": "Dogs are bigger than cats."
+    },
+    {
+      "sourceRef": "N5-09.vocab.036",
+      "japanese": "ほう",
+      "hiragana": "ほう",
+      "romaji": "hou",
+      "english": "side, direction (comparison)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "私のほうが高いです。",
+      "exampleEn": "I am taller."
+    },
+    {
+      "sourceRef": "N5-09.vocab.037",
+      "japanese": "ずっと",
+      "hiragana": "ずっと",
+      "romaji": "zutto",
+      "english": "by far",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "ずっと寒いです。",
+      "exampleEn": "It is cold by far."
+    },
+    {
+      "sourceRef": "N5-09.vocab.038",
+      "japanese": "一番",
+      "hiragana": "いちばん",
+      "romaji": "ichiban",
+      "english": "the most, number one",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "一番安いです。",
+      "exampleEn": "It is the cheapest."
+    },
+    {
+      "sourceRef": "N5-09.vocab.039",
+      "japanese": "世界",
+      "hiragana": "せかい",
+      "romaji": "sekai",
+      "english": "world",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "世界で一番きれいです。",
+      "exampleEn": "It is the most beautiful in the world."
+    },
+    {
+      "sourceRef": "N5-09.vocab.040",
+      "japanese": "国",
+      "hiragana": "くに",
+      "romaji": "kuni",
+      "english": "country",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "私の国はベトナムです。",
+      "exampleEn": "My country is Vietnam."
+    },
+    {
+      "sourceRef": "N5-09.vocab.041",
+      "japanese": "どう",
+      "hiragana": "どう",
+      "romaji": "dou",
+      "english": "how",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "旅行はどうでしたか。",
+      "exampleEn": "How was the trip?"
+    },
+    {
+      "sourceRef": "N5-09.vocab.042",
+      "japanese": "どんな",
+      "hiragana": "どんな",
+      "romaji": "donna",
+      "english": "what kind of",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "どんな町ですか。",
+      "exampleEn": "What kind of town is it?"
+    },
+    {
+      "sourceRef": "N5-09.vocab.043",
+      "japanese": "そうですね",
+      "hiragana": "そうですね",
+      "romaji": "sou desu ne",
+      "english": "let me see, that's right",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "そうですね、高いです。",
+      "exampleEn": "Let me see, it's expensive."
+    },
+    {
+      "sourceRef": "N5-09.vocab.044",
+      "japanese": "でも",
+      "hiragana": "でも",
+      "romaji": "demo",
+      "english": "but",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "でも、美味しいです。",
+      "exampleEn": "But, it is delicious."
+    },
+    {
+      "sourceRef": "N5-09.vocab.045",
+      "japanese": "そして",
+      "hiragana": "そして",
+      "romaji": "soshite",
+      "english": "and, and then",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-09",
+      "introducedIn": "N5-09",
+      "exampleJp": "そして、安いです。",
+      "exampleEn": "And, it is cheap."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-09.kanji.001",
+      "character": "天",
+      "meaning": "heaven, sky",
+      "onyomi": "テン",
+      "kunyomi": "あまつ",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "大",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "天気 (tenki)",
+          "en": "weather"
+        }
+      ],
+      "mnemonic": "Learn the kanji for heaven, sky."
+    },
+    {
+      "sourceRef": "N5-09.kanji.002",
+      "character": "気",
+      "meaning": "spirit, mind, air",
+      "onyomi": "キ、ケ",
+      "kunyomi": "いき",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "气",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "元気 (genki)",
+          "en": "healthy"
+        }
+      ],
+      "mnemonic": "Learn the kanji for spirit, mind, air."
+    },
+    {
+      "sourceRef": "N5-09.kanji.003",
+      "character": "雨",
+      "meaning": "rain",
+      "onyomi": "ウ",
+      "kunyomi": "あめ",
+      "level": "N5",
+      "strokeCount": 8,
+      "radical": "雨",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "雨 (ame)",
+          "en": "rain"
+        }
+      ],
+      "mnemonic": "Learn the kanji for rain."
+    },
+    {
+      "sourceRef": "N5-09.kanji.004",
+      "character": "雪",
+      "meaning": "snow",
+      "onyomi": "セツ",
+      "kunyomi": "ゆき",
+      "level": "N5",
+      "strokeCount": 11,
+      "radical": "雨",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "雪 (yuki)",
+          "en": "snow"
+        }
+      ],
+      "mnemonic": "Learn the kanji for snow."
+    },
+    {
+      "sourceRef": "N5-09.kanji.005",
+      "character": "春",
+      "meaning": "spring",
+      "onyomi": "シュン",
+      "kunyomi": "はる",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "日",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "春 (haru)",
+          "en": "spring"
+        }
+      ],
+      "mnemonic": "Learn the kanji for spring."
+    },
+    {
+      "sourceRef": "N5-09.kanji.006",
+      "character": "夏",
+      "meaning": "summer",
+      "onyomi": "カ",
+      "kunyomi": "なつ",
+      "level": "N5",
+      "strokeCount": 10,
+      "radical": "夂",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "夏 (natsu)",
+          "en": "summer"
+        }
+      ],
+      "mnemonic": "Learn the kanji for summer."
+    },
+    {
+      "sourceRef": "N5-09.kanji.007",
+      "character": "秋",
+      "meaning": "autumn, fall",
+      "onyomi": "シュウ",
+      "kunyomi": "あき",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "禾",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "秋 (aki)",
+          "en": "autumn"
+        }
+      ],
+      "mnemonic": "Learn the kanji for autumn, fall."
+    },
+    {
+      "sourceRef": "N5-09.kanji.008",
+      "character": "冬",
+      "meaning": "winter",
+      "onyomi": "トウ",
+      "kunyomi": "ふゆ",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "冫",
+      "introducedIn": "N5-09",
+      "exampleWords": [
+        {
+          "jp": "冬 (fuyu)",
+          "en": "winter"
+        }
+      ],
+      "mnemonic": "Learn the kanji for winter."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-09.grammar.001",
+      "pattern": "Tính từ đuôi い: ～かったです / ～くなかったです",
+      "meaningVn": "Đã ~, đã không ~",
+      "meaningEn": "Past tense of i-adjectives",
+      "explanation": "Dùng để diễn tả trạng thái trong quá khứ. Quá khứ: bỏ い thêm かったです. Phủ định quá khứ: bỏ い thêm くなかったです (hoặc くありませんでした).",
+      "introducedIn": "N5-09",
+      "examples": [
+        {
+          "japanese": "昨日は寒かったです。",
+          "romaji": "Kinou wa samukatta desu.",
+          "english": "It was cold yesterday.",
+          "vietnamese": "Hôm qua trời đã lạnh."
+        },
+        {
+          "japanese": "テストは難しくなかったです。",
+          "romaji": "Tesuto wa muzukashikunakatta desu.",
+          "english": "The test wasn't difficult.",
+          "vietnamese": "Bài kiểm tra đã không khó."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-09.grammar.002",
+      "pattern": "Tính từ đuôi な / Danh từ: ～でした / ～じゃありませんでした",
+      "meaningVn": "Đã là ~, đã không là ~",
+      "meaningEn": "Past tense of na-adj / Nouns",
+      "explanation": "Quá khứ của tính từ đuôi な (bỏ な) và danh từ giống nhau: Khẳng định dùng でした, phủ định dùng じゃありませんでした.",
+      "introducedIn": "N5-09",
+      "examples": [
+        {
+          "japanese": "旅行は静かでした。",
+          "romaji": "Ryokou wa shizuka deshita.",
+          "english": "The trip was quiet.",
+          "vietnamese": "Chuyến du lịch đã rất yên tĩnh."
+        },
+        {
+          "japanese": "昨日は雨じゃありませんでした。",
+          "romaji": "Kinou wa ame ja arimasen deshita.",
+          "english": "It was not rain yesterday.",
+          "vietnamese": "Hôm qua đã không mưa."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-09.grammar.003",
+      "pattern": "A は B より ～です",
+      "meaningVn": "A thì ~ hơn B",
+      "meaningEn": "A is more ~ than B",
+      "explanation": "Cấu trúc so sánh hơn giữa 2 sự vật. 'より' mang nghĩa 'hơn so với'.",
+      "introducedIn": "N5-09",
+      "examples": [
+        {
+          "japanese": "今日は昨日より暑いです。",
+          "romaji": "Kyou wa kinou yori atsui desu.",
+          "english": "Today is hotter than yesterday.",
+          "vietnamese": "Hôm nay nóng hơn hôm qua."
+        },
+        {
+          "japanese": "飛行機は車より速いです。",
+          "romaji": "Hikouki wa kuruma yori hayai desu.",
+          "english": "Airplanes are faster than cars.",
+          "vietnamese": "Máy bay thì nhanh hơn ô tô."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-09.grammar.004",
+      "pattern": "A と B と どちらが ～ですか / A のほうが ～です",
+      "meaningVn": "A và B, cái nào ~ hơn? / A thì ~ hơn",
+      "meaningEn": "Which is more ~, A or B? / A is more ~",
+      "explanation": "Dùng để hỏi khi lựa chọn giữa 2 vật. 'どちら' là cái nào/người nào. Trả lời dùng '～のほうが'.",
+      "introducedIn": "N5-09",
+      "examples": [
+        {
+          "japanese": "春と秋とどちらが好きですか。",
+          "romaji": "Haru to aki to dochira ga suki desu ka.",
+          "english": "Between spring and autumn, which do you like?",
+          "vietnamese": "Giữa mùa xuân và mùa thu, bạn thích mùa nào hơn?"
+        },
+        {
+          "japanese": "秋のほうが好きです。",
+          "romaji": "Aki no hou ga suki desu.",
+          "english": "I like autumn more.",
+          "vietnamese": "Tôi thích mùa thu hơn."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-09.grammar.005",
+      "pattern": "Group の中で N が 一番 ～です",
+      "meaningVn": "Trong (tập hợp), N là ~ nhất",
+      "meaningEn": "N is the most ~ in (group)",
+      "explanation": "So sánh nhất trong 3 sự vật/người trở lên. Dùng '一番' (ichiban - số 1, nhất).",
+      "introducedIn": "N5-09",
+      "examples": [
+        {
+          "japanese": "季節の中で冬が一番好きです。",
+          "romaji": "Kisetsu no naka de fuyu ga ichiban suki desu.",
+          "english": "Among the seasons, I like winter the most.",
+          "vietnamese": "Trong các mùa, tôi thích mùa đông nhất."
+        },
+        {
+          "japanese": "クラスの中で田中さんが一番背が高いです。",
+          "romaji": "Kurasu no naka de Tanaka-san ga ichiban se ga takai desu.",
+          "english": "In the class, Mr. Tanaka is the tallest.",
+          "vietnamese": "Trong lớp, anh Tanaka là người cao nhất."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-09.kaiwa.001",
+      "title": "How was the weather?",
+      "titleJp": "天気はどうでしたか",
+      "situation": "Talking about the weather of a past trip",
+      "lines": [
+        {
+          "speaker": "山田",
+          "japanese": "田中さん、東京の旅行はどうでしたか。",
+          "hiragana": "たなかさん、とうきょうのりょこうはどうでしたか。",
+          "romaji": "Tanaka-san, Tokyo no ryokou wa dou deshita ka.",
+          "translation": "Mr. Tanaka, how was your trip to Tokyo?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "田中",
+          "japanese": "とても楽しかったです。でも、少し寒かったです。",
+          "hiragana": "とてもたのしかったです。でも、すこしさむかったです。",
+          "romaji": "Totemo tanoshikatta desu. Demo, sukoshi samukatta desu.",
+          "translation": "It was very fun. But, it was a little cold.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "山田",
+          "japanese": "雪が降りましたか。",
+          "hiragana": "ゆきがふりましたか。",
+          "romaji": "Yuki ga furimashita ka.",
+          "translation": "Did it snow?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "田中",
+          "japanese": "いいえ、雪じゃありませんでした。雨でした。",
+          "hiragana": "いいえ、ゆきじゃありませんでした。あめでした。",
+          "romaji": "Iie, yuki ja arimasen deshita. Ame deshita.",
+          "translation": "No, it wasn't snow. It was rain.",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-09.kaiwa.002",
+      "title": "Which do you prefer?",
+      "titleJp": "どちらが好きですか",
+      "situation": "Comparing preferences for seasons",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "ベトナムの夏は暑いですね。",
+          "hiragana": "べとなむのなつはあついですね。",
+          "romaji": "Betonamu no natsu wa atsui desu ne.",
+          "translation": "Vietnam's summer is hot, isn't it?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "鈴木",
+          "japanese": "そうですね。日本の夏とベトナムの夏と、どちらが暑いですか。",
+          "hiragana": "そうですね。にほんのなつとべとなむのなつと、どちらがあついですか。",
+          "romaji": "Sou desu ne. Nihon no natsu to Betonamu no natsu to, dochira ga atsui desu ka.",
+          "translation": "That's true. Between Japan's summer and Vietnam's summer, which is hotter?",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "田中",
+          "japanese": "ベトナムのほうがずっと暑いです。",
+          "hiragana": "べとなむのほうがずっとあついです。",
+          "romaji": "Betonamu no hou ga zutto atsui desu.",
+          "translation": "Vietnam is much hotter.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "鈴木",
+          "japanese": "私は暑い季節が嫌いです。冬が一番好きです。",
+          "hiragana": "わたしはあついきせつがきらいです。ふゆがいちばんすきです。",
+          "romaji": "Watashi wa atsui kisetsu ga kirai desu. Fuyu ga ichiban suki desu.",
+          "translation": "I hate hot seasons. I like winter the most.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-09.listening.001",
+      "title": "Yesterday's weather",
+      "instructions": "Listen to the man talking about yesterday's weather and his feelings.",
+      "audioUrl": "PENDING_AUDIO:n5-09-listening-01",
+      "transcriptJp": "昨日の天気は雨でした。風も強かったです。とても寒かったですから、私は外へ出ませんでした。うちの中で本を読んだり、音楽を聞いたりしました。今日はいい天気です。暖かいですから、公園へ散歩に行きます。",
+      "transcriptRomaji": "Kinou no tenki wa ame deshita. Kaze mo tsuyokatta desu. Totemo samukatta desu kara, watashi wa soto e demasen deshita. Uchi no naka de hon o yondari, ongaku o kiitari shimashita. Kyou wa ii tenki desu. Atatakai desu kara, kouen e sanpo ni ikimasu.",
+      "transcriptEn": "Yesterday's weather was rain. The wind was also strong. Because it was very cold, I didn't go outside. I read books and listened to music inside the house. Today is good weather. Because it is warm, I will go for a walk in the park.",
+      "durationSeconds": 45,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-09.listening.002",
+      "title": "Comparing things",
+      "instructions": "Listen to the conversation comparing cities.",
+      "audioUrl": "PENDING_AUDIO:n5-09-listening-02",
+      "transcriptJp": "A: 東京と京都とどちらが好きですか。\nB: 私は京都のほうが好きです。\nA: どうしてですか。\nB: 京都は東京より静かできれいですから。日本の町の中で京都が一番好きです。",
+      "transcriptRomaji": "A: Toukyou to Kyouto to dochira ga suki desu ka.\nB: Watashi wa Kyouto no hou ga suki desu.\nA: Doushite desu ka.\nB: Kyouto wa Toukyou yori shizuka de kirei desu kara. Nihon no machi no naka de Kyouto ga ichiban suki desu.",
+      "transcriptEn": "A: Which do you like better, Tokyo or Kyoto?\nB: I like Kyoto more.\nA: Why?\nB: Because Kyoto is quieter and more beautiful than Tokyo. Among the cities in Japan, I like Kyoto the most.",
+      "durationSeconds": 35,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-09.reading.001",
+      "title": "Hokkaido Trip",
+      "passage": "先週、私は家族と北海道へ行きました。北海道はとても寒かったです。雪がたくさん降りました。でも、雪祭りはとてもきれいでした。ホテルの料理はおいしかったです。北海道の旅行は楽しかったですが、少し疲れました。",
+      "reading": "せんしゅう、わたしはかぞくとほっかいどうへいきました。ほっかいどうはとてもさむかったです。ゆきがたくさんふりました。でも、ゆきまつりはとてもきれいでした。ほてるのりょうりはおいしかったです。ほっかいどうのりょこうはたのしかったですが、すこしつかれました。",
+      "translation": "Last week, I went to Hokkaido with my family. Hokkaido was very cold. It snowed a lot. But, the snow festival was very beautiful. The food at the hotel was delicious. The Hokkaido trip was fun, but I was a little tired.",
+      "questions": [
+        {
+          "question": "北海道の天気はどうでしたか。",
+          "options": [
+            "暖かくて、晴れでした",
+            "暑くて、雨でした",
+            "寒くて、雪でした",
+            "涼しくて、曇りでした"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 寒かったです。雪がたくさん降りました (Rất lạnh, có nhiều tuyết)."
+        },
+        {
+          "question": "ホテルについてどう思いましたか。",
+          "options": [
+            "料理がおいしかったです",
+            "部屋が広かったです",
+            "お風呂がよかったです",
+            "サービスが悪かったです"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: ホテルの料理はおいしかったです (Món ăn ở khách sạn ngon)."
+        },
+        {
+          "question": "旅行はどうでしたか。",
+          "options": [
+            "楽しくなかったです",
+            "楽しくて、疲れなかったです",
+            "つまらなかったです",
+            "楽しかったですが、疲れました"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài đọc ghi: 旅行は楽しかったですが、少し疲れました (Rất vui nhưng hơi mệt)."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-09.reading.002",
+      "title": "My Favorite Transport",
+      "passage": "飛行機と新幹線とバスの中で、どれが一番好きですか。私は新幹線が一番好きです。新幹線はバスより速いです。飛行機は一番速いですが、高くて不便です。新幹線は速くて便利です。だから、私はいつも新幹線に乗ります。",
+      "reading": "ひこうきとしんかんせんとばすのなかで、どれがいちばんすきですか。わたしはしんかんせんがいちばんすきです。しんかんせんはばすよりはやいです。ひこうきはいちばんはやいですが、たかくてふべんです。しんかんせんははやくてべんりです。だから、わたしはいつもしんかんせんにのります。",
+      "translation": "Among airplanes, shinkansen, and buses, which do you like best? I like the shinkansen best. The shinkansen is faster than the bus. Airplanes are the fastest, but they are expensive and inconvenient. The shinkansen is fast and convenient. Therefore, I always ride the shinkansen.",
+      "questions": [
+        {
+          "question": "一番速いのはどれですか。",
+          "options": [
+            "バス",
+            "新幹線",
+            "飛行機",
+            "車"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 飛行機は一番速いですが (Máy bay là nhanh nhất)."
+        },
+        {
+          "question": "どうして新幹線が一番好きですか。",
+          "options": [
+            "一番速いからです",
+            "一番安いからです",
+            "速くて便利だからです",
+            "遅いですが安全だからです"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 新幹線は速くて便利です (Nhanh và tiện lợi)."
+        },
+        {
+          "question": "新幹線はバスより速いですか。",
+          "options": [
+            "はい",
+            "いいえ"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: 新幹線はバスより速いです (Shinkansen thì nhanh hơn xe buýt)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-09.writing.001",
+      "prompt": "Describe yesterday's weather.",
+      "instructions": "Write 2 sentences describing the weather yesterday using past tense adjectives.",
+      "sampleAnswer": "昨日は雨でした。とても寒かったです。",
+      "rubric": "Use past tense noun/adjective forms properly (でした, かったです).",
+      "minLength": 2,
+      "maxLength": 3,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-09.writing.002",
+      "prompt": "Compare two things.",
+      "instructions": "Write 1 sentence comparing two items, stating which one is better/cheaper/etc.",
+      "sampleAnswer": "電車はバスより速いです。",
+      "rubric": "Use AはBよりAdjです.",
+      "minLength": 1,
+      "maxLength": 2,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-09.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Thời tiết' tiếng Nhật là gì?",
+      "options": [
+        "季節",
+        "天気",
+        "元気",
+        "空気"
+      ],
+      "correctIndex": 1,
+      "explanation": "天気 (tenki) là thời tiết.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Mưa' là gì?",
+      "options": [
+        "雪",
+        "風",
+        "雲",
+        "雨"
+      ],
+      "correctIndex": 3,
+      "explanation": "雨 (ame) là mưa.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Mùa xuân tiếng Nhật là gì?",
+      "options": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "correctIndex": 0,
+      "explanation": "春 (haru) là mùa xuân.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Tính từ 'Nóng (thời tiết)' là từ nào?",
+      "options": [
+        "暖かい",
+        "涼しい",
+        "暑い",
+        "寒い"
+      ],
+      "correctIndex": 2,
+      "explanation": "暑い (atsui) là nóng (dùng cho thời tiết).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.005",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ nào dùng để hỏi 'Cái nào' (giữa 2 cái)?",
+      "options": [
+        "どれ",
+        "どこ",
+        "どちら",
+        "どんな"
+      ],
+      "correctIndex": 2,
+      "explanation": "どちら (dochira) dùng khi chọn giữa 2 cái.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Bận rộn' là gì?",
+      "options": [
+        "暇",
+        "元気",
+        "忙しい",
+        "静か"
+      ],
+      "correctIndex": 2,
+      "explanation": "忙しい (isogashii) là bận rộn.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đẹp' hoặc 'Sạch' là gì?",
+      "options": [
+        "きれい",
+        "親切",
+        "便利",
+        "賑やか"
+      ],
+      "correctIndex": 0,
+      "explanation": "きれい (kirei) là đẹp, sạch sẽ.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.008",
+      "exerciseType": "FILL_BLANK",
+      "question": "この町は人が多くて、（　　）です。",
+      "options": [
+        "静か",
+        "賑やか",
+        "暇",
+        "悪い"
+      ],
+      "correctIndex": 1,
+      "explanation": "Đông người nên rất nhộn nhịp (賑やか - nigiyaka).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-09.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 天 đọc là gì trong 天気 (thời tiết)?",
+      "options": [
+        "てん",
+        "き",
+        "あめ",
+        "ゆき"
+      ],
+      "correctIndex": 0,
+      "explanation": "天 (Thiên) đọc là ten.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-09.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 雨 có nghĩa là gì?",
+      "options": [
+        "Nắng",
+        "Gió",
+        "Mưa",
+        "Tuyết"
+      ],
+      "correctIndex": 2,
+      "explanation": "雨 (Vũ) là mưa.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-09.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 雪 đọc là gì?",
+      "options": [
+        "かぜ",
+        "くも",
+        "あめ",
+        "ゆき"
+      ],
+      "correctIndex": 3,
+      "explanation": "雪 (Tuyết) đọc là yuki.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-09.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 冬 có nghĩa là mùa gì?",
+      "options": [
+        "Mùa Xuân",
+        "Mùa Hè",
+        "Mùa Thu",
+        "Mùa Đông"
+      ],
+      "correctIndex": 3,
+      "explanation": "冬 (Đông) là mùa đông.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-09.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Mùa hè được viết bằng chữ Hán nào?",
+      "options": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "correctIndex": 1,
+      "explanation": "夏 (Hạ) là mùa hè.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-09.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 秋 có nghĩa là mùa gì?",
+      "options": [
+        "Mùa Xuân",
+        "Mùa Hè",
+        "Mùa Thu",
+        "Mùa Đông"
+      ],
+      "correctIndex": 2,
+      "explanation": "秋 (Thu) là mùa thu.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-09.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "昨日は（　　）です。",
+      "options": [
+        "暑い",
+        "暑かった",
+        "暑く",
+        "暑くない"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hôm qua nên tính từ phải chia quá khứ: 暑かった (atsukatta).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "先週の旅行は（　　）。",
+      "options": [
+        "静か",
+        "静かです",
+        "静かでした",
+        "静かかったです"
+      ],
+      "correctIndex": 2,
+      "explanation": "静か là tính từ đuôi na, quá khứ là 静かでした.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "今日のテストはあまり（　　）。",
+      "options": [
+        "難しいです",
+        "難しかった",
+        "難しくないです",
+        "難しいでした"
+      ],
+      "correctIndex": 2,
+      "explanation": "あまり đi với phủ định (không khó lắm): 難しくないです.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "肉と魚と（　　）が好きですか。",
+      "options": [
+        "どこ",
+        "どちら",
+        "どんな",
+        "どれ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hỏi so sánh 2 vật dùng どちら (cái nào).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.019",
+      "exerciseType": "FILL_BLANK",
+      "question": "ベトナムは日本（　　）暑いです。",
+      "options": [
+        "より",
+        "ほう",
+        "から",
+        "まで"
+      ],
+      "correctIndex": 0,
+      "explanation": "A は B より ～です (A thì ~ hơn B). ベトナムは日本より暑いです.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "魚（　　）が好きです。",
+      "options": [
+        "より",
+        "のほう",
+        "一番",
+        "の中で"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trả lời so sánh 2 vật dùng ～のほうが. 魚のほうが好きです.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "１年で夏が（　　）暑いです。",
+      "options": [
+        "一番",
+        "より",
+        "ずっと",
+        "のほう"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trong 1 năm, mùa hè là nóng NHẤT (一番 - ichiban).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Hôm qua đã mưa.",
+      "options": [
+        "昨日は雨でした。",
+        "昨日は雨かった。",
+        "昨日は雨じゃありませんでした。",
+        "昨日は雨です。"
+      ],
+      "correctIndex": 0,
+      "explanation": "雨 (mưa) là danh từ, quá khứ là 雨でした.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Hôm qua thời tiết thế nào? (Bài 1)",
+      "options": [
+        "Trời nắng và ấm",
+        "Mưa và gió mạnh",
+        "Tuyết và rất lạnh",
+        "Có mây"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 昨日の天気は雨でした。風も強かったです (Mưa và gió mạnh).",
+      "points": 2,
+      "listeningRef": "N5-09.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-09.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Hôm qua người đàn ông đã làm gì? (Bài 1)",
+      "options": [
+        "Đi dạo ở công viên",
+        "Đi xem phim",
+        "Ở nhà đọc sách, nghe nhạc",
+        "Đi làm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói: うちの中で本を読んだり、音楽を聞いたりしました (Ở nhà đọc sách, nghe nhạc).",
+      "points": 2,
+      "listeningRef": "N5-09.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-09.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, người phụ nữ thích Tokyo hơn Kyoto.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cô ấy nói: 京都のほうが好きです (Thích Kyoto hơn). Sai.",
+      "points": 2,
+      "listeningRef": "N5-09.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-09.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1, chuyến đi Hokkaido diễn ra khi nào?",
+      "options": [
+        "Tuần này",
+        "Tuần trước",
+        "Hôm qua",
+        "Tháng trước"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 先週、私は家族と北海道へ行きました (Tuần trước).",
+      "points": 2,
+      "readingRef": "N5-09.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-09.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Theo bài đọc 2, phương tiện nào là nhanh nhất?",
+      "options": [
+        "Xe buýt",
+        "Shinkansen",
+        "Máy bay",
+        "Tàu điện ngầm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bài đọc ghi: 飛行機は一番速いですが (Máy bay là nhanh nhất).",
+      "points": 2,
+      "readingRef": "N5-09.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-09.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài đọc 2, tác giả luôn đi máy bay vì nó tiện lợi.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tác giả đi Shinkansen vì Máy bay thì đắt và bất tiện (たかくてふべんです). Sai.",
+      "points": 2,
+      "readingRef": "N5-09.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-09.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Bài kiểm tra hôm qua rất khó.",
+      "options": [
+        "は",
+        "昨日のテスト",
+        "難しかったです",
+        "とても"
+      ],
+      "correctIndex": 1,
+      "explanation": "昨日のテストはとても難しかったです。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-09.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Chó thì to hơn mèo.",
+      "options": [
+        "猫",
+        "犬は",
+        "大きいです",
+        "より"
+      ],
+      "correctIndex": 1,
+      "explanation": "犬は猫より大きいです。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-09.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Mùa đông'?",
+      "options": [
+        "春",
+        "夏",
+        "秋",
+        "冬"
+      ],
+      "correctIndex": 3,
+      "explanation": "冬 (fuyu) là mùa đông.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 晴れ trong 晴れです (trời nắng) được đọc là gì?",
+      "options": [
+        "あめ",
+        "はれ",
+        "くもり",
+        "ゆき"
+      ],
+      "correctIndex": 1,
+      "explanation": "晴れ đọc là hare (quang đãng, nắng).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Lạnh' (thời tiết) tiếng Nhật là gì?",
+      "options": [
+        "暑い",
+        "暖かい",
+        "涼しい",
+        "寒い"
+      ],
+      "correctIndex": 3,
+      "explanation": "寒い (samui) là lạnh.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 春 có nghĩa là gì?",
+      "options": [
+        "Xuân",
+        "Hạ",
+        "Thu",
+        "Đông"
+      ],
+      "correctIndex": 0,
+      "explanation": "春 (Xuân) là mùa xuân.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Rảnh rỗi' tiếng Nhật là gì?",
+      "options": [
+        "忙しい",
+        "暇",
+        "元気",
+        "静か"
+      ],
+      "correctIndex": 1,
+      "explanation": "暇 (hima) là rảnh rỗi.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 昨日は忙し（　　）。",
+      "options": [
+        "です",
+        "でした",
+        "かった",
+        "かったです"
+      ],
+      "correctIndex": 3,
+      "explanation": "忙しい là tính từ đuôi い. Quá khứ là 忙しかったです.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: その映画は（　　）です。",
+      "options": [
+        "面白くなかった",
+        "面白いない",
+        "面白いなかった",
+        "面白くないでした"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quá khứ phủ định của tính từ い là くなかったです. 面白くなかったです (Đã không thú vị).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Tôi thích thịt hơn cá':",
+      "options": [
+        "肉と魚のほうが好きです。",
+        "肉より魚が好きです。",
+        "魚より肉のほうが好きです。",
+        "肉のほうは魚が好きです。"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hơn B: Bより Aのほうが ~. 魚より肉のほうが好きです.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong lớp, Tanaka là người cao nhất. Dịch như thế nào?",
+      "options": [
+        "クラスの中で田中さんが高いです。",
+        "クラスの中で田中さんが一番高いです。",
+        "田中さんはクラスより高いです。",
+        "田中さんは一番クラスの中で高いです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nhómの中で Aが 一番(ichiban) ~. クラスの中で田中さんが一番高いです.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 新幹線はバス（　　）速いです。",
+      "options": [
+        "一番",
+        "ほう",
+        "より",
+        "と"
+      ],
+      "correctIndex": 2,
+      "explanation": "So sánh hơn dùng より (Shinkansen nhanh HƠN xe buýt).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn hỏi 'Thế nào', ví dụ 'Chuyến du lịch thế nào?', bạn nói:",
+      "options": [
+        "旅行はどうでしたか。",
+        "旅行はどこでしたか。",
+        "旅行はだれでしたか。",
+        "旅行はいつでしたか。"
+      ],
+      "correctIndex": 0,
+      "explanation": "どう (Như thế nào). Quá khứ là どうでしたか.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Để hỏi 'Giữa trà và cà phê, bạn thích cái nào?', bạn dùng từ nào?",
+      "options": [
+        "どう",
+        "どれ",
+        "どちら",
+        "どんな"
+      ],
+      "correctIndex": 2,
+      "explanation": "どちら (Cái nào - dùng cho 2 sự lựa chọn).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu chọn Trà, bạn sẽ nói:",
+      "options": [
+        "お茶が好きです。",
+        "お茶のほうが好きです。",
+        "お茶が一番好きです。",
+        "お茶より好きです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trả lời cho どちら dùng 〜のほうが. (お茶のほうが好きです).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Tính từ đuôi い ở dạng quá khứ khẳng định kết thúc bằng:",
+      "options": [
+        "でした",
+        "かったです",
+        "くなかったです",
+        "じゃありませんでした"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tính từ đuôi い bỏ い + かったです.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-09.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Tính từ đuôi な ở dạng quá khứ phủ định kết thúc bằng:",
+      "options": [
+        "くなかったです",
+        "じゃありませんでした",
+        "でした",
+        "くないです"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tính từ đuôi な và Danh từ quá khứ phủ định là じゃありませんでした.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "module": {
+    "code": "N5-MOCK-01",
+    "level": "N5",
+    "unit": 13,
+    "title": "JLPT N5 Mock Test 01",
+    "titleJp": "JLPT N5 模擬試験 01",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening (JLPT Part 3)",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading (JLPT Part 2)",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Language Knowledge (Vocab/Kanji)",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [],
+  "kanji": [],
+  "grammar": [],
+  "conversations": [],
+  "writing": [],
+  "listening": [
+    {
+      "sourceRef": "MOCK-01.listening.001",
+      "title": "Mondai 1: Task-Based Listening (課題理解)",
+      "instructions": "Listen to the dialogue and choose the correct action.",
+      "audioUrl": "PENDING_AUDIO:mock-01-listening-01",
+      "transcriptJp": "男：すみません、このバスは東京駅へ行きますか。\n女：いいえ、行きません。東京駅は次のバスですよ。\n男：そうですか。次のバスは何時ですか。\n女：１０時半です。\n男：わかりました。ありがとうございます。\n\n質問：男の人は何時のバスに乗りますか。",
+      "transcriptRomaji": "Otoko: Sumimasen, kono basu wa Toukyou-eki e ikimasu ka.\nOnna: Iie, ikimasen. Toukyou-eki wa tsugi no basu desu yo.\nOtoko: Sou desu ka. Tsugi no basu wa nanji desu ka.\nOnna: Juu-ji han desu.\nOtoko: Wakarimashita. Arigatou gozaimasu.\n\nShitsumon: Otoko no hito wa nanji no basu ni norimasu ka.",
+      "transcriptEn": "Man: Excuse me, does this bus go to Tokyo Station?\nWoman: No, it doesn't. Tokyo Station is the next bus.\nMan: I see. What time is the next bus?\nWoman: It's 10:30.\nMan: I understand. Thank you.\n\nQuestion: What time bus will the man ride?",
+      "durationSeconds": 45,
+      "playbackSpeed": 1.0,
+      "source": "Mock Test Material"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "MOCK-01.reading.001",
+      "title": "Mondai 4: Short Passage (短文読解)",
+      "passage": "私は毎朝６時に起きます。朝ごはんはいつもパンとコーヒーです。７時に家を出て、電車で会社へ行きます。会社は９時から５時までです。仕事の後で、時々友達とご飯を食べます。",
+      "reading": "わたしはまいあさ６じにおきます。あさごはんはいつもぱんとこーひーです。７じにいえをでて、でんしゃでかいしゃへいきます。かいしゃは９じから５じまでです。しごとのあとで、ときどきともだちとごはんをたべます。",
+      "translation": "I wake up at 6 every morning. My breakfast is always bread and coffee. I leave home at 7 and go to the company by train. The company is from 9 to 5. After work, I sometimes eat a meal with friends.",
+      "questions": [
+        {
+          "question": "この人は朝、何をしますか。",
+          "options": [
+            "７時に起きます",
+            "ご飯を食べます",
+            "パンを食べます",
+            "友達と会います"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 朝ごはんはいつもパンとコーヒーです (Bữa sáng luôn là bánh mì và cà phê)."
+        },
+        {
+          "question": "仕事のあとで、何をしますか。",
+          "options": [
+            "会社へ行きます",
+            "電車に乗ります",
+            "家に帰ります",
+            "友達とご飯を食べます"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài đọc ghi: 仕事の後で、時々友達とご飯を食べます (Sau giờ làm thỉnh thoảng đi ăn cùng bạn)."
+        },
+        {
+          "question": "どうやって会社へ行きますか。",
+          "options": [
+            "バスで",
+            "電車で",
+            "歩いて",
+            "自転車で"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 電車で会社へ行きます (Đi bằng tàu điện)."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "MOCK-01.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題１】＿＿＿の言葉はどう読みますか。\nあそこに『白い』犬がいます。",
+      "options": [
+        "くろい",
+        "しろい",
+        "あかい",
+        "あおい"
+      ],
+      "correctIndex": 1,
+      "explanation": "白い (trắng) đọc là しろい.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "MOCK-01.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題１】＿＿＿の言葉はどう読みますか。\n『今日』はとても寒いです。",
+      "options": [
+        "きのう",
+        "あした",
+        "きょう",
+        "あさって"
+      ],
+      "correctIndex": 2,
+      "explanation": "今日 (hôm nay) đọc là きょう.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "MOCK-01.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題２】＿＿＿の言葉はどう書きますか。\nつくえの『した』にかばんがあります。",
+      "options": [
+        "上",
+        "下",
+        "中",
+        "外"
+      ],
+      "correctIndex": 1,
+      "explanation": "した (dưới) viết là 下.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "MOCK-01.exercise.004",
+      "exerciseType": "FILL_BLANK",
+      "question": "【問題３】（　　）に何を入れますか。\n夏休みは海で（　　）たいです。",
+      "options": [
+        "走り",
+        "登り",
+        "泳ぎ",
+        "歩き"
+      ],
+      "correctIndex": 2,
+      "explanation": "Biển (海) thì sẽ đi bơi (泳ぎ).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "MOCK-01.exercise.005",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "【問題４】＿＿＿の文とだいたい同じ意味の文はどれですか。\n『この本はやさしいです。』",
+      "options": [
+        "この本は高くないです。",
+        "この本は難しくないです。",
+        "この本は安くないです。",
+        "この本は新しくないです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "やさしい (dễ) = 難しくない (không khó).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "MOCK-01.exercise.006",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "【文法２】文を作ってください。\nあそこに＿＿ ＿＿ ＿＿ ＿＿ですか。",
+      "options": [
+        "あの",
+        "人",
+        "は",
+        "だれ"
+      ],
+      "correctIndex": 0,
+      "explanation": "あそこにあの人はだれですか -> あの (1) 人 (2) は (3) だれ (4)",
+      "points": 2,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "MOCK-01.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "【文法１】（　　）に何を入れますか。\n私は毎朝、バス（　　）会社へ行きます。",
+      "options": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "correctIndex": 3,
+      "explanation": "Chỉ phương tiện đi lại dùng で (バスで).",
+      "points": 1
+    },
+    {
+      "sourceRef": "MOCK-01.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "【文法１】（　　）に何を入れますか。\n昨日、友達（　　）映画を見ました。",
+      "options": [
+        "が",
+        "と",
+        "を",
+        "へ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Làm gì cùng với ai dùng と (友達と).",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "lastUpdatedAt": null,
+  "completedModules": [],
+  "vocabulary": [],
+  "kanji": [],
+  "grammar": [],
+  "notes": [
+    "This file is the cumulative content index for Gemini and seed validation.",
+    "Do not add database IDs. Use stable sourceRef values such as N5-01.vocab.001.",
+    "Update this ledger only after a module passes QA and is imported successfully."
+  ],
+  "entryExamples": {
+    "vocabulary": {
+      "sourceRef": "N5-01.vocab.001",
+      "japanese": "学生",
+      "reading": "がくせい",
+      "introducedIn": "N5-01",
+      "reviewedIn": []
+    },
+    "kanji": {
+      "sourceRef": "N5-01.kanji.001",
+      "character": "学",
+      "introducedIn": "N5-01",
+      "reviewedIn": []
+    },
+    "grammar": {
+      "sourceRef": "N5-01.grammar.001",
+      "pattern": "A は B です",
+      "introducedIn": "N5-01",
+      "reviewedIn": []
+    }
+  }
+}

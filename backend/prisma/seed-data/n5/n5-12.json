@@ -1,0 +1,1820 @@
+{
+  "module": {
+    "code": "N5-12",
+    "level": "N5",
+    "unit": 12,
+    "title": "Review and Mock Test",
+    "titleJp": "総復習と模擬試験",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-12.vocab.001",
+      "japanese": "復習",
+      "hiragana": "ふくしゅう",
+      "romaji": "fukushuu",
+      "english": "review",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "漢字を復習します。",
+      "exampleEn": "I review kanji."
+    },
+    {
+      "sourceRef": "N5-12.vocab.002",
+      "japanese": "試験",
+      "hiragana": "しけん",
+      "romaji": "shiken",
+      "english": "exam, test",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "明日、試験があります。",
+      "exampleEn": "There is an exam tomorrow."
+    },
+    {
+      "sourceRef": "N5-12.vocab.003",
+      "japanese": "質問",
+      "hiragana": "しつもん",
+      "romaji": "shitsumon",
+      "english": "question",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "質問があります。",
+      "exampleEn": "I have a question."
+    },
+    {
+      "sourceRef": "N5-12.vocab.004",
+      "japanese": "意味",
+      "hiragana": "いみ",
+      "romaji": "imi",
+      "english": "meaning",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "この言葉の意味は何ですか。",
+      "exampleEn": "What is the meaning of this word?"
+    },
+    {
+      "sourceRef": "N5-12.vocab.005",
+      "japanese": "辞書",
+      "hiragana": "じしょ",
+      "romaji": "jisho",
+      "english": "dictionary",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "辞書を使ってもいいですか。",
+      "exampleEn": "May I use a dictionary?"
+    },
+    {
+      "sourceRef": "N5-12.vocab.006",
+      "japanese": "宿題",
+      "hiragana": "しゅくだい",
+      "romaji": "shukudai",
+      "english": "homework",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "宿題を忘れました。",
+      "exampleEn": "I forgot my homework."
+    },
+    {
+      "sourceRef": "N5-12.vocab.007",
+      "japanese": "授業",
+      "hiragana": "じゅぎょう",
+      "romaji": "jugyou",
+      "english": "class, lesson",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "９時に授業が始まります。",
+      "exampleEn": "The class begins at 9."
+    },
+    {
+      "sourceRef": "N5-12.vocab.008",
+      "japanese": "答え",
+      "hiragana": "こたえ",
+      "romaji": "kotae",
+      "english": "answer",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "答えを書いてください。",
+      "exampleEn": "Please write the answer."
+    },
+    {
+      "sourceRef": "N5-12.vocab.009",
+      "japanese": "例",
+      "hiragana": "れい",
+      "romaji": "rei",
+      "english": "example",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "例を読んでください。",
+      "exampleEn": "Please read the example."
+    },
+    {
+      "sourceRef": "N5-12.vocab.010",
+      "japanese": "番号",
+      "hiragana": "ばんごう",
+      "romaji": "bangou",
+      "english": "number",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "電話番号を教えてください。",
+      "exampleEn": "Please tell me your phone number."
+    },
+    {
+      "sourceRef": "N5-12.vocab.011",
+      "japanese": "旅行",
+      "hiragana": "りょこう",
+      "romaji": "ryokou",
+      "english": "travel, trip",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "日本へ旅行に行きます。",
+      "exampleEn": "I am going on a trip to Japan."
+    },
+    {
+      "sourceRef": "N5-12.vocab.012",
+      "japanese": "お土産",
+      "hiragana": "おみやげ",
+      "romaji": "omiyage",
+      "english": "souvenir",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "友達にお土産を買いました。",
+      "exampleEn": "I bought a souvenir for my friend."
+    },
+    {
+      "sourceRef": "N5-12.vocab.013",
+      "japanese": "写真",
+      "hiragana": "しゃしん",
+      "romaji": "shashin",
+      "english": "photograph",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "写真を撮りましょう。",
+      "exampleEn": "Let's take a photo."
+    },
+    {
+      "sourceRef": "N5-12.vocab.014",
+      "japanese": "案内",
+      "hiragana": "あんない",
+      "romaji": "annai",
+      "english": "guide, information",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "町を案内します。",
+      "exampleEn": "I will guide you around the town."
+    },
+    {
+      "sourceRef": "N5-12.vocab.015",
+      "japanese": "地図",
+      "hiragana": "ちず",
+      "romaji": "chizu",
+      "english": "map",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "地図を見てください。",
+      "exampleEn": "Please look at the map."
+    },
+    {
+      "sourceRef": "N5-12.vocab.016",
+      "japanese": "荷物",
+      "hiragana": "にもつ",
+      "romaji": "nimotsu",
+      "english": "luggage, baggage",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "荷物が多いです。",
+      "exampleEn": "I have a lot of luggage."
+    },
+    {
+      "sourceRef": "N5-12.vocab.017",
+      "japanese": "切符",
+      "hiragana": "きっぷ",
+      "romaji": "kippu",
+      "english": "ticket",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "電車の切符を買います。",
+      "exampleEn": "I buy a train ticket."
+    },
+    {
+      "sourceRef": "N5-12.vocab.018",
+      "japanese": "財布",
+      "hiragana": "さいふ",
+      "romaji": "saifu",
+      "english": "wallet",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "財布をなくしました。",
+      "exampleEn": "I lost my wallet."
+    },
+    {
+      "sourceRef": "N5-12.vocab.019",
+      "japanese": "お釣り",
+      "hiragana": "おつり",
+      "romaji": "otsuri",
+      "english": "change (money)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "お釣りをもらいます。",
+      "exampleEn": "I receive the change."
+    },
+    {
+      "sourceRef": "N5-12.vocab.020",
+      "japanese": "パスポート",
+      "hiragana": "ぱすぽーと",
+      "romaji": "pasupooto",
+      "english": "passport",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "パスポートを見せてください。",
+      "exampleEn": "Please show me your passport."
+    },
+    {
+      "sourceRef": "N5-12.vocab.021",
+      "japanese": "終わる",
+      "hiragana": "おわる",
+      "romaji": "owaru",
+      "english": "to finish, end",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "試験が終わりました。",
+      "exampleEn": "The exam has finished."
+    },
+    {
+      "sourceRef": "N5-12.vocab.022",
+      "japanese": "始まる",
+      "hiragana": "はじまる",
+      "romaji": "hajimaru",
+      "english": "to begin, start",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "映画が始まります。",
+      "exampleEn": "The movie is starting."
+    },
+    {
+      "sourceRef": "N5-12.vocab.023",
+      "japanese": "忘れる",
+      "hiragana": "わすれる",
+      "romaji": "wasureru",
+      "english": "to forget",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "約束を忘れないでください。",
+      "exampleEn": "Please don't forget the promise."
+    },
+    {
+      "sourceRef": "N5-12.vocab.024",
+      "japanese": "覚える",
+      "hiragana": "おぼえる",
+      "romaji": "oboeru",
+      "english": "to memorize, remember",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "漢字を覚えます。",
+      "exampleEn": "I memorize kanji."
+    },
+    {
+      "sourceRef": "N5-12.vocab.025",
+      "japanese": "払う",
+      "hiragana": "はらう",
+      "romaji": "harau",
+      "english": "to pay",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "お金を払います。",
+      "exampleEn": "I pay the money."
+    },
+    {
+      "sourceRef": "N5-12.vocab.026",
+      "japanese": "疲れる",
+      "hiragana": "つかれる",
+      "romaji": "tsukareru",
+      "english": "to get tired",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "たくさん歩きましたから、疲れました。",
+      "exampleEn": "I am tired because I walked a lot."
+    },
+    {
+      "sourceRef": "N5-12.vocab.027",
+      "japanese": "なくす",
+      "hiragana": "なくす",
+      "romaji": "nakusu",
+      "english": "to lose (something)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "鍵をなくしました。",
+      "exampleEn": "I lost the key."
+    },
+    {
+      "sourceRef": "N5-12.vocab.028",
+      "japanese": "貸す",
+      "hiragana": "かす",
+      "romaji": "kasu",
+      "english": "to lend",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "ペンを貸してください。",
+      "exampleEn": "Please lend me a pen."
+    },
+    {
+      "sourceRef": "N5-12.vocab.029",
+      "japanese": "借りる",
+      "hiragana": "かりる",
+      "romaji": "kariru",
+      "english": "to borrow",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "図書館で本を借ります。",
+      "exampleEn": "I borrow a book at the library."
+    },
+    {
+      "sourceRef": "N5-12.vocab.030",
+      "japanese": "質問する",
+      "hiragana": "しつもんする",
+      "romaji": "shitsumon suru",
+      "english": "to ask a question",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "先生に質問します。",
+      "exampleEn": "I ask the teacher a question."
+    },
+    {
+      "sourceRef": "N5-12.vocab.031",
+      "japanese": "大切",
+      "hiragana": "たいせつ",
+      "romaji": "taisetsu",
+      "english": "important",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "これは大切な本です。",
+      "exampleEn": "This is an important book."
+    },
+    {
+      "sourceRef": "N5-12.vocab.032",
+      "japanese": "大丈夫",
+      "hiragana": "だいじょうぶ",
+      "romaji": "daijoubu",
+      "english": "all right, okay",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "私は大丈夫です。",
+      "exampleEn": "I am alright."
+    },
+    {
+      "sourceRef": "N5-12.vocab.033",
+      "japanese": "本当",
+      "hiragana": "ほんとう",
+      "romaji": "hontou",
+      "english": "true, real",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "それは本当ですか。",
+      "exampleEn": "Is that true?"
+    },
+    {
+      "sourceRef": "N5-12.vocab.034",
+      "japanese": "全部",
+      "hiragana": "ぜんぶ",
+      "romaji": "zenbu",
+      "english": "all, everything",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "宿題を全部終わりました。",
+      "exampleEn": "I finished all my homework."
+    },
+    {
+      "sourceRef": "N5-12.vocab.035",
+      "japanese": "みんな",
+      "hiragana": "みんな",
+      "romaji": "minna",
+      "english": "everyone, all",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "みんなで歌いましょう。",
+      "exampleEn": "Let's all sing together."
+    },
+    {
+      "sourceRef": "N5-12.vocab.036",
+      "japanese": "たくさん",
+      "hiragana": "たくさん",
+      "romaji": "takusan",
+      "english": "a lot, many",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "人がたくさんいます。",
+      "exampleEn": "There are many people."
+    },
+    {
+      "sourceRef": "N5-12.vocab.037",
+      "japanese": "少し",
+      "hiragana": "すこし",
+      "romaji": "sukoshi",
+      "english": "a little",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "少し疲れた。",
+      "exampleEn": "I am a little tired."
+    },
+    {
+      "sourceRef": "N5-12.vocab.038",
+      "japanese": "よく",
+      "hiragana": "よく",
+      "romaji": "yoku",
+      "english": "well, often",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "よく映画を見ます。",
+      "exampleEn": "I often watch movies."
+    },
+    {
+      "sourceRef": "N5-12.vocab.039",
+      "japanese": "だんだん",
+      "hiragana": "だんだん",
+      "romaji": "dandan",
+      "english": "gradually",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "だんだん暑くなります。",
+      "exampleEn": "It gradually becomes hot."
+    },
+    {
+      "sourceRef": "N5-12.vocab.040",
+      "japanese": "初めて",
+      "hiragana": "はじめて",
+      "romaji": "hajimete",
+      "english": "for the first time",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "初めて刺身を食べました。",
+      "exampleEn": "I ate sashimi for the first time."
+    },
+    {
+      "sourceRef": "N5-12.vocab.041",
+      "japanese": "一緒に",
+      "hiragana": "いっしょに",
+      "romaji": "isshoni",
+      "english": "together",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "一緒に帰りましょう。",
+      "exampleEn": "Let's go home together."
+    },
+    {
+      "sourceRef": "N5-12.vocab.042",
+      "japanese": "同じ",
+      "hiragana": "おなじ",
+      "romaji": "onaji",
+      "english": "same",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "同じ本を買いました。",
+      "exampleEn": "I bought the same book."
+    },
+    {
+      "sourceRef": "N5-12.vocab.043",
+      "japanese": "違う",
+      "hiragana": "ちがう",
+      "romaji": "chigau",
+      "english": "to be different, wrong",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "いいえ、違います。",
+      "exampleEn": "No, that's wrong."
+    },
+    {
+      "sourceRef": "N5-12.vocab.044",
+      "japanese": "もちろん",
+      "hiragana": "もちろん",
+      "romaji": "mochiron",
+      "english": "of course",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "もちろん行きます。",
+      "exampleEn": "Of course I will go."
+    },
+    {
+      "sourceRef": "N5-12.vocab.045",
+      "japanese": "ぜひ",
+      "hiragana": "ぜひ",
+      "romaji": "zehi",
+      "english": "by all means",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-12",
+      "introducedIn": "N5-12",
+      "exampleJp": "ぜひ来てください。",
+      "exampleEn": "Please come by all means."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-12.kanji.001",
+      "character": "大",
+      "meaning": "big, large",
+      "onyomi": "ダイ、タイ",
+      "kunyomi": "おお.きい",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "大",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "大きい (ookii)",
+          "en": "big"
+        }
+      ],
+      "mnemonic": "Learn the kanji for big, large."
+    },
+    {
+      "sourceRef": "N5-12.kanji.002",
+      "character": "小",
+      "meaning": "small",
+      "onyomi": "ショウ",
+      "kunyomi": "ちい.さい",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "小",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "小さい (chiisai)",
+          "en": "small"
+        }
+      ],
+      "mnemonic": "Learn the kanji for small."
+    },
+    {
+      "sourceRef": "N5-12.kanji.003",
+      "character": "多",
+      "meaning": "many, much",
+      "onyomi": "タ",
+      "kunyomi": "おお.い",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "夕",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "多い (ooi)",
+          "en": "many"
+        }
+      ],
+      "mnemonic": "Learn the kanji for many, much."
+    },
+    {
+      "sourceRef": "N5-12.kanji.004",
+      "character": "少",
+      "meaning": "few, a little",
+      "onyomi": "ショウ",
+      "kunyomi": "すく.ない、すこ.し",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "小",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "少ない (sukunai)",
+          "en": "few"
+        }
+      ],
+      "mnemonic": "Learn the kanji for few, a little."
+    },
+    {
+      "sourceRef": "N5-12.kanji.005",
+      "character": "入",
+      "meaning": "enter",
+      "onyomi": "ニュウ",
+      "kunyomi": "はい.る、い.れる",
+      "level": "N5",
+      "strokeCount": 2,
+      "radical": "入",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "入る (hairu)",
+          "en": "to enter"
+        }
+      ],
+      "mnemonic": "Learn the kanji for enter."
+    },
+    {
+      "sourceRef": "N5-12.kanji.006",
+      "character": "出",
+      "meaning": "exit, leave",
+      "onyomi": "シュツ",
+      "kunyomi": "で.る、だ.す",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "凵",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "出る (deru)",
+          "en": "to exit"
+        }
+      ],
+      "mnemonic": "Learn the kanji for exit, leave."
+    },
+    {
+      "sourceRef": "N5-12.kanji.007",
+      "character": "立",
+      "meaning": "stand",
+      "onyomi": "リツ",
+      "kunyomi": "た.つ",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "立",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "立つ (tatsu)",
+          "en": "to stand"
+        }
+      ],
+      "mnemonic": "Learn the kanji for stand."
+    },
+    {
+      "sourceRef": "N5-12.kanji.008",
+      "character": "白",
+      "meaning": "white",
+      "onyomi": "ハク",
+      "kunyomi": "しろ、しろ.い",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "白",
+      "introducedIn": "N5-12",
+      "exampleWords": [
+        {
+          "jp": "白い (shiroi)",
+          "en": "white"
+        }
+      ],
+      "mnemonic": "Learn the kanji for white."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-12.grammar.001",
+      "pattern": "Tổng ôn Trợ từ N5 (Particles Review)",
+      "meaningVn": "Ôn tập Trợ từ",
+      "meaningEn": "N5 Particles Review",
+      "explanation": "は (chủ đề), が (chủ ngữ mới/trước tính từ), を (tân ngữ trực tiếp), に (thời gian, địa điểm tồn tại/đến), で (phương tiện, địa điểm hành động), へ (hướng đi), と (cùng với).",
+      "introducedIn": "N5-12",
+      "examples": [
+        {
+          "japanese": "私はバスで学校へ行きます。",
+          "romaji": "Watashi wa basu de gakkou e ikimasu.",
+          "english": "I go to school by bus.",
+          "vietnamese": "Tôi đi đến trường bằng xe buýt."
+        },
+        {
+          "japanese": "日曜日に友達と映画を見ました。",
+          "romaji": "Nichiyoubi ni tomodachi to eiga o mimashita.",
+          "english": "I watched a movie with a friend on Sunday.",
+          "vietnamese": "Vào Chủ nhật, tôi đã xem phim cùng bạn."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-12.grammar.002",
+      "pattern": "Tổng ôn các thể của Động từ (Verb Forms Review)",
+      "meaningVn": "Ôn tập Thể Động từ",
+      "meaningEn": "Verb Forms Review",
+      "explanation": "Thể ます (lịch sự), Thể て (nối câu, nhờ vả, tiếp diễn), Thể từ điển Vる (nguyên dạng, trước khi, dự định). Phân biệt rõ 3 nhóm động từ.",
+      "introducedIn": "N5-12",
+      "examples": [
+        {
+          "japanese": "食べます -> 食べて -> 食べる",
+          "romaji": "Tabemasu -> tabete -> taberu",
+          "english": "eat -> eat (te-form) -> eat (dict)",
+          "vietnamese": "ăn (masu) -> ăn (te) -> ăn (từ điển)"
+        },
+        {
+          "japanese": "行きます -> 行って -> 行く",
+          "romaji": "Ikimasu -> itte -> iku",
+          "english": "go -> go (te-form) -> go (dict)",
+          "vietnamese": "đi (masu) -> đi (te) -> đi (từ điển)"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-12.grammar.003",
+      "pattern": "Nhờ vả, Xin phép và Cấm đoán",
+      "meaningVn": "～てください / ～てもいいですか / ～てはいけません",
+      "meaningEn": "Requests, Permissions, Prohibitions",
+      "explanation": "Ôn tập mẫu câu dùng thể て. Nhờ vả: Vてください. Xin phép: Vてもいいですか. Cấm đoán: Vてはいけません.",
+      "introducedIn": "N5-12",
+      "examples": [
+        {
+          "japanese": "辞書を貸してください。",
+          "romaji": "Jisho o kashite kudasai.",
+          "english": "Please lend me the dictionary.",
+          "vietnamese": "Hãy cho tôi mượn từ điển."
+        },
+        {
+          "japanese": "ここで写真を撮ってはいけません。",
+          "romaji": "Koko de shashin o totte wa ikemasen.",
+          "english": "You must not take photos here.",
+          "vietnamese": "Không được chụp ảnh ở đây."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-12.grammar.004",
+      "pattern": "Mong muốn và Dự định",
+      "meaningVn": "～たいです / ～つもりです",
+      "meaningEn": "Desires and Plans",
+      "explanation": "Muốn làm gì: V(bỏ ます) + たいです. Dự định làm gì: Vる + つもりです.",
+      "introducedIn": "N5-12",
+      "examples": [
+        {
+          "japanese": "私は新しいカメラを買いたいです。",
+          "romaji": "Watashi wa atarashii kamera o kaitai desu.",
+          "english": "I want to buy a new camera.",
+          "vietnamese": "Tôi muốn mua một chiếc máy ảnh mới."
+        },
+        {
+          "japanese": "明日、試験の勉強をするつもりです。",
+          "romaji": "Ashita, shiken no benkyou o suru tsumori desu.",
+          "english": "I plan to study for the exam tomorrow.",
+          "vietnamese": "Ngày mai tôi dự định sẽ học ôn thi."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-12.grammar.005",
+      "pattern": "So sánh",
+      "meaningVn": "～より / ～どちら / 一番",
+      "meaningEn": "Comparisons",
+      "explanation": "AはBより～です (A thì ~ hơn B). AとBとどちらが～ですか (A và B cái nào ~ hơn). ~の中で一番～です (~ là nhất).",
+      "introducedIn": "N5-12",
+      "examples": [
+        {
+          "japanese": "電車はバスより速いです。",
+          "romaji": "Densha wa basu yori hayai desu.",
+          "english": "Trains are faster than buses.",
+          "vietnamese": "Tàu điện nhanh hơn xe buýt."
+        },
+        {
+          "japanese": "果物の中でりんごが一番好きです。",
+          "romaji": "Kudamono no naka de ringo ga ichiban suki desu.",
+          "english": "Among fruits, I like apples the most.",
+          "vietnamese": "Trong các loại trái cây, tôi thích táo nhất."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-12.kaiwa.001",
+      "title": "A Day Trip Plan",
+      "titleJp": "旅行の計画",
+      "situation": "Reviewing a day trip plan together",
+      "lines": [
+        {
+          "speaker": "山田",
+          "japanese": "今度の週末、一緒に京都へ旅行に行きませんか。",
+          "hiragana": "こんどのしゅうまつ、いっしょにきょうとへりょこうにいきませんか。",
+          "romaji": "Kondo no shuumatsu, isshoni Kyouto e ryokou ni ikimasen ka.",
+          "translation": "Would you like to go on a trip to Kyoto together this coming weekend?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "マリア",
+          "japanese": "いいですね。私は古いお寺に行きたいです。",
+          "hiragana": "いいですね。わたしはふるいおてらにいきたいです。",
+          "romaji": "Ii desu ne. Watashi wa furui otera ni ikitai desu.",
+          "translation": "That sounds good. I want to go to an old temple.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "山田",
+          "japanese": "じゃあ、金閣寺に行きましょう。新幹線で行くつもりですか。",
+          "hiragana": "じゃあ、きんかくじにいきましょう。しんかんせんでいくつもりですか。",
+          "romaji": "Jaa, Kinkakuji ni ikimashou. Shinkansen de iku tsumori desu ka.",
+          "translation": "Then let's go to Kinkakuji. Do you plan to go by bullet train?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "マリア",
+          "japanese": "はい、新幹線のほうがバスより速くて便利ですから。",
+          "hiragana": "はい、しんかんせんのほうがばすよりはやくてべんりですから。",
+          "romaji": "Hai, shinkansen no hou ga basu yori hayakute benri desu kara.",
+          "translation": "Yes, because the bullet train is faster and more convenient than the bus.",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-12.kaiwa.002",
+      "title": "After the Exam",
+      "titleJp": "試験の後で",
+      "situation": "Talking about how the mock exam went",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "鈴木さん、今日の試験はどうでしたか。",
+          "hiragana": "すずきさん、きょうのしけんはどうでしたか。",
+          "romaji": "Suzuki-san, kyou no shiken wa dou deshita ka.",
+          "translation": "Suzuki, how was today's exam?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "鈴木",
+          "japanese": "少し難しかったです。全部終わりませんでした。",
+          "hiragana": "すこしむずかしかったです。ぜんぶおわりませんでした。",
+          "romaji": "Sukoshi muzukashikatta desu. Zenbu owarimasen deshita.",
+          "translation": "It was a little difficult. I didn't finish everything.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "田中",
+          "japanese": "漢字の問題が一番難しかったですね。もっと復習したいです。",
+          "hiragana": "かんじのもんだいがいちばんむずかしかったですね。もっとふくしゅうしたいです。",
+          "romaji": "Kanji no mondai ga ichiban muzukashikatta desu ne. Motto fukushuu shitai desu.",
+          "translation": "The kanji questions were the most difficult, weren't they? I want to review more.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "鈴木",
+          "japanese": "ええ、私もです。家に帰った後で、もう一度勉強するつもりです。",
+          "hiragana": "ええ、わたしもです。いえにかえったあとで、もういちどべんきょうするつもりです。",
+          "romaji": "Ee, watashi mo desu. Ie ni kaetta ato de, mou ichido benkyou suru tsumori desu.",
+          "translation": "Yes, me too. After returning home, I plan to study once more.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-12.listening.001",
+      "title": "Losing a Wallet",
+      "instructions": "Listen to the man talking at the police box during his trip.",
+      "audioUrl": "PENDING_AUDIO:n5-12-listening-01",
+      "transcriptJp": "男：すみません。財布をなくしました。黒い財布です。中にお金とパスポートがあります。\n警官：どこでなくしましたか。\n男：わかりません。さっき、レストランでご飯を食べました。その時はありました。でも、レストランを出た後で、お土産の店へ行きました。店で払う時に、財布がありませんでした。\n警官：そうですか。じゃあ、レストランに電話してみます。",
+      "transcriptRomaji": "Otoko: Sumimasen. Saifu o nakushimashita. Kuroi saifu desu. Naka ni okane to pasupooto ga arimasu.\nKeikan: Doko de nakushimashita ka.\nOtoko: Wakarimasen. Sakki, resutoran de gohan o tabemashita. Sono toki wa arimashita. Demo, resutoran o deta ato de, omiyage no mise e ikimashita. Mise de harau toki ni, saifu ga arimasen deshita.\nKeikan: Sou desu ka. Jaa, resutoran ni denwa shite mimasu.",
+      "transcriptEn": "Man: Excuse me. I lost my wallet. It is a black wallet. Inside, there is money and my passport.\nOfficer: Where did you lose it?\nMan: I don't know. A little while ago, I ate a meal at a restaurant. I had it at that time. But, after leaving the restaurant, I went to a souvenir shop. When I was about to pay at the shop, I didn't have my wallet.\nOfficer: I see. Then, I will try calling the restaurant.",
+      "durationSeconds": 55,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-12.listening.002",
+      "title": "Exam Instructions",
+      "instructions": "Listen to the teacher's instructions before the mock test.",
+      "audioUrl": "PENDING_AUDIO:n5-12-listening-02",
+      "transcriptJp": "皆さん、これから模擬試験を始めます。机の上に鉛筆と消しゴムを出してください。辞書を使ってはいけません。隣の人と話してはいけません。時間が終わる前に、名前と番号を書いてください。質問がありますか。ないですか。それでは、始めてください。",
+      "transcriptRomaji": "Minasan, korekara mogishiken o hajimemasu. Tsukue no ue ni enpitsu to keshigomu o dashite kudasai. Jisho o tsukatte wa ikemasen. Tonari no hito to hanashite wa ikemasen. Jikan ga owaru mae ni, namae to bangou o kaite kudasai. Shitsumon ga arimasu ka. Nai desu ka. Soredewa, hajimete kudasai.",
+      "transcriptEn": "Everyone, we will start the mock test now. Please take out your pencil and eraser on the desk. You must not use a dictionary. You must not talk to the person next to you. Before the time ends, please write your name and number. Do you have any questions? None? Well then, please begin.",
+      "durationSeconds": 50,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-12.reading.001",
+      "title": "A Memorable Day Trip",
+      "passage": "先週の日曜日、友達と一緒に奈良へ旅行に行きました。朝、早く起きて、電車に乗りました。奈良は静かで、とてもきれいな町でした。大きなお寺がたくさんありました。私たちは一番古いお寺の写真を撮りました。昼ごはんはすしを食べました。おいしかったですが、少し高かったです。午後、家族にお土産を買いました。とても疲れましたが、楽しかったです。また行きたいです。",
+      "reading": "せんしゅうのにちようび、ともだちといっしょにならへりょこうにいいきました。あさ、はやくおきて、でんしゃにのりました。ならはしずかで、とてもきれいなまちでした。おおきなおてらがたくさんありました。わたしたちはいちばんふるいおてらのしゃしんをとりました。ひるごはんはすしをたべました。おいしかったですが、すこしたかかったです。ごご、かぞくにおみやげをかいました。とてもつかれましたが、たのしかったです。またいきたいです。",
+      "translation": "Last Sunday, I went on a trip to Nara with my friend. I woke up early in the morning and rode the train. Nara was quiet and a very beautiful town. There were many large temples. We took photos of the oldest temple. We ate sushi for lunch. It was delicious, but a little expensive. In the afternoon, I bought souvenirs for my family. I was very tired, but it was fun. I want to go again.",
+      "questions": [
+        {
+          "question": "奈良はどんな町ですか。",
+          "options": [
+            "大きくて賑やかな町です",
+            "静かできれいな町です",
+            "お寺が少ない町です",
+            "物価が安い町です"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 奈良は静かで、とてもきれいな町でした (Yên tĩnh và đẹp)."
+        },
+        {
+          "question": "昼ごはんについてどう思いましたか。",
+          "options": [
+            "おいしかったです",
+            "安かったです",
+            "あまりおいしくなかったです",
+            "高くなかったです"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: おいしかったですが、少し高かったです (Ngon nhưng hơi đắt)."
+        },
+        {
+          "question": "この人は旅行についてどう思いましたか。",
+          "options": [
+            "疲れて、楽しくなかったです",
+            "疲れませんでしたが、つまらなかったです",
+            "疲れましたが、楽しかったです",
+            "また行きたくないです"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: とても疲れましたが、楽しかったです (Rất mệt nhưng đã rất vui)."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-12.reading.002",
+      "title": "Notice to Students",
+      "passage": "学生の皆さんへ\n来週の月曜日に日本語の試験があります。\n・時間は午前９時から１０時半までです。\n・遅れないでください。９時前に教室に入ってください。\n・机の上に鉛筆と消しゴムを置いてください。\n・辞書や携帯電話を使ってはいけません。\n・試験が終わった後で、答えを教えます。",
+      "reading": "がくせいのみなさんへ\nらいしゅうのげつようびににほんごのしけんがあります。\n・じかんはごぜん９じから１０じはんまでです。\n・おくれないでください。９じまえにきょうしつにはいってください。\n・つくえのうえにえんぴつとけしごむをおいてください。\n・じしょやけいたいでんわをつかってはいけません。\n・しけんがおわったあとで、こたえをおしえます。",
+      "translation": "To all students\nThere is a Japanese exam next Monday.\n- The time is from 9:00 AM to 10:30 AM.\n- Please do not be late. Please enter the classroom before 9:00.\n- Please put a pencil and eraser on the desk.\n- You must not use dictionaries or mobile phones.\n- After the exam is finished, we will tell you the answers.",
+      "questions": [
+        {
+          "question": "学生は何時に教室に入りますか。",
+          "options": [
+            "９時の前に",
+            "９時の後で",
+            "１０時半に",
+            "いつでもいいです"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: ９時前に教室に入ってください (Hãy vào lớp trước 9 giờ)."
+        },
+        {
+          "question": "試験の時、何を使ってはいけませんか。",
+          "options": [
+            "鉛筆",
+            "消しゴム",
+            "辞書",
+            "机"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 辞書や携帯電話を使ってはいけません (Không được dùng từ điển và điện thoại)."
+        },
+        {
+          "question": "答えはいつ教えますか。",
+          "options": [
+            "試験の前",
+            "試験の時",
+            "来週の火曜日",
+            "試験が終わった後"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài đọc ghi: 試験が終わった後で、答えを教えます (Sẽ chỉ đáp án SAU KHI thi xong)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-12.writing.001",
+      "prompt": "Mock Test Writing 1",
+      "instructions": "Write a sentence translating 'I didn't do my homework yesterday' using past negative form.",
+      "sampleAnswer": "昨日は宿題をしませんでした。",
+      "rubric": "Use しませんでした or similar negative past verbs.",
+      "minLength": 1,
+      "maxLength": 1,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-12.writing.002",
+      "prompt": "Mock Test Writing 2",
+      "instructions": "Write a sentence combining these two facts: 'It rained. I did not go anywhere.' Use the te-form or kara (because).",
+      "sampleAnswer": "雨が降りましたから、どこも行きませんでした。",
+      "rubric": "Use から to connect reason, and どこも行きませんでした.",
+      "minLength": 1,
+      "maxLength": 1,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-12.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Từ điển' là gì?",
+      "options": [
+        "地図",
+        "宿題",
+        "辞書",
+        "授業"
+      ],
+      "correctIndex": 2,
+      "explanation": "辞書 (jisho) là từ điển.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Chuẩn bị' (đã học) và 'Ôn tập' (vừa học) là gì?",
+      "options": [
+        "準備 và 復習",
+        "予約 và 復習",
+        "準備 và 授業",
+        "計画 và 試験"
+      ],
+      "correctIndex": 0,
+      "explanation": "準備 (junbi - chuẩn bị) và 復習 (fukushuu - ôn tập).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đánh mất' tiếng Nhật là gì?",
+      "options": [
+        "忘れる",
+        "なくす",
+        "貸す",
+        "借りる"
+      ],
+      "correctIndex": 1,
+      "explanation": "なくす (nakusu) là đánh mất.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Quà lưu niệm' là gì?",
+      "options": [
+        "お釣り",
+        "荷物",
+        "お土産",
+        "切符"
+      ],
+      "correctIndex": 2,
+      "explanation": "お土産 (omiyage) là quà lưu niệm.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "お金を（　　）ください。",
+      "options": [
+        "払って",
+        "借りて",
+        "貸して",
+        "疲れて"
+      ],
+      "correctIndex": 0,
+      "explanation": "お金を払います (Trả tiền). 払ってください (Hãy trả tiền).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Quan trọng' (tính từ) là gì?",
+      "options": [
+        "本当",
+        "全部",
+        "大切",
+        "大丈夫"
+      ],
+      "correctIndex": 2,
+      "explanation": "大切 (taisetsu) là quan trọng.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Bắt đầu' và 'Kết thúc' lần lượt là:",
+      "options": [
+        "始まる / 終わる",
+        "終わる / 始まる",
+        "覚える / 忘れる",
+        "開ける / 閉める"
+      ],
+      "correctIndex": 0,
+      "explanation": "始まる (hajimaru - bắt đầu) / 終わる (owaru - kết thúc).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.008",
+      "exerciseType": "FILL_BLANK",
+      "question": "日本へ（　　）に行きたいです。",
+      "options": [
+        "写真",
+        "地図",
+        "授業",
+        "旅行"
+      ],
+      "correctIndex": 3,
+      "explanation": "旅行に行く (Đi du lịch).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Tuyệt đối, nhất định' (dùng khi mời mọc, khuyên nhủ) là gì?",
+      "options": [
+        "たいてい",
+        "だんだん",
+        "ぜひ",
+        "もちろん"
+      ],
+      "correctIndex": 2,
+      "explanation": "ぜひ (zehi) là nhất định (by all means).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Cùng nhau' là gì?",
+      "options": [
+        "みんな",
+        "一緒に",
+        "全部",
+        "同じ"
+      ],
+      "correctIndex": 1,
+      "explanation": "一緒に (issho ni) là cùng nhau.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-12.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán Đại (To lớn) là chữ nào?",
+      "options": [
+        "小",
+        "大",
+        "多",
+        "少"
+      ],
+      "correctIndex": 1,
+      "explanation": "大 (Đại) mang nghĩa là to lớn.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-12.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 多 đọc là gì trong 多い (Nhiều)?",
+      "options": [
+        "おお",
+        "すく",
+        "ちい",
+        "はい"
+      ],
+      "correctIndex": 0,
+      "explanation": "多い đọc là oo-i (Nhiều).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-12.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Vào (phòng, bồn tắm)' chứa chữ Hán nào?",
+      "options": [
+        "出",
+        "立",
+        "白",
+        "入"
+      ],
+      "correctIndex": 3,
+      "explanation": "入る (hai-ru) là vào.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-12.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 出 có nghĩa là gì?",
+      "options": [
+        "Vào",
+        "Ra, xuất",
+        "Đứng",
+        "Trắng"
+      ],
+      "correctIndex": 1,
+      "explanation": "出 (Xuất) là ra khỏi, xuất phát.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-12.exercise.015",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 立 đọc là gì trong 立ちます (đứng)?",
+      "options": [
+        "た",
+        "で",
+        "はい",
+        "おお"
+      ],
+      "correctIndex": 0,
+      "explanation": "立ちます đọc là ta-chimasu.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-12.exercise.016",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 白 có nghĩa là gì?",
+      "options": [
+        "Màu đen",
+        "Màu đỏ",
+        "Màu trắng",
+        "Màu xanh"
+      ],
+      "correctIndex": 2,
+      "explanation": "白 (Bạch) là màu trắng.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-12.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "バス（　　）学校（　　）行きます。",
+      "options": [
+        "に / で",
+        "で / へ",
+        "を / に",
+        "が / を"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phương tiện dùng で, hướng đi dùng へ (hoặc に). バスで学校へ行きます.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "ここで写真を（　　）はいけません。",
+      "options": [
+        "撮る",
+        "撮り",
+        "撮って",
+        "撮った"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cấm đoán: Vて + はいけません. 撮ってはいけません.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.019",
+      "exerciseType": "FILL_BLANK",
+      "question": "来年、新しい車を（　　）つもりです。",
+      "options": [
+        "買う",
+        "買って",
+        "買います",
+        "買いたい"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dự định: Vる + つもりです. 買うつもりです.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "りんごとみかんと（　　）が好きですか。",
+      "options": [
+        "だれ",
+        "どちら",
+        "どこ",
+        "どれ"
+      ],
+      "correctIndex": 1,
+      "explanation": "So sánh 2 vật dùng どちら (Cái nào).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "雨が降っています（　　）、外へ行きません。",
+      "options": [
+        "から",
+        "まで",
+        "が",
+        "を"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nêu lý do: V/A/N + から (Vì trời đang mưa...).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu sai ngữ pháp.",
+      "options": [
+        "私は肉が食べたいです。",
+        "ここでタバコを吸ってもいいですか。",
+        "寝る前に、本を読みます。",
+        "休みの日に、どこへ行きました。"
+      ],
+      "correctIndex": 3,
+      "explanation": "どこへ行きました là sai, thiếu trợ từ 'か' hoặc 'も'. Đúng phải là 'どこかへ行きましたか' hoặc 'どこへも行きませんでした'.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.023",
+      "exerciseType": "FILL_BLANK",
+      "question": "私は漢字の辞書を（　　）います。",
+      "options": [
+        "持つ",
+        "持ち",
+        "持って",
+        "持った"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trạng thái sở hữu: Vています. 持っています.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.024",
+      "exerciseType": "FILL_BLANK",
+      "question": "毎日忙しいです。だから、少し（　　）たいです。",
+      "options": [
+        "休む",
+        "休ん",
+        "休み",
+        "休んで"
+      ],
+      "correctIndex": 2,
+      "explanation": "Muốn làm gì: V(bỏ ます) + たいです. 休みたいです.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-12.exercise.025",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài nghe 1, người đàn ông phát hiện mất ví khi nào?",
+      "options": [
+        "Khi đang ăn ở nhà hàng",
+        "Khi về đến khách sạn",
+        "Khi định trả tiền ở cửa hàng lưu niệm",
+        "Khi đang trên tàu điện"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói: 店で払う時に、財布がありませんでした (Khi trả tiền ở tiệm thì ví không còn).",
+      "points": 2,
+      "listeningRef": "N5-12.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-12.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Ví của người đó có màu gì và bên trong có gì? (Bài 1)",
+      "options": [
+        "Đen / Tiền và vé",
+        "Đỏ / Hộ chiếu và điện thoại",
+        "Đen / Tiền và hộ chiếu",
+        "Nâu / Tiền và vé"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói: 黒い財布です。中にお金とパスポートがあります (Ví đen. Có tiền và passport).",
+      "points": 2,
+      "listeningRef": "N5-12.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-12.exercise.027",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, học sinh có thể nói chuyện với người bên cạnh nếu thi xong.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio cấm tuyệt đối: 隣の人と話してはいけません. Sai.",
+      "points": 2,
+      "listeningRef": "N5-12.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-12.exercise.028",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1 (Du lịch Nara), họ đi ăn trưa món gì và cảm nhận ra sao?",
+      "options": [
+        "Sushi / Ngon nhưng rẻ",
+        "Sushi / Ngon nhưng đắt",
+        "Tempura / Ngon và rẻ",
+        "Thịt nướng / Không ngon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: すしを食べました。おいしかったですが、少し高かったです (Ăn sushi. Ngon nhưng hơi đắt).",
+      "points": 2,
+      "readingRef": "N5-12.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-12.exercise.029",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong thông báo thi (Bài 2), thí sinh được phép để gì trên bàn?",
+      "options": [
+        "Bút chì và từ điển",
+        "Bút bi và tẩy",
+        "Bút chì và tẩy",
+        "Sách và điện thoại"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bài đọc ghi: 机の上に鉛筆と消しゴムを置いてください (Bút chì và tẩy).",
+      "points": 2,
+      "readingRef": "N5-12.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-12.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Tôi đã quên sách ở trường.",
+      "options": [
+        "本を",
+        "学校に",
+        "忘れました",
+        "私は"
+      ],
+      "correctIndex": 2,
+      "explanation": "私は学校に本を忘れました (Lưu ý: Quên Ở ĐÂU dùng trợ từ に).",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-12.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Bài tập về nhà' là gì?",
+      "options": [
+        "質問",
+        "試験",
+        "授業",
+        "宿題"
+      ],
+      "correctIndex": 3,
+      "explanation": "宿題 (shukudai) là bài tập về nhà.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 語 đọc là gì trong 日本語 (Tiếng Nhật)?",
+      "options": [
+        "ご",
+        "ほん",
+        "に",
+        "かた"
+      ],
+      "correctIndex": 0,
+      "explanation": "日本語 đọc là Nihon-go.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đánh mất' tiếng Nhật là gì?",
+      "options": [
+        "忘れる",
+        "覚える",
+        "なくす",
+        "払う"
+      ],
+      "correctIndex": 2,
+      "explanation": "なくす (nakusu) là đánh mất.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 女 trong 女の人 có nghĩa là gì?",
+      "options": [
+        "Đứa trẻ",
+        "Con trai",
+        "Bạn bè",
+        "Phụ nữ"
+      ],
+      "correctIndex": 3,
+      "explanation": "女 (Nữ) có nghĩa là phụ nữ/nữ giới.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Toàn bộ, tất cả' là gì?",
+      "options": [
+        "少し",
+        "全部",
+        "だんだん",
+        "よく"
+      ],
+      "correctIndex": 1,
+      "explanation": "全部 (zenbu) là tất cả, toàn bộ.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: あの机（　　）上に、本があります。",
+      "options": [
+        "が",
+        "を",
+        "の",
+        "に"
+      ],
+      "correctIndex": 2,
+      "explanation": "Danh từ 1 + の + Danh từ 2 chỉ vị trí (机の上に - trên bàn).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: ここで携帯電話を（　　）はいけません。",
+      "options": [
+        "使う",
+        "使って",
+        "使い",
+        "使った"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cấm đoán: Vてはいけません. 使う -> 使って.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Tôi muốn uống trà':",
+      "options": [
+        "お茶を飲むたいです。",
+        "お茶を飲みますたいです。",
+        "お茶を飲みたいです。",
+        "お茶を飲んでたいです。"
+      ],
+      "correctIndex": 2,
+      "explanation": "Muốn làm gì: V(bỏ ます) + たいです. 飲みます -> 飲みたいです.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 肉（　　）魚（　　）、どちらが好きですか。",
+      "options": [
+        "と / と",
+        "が / が",
+        "や / や",
+        "の / の"
+      ],
+      "correctIndex": 0,
+      "explanation": "So sánh 2 thứ: Aと Bと どちらが... (肉と魚と).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Bạn có đang sống ở Tokyo không?':",
+      "options": [
+        "東京に住みますか。",
+        "東京に住んでいますか。",
+        "東京に住むつもりですか。",
+        "東京に住んでください。"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trạng thái đang sống ở đâu: Vています. 住んでいますか.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi bạn muốn hỏi xem mình có thể mượn từ điển không, bạn nói:",
+      "options": [
+        "辞書を貸してください。",
+        "辞書を貸してはいけません。",
+        "辞書を貸してもいいですか。",
+        "辞書を借りますか。"
+      ],
+      "correctIndex": 2,
+      "explanation": "Xin phép làm gì đó: Vてもいいですか. 貸す (Cho mượn) -> 貸してもいいですか (Cho tôi mượn được không). Hoặc dùng 借りる (Mượn) -> 借りてもいいですか. Ở đây đáp án hợp lý nhất là 貸してもいいですか.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong tiếng Nhật, để nói 'Cố lên' khi ai đó chuẩn bị thi, dùng từ gì?",
+      "options": [
+        "おめでとう",
+        "がんばって",
+        "ありがとう",
+        "すみません"
+      ],
+      "correctIndex": 1,
+      "explanation": "がんばって (hoặc がんばってください) là 'Cố lên'.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu ai đó hỏi '明日の試験は難しいですか' (Kỳ thi ngày mai có khó không) và bạn đoán là khó, bạn nói:",
+      "options": [
+        "はい、難しいと思います。",
+        "はい、難しかったです。",
+        "いいえ、難しいです。",
+        "いいえ、難しくなかったです。"
+      ],
+      "correctIndex": 0,
+      "explanation": "と思います (Tôi nghĩ là). はい、難しいと思います (Vâng tôi nghĩ là khó). Mặc dù と思います là N4, nhưng học viên N5 có thể hiểu. Câu 2 là quá khứ nên sai (thi ngày mai).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong bài thi mock, nếu thấy chữ 復習 (Fukushuu), nó có nghĩa là gì?",
+      "options": [
+        "Ôn tập",
+        "Làm bài tập",
+        "Học từ mới",
+        "Đi du lịch"
+      ],
+      "correctIndex": 0,
+      "explanation": "復習 (Fukushuu) là ôn tập.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-12.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Mẫu câu Vる前に (Ví dụ: 寝る前に) diễn tả hành động xảy ra LÚC NÀO?",
+      "options": [
+        "Trước khi (hành động V)",
+        "Sau khi (hành động V)",
+        "Trong khi (hành động V)",
+        "Vì (hành động V)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vる前に = Trước khi làm V.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,1735 @@
+{
+  "module": {
+    "code": "N5-02",
+    "level": "N5",
+    "unit": 2,
+    "title": "Family and People",
+    "titleJp": "家族と人",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-02.vocab.001",
+      "japanese": "家族",
+      "hiragana": "かぞく",
+      "romaji": "kazoku",
+      "english": "family",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "私の家族です。",
+      "exampleEn": "This is my family."
+    },
+    {
+      "sourceRef": "N5-02.vocab.002",
+      "japanese": "父",
+      "hiragana": "ちち",
+      "romaji": "chichi",
+      "english": "father (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "父は会社員です。",
+      "exampleEn": "My father is an office worker."
+    },
+    {
+      "sourceRef": "N5-02.vocab.003",
+      "japanese": "母",
+      "hiragana": "はは",
+      "romaji": "haha",
+      "english": "mother (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "母は先生です。",
+      "exampleEn": "My mother is a teacher."
+    },
+    {
+      "sourceRef": "N5-02.vocab.004",
+      "japanese": "兄",
+      "hiragana": "あに",
+      "romaji": "ani",
+      "english": "older brother (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "兄は学生です。",
+      "exampleEn": "My older brother is a student."
+    },
+    {
+      "sourceRef": "N5-02.vocab.005",
+      "japanese": "姉",
+      "hiragana": "あね",
+      "romaji": "ane",
+      "english": "older sister (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "姉は20歳です。",
+      "exampleEn": "My older sister is 20 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.006",
+      "japanese": "弟",
+      "hiragana": "おとうと",
+      "romaji": "otouto",
+      "english": "younger brother (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "弟は10歳です。",
+      "exampleEn": "My younger brother is 10 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.007",
+      "japanese": "妹",
+      "hiragana": "いもうと",
+      "romaji": "imouto",
+      "english": "younger sister (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "妹は8歳です。",
+      "exampleEn": "My younger sister is 8 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.008",
+      "japanese": "祖父",
+      "hiragana": "そふ",
+      "romaji": "sofu",
+      "english": "grandfather (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "祖父は70歳です。",
+      "exampleEn": "My grandfather is 70 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.009",
+      "japanese": "祖母",
+      "hiragana": "そぼ",
+      "romaji": "sobo",
+      "english": "grandmother (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "祖母は65歳です。",
+      "exampleEn": "My grandmother is 65 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.010",
+      "japanese": "両親",
+      "hiragana": "りょうしん",
+      "romaji": "ryoushin",
+      "english": "parents (own)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "両親は日本にいます。",
+      "exampleEn": "My parents are in Japan."
+    },
+    {
+      "sourceRef": "N5-02.vocab.011",
+      "japanese": "ご家族",
+      "hiragana": "ごかぞく",
+      "romaji": "gokazoku",
+      "english": "family (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "ご家族はお元気ですか。",
+      "exampleEn": "Is your family doing well?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.012",
+      "japanese": "お父さん",
+      "hiragana": "おとうさん",
+      "romaji": "otousan",
+      "english": "father (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "お父さんは先生ですか。",
+      "exampleEn": "Is your father a teacher?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.013",
+      "japanese": "お母さん",
+      "hiragana": "おかあさん",
+      "romaji": "okaasan",
+      "english": "mother (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "お母さんはおいくつですか。",
+      "exampleEn": "How old is your mother?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.014",
+      "japanese": "お兄さん",
+      "hiragana": "おにいさん",
+      "romaji": "oniisan",
+      "english": "older brother (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "お兄さんは学生ですか。",
+      "exampleEn": "Is your older brother a student?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.015",
+      "japanese": "お姉さん",
+      "hiragana": "おねえさん",
+      "romaji": "oneesan",
+      "english": "older sister (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "お姉さんは何歳ですか。",
+      "exampleEn": "How old is your older sister?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.016",
+      "japanese": "弟さん",
+      "hiragana": "おとうとさん",
+      "romaji": "otoutosan",
+      "english": "younger brother (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "弟さんは何歳ですか。",
+      "exampleEn": "How old is your younger brother?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.017",
+      "japanese": "妹さん",
+      "hiragana": "いもうとさん",
+      "romaji": "imoutosan",
+      "english": "younger sister (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "妹さんは元気ですか。",
+      "exampleEn": "Is your younger sister doing well?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.018",
+      "japanese": "おじいさん",
+      "hiragana": "おじいさん",
+      "romaji": "ojiisan",
+      "english": "grandfather (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "おじいさんは70歳ですか。",
+      "exampleEn": "Is your grandfather 70 years old?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.019",
+      "japanese": "おばあさん",
+      "hiragana": "おばあさん",
+      "romaji": "obaasan",
+      "english": "grandmother (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "おばあさんは先生でしたか。",
+      "exampleEn": "Was your grandmother a teacher?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.020",
+      "japanese": "ご両親",
+      "hiragana": "ごりょうしん",
+      "romaji": "goryoushin",
+      "english": "parents (someone else's)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "ご両親はアメリカにいますか。",
+      "exampleEn": "Are your parents in America?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.021",
+      "japanese": "人",
+      "hiragana": "ひと",
+      "romaji": "hito",
+      "english": "person",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの人は誰ですか。",
+      "exampleEn": "Who is that person?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.022",
+      "japanese": "男の人",
+      "hiragana": "おとこのひと",
+      "romaji": "otoko no hito",
+      "english": "man",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの男の人は先生です。",
+      "exampleEn": "That man is a teacher."
+    },
+    {
+      "sourceRef": "N5-02.vocab.023",
+      "japanese": "女の人",
+      "hiragana": "おんなのひと",
+      "romaji": "onna no hito",
+      "english": "woman",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの女の人は私の母です。",
+      "exampleEn": "That woman is my mother."
+    },
+    {
+      "sourceRef": "N5-02.vocab.024",
+      "japanese": "男の子",
+      "hiragana": "おとこのこ",
+      "romaji": "otoko no ko",
+      "english": "boy",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの男の子は弟です。",
+      "exampleEn": "That boy is my younger brother."
+    },
+    {
+      "sourceRef": "N5-02.vocab.025",
+      "japanese": "女の子",
+      "hiragana": "おんなのこ",
+      "romaji": "onna no ko",
+      "english": "girl",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの女の子は妹です。",
+      "exampleEn": "That girl is my younger sister."
+    },
+    {
+      "sourceRef": "N5-02.vocab.026",
+      "japanese": "友達",
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "english": "friend",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "彼は私の友達です。",
+      "exampleEn": "He is my friend."
+    },
+    {
+      "sourceRef": "N5-02.vocab.027",
+      "japanese": "彼",
+      "hiragana": "かれ",
+      "romaji": "kare",
+      "english": "he / boyfriend",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "彼は学生です。",
+      "exampleEn": "He is a student."
+    },
+    {
+      "sourceRef": "N5-02.vocab.028",
+      "japanese": "彼女",
+      "hiragana": "かのじょ",
+      "romaji": "kanojo",
+      "english": "she / girlfriend",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "彼女は先生です。",
+      "exampleEn": "She is a teacher."
+    },
+    {
+      "sourceRef": "N5-02.vocab.029",
+      "japanese": "誰",
+      "hiragana": "だれ",
+      "romaji": "dare",
+      "english": "who",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの人は誰ですか。",
+      "exampleEn": "Who is that person?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.030",
+      "japanese": "どなた",
+      "hiragana": "どなた",
+      "romaji": "donata",
+      "english": "who (polite)",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの方はどなたですか。",
+      "exampleEn": "Who is that person? (polite)"
+    },
+    {
+      "sourceRef": "N5-02.vocab.031",
+      "japanese": "この",
+      "hiragana": "この",
+      "romaji": "kono",
+      "english": "this (noun)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "この人は兄です。",
+      "exampleEn": "This person is my older brother."
+    },
+    {
+      "sourceRef": "N5-02.vocab.032",
+      "japanese": "その",
+      "hiragana": "その",
+      "romaji": "sono",
+      "english": "that (noun)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "その人は友達です。",
+      "exampleEn": "That person is a friend."
+    },
+    {
+      "sourceRef": "N5-02.vocab.033",
+      "japanese": "あの",
+      "hiragana": "あの",
+      "romaji": "ano",
+      "english": "that over there (noun)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あの人は誰ですか。",
+      "exampleEn": "Who is that person over there?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.034",
+      "japanese": "どの",
+      "hiragana": "どの",
+      "romaji": "dono",
+      "english": "which (noun)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "どの人ですか。",
+      "exampleEn": "Which person is it?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.035",
+      "japanese": "～歳",
+      "hiragana": "さい",
+      "romaji": "sai",
+      "english": "years old",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "私は20歳です。",
+      "exampleEn": "I am 20 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.036",
+      "japanese": "何歳",
+      "hiragana": "なんさい",
+      "romaji": "nansai",
+      "english": "how old",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "あなたは何歳ですか。",
+      "exampleEn": "How old are you?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.037",
+      "japanese": "おいくつ",
+      "hiragana": "おいくつ",
+      "romaji": "oikutsu",
+      "english": "how old (polite)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "お母さんはおいくつですか。",
+      "exampleEn": "How old is your mother? (polite)"
+    },
+    {
+      "sourceRef": "N5-02.vocab.038",
+      "japanese": "一歳",
+      "hiragana": "いっさい",
+      "romaji": "issai",
+      "english": "1 year old",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "妹は一歳です。",
+      "exampleEn": "My younger sister is 1 year old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.039",
+      "japanese": "八歳",
+      "hiragana": "はっさい",
+      "romaji": "hassai",
+      "english": "8 years old",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "弟は八歳です。",
+      "exampleEn": "My younger brother is 8 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.040",
+      "japanese": "十歳",
+      "hiragana": "じゅっさい",
+      "romaji": "jussai",
+      "english": "10 years old",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "彼は十歳です。",
+      "exampleEn": "He is 10 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.041",
+      "japanese": "二十歳",
+      "hiragana": "はたち",
+      "romaji": "hatachi",
+      "english": "20 years old",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "姉は二十歳です。",
+      "exampleEn": "My older sister is 20 years old."
+    },
+    {
+      "sourceRef": "N5-02.vocab.042",
+      "japanese": "一人",
+      "hiragana": "ひとり",
+      "romaji": "hitori",
+      "english": "one person",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "兄弟は一人です。",
+      "exampleEn": "I have one sibling."
+    },
+    {
+      "sourceRef": "N5-02.vocab.043",
+      "japanese": "二人",
+      "hiragana": "ふたり",
+      "romaji": "futari",
+      "english": "two people",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "姉が二人います。",
+      "exampleEn": "I have two older sisters."
+    },
+    {
+      "sourceRef": "N5-02.vocab.044",
+      "japanese": "兄弟",
+      "hiragana": "きょうだい",
+      "romaji": "kyoudai",
+      "english": "siblings",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "兄弟はいますか。",
+      "exampleEn": "Do you have siblings?"
+    },
+    {
+      "sourceRef": "N5-02.vocab.045",
+      "japanese": "姉妹",
+      "hiragana": "しまい",
+      "romaji": "shimai",
+      "english": "sisters",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-02",
+      "introducedIn": "N5-02",
+      "exampleJp": "私たちは姉妹です。",
+      "exampleEn": "We are sisters."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-02.kanji.001",
+      "character": "父",
+      "meaning": "father",
+      "onyomi": "フ",
+      "kunyomi": "ちち",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "父",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "お父さん (otousan)",
+          "en": "father"
+        }
+      ],
+      "mnemonic": "Learn the kanji for father."
+    },
+    {
+      "sourceRef": "N5-02.kanji.002",
+      "character": "母",
+      "meaning": "mother",
+      "onyomi": "ボ",
+      "kunyomi": "はは",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "母",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "お母さん (okaasan)",
+          "en": "mother"
+        }
+      ],
+      "mnemonic": "Learn the kanji for mother."
+    },
+    {
+      "sourceRef": "N5-02.kanji.003",
+      "character": "男",
+      "meaning": "man, male",
+      "onyomi": "ダン、ナン",
+      "kunyomi": "おとこ",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "田",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "男の人 (otoko no hito)",
+          "en": "man"
+        }
+      ],
+      "mnemonic": "Learn the kanji for man, male."
+    },
+    {
+      "sourceRef": "N5-02.kanji.004",
+      "character": "女",
+      "meaning": "woman, female",
+      "onyomi": "ジョ",
+      "kunyomi": "おんな",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "女",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "女の人 (onna no hito)",
+          "en": "woman"
+        }
+      ],
+      "mnemonic": "Learn the kanji for woman, female."
+    },
+    {
+      "sourceRef": "N5-02.kanji.005",
+      "character": "子",
+      "meaning": "child",
+      "onyomi": "シ、ス",
+      "kunyomi": "こ",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "子",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "子ども (kodomo)",
+          "en": "child"
+        }
+      ],
+      "mnemonic": "Learn the kanji for child."
+    },
+    {
+      "sourceRef": "N5-02.kanji.006",
+      "character": "友",
+      "meaning": "friend",
+      "onyomi": "ユウ",
+      "kunyomi": "とも",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "又",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "友達 (tomodachi)",
+          "en": "friend"
+        }
+      ],
+      "mnemonic": "Learn the kanji for friend."
+    },
+    {
+      "sourceRef": "N5-02.kanji.007",
+      "character": "兄",
+      "meaning": "older brother",
+      "onyomi": "キョウ",
+      "kunyomi": "あに",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "儿",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "お兄さん (oniisan)",
+          "en": "older brother"
+        }
+      ],
+      "mnemonic": "Learn the kanji for older brother."
+    },
+    {
+      "sourceRef": "N5-02.kanji.008",
+      "character": "弟",
+      "meaning": "younger brother",
+      "onyomi": "テイ、ダイ",
+      "kunyomi": "おとうと",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "弓",
+      "introducedIn": "N5-02",
+      "exampleWords": [
+        {
+          "jp": "兄弟 (kyoudai)",
+          "en": "siblings"
+        }
+      ],
+      "mnemonic": "Learn the kanji for younger brother."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-02.grammar.001",
+      "pattern": "N1 の N2",
+      "meaningVn": "N2 của N1",
+      "meaningEn": "N2 of N1",
+      "explanation": "Particle の connects two nouns.",
+      "introducedIn": "N5-02",
+      "examples": [
+        {
+          "japanese": "私の家族",
+          "romaji": "watashi no kazoku",
+          "english": "my family",
+          "vietnamese": "gia đình của tôi"
+        },
+        {
+          "japanese": "私の友達です。",
+          "romaji": "watashi no tomodachi desu.",
+          "english": "It is my friend.",
+          "vietnamese": "Đó là bạn của tôi."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-02.grammar.002",
+      "pattern": "この/その/あの N",
+      "meaningVn": "N này/đó/kia",
+      "meaningEn": "this/that N",
+      "explanation": "この, その, and あの describe which noun.",
+      "introducedIn": "N5-02",
+      "examples": [
+        {
+          "japanese": "この人は兄です。",
+          "romaji": "kono hito wa ani desu.",
+          "english": "This person is my older brother.",
+          "vietnamese": "Người này là anh trai tôi."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-02.grammar.003",
+      "pattern": "だれ / どなた",
+      "meaningVn": "ai",
+      "meaningEn": "who",
+      "explanation": "誰 is who. どなた is polite who.",
+      "introducedIn": "N5-02",
+      "examples": [
+        {
+          "japanese": "あの人は誰ですか。",
+          "romaji": "ano hito wa dare desu ka.",
+          "english": "Who is that person?",
+          "vietnamese": "Người kia là ai?"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-02.grammar.004",
+      "pattern": "何歳 / おいくつですか",
+      "meaningVn": "Mấy tuổi",
+      "meaningEn": "How old",
+      "explanation": "何歳 is how old. おいくつ is polite how old.",
+      "introducedIn": "N5-02",
+      "examples": [
+        {
+          "japanese": "妹さんは何歳ですか。",
+          "romaji": "imoutosan wa nansai desu ka.",
+          "english": "How old is your younger sister?",
+          "vietnamese": "Em gái bạn bao nhiêu tuổi?"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-02.grammar.005",
+      "pattern": "〜歳です",
+      "meaningVn": "〜 tuổi",
+      "meaningEn": "〜 years old",
+      "explanation": "Counter for age.",
+      "introducedIn": "N5-02",
+      "examples": [
+        {
+          "japanese": "私は20歳です。",
+          "romaji": "watashi wa hatachi desu.",
+          "english": "I am 20 years old.",
+          "vietnamese": "Tôi 20 tuổi."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-02.kaiwa.001",
+      "title": "Family Photo",
+      "titleJp": "家族の写真",
+      "situation": "Showing a family photo to a friend",
+      "lines": [
+        {
+          "speaker": "A",
+          "japanese": "これは私の家族の写真です。",
+          "hiragana": "これはわたしのかぞくのしゃしんです。",
+          "romaji": "Kore wa watashi no kazoku no shashin desu.",
+          "translation": "This is a photo of my family.",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "B",
+          "japanese": "この人は誰ですか。",
+          "hiragana": "このひとはだれですか。",
+          "romaji": "Kono hito wa dare desu ka.",
+          "translation": "Who is this person?",
+          "sortOrder": 2
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-02.kaiwa.002",
+      "title": "Asking about age",
+      "titleJp": "年齢を聞く",
+      "situation": "Politely asking someone's age",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "お父さんはおいくつですか。",
+          "hiragana": "おとうさんはおいくつですか。",
+          "romaji": "Otousan wa oikutsu desu ka.",
+          "translation": "How old is your father?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "山田",
+          "japanese": "父は50歳です。",
+          "hiragana": "ちちはごじゅっさいです。",
+          "romaji": "Chichi wa gojussai desu.",
+          "translation": "My father is 50 years old.",
+          "sortOrder": 2
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-02.listening.001",
+      "title": "Who is this person?",
+      "instructions": "Listen to the conversation.",
+      "audioUrl": "PENDING_AUDIO:n5-02-listening-01",
+      "transcriptJp": "A: この女の人は誰ですか。\nB: 姉です。22歳です。",
+      "transcriptRomaji": "A: Kono onna no hito wa dare desu ka.\nB: Ane desu. Nijuunisei desu.",
+      "transcriptEn": "A: Who is this woman?\nB: It is my older sister. She is 22 years old.",
+      "durationSeconds": 30,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-02.listening.002",
+      "title": "Family's age",
+      "instructions": "Listen to the introduction.",
+      "audioUrl": "PENDING_AUDIO:n5-02-listening-02",
+      "transcriptJp": "私の家族は3人です。父と母と私です。父は50歳です。母は45歳です。",
+      "transcriptRomaji": "Watashi no kazoku wa sannin desu. Chichi to haha to watashi desu. Chichi wa gojussai desu. Haha wa yonjuugosai desu.",
+      "transcriptEn": "My family has 3 people. Father, mother, and me. My father is 50 years old. My mother is 45 years old.",
+      "durationSeconds": 40,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-02.reading.001",
+      "title": "My Family",
+      "passage": "私は田中です。私の家族は4人です。父と母と妹と私です。父は会社員です。母は先生です。妹は10歳です。学生です。",
+      "reading": "わたしはたなかです。わたしのかぞくはよにんです。ちちとははといもうととわたしです。ちちわかいしゃいんです。ははわせんせいです。いもうとわじゅっさいです。がくせいです。",
+      "translation": "I am Tanaka. My family has 4 people. Father, mother, younger sister, and me. My father is an office worker. My mother is a teacher. My younger sister is 10 years old. She is a student.",
+      "questions": [
+        {
+          "question": "家族は何人ですか。",
+          "options": [
+            "3人",
+            "4人",
+            "5人",
+            "6人"
+          ],
+          "correctIndex": 1,
+          "explanation": "4人です。"
+        },
+        {
+          "question": "父の仕事は何ですか。",
+          "options": [
+            "先生",
+            "学生",
+            "会社員",
+            "医者"
+          ],
+          "correctIndex": 2,
+          "explanation": "会社員です。"
+        },
+        {
+          "question": "妹は何歳ですか。",
+          "options": [
+            "8歳",
+            "9歳",
+            "10歳",
+            "11歳"
+          ],
+          "correctIndex": 2,
+          "explanation": "10歳です。"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-02.reading.002",
+      "title": "About a friend",
+      "passage": "この男の人は私の友達です。名前はマイクです。マイクさんは20歳です。学生です。マイクさんのお兄さんは25歳です。先生です。",
+      "reading": "このおとこのひとはわたしのともだちです。なまえはまいくです。まいくさんははたちです。がくせいです。まいくさんのおにいさんはにじゅうごさいです。せんせいです。",
+      "translation": "This man is my friend. His name is Mike. Mike is 20 years old. He is a student. Mike's older brother is 25 years old. He is a teacher.",
+      "questions": [
+        {
+          "question": "マイクさんは何歳ですか。",
+          "options": [
+            "18歳",
+            "19歳",
+            "20歳",
+            "25歳"
+          ],
+          "correctIndex": 2,
+          "explanation": "20歳です。"
+        },
+        {
+          "question": "マイクさんの仕事は何ですか。",
+          "options": [
+            "先生",
+            "学生",
+            "会社員",
+            "医者"
+          ],
+          "correctIndex": 1,
+          "explanation": "学生です。"
+        },
+        {
+          "question": "マイクさんのお兄さんの仕事は何ですか。",
+          "options": [
+            "先生",
+            "学生",
+            "会社員",
+            "医者"
+          ],
+          "correctIndex": 0,
+          "explanation": "先生です。"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-02.writing.001",
+      "prompt": "Introduce your family.",
+      "instructions": "Write 3-4 sentences introducing your family.",
+      "sampleAnswer": "私の家族は3人です。父と母と私です。父は会社員です。母は先生です。",
+      "rubric": "Use 家族, 父, 母 properly.",
+      "minLength": 3,
+      "maxLength": 5,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-02.writing.002",
+      "prompt": "Introduce a friend.",
+      "instructions": "Write 2-3 sentences about your friend.",
+      "sampleAnswer": "この人は私の友達です。20歳です。学生です。",
+      "rubric": "Use 友達 and age correctly.",
+      "minLength": 2,
+      "maxLength": 4,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-02.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Nghĩa của từ 家族 (kazoku) là gì?",
+      "options": [
+        "Gia đình",
+        "Bạn bè",
+        "Học sinh",
+        "Giáo viên"
+      ],
+      "correctIndex": 0,
+      "explanation": "家族 có nghĩa là gia đình.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ nào sau đây có nghĩa là 'anh trai (của mình)'?",
+      "options": [
+        "弟",
+        "兄",
+        "父",
+        "母"
+      ],
+      "correctIndex": 1,
+      "explanation": "兄 (ani) là anh trai.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Nghĩa của từ 友達 (tomodachi) là gì?",
+      "options": [
+        "Gia đình",
+        "Bạn bè",
+        "Người đàn ông",
+        "Bố mẹ"
+      ],
+      "correctIndex": 1,
+      "explanation": "友達 có nghĩa là bạn bè.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Cách gọi 'mẹ của người khác' là gì?",
+      "options": [
+        "母",
+        "お母さん",
+        "お父さん",
+        "姉"
+      ],
+      "correctIndex": 1,
+      "explanation": "お母さん (okaasan) dùng để gọi mẹ của người khác.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "あの（　　）は先生です。",
+      "options": [
+        "人",
+        "家族",
+        "友達",
+        "誰"
+      ],
+      "correctIndex": 0,
+      "explanation": "あの人 (người kia).",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "20 tuổi trong tiếng Nhật nói là gì?",
+      "options": [
+        "にじゅうさい",
+        "はたち",
+        "にじゅっさい",
+        "じゅっさい"
+      ],
+      "correctIndex": 1,
+      "explanation": "20 tuổi có cách nói đặc biệt là はたち (hatachi).",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.007",
+      "exerciseType": "FILL_BLANK",
+      "question": "山田さんは（　　）ですか。",
+      "options": [
+        "何歳",
+        "誰",
+        "おいくつ",
+        "A và C đều đúng"
+      ],
+      "correctIndex": 3,
+      "explanation": "何歳 và おいくつ đều dùng để hỏi tuổi.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Đại từ 彼 (kare) có nghĩa là gì?",
+      "options": [
+        "Anh ấy",
+        "Cô ấy",
+        "Bạn",
+        "Tôi"
+      ],
+      "correctIndex": 0,
+      "explanation": "彼 có nghĩa là anh ấy.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 友 đọc là gì trong từ 友達?",
+      "options": [
+        "とも",
+        "ゆう",
+        "ふ",
+        "ぼ"
+      ],
+      "correctIndex": 0,
+      "explanation": "友達 đọc là tomodachi.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 男 có nghĩa là gì?",
+      "options": [
+        "Nữ",
+        "Nam",
+        "Trẻ em",
+        "Bạn bè"
+      ],
+      "correctIndex": 1,
+      "explanation": "男 có nghĩa là nam giới.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Cách đọc của chữ 子 trong 女の子 là gì?",
+      "options": [
+        "こ",
+        "し",
+        "す",
+        "ね"
+      ],
+      "correctIndex": 0,
+      "explanation": "女の子 đọc là onna no ko.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ này đọc là gì: 兄弟",
+      "options": [
+        "しまい",
+        "きょうだい",
+        "あに",
+        "おとうと"
+      ],
+      "correctIndex": 1,
+      "explanation": "兄弟 đọc là kyoudai (anh em).",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ 父 có nghĩa là gì?",
+      "options": [
+        "Mẹ",
+        "Bố",
+        "Anh",
+        "Em"
+      ],
+      "correctIndex": 1,
+      "explanation": "父 nghĩa là bố.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ 女 đọc là gì trong 女の人?",
+      "options": [
+        "おんな",
+        "じょ",
+        "め",
+        "おとこ"
+      ],
+      "correctIndex": 0,
+      "explanation": "女の人 đọc là onna no hito.",
+      "points": 1
+    },
+    {
+      "sourceRef": "N5-02.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "私（　　）家族です。",
+      "options": [
+        "は",
+        "の",
+        "か",
+        "も"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trợ từ の chỉ sở hữu (gia đình của tôi).",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "（　　）人は誰ですか。",
+      "options": [
+        "この",
+        "これ",
+        "ここ",
+        "だれ"
+      ],
+      "correctIndex": 0,
+      "explanation": "この đi với danh từ.",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "あの人は（　　）ですか。",
+      "options": [
+        "だれ",
+        "何歳",
+        "どなた",
+        "Tất cả đều đúng"
+      ],
+      "correctIndex": 3,
+      "explanation": "Có thể hỏi là ai hoặc bao nhiêu tuổi đều hợp lý ngữ pháp.",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "お母さんは（　　）ですか。",
+      "options": [
+        "おいくつ",
+        "なんさい",
+        "だれ",
+        "A và B"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dùng để hỏi tuổi.",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.019",
+      "exerciseType": "FILL_BLANK",
+      "question": "妹は１０（　　）です。",
+      "options": [
+        "歳",
+        "人",
+        "年",
+        "月"
+      ],
+      "correctIndex": 0,
+      "explanation": "歳 (sai) dùng để đếm tuổi.",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "田中さんは（　　）ですか。",
+      "options": [
+        "どなた",
+        "の",
+        "これ",
+        "あの"
+      ],
+      "correctIndex": 0,
+      "explanation": "どなた là từ lịch sự của だれ.",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "（　　）カメラは私のです。",
+      "options": [
+        "この",
+        "これ",
+        "だれ",
+        "あの人"
+      ],
+      "correctIndex": 0,
+      "explanation": "この đi trực tiếp với danh từ カメラ.",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.022",
+      "exerciseType": "FILL_BLANK",
+      "question": "あの方は（　　）の先生ですか。",
+      "options": [
+        "だれ",
+        "何",
+        "どこ",
+        "いつ"
+      ],
+      "correctIndex": 0,
+      "explanation": "だれの先生 (giáo viên của ai).",
+      "points": 2
+    },
+    {
+      "sourceRef": "N5-02.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người phụ nữ trong đoạn hội thoại là ai?",
+      "options": [
+        "Chị gái",
+        "Mẹ",
+        "Bạn bè",
+        "Em gái"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đoạn hội thoại nói là 姉 (chị gái).",
+      "points": 2,
+      "listeningRef": "N5-02.listening.001"
+    },
+    {
+      "sourceRef": "N5-02.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người phụ nữ bao nhiêu tuổi?",
+      "options": [
+        "20 tuổi",
+        "21 tuổi",
+        "22 tuổi",
+        "25 tuổi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói là 22歳.",
+      "points": 2,
+      "listeningRef": "N5-02.listening.001"
+    },
+    {
+      "sourceRef": "N5-02.exercise.025",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người nói chuyện có phải là mẹ không?",
+      "options": [
+        "Phải",
+        "Không phải"
+      ],
+      "correctIndex": 1,
+      "explanation": "Không phải, đó là chị gái.",
+      "points": 2,
+      "listeningRef": "N5-02.listening.001"
+    },
+    {
+      "sourceRef": "N5-02.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Gia đình Tanaka có mấy người?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gia đình có 4 người.",
+      "points": 2,
+      "readingRef": "N5-02.reading.001"
+    },
+    {
+      "sourceRef": "N5-02.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Bố của Tanaka làm nghề gì?",
+      "options": [
+        "Giáo viên",
+        "Bác sĩ",
+        "Nhân viên công ty",
+        "Học sinh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bố là 会社員.",
+      "points": 2,
+      "readingRef": "N5-02.reading.001"
+    },
+    {
+      "sourceRef": "N5-02.exercise.028",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Ai là giáo viên?",
+      "options": [
+        "Bố",
+        "Mẹ",
+        "Em gái",
+        "Tanaka"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mẹ là 先生.",
+      "points": 2,
+      "readingRef": "N5-02.reading.001"
+    },
+    {
+      "sourceRef": "N5-02.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Đó là bạn của tôi.",
+      "options": [
+        "その人は",
+        "私の",
+        "友達",
+        "です"
+      ],
+      "correctIndex": 0,
+      "explanation": "その人は私の友達です。",
+      "points": 3
+    },
+    {
+      "sourceRef": "N5-02.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Người kia là ai?",
+      "options": [
+        "あの",
+        "人は",
+        "誰",
+        "ですか"
+      ],
+      "correctIndex": 0,
+      "explanation": "あの人は誰ですか。",
+      "points": 3
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-02.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'bố mẹ (của mình)'?",
+      "options": [
+        "家族",
+        "両親",
+        "ご両親",
+        "兄弟"
+      ],
+      "correctIndex": 1,
+      "explanation": "両親 là bố mẹ của mình.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chọn cách đọc đúng cho chữ 妹.",
+      "options": [
+        "あね",
+        "あに",
+        "いもうと",
+        "おとうと"
+      ],
+      "correctIndex": 2,
+      "explanation": "妹 đọc là imouto (em gái).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ nào chỉ 'con gái' (girl)?",
+      "options": [
+        "男の子",
+        "女の子",
+        "男の人",
+        "女の人"
+      ],
+      "correctIndex": 1,
+      "explanation": "女の子 là bé gái.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 子 đọc là gì trong 子ども?",
+      "options": [
+        "こ",
+        "し",
+        "す",
+        "ね"
+      ],
+      "correctIndex": 0,
+      "explanation": "子ども đọc là kodomo.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Cách hỏi tuổi lịch sự là gì?",
+      "options": [
+        "何歳ですか",
+        "おいくつですか",
+        "誰ですか",
+        "どなたですか"
+      ],
+      "correctIndex": 1,
+      "explanation": "おいくつですか là cách hỏi tuổi lịch sự.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 私（　　）本です。",
+      "options": [
+        "は",
+        "の",
+        "か",
+        "も"
+      ],
+      "correctIndex": 1,
+      "explanation": "私の本 (sách của tôi).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: （　　）人は山田さんです。",
+      "options": [
+        "この",
+        "これ",
+        "ここ",
+        "どれ"
+      ],
+      "correctIndex": 0,
+      "explanation": "この đi với danh từ 人.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: あの方は（　　）ですか。",
+      "options": [
+        "だれ",
+        "どなた",
+        "何",
+        "どこ"
+      ],
+      "correctIndex": 1,
+      "explanation": "あの方 thường đi với どなた (lịch sự).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "田中さんは２５（　　）です。",
+      "options": [
+        "歳",
+        "年",
+        "人",
+        "月"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đếm tuổi dùng 歳.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "これは（　　）の傘ですか。",
+      "options": [
+        "だれ",
+        "あの",
+        "この",
+        "何"
+      ],
+      "correctIndex": 0,
+      "explanation": "だれの傘 (ô của ai).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Đâu là câu giới thiệu đúng về bức ảnh gia đình?",
+      "options": [
+        "これは私の家族です。",
+        "この人は誰ですか。",
+        "私は２０歳です。",
+        "あの方はどなたですか。"
+      ],
+      "correctIndex": 0,
+      "explanation": "これは私の家族です (Đây là gia đình tôi).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn hỏi 'Người này là ai?', bạn nói câu nào?",
+      "options": [
+        "この人は何歳ですか。",
+        "この人は誰ですか。",
+        "あの方はどなたですか。",
+        "B và C đều đúng."
+      ],
+      "correctIndex": 3,
+      "explanation": "Cả 2 câu đều mang nghĩa hỏi ai đó là ai.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'My father is 50 years old'.",
+      "options": [
+        "父は５０歳です。",
+        "お父さんは５０歳です。",
+        "母は５０歳です。",
+        "お母さんは５０歳です。"
+      ],
+      "correctIndex": 0,
+      "explanation": "父 (bố của mình) là 50 tuổi.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Theo bài đọc số 2, Mike bao nhiêu tuổi?",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "25"
+      ],
+      "correctIndex": 1,
+      "explanation": "マイクさんは20歳です (Mike 20 tuổi).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-02.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Anh trai của Mike làm nghề gì?",
+      "options": [
+        "Sinh viên",
+        "Giáo viên",
+        "Bác sĩ",
+        "Nhân viên"
+      ],
+      "correctIndex": 1,
+      "explanation": "お兄さんは先生です (Anh trai là giáo viên).",
+      "points": 10
+    }
+  ]
+}

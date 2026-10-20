@@ -1,0 +1,1825 @@
+{
+  "module": {
+    "code": "N5-10",
+    "level": "N5",
+    "unit": 10,
+    "title": "Te-form Basics",
+    "titleJp": "て形と規則",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-10.vocab.001",
+      "japanese": "言います",
+      "hiragana": "いいます",
+      "romaji": "iimasu",
+      "english": "to say",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "名前を言ってください。",
+      "exampleEn": "Please say your name."
+    },
+    {
+      "sourceRef": "N5-10.vocab.002",
+      "japanese": "話します",
+      "hiragana": "はなします",
+      "romaji": "hanashimasu",
+      "english": "to speak, talk",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "日本語で話してください。",
+      "exampleEn": "Please speak in Japanese."
+    },
+    {
+      "sourceRef": "N5-10.vocab.003",
+      "japanese": "待ちます",
+      "hiragana": "まちます",
+      "romaji": "machimasu",
+      "english": "to wait",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "ここで待ってください。",
+      "exampleEn": "Please wait here."
+    },
+    {
+      "sourceRef": "N5-10.vocab.004",
+      "japanese": "持ちます",
+      "hiragana": "もちます",
+      "romaji": "mochimasu",
+      "english": "to hold, have",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "荷物を持ちましょうか。",
+      "exampleEn": "Shall I hold your luggage?"
+    },
+    {
+      "sourceRef": "N5-10.vocab.005",
+      "japanese": "取ります",
+      "hiragana": "とります",
+      "romaji": "torimasu",
+      "english": "to take, pass",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "塩を取ってください。",
+      "exampleEn": "Please pass the salt."
+    },
+    {
+      "sourceRef": "N5-10.vocab.006",
+      "japanese": "手伝います",
+      "hiragana": "てつだいます",
+      "romaji": "tetsudaimasu",
+      "english": "to help",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "仕事を手伝ってください。",
+      "exampleEn": "Please help with the work."
+    },
+    {
+      "sourceRef": "N5-10.vocab.007",
+      "japanese": "呼びます",
+      "hiragana": "よびます",
+      "romaji": "yobimasu",
+      "english": "to call",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "タクシーを呼びます。",
+      "exampleEn": "I will call a taxi."
+    },
+    {
+      "sourceRef": "N5-10.vocab.008",
+      "japanese": "急ぎます",
+      "hiragana": "いそぎます",
+      "romaji": "isogimasu",
+      "english": "to hurry",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "急いでください。",
+      "exampleEn": "Please hurry."
+    },
+    {
+      "sourceRef": "N5-10.vocab.009",
+      "japanese": "住みます",
+      "hiragana": "すみます",
+      "romaji": "sumimasu",
+      "english": "to live",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "東京に住んでいます。",
+      "exampleEn": "I live in Tokyo."
+    },
+    {
+      "sourceRef": "N5-10.vocab.010",
+      "japanese": "座ります",
+      "hiragana": "すわります",
+      "romaji": "suwarimasu",
+      "english": "to sit",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "椅子に座ってください。",
+      "exampleEn": "Please sit on the chair."
+    },
+    {
+      "sourceRef": "N5-10.vocab.011",
+      "japanese": "立ちます",
+      "hiragana": "たちます",
+      "romaji": "tachimasu",
+      "english": "to stand",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "立ってください。",
+      "exampleEn": "Please stand up."
+    },
+    {
+      "sourceRef": "N5-10.vocab.012",
+      "japanese": "使います",
+      "hiragana": "つかいます",
+      "romaji": "tsukaimasu",
+      "english": "to use",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "ペンを使ってもいいですか。",
+      "exampleEn": "May I use the pen?"
+    },
+    {
+      "sourceRef": "N5-10.vocab.013",
+      "japanese": "吸います",
+      "hiragana": "すいます",
+      "romaji": "suimasu",
+      "english": "to smoke",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "タバコを吸ってはいけません。",
+      "exampleEn": "You must not smoke."
+    },
+    {
+      "sourceRef": "N5-10.vocab.014",
+      "japanese": "売ります",
+      "hiragana": "うります",
+      "romaji": "urimasu",
+      "english": "to sell",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "車を売っています。",
+      "exampleEn": "They are selling cars."
+    },
+    {
+      "sourceRef": "N5-10.vocab.015",
+      "japanese": "知ります",
+      "hiragana": "しります",
+      "romaji": "shirimasu",
+      "english": "to know",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "田中さんの住所を知っています。",
+      "exampleEn": "I know Mr. Tanaka's address."
+    },
+    {
+      "sourceRef": "N5-10.vocab.016",
+      "japanese": "開けます",
+      "hiragana": "あけます",
+      "romaji": "akemasu",
+      "english": "to open",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "窓を開けてください。",
+      "exampleEn": "Please open the window."
+    },
+    {
+      "sourceRef": "N5-10.vocab.017",
+      "japanese": "閉めます",
+      "hiragana": "しめます",
+      "romaji": "shimemasu",
+      "english": "to close",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "ドアを閉めてください。",
+      "exampleEn": "Please close the door."
+    },
+    {
+      "sourceRef": "N5-10.vocab.018",
+      "japanese": "つけます",
+      "hiragana": "つけます",
+      "romaji": "tsukemasu",
+      "english": "to turn on",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "電気をつけてください。",
+      "exampleEn": "Please turn on the light."
+    },
+    {
+      "sourceRef": "N5-10.vocab.019",
+      "japanese": "消します",
+      "hiragana": "けします",
+      "romaji": "keshimasu",
+      "english": "to turn off",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "テレビを消してください。",
+      "exampleEn": "Please turn off the TV."
+    },
+    {
+      "sourceRef": "N5-10.vocab.020",
+      "japanese": "止めます",
+      "hiragana": "とめます",
+      "romaji": "tomemasu",
+      "english": "to stop, park",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "ここに車を止めてはいけません。",
+      "exampleEn": "You must not park your car here."
+    },
+    {
+      "sourceRef": "N5-10.vocab.021",
+      "japanese": "電気",
+      "hiragana": "でんき",
+      "romaji": "denki",
+      "english": "electricity, light",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "電気を消します。",
+      "exampleEn": "I turn off the light."
+    },
+    {
+      "sourceRef": "N5-10.vocab.022",
+      "japanese": "エアコン",
+      "hiragana": "えあこん",
+      "romaji": "eakon",
+      "english": "air conditioner",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "エアコンをつけてください。",
+      "exampleEn": "Please turn on the air conditioner."
+    },
+    {
+      "sourceRef": "N5-10.vocab.023",
+      "japanese": "パスポート",
+      "hiragana": "ぱすぽーと",
+      "romaji": "pasupooto",
+      "english": "passport",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "パスポートを見せてください。",
+      "exampleEn": "Please show me your passport."
+    },
+    {
+      "sourceRef": "N5-10.vocab.024",
+      "japanese": "名前",
+      "hiragana": "なまえ",
+      "romaji": "namae",
+      "english": "name",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "名前を書いてください。",
+      "exampleEn": "Please write your name."
+    },
+    {
+      "sourceRef": "N5-10.vocab.025",
+      "japanese": "住所",
+      "hiragana": "じゅうしょ",
+      "romaji": "juusho",
+      "english": "address",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "住所を知っていますか。",
+      "exampleEn": "Do you know the address?"
+    },
+    {
+      "sourceRef": "N5-10.vocab.026",
+      "japanese": "タバコ",
+      "hiragana": "たばこ",
+      "romaji": "tabako",
+      "english": "cigarette",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "タバコを吸います。",
+      "exampleEn": "I smoke cigarettes."
+    },
+    {
+      "sourceRef": "N5-10.vocab.027",
+      "japanese": "塩",
+      "hiragana": "しお",
+      "romaji": "shio",
+      "english": "salt",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "塩を取ってください。",
+      "exampleEn": "Please pass the salt."
+    },
+    {
+      "sourceRef": "N5-10.vocab.028",
+      "japanese": "砂糖",
+      "hiragana": "さとう",
+      "romaji": "satou",
+      "english": "sugar",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "コーヒーに砂糖を入れます。",
+      "exampleEn": "I put sugar in my coffee."
+    },
+    {
+      "sourceRef": "N5-10.vocab.029",
+      "japanese": "荷物",
+      "hiragana": "にもつ",
+      "romaji": "nimotsu",
+      "english": "baggage, luggage",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "荷物を持ちます。",
+      "exampleEn": "I carry the luggage."
+    },
+    {
+      "sourceRef": "N5-10.vocab.030",
+      "japanese": "番号",
+      "hiragana": "ばんごう",
+      "romaji": "bangou",
+      "english": "number",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "電話番号は何番ですか。",
+      "exampleEn": "What is your phone number?"
+    },
+    {
+      "sourceRef": "N5-10.vocab.031",
+      "japanese": "規則",
+      "hiragana": "きそく",
+      "romaji": "kisoku",
+      "english": "rule",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "学校の規則",
+      "exampleEn": "school rules"
+    },
+    {
+      "sourceRef": "N5-10.vocab.032",
+      "japanese": "禁煙",
+      "hiragana": "きんえん",
+      "romaji": "kin'en",
+      "english": "no smoking",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "ここは禁煙です。",
+      "exampleEn": "This is a no smoking area."
+    },
+    {
+      "sourceRef": "N5-10.vocab.033",
+      "japanese": "市役所",
+      "hiragana": "しやくしょ",
+      "romaji": "shiyakusho",
+      "english": "city hall",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "市役所へ行きます。",
+      "exampleEn": "I go to the city hall."
+    },
+    {
+      "sourceRef": "N5-10.vocab.034",
+      "japanese": "独身",
+      "hiragana": "どくしん",
+      "romaji": "dokushin",
+      "english": "single, unmarried",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "私は独身です。",
+      "exampleEn": "I am single."
+    },
+    {
+      "sourceRef": "N5-10.vocab.035",
+      "japanese": "答え",
+      "hiragana": "こたえ",
+      "romaji": "kotae",
+      "english": "answer",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "答えを書いてください。",
+      "exampleEn": "Please write the answer."
+    },
+    {
+      "sourceRef": "N5-10.vocab.036",
+      "japanese": "問題",
+      "hiragana": "もんだい",
+      "romaji": "mondai",
+      "english": "problem, question",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "問題があります。",
+      "exampleEn": "There is a problem."
+    },
+    {
+      "sourceRef": "N5-10.vocab.037",
+      "japanese": "道",
+      "hiragana": "みち",
+      "romaji": "michi",
+      "english": "road, street",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "道をまっすぐ行きます。",
+      "exampleEn": "I go straight down the road."
+    },
+    {
+      "sourceRef": "N5-10.vocab.038",
+      "japanese": "信号",
+      "hiragana": "しんごう",
+      "romaji": "shingou",
+      "english": "traffic light",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "信号を右へ曲がります。",
+      "exampleEn": "I turn right at the traffic light."
+    },
+    {
+      "sourceRef": "N5-10.vocab.039",
+      "japanese": "角",
+      "hiragana": "かど",
+      "romaji": "kado",
+      "english": "corner",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "その角を左へ曲がってください。",
+      "exampleEn": "Please turn left at that corner."
+    },
+    {
+      "sourceRef": "N5-10.vocab.040",
+      "japanese": "自転車",
+      "hiragana": "じてんしゃ",
+      "romaji": "jitensha",
+      "english": "bicycle",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "自転車を止めます。",
+      "exampleEn": "I park the bicycle."
+    },
+    {
+      "sourceRef": "N5-10.vocab.041",
+      "japanese": "まっすぐ",
+      "hiragana": "まっすぐ",
+      "romaji": "massugu",
+      "english": "straight",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "まっすぐ行ってください。",
+      "exampleEn": "Please go straight."
+    },
+    {
+      "sourceRef": "N5-10.vocab.042",
+      "japanese": "ゆっくり",
+      "hiragana": "ゆっくり",
+      "romaji": "yukkuri",
+      "english": "slowly",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "ゆっくり話してください。",
+      "exampleEn": "Please speak slowly."
+    },
+    {
+      "sourceRef": "N5-10.vocab.043",
+      "japanese": "すぐ",
+      "hiragana": "すぐ",
+      "romaji": "sugu",
+      "english": "immediately",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "すぐ行きます。",
+      "exampleEn": "I will go immediately."
+    },
+    {
+      "sourceRef": "N5-10.vocab.044",
+      "japanese": "後で",
+      "hiragana": "あとで",
+      "romaji": "atode",
+      "english": "later",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "後で電話します。",
+      "exampleEn": "I will call later."
+    },
+    {
+      "sourceRef": "N5-10.vocab.045",
+      "japanese": "もう少し",
+      "hiragana": "もうすこし",
+      "romaji": "mou sukoshi",
+      "english": "a little more",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-10",
+      "introducedIn": "N5-10",
+      "exampleJp": "もう少し安くなりませんか。",
+      "exampleEn": "Can you make it a little cheaper?"
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-10.kanji.001",
+      "character": "開",
+      "meaning": "open",
+      "onyomi": "カイ",
+      "kunyomi": "あ.ける、あ.く",
+      "level": "N5",
+      "strokeCount": 12,
+      "radical": "門",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "開ける (akeru)",
+          "en": "to open"
+        }
+      ],
+      "mnemonic": "Learn the kanji for open."
+    },
+    {
+      "sourceRef": "N5-10.kanji.002",
+      "character": "閉",
+      "meaning": "close",
+      "onyomi": "ヘイ",
+      "kunyomi": "し.める、し.まる",
+      "level": "N5",
+      "strokeCount": 11,
+      "radical": "門",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "閉める (shimeru)",
+          "en": "to close"
+        }
+      ],
+      "mnemonic": "Learn the kanji for close."
+    },
+    {
+      "sourceRef": "N5-10.kanji.003",
+      "character": "待",
+      "meaning": "wait",
+      "onyomi": "タイ",
+      "kunyomi": "ま.つ",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "彳",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "待つ (matsu)",
+          "en": "to wait"
+        }
+      ],
+      "mnemonic": "Learn the kanji for wait."
+    },
+    {
+      "sourceRef": "N5-10.kanji.004",
+      "character": "止",
+      "meaning": "stop",
+      "onyomi": "シ",
+      "kunyomi": "と.める、と.まる",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "止",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "止める (tomeru)",
+          "en": "to stop/park"
+        }
+      ],
+      "mnemonic": "Learn the kanji for stop."
+    },
+    {
+      "sourceRef": "N5-10.kanji.005",
+      "character": "持",
+      "meaning": "hold, have",
+      "onyomi": "ジ",
+      "kunyomi": "も.つ",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "手",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "持つ (motsu)",
+          "en": "to hold"
+        }
+      ],
+      "mnemonic": "Learn the kanji for hold, have."
+    },
+    {
+      "sourceRef": "N5-10.kanji.006",
+      "character": "住",
+      "meaning": "live, dwell",
+      "onyomi": "ジュウ",
+      "kunyomi": "す.む",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "人",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "住む (sumu)",
+          "en": "to live"
+        }
+      ],
+      "mnemonic": "Learn the kanji for live, dwell."
+    },
+    {
+      "sourceRef": "N5-10.kanji.007",
+      "character": "使",
+      "meaning": "use",
+      "onyomi": "シ",
+      "kunyomi": "つか.う",
+      "level": "N5",
+      "strokeCount": 8,
+      "radical": "人",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "使う (tsukau)",
+          "en": "to use"
+        }
+      ],
+      "mnemonic": "Learn the kanji for use."
+    },
+    {
+      "sourceRef": "N5-10.kanji.008",
+      "character": "売",
+      "meaning": "sell",
+      "onyomi": "バイ",
+      "kunyomi": "う.る",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "士",
+      "introducedIn": "N5-10",
+      "exampleWords": [
+        {
+          "jp": "売る (uru)",
+          "en": "to sell"
+        }
+      ],
+      "mnemonic": "Learn the kanji for sell."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-10.grammar.001",
+      "pattern": "Cách chia động từ thể て (Te-form)",
+      "meaningVn": "Thể て",
+      "meaningEn": "Te-form of verbs",
+      "explanation": "Nhóm 1: い/ち/り -> って; み/び/に -> んで; き -> いて; ぎ -> いで; し -> して. (Ngoại lệ: 行きます -> 行って). Nhóm 2: Bỏ ます + て. Nhóm 3: します -> して; 来ます -> 来て.",
+      "introducedIn": "N5-10",
+      "examples": [
+        {
+          "japanese": "待ちます -> 待って",
+          "romaji": "machimasu -> matte",
+          "english": "wait -> wait (te-form)",
+          "vietnamese": "đợi -> đợi (thể te)"
+        },
+        {
+          "japanese": "食べます -> 食べて",
+          "romaji": "tabemasu -> tabete",
+          "english": "eat -> eat (te-form)",
+          "vietnamese": "ăn -> ăn (thể te)"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-10.grammar.002",
+      "pattern": "Vてください",
+      "meaningVn": "Hãy làm V",
+      "meaningEn": "Please do V",
+      "explanation": "Dùng để nhờ vả, sai khiến hoặc mời ai đó làm gì một cách lịch sự.",
+      "introducedIn": "N5-10",
+      "examples": [
+        {
+          "japanese": "ちょっと待ってください。",
+          "romaji": "Chotto matte kudasai.",
+          "english": "Please wait a moment.",
+          "vietnamese": "Xin hãy đợi một chút."
+        },
+        {
+          "japanese": "名前を書いてください。",
+          "romaji": "Namae o kaite kudasai.",
+          "english": "Please write your name.",
+          "vietnamese": "Xin hãy viết tên của bạn."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-10.grammar.003",
+      "pattern": "Vています",
+      "meaningVn": "Đang làm V / (Trạng thái)",
+      "meaningEn": "Is doing V / (State)",
+      "explanation": "Biểu thị hành động đang diễn ra tại thời điểm nói, hoặc một trạng thái/thói quen kéo dài đến hiện tại (như kết hôn, sống ở đâu, biết ai đó).",
+      "introducedIn": "N5-10",
+      "examples": [
+        {
+          "japanese": "今、雨が降っています。",
+          "romaji": "Ima, ame ga futte imasu.",
+          "english": "It is raining now.",
+          "vietnamese": "Bây giờ trời đang mưa."
+        },
+        {
+          "japanese": "東京に住んでいます。",
+          "romaji": "Toukyou ni sunde imasu.",
+          "english": "I live in Tokyo.",
+          "vietnamese": "Tôi đang sống ở Tokyo."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-10.grammar.004",
+      "pattern": "Vてもいいですか",
+      "meaningVn": "Tôi làm V có được không?",
+      "meaningEn": "May I do V?",
+      "explanation": "Dùng để xin phép người khác làm việc gì đó. Người đáp có thể nói 'はい、いいですよ' (Vâng, được) hoặc 'すみません、ちょっと…' (Xin lỗi, không được).",
+      "introducedIn": "N5-10",
+      "examples": [
+        {
+          "japanese": "写真を撮ってもいいですか。",
+          "romaji": "Shashin o totte mo ii desu ka.",
+          "english": "May I take a photo?",
+          "vietnamese": "Tôi chụp ảnh có được không?"
+        },
+        {
+          "japanese": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "english": "Yes, it is fine.",
+          "vietnamese": "Vâng, được chứ."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-10.grammar.005",
+      "pattern": "Vてはいけません",
+      "meaningVn": "Không được làm V",
+      "meaningEn": "You must not do V",
+      "explanation": "Dùng để cấm đoán, biểu thị việc không được phép làm (thường dùng cho nội quy, biển báo).",
+      "introducedIn": "N5-10",
+      "examples": [
+        {
+          "japanese": "ここでタバコを吸ってはいけません。",
+          "romaji": "Koko de tabako o sutte wa ikemasen.",
+          "english": "You must not smoke here.",
+          "vietnamese": "Không được hút thuốc ở đây."
+        },
+        {
+          "japanese": "車を止めてはいけません。",
+          "romaji": "Kuruma o tomete wa ikemasen.",
+          "english": "You must not park the car.",
+          "vietnamese": "Không được đỗ xe ô tô."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-10.kaiwa.001",
+      "title": "May I use this?",
+      "titleJp": "使ってもいいですか",
+      "situation": "Asking for permission in the office",
+      "lines": [
+        {
+          "speaker": "山田",
+          "japanese": "すみません、このパソコンを使ってもいいですか。",
+          "hiragana": "すみません、このぱそこんをつかってもいいですか。",
+          "romaji": "Sumimasen, kono pasokon o tsukatte mo ii desu ka.",
+          "translation": "Excuse me, may I use this computer?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "田中",
+          "japanese": "はい、いいですよ。どうぞ。",
+          "hiragana": "はい、いいですよ。どうぞ。",
+          "romaji": "Hai, ii desu yo. Douzo.",
+          "translation": "Yes, it's fine. Go ahead.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "山田",
+          "japanese": "ありがとうございます。",
+          "hiragana": "ありがとうございます。",
+          "romaji": "Arigatou gozaimasu.",
+          "translation": "Thank you.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "田中",
+          "japanese": "あ、山田さん、窓を開けてください。暑いですから。",
+          "hiragana": "あ、やまださん、まどをあけてください。あついですか。",
+          "romaji": "A, Yamada-san, mado o akete kudasai. Atsui desu kara.",
+          "translation": "Ah, Yamada, please open the window. Because it's hot.",
+          "sortOrder": 4
+        },
+        {
+          "speaker": "山田",
+          "japanese": "はい、わかりました。",
+          "hiragana": "はい、わかりました。",
+          "romaji": "Hai, wakarimashita.",
+          "translation": "Yes, I understand.",
+          "sortOrder": 5
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-10.kaiwa.002",
+      "title": "No smoking",
+      "titleJp": "タバコを吸ってはいけません",
+      "situation": "Being told about a rule in a restaurant",
+      "lines": [
+        {
+          "speaker": "客",
+          "japanese": "すみません、ここでタバコを吸ってもいいですか。",
+          "hiragana": "すみません、ここでたばこをすってもいいですか。",
+          "romaji": "Sumimasen, koko de tabako o sutte mo ii desu ka.",
+          "translation": "Excuse me, may I smoke here?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "店員",
+          "japanese": "すみません、ここは禁煙ですから、吸ってはいけません。",
+          "hiragana": "すみません、ここはきんえんですから、すってはいけません。",
+          "romaji": "Sumimasen, koko wa kin'en desu kara, sutte wa ikemasen.",
+          "translation": "I'm sorry, this is a no-smoking area, so you must not smoke.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "客",
+          "japanese": "ああ、そうですか。外で吸ってもいいですか。",
+          "hiragana": "ああ、そうですか。そとですってもいいですか。",
+          "romaji": "Aa, sou desu ka. Soto de sutte mo ii desu ka.",
+          "translation": "Ah, I see. May I smoke outside?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "店員",
+          "japanese": "はい、外はいいですよ。",
+          "hiragana": "はい、そとはいいですよ。",
+          "romaji": "Hai, soto wa ii desu yo.",
+          "translation": "Yes, outside is fine.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-10.listening.001",
+      "title": "Giving directions",
+      "instructions": "Listen to the man giving directions.",
+      "audioUrl": "PENDING_AUDIO:n5-10-listening-01",
+      "transcriptJp": "すみません、市役所はどこですか。あそこの道をまっすぐ行ってください。そして、二つ目の信号を右へ曲がってください。左に市役所があります。わかりました。ありがとうございます。",
+      "transcriptRomaji": "Sumimasen, shiyakusho wa doko desu ka. Asoko no michi o massugu itte kudasai. Soshite, futatsume no shingou o migi e magatte kudasai. Hidari ni shiyakusho ga arimasu. Wakarimashita. Arigatou gozaimasu.",
+      "transcriptEn": "Excuse me, where is the city hall? Please go straight on that road over there. And then, please turn right at the second traffic light. The city hall is on the left. I understand. Thank you.",
+      "durationSeconds": 35,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-10.listening.002",
+      "title": "Classroom instructions",
+      "instructions": "Listen to the teacher's instructions in class.",
+      "audioUrl": "PENDING_AUDIO:n5-10-listening-02",
+      "transcriptJp": "皆さん、おはようございます。今からテストをします。本を閉じてください。そして、テストに名前を書いてください。辞書を使ってはいけません。ゆっくり読んでください。では、始めてください。",
+      "transcriptRomaji": "Minasan, ohayou gozaimasu. Ima kara tesuto o shimasu. Hon o tojite kudasai. Soshite, tesuto ni namae o kaite kudasai. Jisho o tsukatte wa ikemasen. Yukkuri yonde kudasai. Dewa, hajimete kudasai.",
+      "transcriptEn": "Good morning, everyone. We will have a test now. Please close your books. And then, please write your name on the test. You must not use a dictionary. Please read slowly. Well then, please begin.",
+      "durationSeconds": 45,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-10.reading.001",
+      "title": "Library Rules",
+      "passage": "図書館の規則\n図書館の中でタバコを吸ってはいけません。写真を撮ってもいいですが、電話で話してはいけません。食べ物を食べてはいけませんが、水を飲んでもいいです。本を借りる時、カードを見せてください。",
+      "reading": "としょかんのきそく\nとしょかんのなかでたばこをすってはいけません。しゃしんをとってもいいですが、でんわではなしてはいけません。たべものをたべてはいけませんが、みずをのんでもいいです。ほんをかりるとき、かーどをみせてください。",
+      "translation": "Library Rules\nYou must not smoke inside the library. You may take photos, but you must not talk on the phone. You must not eat food, but you may drink water. When you borrow a book, please show your card.",
+      "questions": [
+        {
+          "question": "図書館で写真を撮ってもいいですか。",
+          "options": [
+            "はい、いいです",
+            "いいえ、いけません"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: 写真を撮ってもいいですが (Được phép chụp ảnh)."
+        },
+        {
+          "question": "図書館で何をしてもいいですか。",
+          "options": [
+            "電話で話す",
+            "タバコを吸う",
+            "水を飲む",
+            "食べ物を食べる"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 水を飲んでもいいです (Được phép uống nước)."
+        },
+        {
+          "question": "本を借りる時、何をしますか。",
+          "options": [
+            "カードを書きます",
+            "カードを見せます",
+            "お金を払います",
+            "写真を撮ります"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 本を借りる時、カードを見せてください (Hãy cho xem thẻ)."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-10.reading.002",
+      "title": "Self Introduction",
+      "passage": "初めまして。私はマリアです。今、東京に住んでいます。東京の大学で日本語を勉強しています。毎日、自転車で大学へ行きます。私はカメラを持っています。週末、よく公園で写真を撮っています。",
+      "reading": "はじめまして。わたしはまりあです。いま、とうきょうにすんでいます。とうきょうのだいがくでにほんごをべんきょうしています。まいにち、じてんしゃでだいがくへいきます。わたしはかめらをもっています。しゅうまつ、よくこうえんでしゃしんをとっています。",
+      "translation": "How do you do. I am Maria. I am living in Tokyo now. I am studying Japanese at a university in Tokyo. Everyday, I go to the university by bicycle. I have a camera. On weekends, I often take photos at the park.",
+      "questions": [
+        {
+          "question": "マリアさんはどこに住んでいますか。",
+          "options": [
+            "大学",
+            "公園",
+            "東京",
+            "大阪"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 今、東京に住んでいます (Đang sống ở Tokyo)."
+        },
+        {
+          "question": "どうやって大学へ行きますか。",
+          "options": [
+            "歩いて",
+            "自転車で",
+            "電車で",
+            "バスで"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 毎日、自転車で大学へ行きます (Bằng xe đạp)."
+        },
+        {
+          "question": "マリアさんは週末に何をしていますか。",
+          "options": [
+            "日本語を勉強しています",
+            "カメラを買います",
+            "公園で写真を撮っています",
+            "東京へ行きます"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 週末、よく公園で写真を撮っています (Đang/Thường xuyên chụp ảnh ở công viên)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-10.writing.001",
+      "prompt": "Ask someone to do something.",
+      "instructions": "Write a sentence asking someone politely to open the window.",
+      "sampleAnswer": "すみません、窓を開けてください。",
+      "rubric": "Use Vてください correctly (開けてください).",
+      "minLength": 1,
+      "maxLength": 1,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-10.writing.002",
+      "prompt": "Ask for permission.",
+      "instructions": "Write a sentence asking for permission to sit on a chair.",
+      "sampleAnswer": "ここに座ってもいいですか。",
+      "rubric": "Use Vてもいいですか correctly (座っても).",
+      "minLength": 1,
+      "maxLength": 1,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-10.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đợi' (động từ) tiếng Nhật là gì?",
+      "options": [
+        "持ちます",
+        "待ちます",
+        "話します",
+        "使います"
+      ],
+      "correctIndex": 1,
+      "explanation": "待ちます (machimasu) là đợi.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Mở' (cửa, cửa sổ) là động từ nào?",
+      "options": [
+        "開けます",
+        "閉めます",
+        "つけます",
+        "消します"
+      ],
+      "correctIndex": 0,
+      "explanation": "開けます (akemasu) là mở.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Điện, đèn điện' là gì?",
+      "options": [
+        "エアコン",
+        "塩",
+        "電気",
+        "荷物"
+      ],
+      "correctIndex": 2,
+      "explanation": "電気 (denki) là điện, đèn điện.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Địa chỉ' là gì?",
+      "options": [
+        "名前",
+        "住所",
+        "番号",
+        "独身"
+      ],
+      "correctIndex": 1,
+      "explanation": "住所 (juusho) là địa chỉ.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "タクシーを（　　）ください。",
+      "options": [
+        "呼んで",
+        "使って",
+        "待って",
+        "急いで"
+      ],
+      "correctIndex": 0,
+      "explanation": "タクシーを呼んでください (Hãy gọi taxi).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Từ từ, thong thả' là gì?",
+      "options": [
+        "すぐ",
+        "まっすぐ",
+        "ゆっくり",
+        "後で"
+      ],
+      "correctIndex": 2,
+      "explanation": "ゆっくり (yukkuri) là từ từ, thong thả.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Quy tắc, nội quy' là gì?",
+      "options": [
+        "問題",
+        "答え",
+        "禁煙",
+        "規則"
+      ],
+      "correctIndex": 3,
+      "explanation": "規則 (kisoku) là quy tắc, nội quy.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Động từ 'Biết' tiếng Nhật là gì?",
+      "options": [
+        "知ります",
+        "住みます",
+        "座ります",
+        "立ちます"
+      ],
+      "correctIndex": 0,
+      "explanation": "知ります (shirimasu) là biết. (Thường dùng 知っています).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-10.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 開 đọc là gì trong 開けます (mở)?",
+      "options": [
+        "し",
+        "あ",
+        "ま",
+        "と"
+      ],
+      "correctIndex": 1,
+      "explanation": "開けます đọc là a-kemasu.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-10.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 閉 có nghĩa là gì?",
+      "options": [
+        "Mở",
+        "Đóng",
+        "Sử dụng",
+        "Đợi"
+      ],
+      "correctIndex": 1,
+      "explanation": "閉 (Bế) là đóng (閉めます).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-10.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 待 đọc là gì trong 待ってください?",
+      "options": [
+        "も",
+        "ま",
+        "す",
+        "う"
+      ],
+      "correctIndex": 1,
+      "explanation": "待ってください đọc là ma-tte kudasai (đợi).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-10.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 止 có nghĩa là gì?",
+      "options": [
+        "Dừng lại",
+        "Đi",
+        "Đến",
+        "Cầm lấy"
+      ],
+      "correctIndex": 0,
+      "explanation": "止 (Chỉ) là dừng lại, đỗ xe (止めます).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-10.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Sống, cư trú' chứa chữ Hán nào?",
+      "options": [
+        "持",
+        "使",
+        "住",
+        "売"
+      ],
+      "correctIndex": 2,
+      "explanation": "住みます (sumimasu - Trú) là sống.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-10.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 使 đọc là gì trong 使います?",
+      "options": [
+        "うら",
+        "もか",
+        "つか",
+        "すま"
+      ],
+      "correctIndex": 2,
+      "explanation": "使います đọc là tsuka-imasu (sử dụng).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-10.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "辞書を（　　）ください。",
+      "options": [
+        "使う",
+        "使い",
+        "使って",
+        "使いて"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thể て của 使います là 使って (Nhóm 1, đuôi い -> って).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "ここで写真を（　　）もいいですか。",
+      "options": [
+        "撮る",
+        "撮り",
+        "撮って",
+        "撮ってて"
+      ],
+      "correctIndex": 2,
+      "explanation": "Xin phép: Vてもいいですか. 撮ります -> 撮って.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "授業中ですから、携帯電話で（　　）はいけません。",
+      "options": [
+        "話す",
+        "話して",
+        "話した",
+        "話し"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cấm đoán: Vてはいけません. 話します -> 話して.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "私は東京に（　　）います。",
+      "options": [
+        "住む",
+        "住み",
+        "住んで",
+        "住んて"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sống ở đâu dùng trạng thái Vています. 住みます -> 住んで.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng diễn tả: Hãy đọc sách.",
+      "options": [
+        "本を読むてください。",
+        "本を読んでください。",
+        "本を読みてください。",
+        "本を読んてください。"
+      ],
+      "correctIndex": 1,
+      "explanation": "読みます (Nhóm 1 đuôi み) -> 読んで.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "今、雨が（　　）。",
+      "options": [
+        "降ります",
+        "降って",
+        "降っています",
+        "降りました"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hành động đang xảy ra: 降っています (đang mưa).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "ドアを（　　）ください。",
+      "options": [
+        "閉める",
+        "閉めって",
+        "閉めて",
+        "閉め"
+      ],
+      "correctIndex": 2,
+      "explanation": "閉めます (Nhóm 2) -> 閉めて.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Tôi có thể sử dụng bút không?",
+      "options": [
+        "ペンを使っていますか。",
+        "ペンを使ってください。",
+        "ペンを使ってもいいですか。",
+        "ペンを使ってはいけませんか。"
+      ],
+      "correctIndex": 2,
+      "explanation": "使ってもいいですか (Sử dụng có được không).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 1, để đến Tòa thị chính (市役所) cần phải làm gì ở cột đèn đỏ thứ 2?",
+      "options": [
+        "Rẽ trái",
+        "Rẽ phải",
+        "Đi thẳng",
+        "Dừng lại"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 二つ目の信号を右へ曲がってください (Rẽ phải ở tín hiệu thứ 2).",
+      "points": 2,
+      "listeningRef": "N5-10.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-10.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 2, giáo viên cho phép làm điều gì?",
+      "options": [
+        "Sử dụng từ điển",
+        "Mở sách",
+        "Viết tên vào bài thi",
+        "Đọc nhanh"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói: テストに名前を書いてください (Hãy viết tên). Còn lại là cấm/yêu cầu khác (本を閉じてください, 辞書を使ってはいけません).",
+      "points": 2,
+      "listeningRef": "N5-10.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-10.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, học sinh không được sử dụng từ điển.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Audio nói: 辞書を使ってはいけません (Không được sử dụng từ điển). Đúng.",
+      "points": 2,
+      "listeningRef": "N5-10.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-10.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Theo nội quy thư viện (Bài đọc 1), hành động nào bị cấm?",
+      "options": [
+        "Uống nước",
+        "Chụp ảnh",
+        "Nói chuyện điện thoại",
+        "Cho xem thẻ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bài đọc ghi: 電話で話してはいけません (Không được nói chuyện điện thoại).",
+      "points": 2,
+      "readingRef": "N5-10.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-10.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 2, Maria hiện đang làm gì?",
+      "options": [
+        "Sống ở Nhật và đi làm",
+        "Học tiếng Nhật ở trường đại học",
+        "Bán máy ảnh",
+        "Chơi công viên mỗi ngày"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 東京の大学で日本語を勉強しています (Đang học tiếng Nhật ở trường đại học).",
+      "points": 2,
+      "readingRef": "N5-10.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-10.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài đọc 1, bạn không được phép chụp ảnh trong thư viện.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 写真を撮ってもいいですが (Được phép chụp ảnh). Sai.",
+      "points": 2,
+      "readingRef": "N5-10.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-10.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Xin hãy đợi một chút.",
+      "options": [
+        "待って",
+        "ちょっと",
+        "ください",
+        "ここで"
+      ],
+      "correctIndex": 0,
+      "explanation": "ここでちょっと待ってください (hoặc ちょっとここで待ってください)。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-10.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Không được hút thuốc ở đây.",
+      "options": [
+        "タバコを",
+        "いけません",
+        "ここで",
+        "吸っては"
+      ],
+      "correctIndex": 0,
+      "explanation": "ここでタバコを吸ってはいけません。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-10.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Động từ 'Tắt (điện, tivi)' là gì?",
+      "options": [
+        "つけます",
+        "消します",
+        "開けます",
+        "閉めます"
+      ],
+      "correctIndex": 1,
+      "explanation": "消します (keshimasu) là tắt.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 待 đọc là gì trong 待ってください?",
+      "options": [
+        "も",
+        "もっ",
+        "ま",
+        "まっ"
+      ],
+      "correctIndex": 2,
+      "explanation": "待ってください (ma-tte kudasai).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Độc thân' tiếng Nhật là gì?",
+      "options": [
+        "禁煙",
+        "市役所",
+        "規則",
+        "独身"
+      ],
+      "correctIndex": 3,
+      "explanation": "独身 (dokushin) là độc thân.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 使 trong 使います có nghĩa là gì?",
+      "options": [
+        "Sử dụng",
+        "Bán",
+        "Làm ra",
+        "Biết"
+      ],
+      "correctIndex": 0,
+      "explanation": "使います (tsukaimasu) là sử dụng.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Từ từ, thong thả' là gì?",
+      "options": [
+        "まっすぐ",
+        "すぐ",
+        "ゆっくり",
+        "後で"
+      ],
+      "correctIndex": 2,
+      "explanation": "ゆっくり (yukkuri) là từ từ.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: ドアを（　　）ください。",
+      "options": [
+        "開く",
+        "開いて",
+        "開ける",
+        "開けて"
+      ],
+      "correctIndex": 3,
+      "explanation": "開けます (nhóm 2) -> 開けてください (Hãy mở cửa).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 私は山田さんを（　　）います。",
+      "options": [
+        "知る",
+        "知り",
+        "知って",
+        "知ってて"
+      ],
+      "correctIndex": 2,
+      "explanation": "知っています (Đang biết/Biết).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Tôi có thể ngồi đây không?':",
+      "options": [
+        "ここに座ってください。",
+        "ここに座っていますか。",
+        "ここに座ってもいいですか。",
+        "ここに座ってはいけませんか。"
+      ],
+      "correctIndex": 2,
+      "explanation": "座ってもいいですか (Ngồi có được không).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 車を（　　）はいけません。",
+      "options": [
+        "止まるて",
+        "止めて",
+        "止むて",
+        "止って"
+      ],
+      "correctIndex": 1,
+      "explanation": "止めます (nhóm 2) -> 止めて. 止めてはいけません (Không được đỗ xe).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Hãy gọi taxi giúp tôi':",
+      "options": [
+        "タクシーを呼びてください。",
+        "タクシーを呼んでください。",
+        "タクシーを待ってください。",
+        "タクシーを持ってください。"
+      ],
+      "correctIndex": 1,
+      "explanation": "呼びます (nhóm 1, đuôi び) -> 呼んで. 呼んでください.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn nhờ người khác mở cửa sổ vì trời nóng, bạn nói:",
+      "options": [
+        "窓を閉めてください。",
+        "窓を開けてください。",
+        "窓をつけてください。",
+        "窓を消してください。"
+      ],
+      "correctIndex": 1,
+      "explanation": "窓を開けてください (Hãy mở cửa sổ).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi một người xin phép 'タバコを吸ってもいいですか' và chỗ đó cấm hút thuốc, bạn trả lời:",
+      "options": [
+        "はい、いいですよ。",
+        "すみません、吸ってはいけません。",
+        "はい、吸ってください。",
+        "いいえ、吸ってもいいです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "すみません、吸ってはいけません (Xin lỗi, không được hút).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Xin hãy rẽ phải ở góc đường đó':",
+      "options": [
+        "その角を左へ曲がってください。",
+        "その角を右へ曲がってください。",
+        "その角をまっすぐ行ってください。",
+        "その角を右へ止めてください。"
+      ],
+      "correctIndex": 1,
+      "explanation": "右へ曲がってください (Hãy rẽ phải).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Thể て của động từ します (làm) là gì?",
+      "options": [
+        "して",
+        "しって",
+        "しんで",
+        "しい"
+      ],
+      "correctIndex": 0,
+      "explanation": "します là động từ nhóm 3, thể て là して.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-10.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Mẫu câu Vています dùng để diễn tả điều gì?",
+      "options": [
+        "Xin phép làm gì",
+        "Cấm đoán",
+        "Hành động đang xảy ra hoặc trạng thái",
+        "Nhờ vả"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vています dùng để diễn tả hành động đang xảy ra (đang mưa) hoặc trạng thái (đang sống ở..., đang biết...).",
+      "points": 10
+    }
+  ]
+}

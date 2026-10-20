@@ -1,0 +1,1813 @@
+{
+  "module": {
+    "code": "N5-08",
+    "level": "N5",
+    "unit": 8,
+    "title": "Weekend Activities",
+    "titleJp": "週末の活動",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-08.vocab.001",
+      "japanese": "週末",
+      "hiragana": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "english": "weekend",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "週末は休みです。",
+      "exampleEn": "The weekend is a holiday."
+    },
+    {
+      "sourceRef": "N5-08.vocab.002",
+      "japanese": "休み",
+      "hiragana": "やすみ",
+      "romaji": "yasumi",
+      "english": "holiday, rest",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "明日は休みです。",
+      "exampleEn": "Tomorrow is a holiday."
+    },
+    {
+      "sourceRef": "N5-08.vocab.003",
+      "japanese": "今週",
+      "hiragana": "こんしゅう",
+      "romaji": "konshuu",
+      "english": "this week",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "今週は忙しいです。",
+      "exampleEn": "I am busy this week."
+    },
+    {
+      "sourceRef": "N5-08.vocab.004",
+      "japanese": "来週",
+      "hiragana": "らいしゅう",
+      "romaji": "raishuu",
+      "english": "next week",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "来週、東京へ行きます。",
+      "exampleEn": "I will go to Tokyo next week."
+    },
+    {
+      "sourceRef": "N5-08.vocab.005",
+      "japanese": "先週",
+      "hiragana": "せんしゅう",
+      "romaji": "senshuu",
+      "english": "last week",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "先週、映画を見ました。",
+      "exampleEn": "I watched a movie last week."
+    },
+    {
+      "sourceRef": "N5-08.vocab.006",
+      "japanese": "今月",
+      "hiragana": "こんげつ",
+      "romaji": "kongetsu",
+      "english": "this month",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "今月は海へ行きます。",
+      "exampleEn": "I will go to the sea this month."
+    },
+    {
+      "sourceRef": "N5-08.vocab.007",
+      "japanese": "来月",
+      "hiragana": "らいげつ",
+      "romaji": "raigetsu",
+      "english": "next month",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "来月、友達に会います。",
+      "exampleEn": "I will meet my friend next month."
+    },
+    {
+      "sourceRef": "N5-08.vocab.008",
+      "japanese": "先月",
+      "hiragana": "せんげつ",
+      "romaji": "sengetsu",
+      "english": "last month",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "先月、カメラを買いました。",
+      "exampleEn": "I bought a camera last month."
+    },
+    {
+      "sourceRef": "N5-08.vocab.009",
+      "japanese": "映画",
+      "hiragana": "えいが",
+      "romaji": "eiga",
+      "english": "movie",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "映画を見たいです。",
+      "exampleEn": "I want to watch a movie."
+    },
+    {
+      "sourceRef": "N5-08.vocab.010",
+      "japanese": "映画館",
+      "hiragana": "えいがかん",
+      "romaji": "eigakan",
+      "english": "movie theater",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "映画館へ行きます。",
+      "exampleEn": "I go to the movie theater."
+    },
+    {
+      "sourceRef": "N5-08.vocab.011",
+      "japanese": "音楽",
+      "hiragana": "おんがく",
+      "romaji": "ongaku",
+      "english": "music",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "音楽を聞きます。",
+      "exampleEn": "I listen to music."
+    },
+    {
+      "sourceRef": "N5-08.vocab.012",
+      "japanese": "コンサート",
+      "hiragana": "こんさーと",
+      "romaji": "konsaato",
+      "english": "concert",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "コンサートに行きますか。",
+      "exampleEn": "Will you go to the concert?"
+    },
+    {
+      "sourceRef": "N5-08.vocab.013",
+      "japanese": "カラオケ",
+      "hiragana": "からおけ",
+      "romaji": "karaoke",
+      "english": "karaoke",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "カラオケに行きましょう。",
+      "exampleEn": "Let's go to karaoke."
+    },
+    {
+      "sourceRef": "N5-08.vocab.014",
+      "japanese": "写真",
+      "hiragana": "しゃしん",
+      "romaji": "shashin",
+      "english": "photo",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "写真を撮ります。",
+      "exampleEn": "I take a photo."
+    },
+    {
+      "sourceRef": "N5-08.vocab.015",
+      "japanese": "スポーツ",
+      "hiragana": "すぽーつ",
+      "romaji": "supootsu",
+      "english": "sports",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "スポーツが好きです。",
+      "exampleEn": "I like sports."
+    },
+    {
+      "sourceRef": "N5-08.vocab.016",
+      "japanese": "テニス",
+      "hiragana": "てにす",
+      "romaji": "tenisu",
+      "english": "tennis",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "テニスをしませんか。",
+      "exampleEn": "Won't you play tennis?"
+    },
+    {
+      "sourceRef": "N5-08.vocab.017",
+      "japanese": "サッカー",
+      "hiragana": "さっかー",
+      "romaji": "sakkaa",
+      "english": "soccer",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "サッカーの試合を見ます。",
+      "exampleEn": "I watch a soccer match."
+    },
+    {
+      "sourceRef": "N5-08.vocab.018",
+      "japanese": "野球",
+      "hiragana": "やきゅう",
+      "romaji": "yakyuu",
+      "english": "baseball",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "野球をします。",
+      "exampleEn": "I play baseball."
+    },
+    {
+      "sourceRef": "N5-08.vocab.019",
+      "japanese": "散歩",
+      "hiragana": "さんぽ",
+      "romaji": "sanpo",
+      "english": "stroll, walk",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "公園を散歩します。",
+      "exampleEn": "I take a walk in the park."
+    },
+    {
+      "sourceRef": "N5-08.vocab.020",
+      "japanese": "海",
+      "hiragana": "うみ",
+      "romaji": "umi",
+      "english": "sea, beach",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "海で泳ぎます。",
+      "exampleEn": "I swim in the sea."
+    },
+    {
+      "sourceRef": "N5-08.vocab.021",
+      "japanese": "山",
+      "hiragana": "やま",
+      "romaji": "yama",
+      "english": "mountain",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "山へ行きたいです。",
+      "exampleEn": "I want to go to the mountain."
+    },
+    {
+      "sourceRef": "N5-08.vocab.022",
+      "japanese": "プール",
+      "hiragana": "ぷーる",
+      "romaji": "puuru",
+      "english": "pool",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "プールで遊びます。",
+      "exampleEn": "I play in the pool."
+    },
+    {
+      "sourceRef": "N5-08.vocab.023",
+      "japanese": "図書館",
+      "hiragana": "としょかん",
+      "romaji": "toshokan",
+      "english": "library",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "図書館で本を借ります。",
+      "exampleEn": "I borrow books at the library."
+    },
+    {
+      "sourceRef": "N5-08.vocab.024",
+      "japanese": "美術館",
+      "hiragana": "びじゅつかん",
+      "romaji": "bijutsukan",
+      "english": "art museum",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "美術館へ絵を見に行きます。",
+      "exampleEn": "I go to the art museum to see pictures."
+    },
+    {
+      "sourceRef": "N5-08.vocab.025",
+      "japanese": "喫茶店",
+      "hiragana": "きっさてん",
+      "romaji": "kissaten",
+      "english": "coffee shop",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "喫茶店でコーヒーを飲みます。",
+      "exampleEn": "I drink coffee at a coffee shop."
+    },
+    {
+      "sourceRef": "N5-08.vocab.026",
+      "japanese": "お祭り",
+      "hiragana": "おまつり",
+      "romaji": "omatsuri",
+      "english": "festival",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "お祭りに行きませんか。",
+      "exampleEn": "Won't you go to the festival?"
+    },
+    {
+      "sourceRef": "N5-08.vocab.027",
+      "japanese": "花火",
+      "hiragana": "はなび",
+      "romaji": "hanabi",
+      "english": "fireworks",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "花火を見ます。",
+      "exampleEn": "I watch fireworks."
+    },
+    {
+      "sourceRef": "N5-08.vocab.028",
+      "japanese": "約束",
+      "hiragana": "やくそく",
+      "romaji": "yakusoku",
+      "english": "promise, appointment",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "友達と約束があります。",
+      "exampleEn": "I have an appointment with a friend."
+    },
+    {
+      "sourceRef": "N5-08.vocab.029",
+      "japanese": "用事",
+      "hiragana": "ようじ",
+      "romaji": "youji",
+      "english": "errand, business",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "今日は用事があります。",
+      "exampleEn": "I have things to do today."
+    },
+    {
+      "sourceRef": "N5-08.vocab.030",
+      "japanese": "試合",
+      "hiragana": "しあい",
+      "romaji": "shiai",
+      "english": "match, game",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "テニスの試合があります。",
+      "exampleEn": "There is a tennis match."
+    },
+    {
+      "sourceRef": "N5-08.vocab.031",
+      "japanese": "お花見",
+      "hiragana": "おはなみ",
+      "romaji": "ohanami",
+      "english": "cherry blossom viewing",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "お花見をしましょう。",
+      "exampleEn": "Let's do cherry blossom viewing."
+    },
+    {
+      "sourceRef": "N5-08.vocab.032",
+      "japanese": "旅行",
+      "hiragana": "りょこう",
+      "romaji": "ryokou",
+      "english": "trip, travel",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "旅行に行きたいです。",
+      "exampleEn": "I want to go on a trip."
+    },
+    {
+      "sourceRef": "N5-08.vocab.033",
+      "japanese": "遊びます",
+      "hiragana": "あそびます",
+      "romaji": "asobimasu",
+      "english": "to play, visit",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "公園で遊びます。",
+      "exampleEn": "I play in the park."
+    },
+    {
+      "sourceRef": "N5-08.vocab.034",
+      "japanese": "泳ぎます",
+      "hiragana": "およぎます",
+      "romaji": "oyogimasu",
+      "english": "to swim",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "海で泳ぎます。",
+      "exampleEn": "I swim in the sea."
+    },
+    {
+      "sourceRef": "N5-08.vocab.035",
+      "japanese": "借ります",
+      "hiragana": "かります",
+      "romaji": "karimasu",
+      "english": "to borrow",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "本を借ります。",
+      "exampleEn": "I borrow a book."
+    },
+    {
+      "sourceRef": "N5-08.vocab.036",
+      "japanese": "歌います",
+      "hiragana": "うたいます",
+      "romaji": "utaimasu",
+      "english": "to sing",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "歌を歌います。",
+      "exampleEn": "I sing a song."
+    },
+    {
+      "sourceRef": "N5-08.vocab.037",
+      "japanese": "歩きます",
+      "hiragana": "あるきます",
+      "romaji": "arukimasu",
+      "english": "to walk",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "毎日歩きます。",
+      "exampleEn": "I walk everyday."
+    },
+    {
+      "sourceRef": "N5-08.vocab.038",
+      "japanese": "会います",
+      "hiragana": "あいます",
+      "romaji": "aimasu",
+      "english": "to meet",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "友達に会います。",
+      "exampleEn": "I meet my friend."
+    },
+    {
+      "sourceRef": "N5-08.vocab.039",
+      "japanese": "迎えます",
+      "hiragana": "むかえます",
+      "romaji": "mukaemasu",
+      "english": "to go to meet, welcome",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "友達を駅で迎えます。",
+      "exampleEn": "I welcome my friend at the station."
+    },
+    {
+      "sourceRef": "N5-08.vocab.040",
+      "japanese": "弾きます",
+      "hiragana": "ひきます",
+      "romaji": "hikimasu",
+      "english": "to play (string instrument)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "ピアノを弾きます。",
+      "exampleEn": "I play the piano."
+    },
+    {
+      "sourceRef": "N5-08.vocab.041",
+      "japanese": "ぜひ",
+      "hiragana": "ぜひ",
+      "romaji": "zehi",
+      "english": "by all means",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "ぜひ来てください。",
+      "exampleEn": "Please come by all means."
+    },
+    {
+      "sourceRef": "N5-08.vocab.042",
+      "japanese": "どうして",
+      "hiragana": "どうして",
+      "romaji": "doushite",
+      "english": "why",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "どうしてですか。",
+      "exampleEn": "Why is that?"
+    },
+    {
+      "sourceRef": "N5-08.vocab.043",
+      "japanese": "残念",
+      "hiragana": "ざんねん",
+      "romaji": "zannen",
+      "english": "regret, disappointment",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "それは残念ですね。",
+      "exampleEn": "That's a shame."
+    },
+    {
+      "sourceRef": "N5-08.vocab.044",
+      "japanese": "だから",
+      "hiragana": "だから",
+      "romaji": "dakara",
+      "english": "so, therefore",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "だから、行きません。",
+      "exampleEn": "Therefore, I won't go."
+    },
+    {
+      "sourceRef": "N5-08.vocab.045",
+      "japanese": "もちろん",
+      "hiragana": "もちろん",
+      "romaji": "mochiron",
+      "english": "of course",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-08",
+      "introducedIn": "N5-08",
+      "exampleJp": "もちろん行きます。",
+      "exampleEn": "Of course I will go."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-08.kanji.001",
+      "character": "休",
+      "meaning": "rest",
+      "onyomi": "キュウ",
+      "kunyomi": "やす.む",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "人",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "休み (yasumi)",
+          "en": "holiday"
+        }
+      ],
+      "mnemonic": "Learn the kanji for rest."
+    },
+    {
+      "sourceRef": "N5-08.kanji.002",
+      "character": "行",
+      "meaning": "go",
+      "onyomi": "コウ、ギョウ",
+      "kunyomi": "い.く",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "行",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "行く (iku)",
+          "en": "to go"
+        }
+      ],
+      "mnemonic": "Learn the kanji for go."
+    },
+    {
+      "sourceRef": "N5-08.kanji.003",
+      "character": "来",
+      "meaning": "come",
+      "onyomi": "ライ",
+      "kunyomi": "く.る",
+      "level": "N5",
+      "strokeCount": 7,
+      "radical": "木",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "来週 (raishuu)",
+          "en": "next week"
+        }
+      ],
+      "mnemonic": "Learn the kanji for come."
+    },
+    {
+      "sourceRef": "N5-08.kanji.004",
+      "character": "週",
+      "meaning": "week",
+      "onyomi": "シュウ",
+      "kunyomi": "",
+      "level": "N5",
+      "strokeCount": 11,
+      "radical": "辵",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "今週 (konshuu)",
+          "en": "this week"
+        }
+      ],
+      "mnemonic": "Learn the kanji for week."
+    },
+    {
+      "sourceRef": "N5-08.kanji.005",
+      "character": "海",
+      "meaning": "sea",
+      "onyomi": "カイ",
+      "kunyomi": "うみ",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "水",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "海 (umi)",
+          "en": "sea"
+        }
+      ],
+      "mnemonic": "Learn the kanji for sea."
+    },
+    {
+      "sourceRef": "N5-08.kanji.006",
+      "character": "山",
+      "meaning": "mountain",
+      "onyomi": "サン",
+      "kunyomi": "やま",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "山",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "山 (yama)",
+          "en": "mountain"
+        }
+      ],
+      "mnemonic": "Learn the kanji for mountain."
+    },
+    {
+      "sourceRef": "N5-08.kanji.007",
+      "character": "今",
+      "meaning": "now",
+      "onyomi": "コン",
+      "kunyomi": "いま",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "人",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "今 (ima)",
+          "en": "now"
+        }
+      ],
+      "mnemonic": "Learn the kanji for now."
+    },
+    {
+      "sourceRef": "N5-08.kanji.008",
+      "character": "会",
+      "meaning": "meet",
+      "onyomi": "カイ",
+      "kunyomi": "あ.う",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "人",
+      "introducedIn": "N5-08",
+      "exampleWords": [
+        {
+          "jp": "会う (au)",
+          "en": "to meet"
+        }
+      ],
+      "mnemonic": "Learn the kanji for meet."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-08.grammar.001",
+      "pattern": "Vたいです",
+      "meaningVn": "Muốn làm V",
+      "meaningEn": "Want to do V",
+      "explanation": "Thể hiện mong muốn thực hiện một hành động của người nói. Động từ bỏ ます + たいです.",
+      "introducedIn": "N5-08",
+      "examples": [
+        {
+          "japanese": "映画を見たいです。",
+          "romaji": "Eiga o mitai desu.",
+          "english": "I want to watch a movie.",
+          "vietnamese": "Tôi muốn xem phim."
+        },
+        {
+          "japanese": "日本へ行きたいです。",
+          "romaji": "Nihon e ikitai desu.",
+          "english": "I want to go to Japan.",
+          "vietnamese": "Tôi muốn đi Nhật."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-08.grammar.002",
+      "pattern": "Vませんか",
+      "meaningVn": "Cùng làm V nhé? / Bạn có muốn V không?",
+      "meaningEn": "Won't you do V?",
+      "explanation": "Dùng để rủ rê, mời mọc người khác cùng làm gì đó. Thường đi kèm với いっしょに (cùng nhau).",
+      "introducedIn": "N5-08",
+      "examples": [
+        {
+          "japanese": "いっしょに映画を見ませんか。",
+          "romaji": "Isshoni eiga o mimasen ka.",
+          "english": "Won't you watch a movie with me?",
+          "vietnamese": "Cùng xem phim với tôi không?"
+        },
+        {
+          "japanese": "いいですね。見ましょう。",
+          "romaji": "Ii desu ne. Mimashou.",
+          "english": "That's good. Let's watch.",
+          "vietnamese": "Hay đấy. Cùng xem đi."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-08.grammar.003",
+      "pattern": "N(địa điểm) へ V(bỏ ます) に 行きます",
+      "meaningVn": "Đi đến N để làm V",
+      "meaningEn": "Go to N to do V",
+      "explanation": "Chỉ mục đích của sự di chuyển. Động từ bỏ ます, thêm に hành động như một mục đích.",
+      "introducedIn": "N5-08",
+      "examples": [
+        {
+          "japanese": "図書館へ本を借りに行きます。",
+          "romaji": "Toshokan e hon o kari ni ikimasu.",
+          "english": "I go to the library to borrow books.",
+          "vietnamese": "Tôi đi đến thư viện để mượn sách."
+        },
+        {
+          "japanese": "プールへ泳ぎに行きます。",
+          "romaji": "Puuru e oyogi ni ikimasu.",
+          "english": "I go to the pool to swim.",
+          "vietnamese": "Tôi đi bơi ở hồ bơi."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-08.grammar.004",
+      "pattern": "どうしてですか",
+      "meaningVn": "Tại sao vậy?",
+      "meaningEn": "Why?",
+      "explanation": "Từ để hỏi lý do.",
+      "introducedIn": "N5-08",
+      "examples": [
+        {
+          "japanese": "A: 明日は行きません。\nB: どうしてですか。",
+          "romaji": "A: Ashita wa ikimasen. B: Doushite desu ka.",
+          "english": "A: I won't go tomorrow. B: Why?",
+          "vietnamese": "A: Ngày mai tôi không đi. B: Tại sao vậy?"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-08.grammar.005",
+      "pattern": "〜からです",
+      "meaningVn": "Bởi vì ~",
+      "meaningEn": "Because ~",
+      "explanation": "Từ chỉ lý do, đặt ở cuối câu để trả lời cho câu hỏi どうして (Tại sao).",
+      "introducedIn": "N5-08",
+      "examples": [
+        {
+          "japanese": "用事があるからです。",
+          "romaji": "Youji ga aru kara desu.",
+          "english": "Because I have errands.",
+          "vietnamese": "Vì tôi có việc bận."
+        },
+        {
+          "japanese": "忙しいからです。",
+          "romaji": "Isogashii kara desu.",
+          "english": "Because I am busy.",
+          "vietnamese": "Vì tôi bận."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-08.kaiwa.001",
+      "title": "Inviting a friend",
+      "titleJp": "映画を見ませんか",
+      "situation": "Inviting a friend to a movie on the weekend",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "今週の週末、いっしょに映画を見ませんか。",
+          "hiragana": "こんしゅうのしゅうまつ、いっしょにえいがをみませんか。",
+          "romaji": "Konshuu no shuumatsu, isshoni eiga o mimasen ka.",
+          "translation": "Would you like to watch a movie together this weekend?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "山田",
+          "japanese": "いいですね。何を見ますか。",
+          "hiragana": "いいですね。なにをみますか。",
+          "romaji": "Ii desu ne. Nani o mimasu ka.",
+          "translation": "That sounds good. What will we watch?",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "田中",
+          "japanese": "新しい映画です。とても面白いですよ。",
+          "hiragana": "あたらしいえいがです。とてもおもしろいですよ。",
+          "romaji": "Atarashii eiga desu. Totemo omoshiroi desu yo.",
+          "translation": "A new movie. It's very interesting.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "山田",
+          "japanese": "はい、ぜひ行きたいです。",
+          "hiragana": "はい、ぜひいきたいです。",
+          "romaji": "Hai, zehi ikitai desu.",
+          "translation": "Yes, I definitely want to go.",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-08.kaiwa.002",
+      "title": "Declining an invitation",
+      "titleJp": "用事がありますから",
+      "situation": "Declining an invitation politely due to other plans",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "日曜日、いっしょに海へ泳ぎに行きませんか。",
+          "hiragana": "にちようび、いっしょにうみへおよぎにいきませんか。",
+          "romaji": "Nichiyoubi, isshoni umi e oyogi ni ikimasen ka.",
+          "translation": "Won't you go swimming in the sea with me on Sunday?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "鈴木",
+          "japanese": "日曜日はちょっと…。約束がありますから。",
+          "hiragana": "にちようびはちょっと…。やくそくがありますから。",
+          "romaji": "Nichiyoubi wa chotto... Yakusoku ga arimasu kara.",
+          "translation": "Sunday is a bit (inconvenient)... Because I have an appointment.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "田中",
+          "japanese": "そうですか。残念ですね。",
+          "hiragana": "そうですか。ざんねんですね。",
+          "romaji": "Sou desu ka. Zannen desu ne.",
+          "translation": "I see. That's a shame.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "鈴木",
+          "japanese": "すみません。また今度お願いします。",
+          "hiragana": "すみません。またこんどおねがいします。",
+          "romaji": "Sumimasen. Mata kondo onegaishimasu.",
+          "translation": "I'm sorry. Please invite me again next time.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-08.listening.001",
+      "title": "Weekend plans",
+      "instructions": "Listen to the man talking about his weekend plans.",
+      "audioUrl": "PENDING_AUDIO:n5-08-listening-01",
+      "transcriptJp": "今週の土曜日は友達とテニスをします。それから、日曜日は家族と車で山へ行きます。山で写真をたくさん撮りたいです。週末はとても楽しみです。",
+      "transcriptRomaji": "Konshuu no doyoubi wa tomodachi to tenisu o shimasu. Sorekara, nichiyoubi wa kazoku to kuruma de yama e ikimasu. Yama de shashin o takusan toritai desu. Shuumatsu wa totemo tanoshimi desu.",
+      "transcriptEn": "This Saturday I will play tennis with a friend. And then, on Sunday I will go to the mountain by car with my family. I want to take a lot of photos at the mountain. I am really looking forward to the weekend.",
+      "durationSeconds": 40,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-08.listening.002",
+      "title": "Going to the library",
+      "instructions": "Listen to the conversation about going to the library.",
+      "audioUrl": "PENDING_AUDIO:n5-08-listening-02",
+      "transcriptJp": "A: これから図書館へ行きます。\nB: 図書館へ何をしに行きますか。\nA: 本を借りに行きます。Bさんもいっしょに行きませんか。\nB: いいですね。私も本を読みたいです。行きましょう。",
+      "transcriptRomaji": "A: Korekara toshokan e ikimasu.\nB: Toshokan e nani o shi ni ikimasu ka.\nA: Hon o kari ni ikimasu. B-san mo isshoni ikimasen ka.\nB: Ii desu ne. Watashi mo hon o yomitai desu. Ikimashou.",
+      "transcriptEn": "A: I am going to the library now.\nB: What are you going to do at the library?\nA: I'm going to borrow a book. Won't you go with me, B?\nB: Sounds good. I also want to read a book. Let's go.",
+      "durationSeconds": 35,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-08.reading.001",
+      "title": "My Holiday",
+      "passage": "明日は休みです。私は朝、図書館へ本を借りに行きます。午後は友達と会います。いっしょに喫茶店でコーヒーを飲みます。それから、映画館へ映画を見に行きます。私は新しい映画を見たいです。",
+      "reading": "あしたはやすみです。わたしはあさ、としょかんへほんをかりにいきます。ごごはともだちとあいます。いっしょにきっさてんでこーひーをのみます。それから、えいがかんへえいがをみにいきます。わたしはあたらしいえいがをみたいです。",
+      "translation": "Tomorrow is a holiday. I will go to the library to borrow books in the morning. I will meet my friend in the afternoon. We will drink coffee together at a coffee shop. And then, we will go to the movie theater to watch a movie. I want to watch a new movie.",
+      "questions": [
+        {
+          "question": "朝、どこへ何をしに行きますか。",
+          "options": [
+            "映画館へ映画を見に行きます",
+            "図書館へ本を借りに行きます",
+            "喫茶店へコーヒーを飲みに行きます",
+            "友達の家へ遊びに行きます"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 朝、図書館へ本を借りに行きます。"
+        },
+        {
+          "question": "午後、誰と会いますか。",
+          "options": [
+            "先生",
+            "家族",
+            "田中さん",
+            "友達"
+          ],
+          "correctIndex": 3,
+          "explanation": "Bài đọc ghi: 午後は友達と会います。"
+        },
+        {
+          "question": "この人はどんな映画を見たいですか。",
+          "options": [
+            "古い映画",
+            "新しい映画",
+            "日本の映画",
+            "面白い映画"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 新しい映画を見たいです。"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-08.reading.002",
+      "title": "Tanaka's Email",
+      "passage": "山田さんへ\n今週の土曜日に、いっしょに海へ行きませんか。海で泳ぎたいです。それから、おいしい魚を食べたいです。日曜日は、私は用事がありますから、行けません。土曜日はどうですか。\n田中より",
+      "reading": "やまださんへ\nこんしゅうのどようびに、いっしょにうみへいきませんか。うみでおよぎたいです。それから、おいしいさかなをたべたいです。にちようびは、わたしはようじがありますから、いけません。どようびはどうですか。\nたなかより",
+      "translation": "To Yamada,\nWon't you go to the sea together this Saturday? I want to swim in the sea. And then, I want to eat delicious fish. On Sunday, I have things to do, so I cannot go. How about Saturday?\nFrom Tanaka",
+      "questions": [
+        {
+          "question": "田中さんは山田さんとどこへ行きたいですか。",
+          "options": [
+            "山",
+            "川",
+            "海",
+            "プール"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: いっしょに海へ行きませんか (Đi biển)."
+        },
+        {
+          "question": "海で何をしたいですか。",
+          "options": [
+            "泳いで、魚を食べたいです",
+            "泳いで、写真を撮りたいです",
+            "釣りをしたいです",
+            "船に乗りたいです"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: 海で泳ぎたいです。それから、おいしい魚を食べたいです。"
+        },
+        {
+          "question": "どうして日曜日に行きませんか。",
+          "options": [
+            "休みじゃないからです",
+            "用事があるからです",
+            "海が遠いからです",
+            "魚が嫌いだからです"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 日曜日は、私は用事がありますから (Bởi vì có việc bận)."
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-08.writing.001",
+      "prompt": "Write about what you want to do.",
+      "instructions": "Write 2 sentences about what you want to do this weekend using Vたいです.",
+      "sampleAnswer": "今週の週末、海へ行きたいです。海で泳ぎたいです。",
+      "rubric": "Use たいです correctly with verbs.",
+      "minLength": 2,
+      "maxLength": 3,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-08.writing.002",
+      "prompt": "State a purpose of going somewhere.",
+      "instructions": "Write 1 sentence describing where you are going and for what purpose using 〜に 行きます.",
+      "sampleAnswer": "私は公園へ写真を撮りに行きます。",
+      "rubric": "Use N(place) へ V(stem) に 行きます.",
+      "minLength": 1,
+      "maxLength": 1,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-08.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Cuối tuần' tiếng Nhật là gì?",
+      "options": [
+        "今週",
+        "来週",
+        "先週",
+        "週末"
+      ],
+      "correctIndex": 3,
+      "explanation": "週末 (shuumatsu) là cuối tuần.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Tuần sau' là gì?",
+      "options": [
+        "今週",
+        "来週",
+        "先週",
+        "週末"
+      ],
+      "correctIndex": 1,
+      "explanation": "来週 (raishuu) là tuần sau.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Rạp chiếu phim' tiếng Nhật là gì?",
+      "options": [
+        "図書館",
+        "美術館",
+        "映画館",
+        "体育館"
+      ],
+      "correctIndex": 2,
+      "explanation": "映画館 (eigakan) là rạp chiếu phim.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Bơi' là động từ nào?",
+      "options": [
+        "遊びます",
+        "借ります",
+        "泳ぎます",
+        "歌います"
+      ],
+      "correctIndex": 2,
+      "explanation": "泳ぎます (oyogimasu) là bơi.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "図書館で本を（　　）。",
+      "options": [
+        "借ります",
+        "歩きます",
+        "歌います",
+        "弾きます"
+      ],
+      "correctIndex": 0,
+      "explanation": "借ります (mượn sách).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Bởi vì' (đứng cuối câu chỉ lý do) là gì?",
+      "options": [
+        "だから",
+        "から",
+        "どうして",
+        "ぜひ"
+      ],
+      "correctIndex": 1,
+      "explanation": "から đứng ở cuối (～からです) nghĩa là bởi vì.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Tiếc quá' là gì?",
+      "options": [
+        "ぜひ",
+        "もちろん",
+        "残念",
+        "約束"
+      ],
+      "correctIndex": 2,
+      "explanation": "残念 (zannen) là đáng tiếc, tiếc quá.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Gặp (bạn bè)' là động từ nào?",
+      "options": [
+        "迎えます",
+        "遊びます",
+        "会います",
+        "歩きます"
+      ],
+      "correctIndex": 2,
+      "explanation": "会います (aimasu) là gặp gỡ.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-08.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 休み có nghĩa là gì?",
+      "options": [
+        "Đi",
+        "Đến",
+        "Nghỉ ngơi",
+        "Gặp"
+      ],
+      "correctIndex": 2,
+      "explanation": "休み (yasumi) là nghỉ ngơi, ngày nghỉ.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-08.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 行 đọc là gì trong 行きます?",
+      "options": [
+        "き",
+        "い",
+        "く",
+        "あ"
+      ],
+      "correctIndex": 1,
+      "explanation": "行きます đọc là i-kimasu (đi).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-08.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 来 đọc là gì trong 来週?",
+      "options": [
+        "こ",
+        "き",
+        "らい",
+        "しゅう"
+      ],
+      "correctIndex": 2,
+      "explanation": "来週 đọc là raishuu (tuần sau).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-08.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 海 có nghĩa là gì?",
+      "options": [
+        "Núi",
+        "Biển",
+        "Sông",
+        "Đồng"
+      ],
+      "correctIndex": 1,
+      "explanation": "海 (umi) là biển.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-08.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 山 đọc là gì?",
+      "options": [
+        "やま",
+        "うみ",
+        "かわ",
+        "あめ"
+      ],
+      "correctIndex": 0,
+      "explanation": "山 (sơn) đọc là yama (núi).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-08.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 今 trong 今週 có nghĩa là gì?",
+      "options": [
+        "Tuần sau",
+        "Tuần trước",
+        "Tuần này",
+        "Cuối tuần"
+      ],
+      "correctIndex": 2,
+      "explanation": "今週 (konshuu) là tuần này (今 là 'kim' - hiện tại).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-08.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "私は映画を（　　）たいです。",
+      "options": [
+        "見る",
+        "見",
+        "見て",
+        "見ない"
+      ],
+      "correctIndex": 1,
+      "explanation": "Muốn làm gì: V(bỏ ます) + たいです -> 見たいです.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "デパートへ靴を（　　）に行きます。",
+      "options": [
+        "買う",
+        "買い",
+        "買って",
+        "買います"
+      ],
+      "correctIndex": 1,
+      "explanation": "Đi để mua: V(bỏ ます) + に行きます -> 買いに行きます.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "いっしょにテニスを（　　）。",
+      "options": [
+        "しますか",
+        "しませんか",
+        "してか",
+        "しないでか"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mời rủ: Vませんか (しませんか - Cùng chơi tennis không?).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "どうして昨日休んだの？ — 頭が（　　）からです。",
+      "options": [
+        "痛い",
+        "痛く",
+        "痛いな",
+        "痛いの"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tính từ い + からです (Vì đau đầu).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng ngữ pháp diễn tả 'Đi ăn'.",
+      "options": [
+        "食べに行きます。",
+        "食べるに行きます。",
+        "食べてに行きます。",
+        "食べますに行きます。"
+      ],
+      "correctIndex": 0,
+      "explanation": "食べに行きます (Đi để ăn).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "公園（　　）散歩します。",
+      "options": [
+        "に",
+        "へ",
+        "を",
+        "が"
+      ],
+      "correctIndex": 2,
+      "explanation": "Đi dạo trong một phạm vi không gian dùng trợ từ を (公園を散歩します).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "友達（　　）会います。",
+      "options": [
+        "を",
+        "が",
+        "に",
+        "へ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gặp gỡ ai đó dùng trợ từ に (友達に会います).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Tại sao bạn không ăn?",
+      "options": [
+        "どうして食べませんか。",
+        "どうやって食べませんか。",
+        "どんな食べませんか。",
+        "どこで食べませんか。"
+      ],
+      "correctIndex": 0,
+      "explanation": "どうして (Tại sao).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người đàn ông trong bài 1 làm gì vào thứ bảy?",
+      "options": [
+        "Đi núi",
+        "Chơi tennis",
+        "Chụp ảnh",
+        "Đi biển"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 今週の土曜日は友達とテニスをします (Thứ 7 chơi tennis).",
+      "points": 2,
+      "listeningRef": "N5-08.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-08.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Người đàn ông đi núi bằng phương tiện gì? (Bài 1)",
+      "options": [
+        "Tàu điện",
+        "Xe buýt",
+        "Xe ô tô",
+        "Xe đạp"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói: 日曜日は家族と車で山へ行きます (Đến núi bằng xe ô tô).",
+      "points": 2,
+      "listeningRef": "N5-08.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-08.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, người B cũng đi thư viện để mượn sách.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 0,
+      "explanation": "Audio nói: B cũng muốn đọc sách (私も本を読みたいです。行きましょう) nên sẽ đi cùng mượn sách.",
+      "points": 2,
+      "listeningRef": "N5-08.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-08.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1, buổi sáng tác giả đi đâu?",
+      "options": [
+        "Thư viện",
+        "Quán giải khát",
+        "Rạp chiếu phim",
+        "Nhà bạn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bài đọc ghi: 私は朝、図書館へ本を借りに行きます。",
+      "points": 2,
+      "readingRef": "N5-08.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-08.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Buổi chiều tác giả làm gì cùng bạn?",
+      "options": [
+        "Đi bơi",
+        "Đi xem phim và mượn sách",
+        "Uống cà phê và xem phim",
+        "Đi nhà hàng"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bài đọc ghi: いっしょに喫茶店でコーヒーを飲みます。それから、映画館へ映画を見に行きます。",
+      "points": 2,
+      "readingRef": "N5-08.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-08.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Theo Email ở Bài 2, anh Tanaka có thể đi chơi vào ngày Chủ Nhật.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 日曜日は、私は用事がありますから、行けません (Chủ nhật có việc nên không đi được).",
+      "points": 2,
+      "readingRef": "N5-08.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-08.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Cùng đi uống bia không?",
+      "options": [
+        "ビールを",
+        "いっしょに",
+        "行きませんか",
+        "飲みに"
+      ],
+      "correctIndex": 0,
+      "explanation": "いっしょにビールを飲みに行きませんか。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-08.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Tôi muốn mua xe ô tô.",
+      "options": [
+        "私",
+        "は",
+        "買いたいです",
+        "車を"
+      ],
+      "correctIndex": 0,
+      "explanation": "私は車を買いたいです。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-08.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Thư viện'?",
+      "options": [
+        "美術館",
+        "図書館",
+        "体育館",
+        "映画館"
+      ],
+      "correctIndex": 1,
+      "explanation": "図書館 (toshokan) là thư viện.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 会 đọc là gì trong 会います (gặp gỡ)?",
+      "options": [
+        "あ",
+        "い",
+        "う",
+        "お"
+      ],
+      "correctIndex": 0,
+      "explanation": "会います đọc là aimasu.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Tuần trước' tiếng Nhật là gì?",
+      "options": [
+        "今週",
+        "来週",
+        "先週",
+        "週末"
+      ],
+      "correctIndex": 2,
+      "explanation": "先週 (senshuu) là tuần trước.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 今 trong 今週 có nghĩa là gì?",
+      "options": [
+        "Tới",
+        "Trước",
+        "Hiện tại/Này",
+        "Mới"
+      ],
+      "correctIndex": 2,
+      "explanation": "今 (kim) là hiện tại. 今週 là tuần này.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đại dương / Biển' tiếng Nhật là gì?",
+      "options": [
+        "山",
+        "川",
+        "海",
+        "空"
+      ],
+      "correctIndex": 2,
+      "explanation": "海 (umi) là biển.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 京都へ写真を（　　）に行きます。",
+      "options": [
+        "撮る",
+        "撮り",
+        "撮って",
+        "撮らない"
+      ],
+      "correctIndex": 1,
+      "explanation": "Đi để chụp: 撮り(bỏ ます) + に行きます.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 私は新しいコンピューターを（　　）。",
+      "options": [
+        "買いたいです",
+        "買いにです",
+        "買いますです",
+        "買ってです"
+      ],
+      "correctIndex": 0,
+      "explanation": "買いたいです (Tôi muốn mua).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Cùng chơi thể thao nhé?':",
+      "options": [
+        "スポーツをしますか。",
+        "スポーツをしませんか。",
+        "スポーツをしたいですか。",
+        "スポーツをしに行きますか。"
+      ],
+      "correctIndex": 1,
+      "explanation": "しませんか (Rủ rê: Cùng làm không?).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trả lời thế nào cho câu hỏi 'どうして行かないの？' (Sao không đi?):",
+      "options": [
+        "お金がないからです。",
+        "お金があるからです。",
+        "お金がないです。",
+        "お金があるです。"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trả lời lý do dùng 〜からです. お金がないからです (Bởi vì không có tiền).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 公園を（　　）。",
+      "options": [
+        "歩きます",
+        "います",
+        "あります",
+        "会います"
+      ],
+      "correctIndex": 0,
+      "explanation": "Đi dạo bộ trong công viên (歩きます). Trợ từ を đi với động từ chỉ sự di chuyển qua lại trong một không gian.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn rủ bạn bè đi chơi, bạn có thể nói:",
+      "options": [
+        "いっしょに遊びに行きませんか。",
+        "いっしょに遊びに行きます。",
+        "いっしょに遊びに行きました。",
+        "いっしょに遊びに行きたいです。"
+      ],
+      "correctIndex": 0,
+      "explanation": "遊びに行きませんか (Cùng đi chơi không?).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu từ chối một lời mời vì có việc bận, bạn nói:",
+      "options": [
+        "はい、行きます。",
+        "すみません、用事がありますから。",
+        "ぜひ行きたいです。",
+        "どうしてですか。"
+      ],
+      "correctIndex": 1,
+      "explanation": "用事がありますから (Bởi vì có việc bận).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Chắc chắn tôi muốn đi!':",
+      "options": [
+        "ぜひ行きたいです。",
+        "残念ですね。",
+        "どうしてですか。",
+        "もちろん行きません。"
+      ],
+      "correctIndex": 0,
+      "explanation": "ぜひ行きたいです (By all means, I want to go).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 2, tại sao anh Tanaka lại rủ đi biển?",
+      "options": [
+        "Vì muốn mượn sách",
+        "Vì muốn bơi và ăn cá",
+        "Vì muốn chơi thể thao",
+        "Vì đi biển gần nhà"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 海で泳ぎたいです。それから、おいしい魚を食べたいです。",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-08.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ '約束' (Yakusoku) có nghĩa là gì?",
+      "options": [
+        "Đáng tiếc",
+        "Bận rộn",
+        "Cuộc hẹn / Lời hứa",
+        "Mua sắm"
+      ],
+      "correctIndex": 2,
+      "explanation": "約束 (yakusoku) là lời hứa, cuộc hẹn.",
+      "points": 10
+    }
+  ]
+}

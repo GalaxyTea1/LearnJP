@@ -1,0 +1,1811 @@
+{
+  "module": {
+    "code": "N5-05",
+    "level": "N5",
+    "unit": 5,
+    "title": "Location and Existence",
+    "titleJp": "場所と存在",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-05.vocab.001",
+      "japanese": "あります",
+      "hiragana": "あります",
+      "romaji": "arimasu",
+      "english": "to exist, be (inanimate things)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "机があります。",
+      "exampleEn": "There is a desk."
+    },
+    {
+      "sourceRef": "N5-05.vocab.002",
+      "japanese": "います",
+      "hiragana": "います",
+      "romaji": "imasu",
+      "english": "to exist, be (living things)",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "犬がいます。",
+      "exampleEn": "There is a dog."
+    },
+    {
+      "sourceRef": "N5-05.vocab.003",
+      "japanese": "上",
+      "hiragana": "うえ",
+      "romaji": "ue",
+      "english": "above, on, up",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "机の上に本があります。",
+      "exampleEn": "There is a book on the desk."
+    },
+    {
+      "sourceRef": "N5-05.vocab.004",
+      "japanese": "下",
+      "hiragana": "した",
+      "romaji": "shita",
+      "english": "below, under, down",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "机の下に犬がいます。",
+      "exampleEn": "There is a dog under the desk."
+    },
+    {
+      "sourceRef": "N5-05.vocab.005",
+      "japanese": "前",
+      "hiragana": "まえ",
+      "romaji": "mae",
+      "english": "front, before",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "家の前に車があります。",
+      "exampleEn": "There is a car in front of the house."
+    },
+    {
+      "sourceRef": "N5-05.vocab.006",
+      "japanese": "後ろ",
+      "hiragana": "うしろ",
+      "romaji": "ushiro",
+      "english": "back, behind",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "家の後ろに木があります。",
+      "exampleEn": "There is a tree behind the house."
+    },
+    {
+      "sourceRef": "N5-05.vocab.007",
+      "japanese": "右",
+      "hiragana": "みぎ",
+      "romaji": "migi",
+      "english": "right",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "右に曲がります。",
+      "exampleEn": "Turn right."
+    },
+    {
+      "sourceRef": "N5-05.vocab.008",
+      "japanese": "左",
+      "hiragana": "ひだり",
+      "romaji": "hidari",
+      "english": "left",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "左を見てください。",
+      "exampleEn": "Please look to the left."
+    },
+    {
+      "sourceRef": "N5-05.vocab.009",
+      "japanese": "中",
+      "hiragana": "なか",
+      "romaji": "naka",
+      "english": "inside, middle",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "箱の中に時計があります。",
+      "exampleEn": "There is a watch inside the box."
+    },
+    {
+      "sourceRef": "N5-05.vocab.010",
+      "japanese": "外",
+      "hiragana": "そと",
+      "romaji": "soto",
+      "english": "outside",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "外に猫がいます。",
+      "exampleEn": "There is a cat outside."
+    },
+    {
+      "sourceRef": "N5-05.vocab.011",
+      "japanese": "隣",
+      "hiragana": "となり",
+      "romaji": "tonari",
+      "english": "next to, next door",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "銀行の隣に郵便局があります。",
+      "exampleEn": "There is a post office next to the bank."
+    },
+    {
+      "sourceRef": "N5-05.vocab.012",
+      "japanese": "近く",
+      "hiragana": "ちかく",
+      "romaji": "chikaku",
+      "english": "near, vicinity",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "学校の近くに住んでいます。",
+      "exampleEn": "I live near the school."
+    },
+    {
+      "sourceRef": "N5-05.vocab.013",
+      "japanese": "間",
+      "hiragana": "あいだ",
+      "romaji": "aida",
+      "english": "between",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "本屋とパン屋の間にあります。",
+      "exampleEn": "It is between the bookstore and the bakery."
+    },
+    {
+      "sourceRef": "N5-05.vocab.014",
+      "japanese": "ここ",
+      "hiragana": "ここ",
+      "romaji": "koko",
+      "english": "here",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "ここは教室です。",
+      "exampleEn": "Here is the classroom."
+    },
+    {
+      "sourceRef": "N5-05.vocab.015",
+      "japanese": "そこ",
+      "hiragana": "そこ",
+      "romaji": "soko",
+      "english": "there",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "そこは事務所です。",
+      "exampleEn": "There is the office."
+    },
+    {
+      "sourceRef": "N5-05.vocab.016",
+      "japanese": "あそこ",
+      "hiragana": "あそこ",
+      "romaji": "asoko",
+      "english": "over there",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "あそこはトイレです。",
+      "exampleEn": "Over there is the toilet."
+    },
+    {
+      "sourceRef": "N5-05.vocab.017",
+      "japanese": "どこ",
+      "hiragana": "どこ",
+      "romaji": "doko",
+      "english": "where",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "トイレはどこですか。",
+      "exampleEn": "Where is the toilet?"
+    },
+    {
+      "sourceRef": "N5-05.vocab.018",
+      "japanese": "部屋",
+      "hiragana": "へや",
+      "romaji": "heya",
+      "english": "room",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "ここは私の部屋です。",
+      "exampleEn": "This is my room."
+    },
+    {
+      "sourceRef": "N5-05.vocab.019",
+      "japanese": "教室",
+      "hiragana": "きょうしつ",
+      "romaji": "kyoushitsu",
+      "english": "classroom",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "教室に学生がいます。",
+      "exampleEn": "There are students in the classroom."
+    },
+    {
+      "sourceRef": "N5-05.vocab.020",
+      "japanese": "食堂",
+      "hiragana": "しょくどう",
+      "romaji": "shokudou",
+      "english": "dining hall, cafeteria",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "食堂でごはんを食べます。",
+      "exampleEn": "I eat at the cafeteria."
+    },
+    {
+      "sourceRef": "N5-05.vocab.021",
+      "japanese": "事務所",
+      "hiragana": "じむしょ",
+      "romaji": "jimusho",
+      "english": "office",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "事務所に田中さんがいます。",
+      "exampleEn": "Mr. Tanaka is in the office."
+    },
+    {
+      "sourceRef": "N5-05.vocab.022",
+      "japanese": "会議室",
+      "hiragana": "かいぎしつ",
+      "romaji": "kaigishitsu",
+      "english": "meeting room",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "会議室に机があります。",
+      "exampleEn": "There are desks in the meeting room."
+    },
+    {
+      "sourceRef": "N5-05.vocab.023",
+      "japanese": "受付",
+      "hiragana": "うけつけ",
+      "romaji": "uketsuke",
+      "english": "reception desk",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "受付はそこです。",
+      "exampleEn": "The reception desk is there."
+    },
+    {
+      "sourceRef": "N5-05.vocab.024",
+      "japanese": "ロビー",
+      "hiragana": "ろびー",
+      "romaji": "robii",
+      "english": "lobby",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "ロビーで友達に会います。",
+      "exampleEn": "I meet my friend in the lobby."
+    },
+    {
+      "sourceRef": "N5-05.vocab.025",
+      "japanese": "トイレ",
+      "hiragana": "といれ",
+      "romaji": "toire",
+      "english": "toilet, restroom",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "トイレはあそこです。",
+      "exampleEn": "The toilet is over there."
+    },
+    {
+      "sourceRef": "N5-05.vocab.026",
+      "japanese": "階段",
+      "hiragana": "かいだん",
+      "romaji": "kaidan",
+      "english": "stairs",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "階段を上ります。",
+      "exampleEn": "I go up the stairs."
+    },
+    {
+      "sourceRef": "N5-05.vocab.027",
+      "japanese": "庭",
+      "hiragana": "にわ",
+      "romaji": "niwa",
+      "english": "garden",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "庭に犬がいます。",
+      "exampleEn": "There is a dog in the garden."
+    },
+    {
+      "sourceRef": "N5-05.vocab.028",
+      "japanese": "机",
+      "hiragana": "つくえ",
+      "romaji": "tsukue",
+      "english": "desk",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "机の上に本があります。",
+      "exampleEn": "There is a book on the desk."
+    },
+    {
+      "sourceRef": "N5-05.vocab.029",
+      "japanese": "椅子",
+      "hiragana": "いす",
+      "romaji": "isu",
+      "english": "chair",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "椅子の下に猫がいます。",
+      "exampleEn": "There is a cat under the chair."
+    },
+    {
+      "sourceRef": "N5-05.vocab.030",
+      "japanese": "時計",
+      "hiragana": "とけい",
+      "romaji": "tokei",
+      "english": "clock, watch",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "部屋に時計があります。",
+      "exampleEn": "There is a clock in the room."
+    },
+    {
+      "sourceRef": "N5-05.vocab.031",
+      "japanese": "カバン",
+      "hiragana": "かばん",
+      "romaji": "kaban",
+      "english": "bag",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "カバンの中にペンがあります。",
+      "exampleEn": "There is a pen in the bag."
+    },
+    {
+      "sourceRef": "N5-05.vocab.032",
+      "japanese": "鉛筆",
+      "hiragana": "えんぴつ",
+      "romaji": "enpitsu",
+      "english": "pencil",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "鉛筆を買います。",
+      "exampleEn": "I buy pencils."
+    },
+    {
+      "sourceRef": "N5-05.vocab.033",
+      "japanese": "ベッド",
+      "hiragana": "べっど",
+      "romaji": "beddo",
+      "english": "bed",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "部屋にベッドがあります。",
+      "exampleEn": "There is a bed in the room."
+    },
+    {
+      "sourceRef": "N5-05.vocab.034",
+      "japanese": "テレビ",
+      "hiragana": "てれび",
+      "romaji": "terebi",
+      "english": "TV",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "テレビを見ます。",
+      "exampleEn": "I watch TV."
+    },
+    {
+      "sourceRef": "N5-05.vocab.035",
+      "japanese": "カメラ",
+      "hiragana": "かめら",
+      "romaji": "kamera",
+      "english": "camera",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "カメラで写真を撮ります。",
+      "exampleEn": "I take a photo with a camera."
+    },
+    {
+      "sourceRef": "N5-05.vocab.036",
+      "japanese": "コンピューター",
+      "hiragana": "こんぴゅーたー",
+      "romaji": "konpyuutaa",
+      "english": "computer",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "コンピューターがあります。",
+      "exampleEn": "There is a computer."
+    },
+    {
+      "sourceRef": "N5-05.vocab.037",
+      "japanese": "箱",
+      "hiragana": "はこ",
+      "romaji": "hako",
+      "english": "box",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "箱の中に何がありますか。",
+      "exampleEn": "What is inside the box?"
+    },
+    {
+      "sourceRef": "N5-05.vocab.038",
+      "japanese": "ドア",
+      "hiragana": "どあ",
+      "romaji": "doa",
+      "english": "door",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "ドアを開けます。",
+      "exampleEn": "I open the door."
+    },
+    {
+      "sourceRef": "N5-05.vocab.039",
+      "japanese": "窓",
+      "hiragana": "まど",
+      "romaji": "mado",
+      "english": "window",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "窓の近くにいます。",
+      "exampleEn": "I am near the window."
+    },
+    {
+      "sourceRef": "N5-05.vocab.040",
+      "japanese": "棚",
+      "hiragana": "たな",
+      "romaji": "tana",
+      "english": "shelf",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "本は棚の上にあります。",
+      "exampleEn": "The book is on the shelf."
+    },
+    {
+      "sourceRef": "N5-05.vocab.041",
+      "japanese": "犬",
+      "hiragana": "いぬ",
+      "romaji": "inu",
+      "english": "dog",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "庭に犬がいます。",
+      "exampleEn": "There is a dog in the garden."
+    },
+    {
+      "sourceRef": "N5-05.vocab.042",
+      "japanese": "猫",
+      "hiragana": "ねこ",
+      "romaji": "neko",
+      "english": "cat",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "猫がいます。",
+      "exampleEn": "There is a cat."
+    },
+    {
+      "sourceRef": "N5-05.vocab.043",
+      "japanese": "木",
+      "hiragana": "き",
+      "romaji": "ki",
+      "english": "tree",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "公園に木があります。",
+      "exampleEn": "There are trees in the park."
+    },
+    {
+      "sourceRef": "N5-05.vocab.044",
+      "japanese": "誰",
+      "hiragana": "だれ",
+      "romaji": "dare",
+      "english": "who",
+      "type": "PRONOUN",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "教室に誰がいますか。",
+      "exampleEn": "Who is in the classroom?"
+    },
+    {
+      "sourceRef": "N5-05.vocab.045",
+      "japanese": "いろいろな",
+      "hiragana": "いろいろな",
+      "romaji": "iroiro na",
+      "english": "various",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-05",
+      "introducedIn": "N5-05",
+      "exampleJp": "いろいろな物があります。",
+      "exampleEn": "There are various things."
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-05.kanji.001",
+      "character": "上",
+      "meaning": "above, up",
+      "onyomi": "ジョウ",
+      "kunyomi": "うえ、あ.がる",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "一",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "上 (ue)",
+          "en": "above"
+        }
+      ],
+      "mnemonic": "Learn the kanji for above, up."
+    },
+    {
+      "sourceRef": "N5-05.kanji.002",
+      "character": "下",
+      "meaning": "below, down",
+      "onyomi": "カ、ゲ",
+      "kunyomi": "した、さ.がる",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "一",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "下 (shita)",
+          "en": "below"
+        }
+      ],
+      "mnemonic": "Learn the kanji for below, down."
+    },
+    {
+      "sourceRef": "N5-05.kanji.003",
+      "character": "中",
+      "meaning": "inside, middle",
+      "onyomi": "チュウ",
+      "kunyomi": "なか",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "丨",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "中 (naka)",
+          "en": "inside"
+        }
+      ],
+      "mnemonic": "Learn the kanji for inside, middle."
+    },
+    {
+      "sourceRef": "N5-05.kanji.004",
+      "character": "外",
+      "meaning": "outside",
+      "onyomi": "ガイ、ゲ",
+      "kunyomi": "そと",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "夕",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "外 (soto)",
+          "en": "outside"
+        }
+      ],
+      "mnemonic": "Learn the kanji for outside."
+    },
+    {
+      "sourceRef": "N5-05.kanji.005",
+      "character": "右",
+      "meaning": "right",
+      "onyomi": "ウ、ユウ",
+      "kunyomi": "みぎ",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "口",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "右 (migi)",
+          "en": "right"
+        }
+      ],
+      "mnemonic": "Learn the kanji for right."
+    },
+    {
+      "sourceRef": "N5-05.kanji.006",
+      "character": "左",
+      "meaning": "left",
+      "onyomi": "サ",
+      "kunyomi": "ひだり",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "工",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "左 (hidari)",
+          "en": "left"
+        }
+      ],
+      "mnemonic": "Learn the kanji for left."
+    },
+    {
+      "sourceRef": "N5-05.kanji.007",
+      "character": "前",
+      "meaning": "front, before",
+      "onyomi": "ゼン",
+      "kunyomi": "まえ",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "刀",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "前 (mae)",
+          "en": "front"
+        }
+      ],
+      "mnemonic": "Learn the kanji for front, before."
+    },
+    {
+      "sourceRef": "N5-05.kanji.008",
+      "character": "後",
+      "meaning": "back, behind, after",
+      "onyomi": "ゴ、コウ",
+      "kunyomi": "うし.ろ、あと",
+      "level": "N5",
+      "strokeCount": 9,
+      "radical": "彳",
+      "introducedIn": "N5-05",
+      "exampleWords": [
+        {
+          "jp": "後ろ (ushiro)",
+          "en": "behind"
+        }
+      ],
+      "mnemonic": "Learn the kanji for back, behind, after."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-05.grammar.001",
+      "pattern": "N が あります / います",
+      "meaningVn": "Có N",
+      "meaningEn": "There is N / N exists",
+      "explanation": "Dùng để biểu thị sự tồn tại. あります dùng cho đồ vật, cây cối (vô tri). います dùng cho người, động vật (có sinh mệnh).",
+      "introducedIn": "N5-05",
+      "examples": [
+        {
+          "japanese": "机があります。",
+          "romaji": "Tsukue ga arimasu.",
+          "english": "There is a desk.",
+          "vietnamese": "Có cái bàn."
+        },
+        {
+          "japanese": "犬がいます。",
+          "romaji": "Inu ga imasu.",
+          "english": "There is a dog.",
+          "vietnamese": "Có con chó."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-05.grammar.002",
+      "pattern": "N1(place) に N2 が あります / います",
+      "meaningVn": "Ở N1 có N2",
+      "meaningEn": "N2 is at/in N1",
+      "explanation": "Trợ từ に đi sau danh từ chỉ địa điểm để chỉ nơi tồn tại của người hoặc vật N2.",
+      "introducedIn": "N5-05",
+      "examples": [
+        {
+          "japanese": "部屋にテレビがあります。",
+          "romaji": "Heya ni terebi ga arimasu.",
+          "english": "There is a TV in the room.",
+          "vietnamese": "Trong phòng có tivi."
+        },
+        {
+          "japanese": "庭に犬がいます。",
+          "romaji": "Niwa ni inu ga imasu.",
+          "english": "There is a dog in the garden.",
+          "vietnamese": "Ngoài vườn có con chó."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-05.grammar.003",
+      "pattern": "N2 は N1(place) に あります / います",
+      "meaningVn": "N2 ở / có ở N1",
+      "meaningEn": "N2 is located at N1",
+      "explanation": "Đưa vật hoặc người N2 lên làm chủ đề của câu (bằng trợ từ は), dùng để nói vật/người đó đang ở đâu.",
+      "introducedIn": "N5-05",
+      "examples": [
+        {
+          "japanese": "田中さんは事務所にいます。",
+          "romaji": "Tanaka-san wa jimusho ni imasu.",
+          "english": "Mr. Tanaka is in the office.",
+          "vietnamese": "Anh Tanaka ở trong văn phòng."
+        },
+        {
+          "japanese": "トイレはあそこにあります。",
+          "romaji": "Toire wa asoko ni arimasu.",
+          "english": "The toilet is over there.",
+          "vietnamese": "Nhà vệ sinh ở đằng kia."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-05.grammar.004",
+      "pattern": "N1(vật) の N2(vị trí)",
+      "meaningVn": "Vị trí N2 của N1",
+      "meaningEn": "Location N2 of N1",
+      "explanation": "Các từ chỉ vị trí (trên, dưới, trong, ngoài, trước, sau...) được dùng như một danh từ và nối với danh từ khác bằng の.",
+      "introducedIn": "N5-05",
+      "examples": [
+        {
+          "japanese": "机の上",
+          "romaji": "Tsukue no ue",
+          "english": "On the desk",
+          "vietnamese": "Trên bàn"
+        },
+        {
+          "japanese": "机の上に本があります。",
+          "romaji": "Tsukue no ue ni hon ga arimasu.",
+          "english": "There is a book on the desk.",
+          "vietnamese": "Có quyển sách ở trên bàn."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-05.grammar.005",
+      "pattern": "N1 や N2 [など]",
+      "meaningVn": "N1, N2 (và những thứ khác)",
+      "meaningEn": "N1, N2, and so on",
+      "explanation": "Dùng trợ từ や để liệt kê một số vật tiêu biểu (không phải liệt kê toàn bộ như と). Có thể thêm など ở cuối.",
+      "introducedIn": "N5-05",
+      "examples": [
+        {
+          "japanese": "箱の中に時計やペンがあります。",
+          "romaji": "Hako no naka ni tokei ya pen ga arimasu.",
+          "english": "There are things like a watch and a pen inside the box.",
+          "vietnamese": "Trong hộp có đồng hồ, bút..."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-05.kaiwa.001",
+      "title": "Where is the bathroom?",
+      "titleJp": "トイレはどこですか",
+      "situation": "Asking for directions inside a building",
+      "lines": [
+        {
+          "speaker": "A",
+          "japanese": "すみません、トイレはどこですか。",
+          "hiragana": "すみません、といれはどこですか。",
+          "romaji": "Sumimasen, toire wa doko desu ka.",
+          "translation": "Excuse me, where is the toilet?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "B",
+          "japanese": "トイレですか。あそこにあります。",
+          "hiragana": "といれですか。あそこにあります。",
+          "romaji": "Toire desu ka. Asoko ni arimasu.",
+          "translation": "The toilet? It is over there.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "A",
+          "japanese": "あそこですね。事務所の隣ですか。",
+          "hiragana": "あそこですね。じむしょのとなりですか。",
+          "romaji": "Asoko desu ne. Jimusho no tonari desu ka.",
+          "translation": "Over there, right? Is it next to the office?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "B",
+          "japanese": "はい、そうです。",
+          "hiragana": "はい、そうです。",
+          "romaji": "Hai, sou desu.",
+          "translation": "Yes, that's right.",
+          "sortOrder": 4
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-05.kaiwa.002",
+      "title": "What's in the room?",
+      "titleJp": "部屋に何がありますか",
+      "situation": "Talking about things in a room",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "山田さんの部屋に何がありますか。",
+          "hiragana": "やまださんのへやになにがありますか。",
+          "romaji": "Yamada-san no heya ni nani ga arimasu ka.",
+          "translation": "What is in your room, Yamada?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "山田",
+          "japanese": "机やベッドがあります。",
+          "hiragana": "つくえやべっどがあります。",
+          "romaji": "Tsukue ya beddo ga arimasu.",
+          "translation": "There is a desk, a bed, etc.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "田中",
+          "japanese": "テレビもありますか。",
+          "hiragana": "てれびもありますか。",
+          "romaji": "Terebi mo arimasu ka.",
+          "translation": "Is there a TV too?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "山田",
+          "japanese": "いいえ、ありません。",
+          "hiragana": "いいえ、ありません。",
+          "romaji": "Iie, arimasen.",
+          "translation": "No, there isn't.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-05.listening.001",
+      "title": "Looking for the cat",
+      "instructions": "Listen to the conversation about finding a cat.",
+      "audioUrl": "PENDING_AUDIO:n5-05-listening-01",
+      "transcriptJp": "A: すみません、猫はどこですか。\nB: 猫ですか。部屋の中にいません。\nA: 庭にいますか。\nB: あ、あそこにいますよ。車の下です。\nA: ありがとうございます。",
+      "transcriptRomaji": "A: Sumimasen, neko wa doko desu ka.\nB: Neko desu ka. Heya no naka ni imasen.\nA: Niwa ni imasu ka.\nB: A, asoko ni imasu yo. Kuruma no shita desu.\nA: Arigatou gozaimasu.",
+      "transcriptEn": "A: Excuse me, where is the cat?\nB: The cat? It's not in the room.\nA: Is it in the garden?\nB: Ah, it's over there. Under the car.\nA: Thank you.",
+      "durationSeconds": 35,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-05.listening.002",
+      "title": "Office layout",
+      "instructions": "Listen to the person explaining where things are in the office.",
+      "audioUrl": "PENDING_AUDIO:n5-05-listening-02",
+      "transcriptJp": "ここは事務所です。机や椅子があります。机の上にコンピューターがあります。コンピューターの隣に電話があります。田中さんは今、事務所にいません。会議室にいます。",
+      "transcriptRomaji": "Koko wa jimusho desu. Tsukue ya isu ga arimasu. Tsukue no ue ni konpyuutaa ga arimasu. Konpyuutaa no tonari ni denwa ga arimasu. Tanaka-san wa ima, jimusho ni imasen. Kaigishitsu ni imasu.",
+      "transcriptEn": "Here is the office. There are desks, chairs, and so on. There is a computer on the desk. Next to the computer is a phone. Mr. Tanaka is not in the office right now. He is in the meeting room.",
+      "durationSeconds": 45,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-05.reading.001",
+      "title": "My Room",
+      "passage": "ここは私の部屋です。部屋に机やベッドがあります。机の上に本とカバンがあります。机の下に箱があります。箱の中に時計があります。",
+      "reading": "ここはわたしのへやです。へやにつくえやべっどがあります。つくえのうえにほんとかばんがあります。つくえのしたにはこがあります。はこのなかにとけいがあります。",
+      "translation": "This is my room. There are a desk, a bed, etc. in the room. On the desk, there are a book and a bag. Under the desk, there is a box. Inside the box, there is a watch.",
+      "questions": [
+        {
+          "question": "机の上に何がありますか。",
+          "options": [
+            "箱",
+            "時計",
+            "本とカバン",
+            "ベッド"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 机の上に本とカバンがあります。"
+        },
+        {
+          "question": "箱はどこにありますか。",
+          "options": [
+            "ベッドの下",
+            "机の下",
+            "机の上",
+            "カバンの中"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 机の下に箱があります。"
+        },
+        {
+          "question": "時計はどこにありますか。",
+          "options": [
+            "箱の中",
+            "机の上",
+            "部屋の外",
+            "ベッドの上"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bài đọc ghi: 箱の中に時計があります。"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-05.reading.002",
+      "title": "The Park",
+      "passage": "私の家の前に公園があります。公園に木がたくさんあります。木の下に男の子と女の子がいます。近くに犬もいます。ベンチの上に猫がいます。",
+      "reading": "わたしのいえのまえにこうえんがあります。こうえんにきがたくさんあります。きのしたにおとこのことおんなのこがいます。ちかくにいぬもいます。べんちのうえにねこがいます。",
+      "translation": "There is a park in front of my house. There are many trees in the park. Under a tree, there are a boy and a girl. There is also a dog nearby. On the bench, there is a cat.",
+      "questions": [
+        {
+          "question": "公園はどこにありますか。",
+          "options": [
+            "家の後ろ",
+            "家の前",
+            "家の中",
+            "家の右"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 私の家の前に公園があります。"
+        },
+        {
+          "question": "木の下に誰がいますか。",
+          "options": [
+            "猫",
+            "犬",
+            "男の子と女の子",
+            "私"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 木の下に男の子と女の子がいます。"
+        },
+        {
+          "question": "ベンチの上に何がいますか。",
+          "options": [
+            "犬",
+            "猫",
+            "木",
+            "子供"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: ベンチの上に猫がいます。"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-05.writing.001",
+      "prompt": "Describe your room.",
+      "instructions": "Write 2-3 sentences describing what is in your room and their positions.",
+      "sampleAnswer": "私の部屋に机とベッドがあります。机の上にコンピューターがあります。",
+      "rubric": "Use あります, います and location nouns correctly.",
+      "minLength": 2,
+      "maxLength": 4,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-05.writing.002",
+      "prompt": "Where are you?",
+      "instructions": "Write 1-2 sentences stating where you are and what is near you.",
+      "sampleAnswer": "私は教室にいます。近くに先生がいます。",
+      "rubric": "Use います for animate objects.",
+      "minLength": 1,
+      "maxLength": 2,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-05.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Trên' trong tiếng Nhật là gì?",
+      "options": [
+        "下",
+        "前",
+        "上",
+        "中"
+      ],
+      "correctIndex": 2,
+      "explanation": "上 (ue) nghĩa là trên.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Bên trong' là gì?",
+      "options": [
+        "外",
+        "中",
+        "隣",
+        "右"
+      ],
+      "correctIndex": 1,
+      "explanation": "中 (naka) là bên trong.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Phòng học' tiếng Nhật là gì?",
+      "options": [
+        "事務所",
+        "部屋",
+        "教室",
+        "食堂"
+      ],
+      "correctIndex": 2,
+      "explanation": "教室 (kyoushitsu) là phòng học.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch từ 'Cái hộp' sang tiếng Nhật.",
+      "options": [
+        "机",
+        "箱",
+        "棚",
+        "ドア"
+      ],
+      "correctIndex": 1,
+      "explanation": "箱 (hako) là cái hộp.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "本屋と銀行の（　　）に郵便局があります。",
+      "options": [
+        "隣",
+        "近く",
+        "間",
+        "前"
+      ],
+      "correctIndex": 2,
+      "explanation": "AとBの間 (giữa A và B).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Con chó' là gì?",
+      "options": [
+        "猫",
+        "鳥",
+        "魚",
+        "犬"
+      ],
+      "correctIndex": 3,
+      "explanation": "犬 (inu) là con chó.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Ở đằng kia' là gì?",
+      "options": [
+        "ここ",
+        "そこ",
+        "あそこ",
+        "どこ"
+      ],
+      "correctIndex": 2,
+      "explanation": "あそこ là ở đằng kia.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Cái giường' là gì?",
+      "options": [
+        "ベッド",
+        "テレビ",
+        "カメラ",
+        "ドア"
+      ],
+      "correctIndex": 0,
+      "explanation": "ベッド là giường.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-05.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 上 có nghĩa là gì?",
+      "options": [
+        "Dưới",
+        "Trong",
+        "Trên",
+        "Ngoài"
+      ],
+      "correctIndex": 2,
+      "explanation": "上 là trên.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-05.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 中 đọc là gì?",
+      "options": [
+        "した",
+        "なか",
+        "まえ",
+        "そと"
+      ],
+      "correctIndex": 1,
+      "explanation": "中 đọc là naka.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-05.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 右 có nghĩa là gì?",
+      "options": [
+        "Trái",
+        "Phải",
+        "Trước",
+        "Sau"
+      ],
+      "correctIndex": 1,
+      "explanation": "右 (hữu) là bên phải.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-05.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đằng sau' chứa chữ Hán nào?",
+      "options": [
+        "前",
+        "後",
+        "外",
+        "右"
+      ],
+      "correctIndex": 1,
+      "explanation": "後ろ (ushiro) chứa chữ Hậu 後.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-05.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 外 đọc là gì?",
+      "options": [
+        "そと",
+        "なか",
+        "みぎ",
+        "ひだり"
+      ],
+      "correctIndex": 0,
+      "explanation": "外 đọc là soto.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-05.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 前 đọc là gì?",
+      "options": [
+        "あと",
+        "うしろ",
+        "まえ",
+        "した"
+      ],
+      "correctIndex": 2,
+      "explanation": "前 đọc là mae (phía trước).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-05.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "机の上に本（　　）あります。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sự tồn tại dùng trợ từ が: があります.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "庭（　　）犬がいます。",
+      "options": [
+        "に",
+        "へ",
+        "で",
+        "を"
+      ],
+      "correctIndex": 0,
+      "explanation": "Địa điểm tồn tại dùng に.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "あそこに田中さん（　　）います。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "correctIndex": 1,
+      "explanation": "田中さんがいます (Có anh Tanaka).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "箱の（　　）に時計があります。",
+      "options": [
+        "上",
+        "下",
+        "中",
+        "Tất cả đều đúng"
+      ],
+      "correctIndex": 3,
+      "explanation": "上, 下, 中 đều có thể ghép với 箱の (trên, dưới, trong hộp).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng ngữ pháp.",
+      "options": [
+        "本が机の上にあります。",
+        "本は机の上にあります。",
+        "机の上に本があります。",
+        "Tất cả đều đúng"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tất cả đều đúng. Đưa '本' làm chủ đề thì dùng '本は机の上にあります'.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "部屋にベッド（　　）机などがあります。",
+      "options": [
+        "と",
+        "や",
+        "が",
+        "に"
+      ],
+      "correctIndex": 1,
+      "explanation": "Liệt kê tiêu biểu dùng や (và những thứ khác).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "トイレはどこ（　　）ありますか。",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "へ"
+      ],
+      "correctIndex": 2,
+      "explanation": "どこにありますか (ở đâu).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Có học sinh ở trong phòng học.",
+      "options": [
+        "教室に学生があります。",
+        "教室で学生がいます。",
+        "教室に学生がいます。",
+        "学生は教室にあります。"
+      ],
+      "correctIndex": 2,
+      "explanation": "Học sinh (người) dùng います, địa điểm dùng に.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 1, con mèo có ở trong phòng không?",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 部屋の中にいません (Không có trong phòng).",
+      "points": 2,
+      "listeningRef": "N5-05.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-05.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài 1, con mèo ở đâu?",
+      "options": [
+        "Trên bàn",
+        "Dưới xe ô tô",
+        "Ngoài sân",
+        "Trong hộp"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 車の下です (Dưới gầm xe ô tô).",
+      "points": 2,
+      "listeningRef": "N5-05.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-05.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài 2, Tanaka đang ở văn phòng.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 田中さんは今、事務所にいません (Tanaka không có ở văn phòng hiện tại).",
+      "points": 2,
+      "listeningRef": "N5-05.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-05.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1, quyển sách ở đâu?",
+      "options": [
+        "Trong hộp",
+        "Trên giường",
+        "Trên bàn",
+        "Dưới bàn"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bài đọc ghi: 机の上に本とカバンがあります。",
+      "points": 2,
+      "readingRef": "N5-05.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-05.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1, dưới bàn có gì?",
+      "options": [
+        "Hộp",
+        "Đồng hồ",
+        "Túi xách",
+        "Giường"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bài đọc ghi: 机の下に箱があります。",
+      "points": 2,
+      "readingRef": "N5-05.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-05.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Trong bài đọc 2, con mèo ở dưới gốc cây.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi con mèo ở trên ghế đá (ベンチの上に猫がいます). Bé trai và bé gái mới ở dưới gốc cây.",
+      "points": 2,
+      "readingRef": "N5-05.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-05.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Trên bàn có quyển sách.",
+      "options": [
+        "机の",
+        "上に",
+        "本が",
+        "あります"
+      ],
+      "correctIndex": 0,
+      "explanation": "机の上に本があります。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-05.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Bé gái ở đâu?",
+      "options": [
+        "女の子",
+        "は",
+        "どこに",
+        "いますか"
+      ],
+      "correctIndex": 0,
+      "explanation": "女の子はどこにいますか。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-05.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Bên ngoài'?",
+      "options": [
+        "中",
+        "外",
+        "右",
+        "左"
+      ],
+      "correctIndex": 1,
+      "explanation": "外 (soto) là bên ngoài.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 下 đọc là gì?",
+      "options": [
+        "うえ",
+        "した",
+        "みぎ",
+        "ひだり"
+      ],
+      "correctIndex": 1,
+      "explanation": "下 (hạ) đọc là shita.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Đồng hồ' tiếng Nhật là gì?",
+      "options": [
+        "カメラ",
+        "テレビ",
+        "時計",
+        "鉛筆"
+      ],
+      "correctIndex": 2,
+      "explanation": "時計 (tokei) là đồng hồ.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 左 trong 左手 (tay trái) có nghĩa là gì?",
+      "options": [
+        "Phải",
+        "Trái",
+        "Trước",
+        "Sau"
+      ],
+      "correctIndex": 1,
+      "explanation": "左 (tả) là bên trái.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Ở đằng kia' tiếng Nhật là gì?",
+      "options": [
+        "ここ",
+        "そこ",
+        "あそこ",
+        "どこ"
+      ],
+      "correctIndex": 2,
+      "explanation": "あそこ là ở đằng kia.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: カバンの中（　　）本があります。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctIndex": 3,
+      "explanation": "Chỉ nơi chốn tồn tại dùng trợ từ に: カバンの中に.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: あそこに犬（　　）います。",
+      "options": [
+        "で",
+        "を",
+        "が",
+        "へ"
+      ],
+      "correctIndex": 2,
+      "explanation": "Động từ います đi với trợ từ が cho chủ ngữ (犬がいます).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 教室に学生（　　）先生がいます。",
+      "options": [
+        "や",
+        "など",
+        "は",
+        "も"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nối các vật liệt kê dùng や.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Điện thoại ở trên bàn':",
+      "options": [
+        "机の上に電話があります。",
+        "電話の上に机があります。",
+        "電話に机の上があります。",
+        "机は電話の上にあります。"
+      ],
+      "correctIndex": 0,
+      "explanation": "机の上に (trên bàn) 電話があります (có điện thoại).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: 木の下に猫が（　　）。",
+      "options": [
+        "ありません",
+        "あります",
+        "います",
+        "いません"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mèo là động vật nên dùng います.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn hỏi 'Chìa khóa ở đâu?', bạn nói câu nào?",
+      "options": [
+        "鍵は誰ですか。",
+        "鍵はどこですか。",
+        "鍵は何ですか。",
+        "鍵はいつですか。"
+      ],
+      "correctIndex": 1,
+      "explanation": "どこ (ở đâu).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu ai đó hỏi 'トイレはあそこですか', bạn trả lời thế nào nếu đúng?",
+      "options": [
+        "はい、あります。",
+        "はい、そうです。",
+        "いいえ、そうです。",
+        "いいえ、あそこです。"
+      ],
+      "correctIndex": 1,
+      "explanation": "はい、そうです (Vâng, đúng vậy).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Trong phòng không có ai cả':",
+      "options": [
+        "部屋に誰がいます。",
+        "部屋に誰もいません。",
+        "部屋に誰がいません。",
+        "部屋に誰もいます。"
+      ],
+      "correctIndex": 1,
+      "explanation": "誰もいません (không có ai cả).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu 'Aの隣にBがあります', B nằm ở đâu so với A?",
+      "options": [
+        "Bên trên",
+        "Bên dưới",
+        "Bên cạnh",
+        "Bên ngoài"
+      ],
+      "correctIndex": 2,
+      "explanation": "隣 (tonari) là bên cạnh.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-05.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ '箱' có nghĩa là gì trong câu '箱の中に時計があります'?",
+      "options": [
+        "Cái bàn",
+        "Cái hộp",
+        "Túi xách",
+        "Ngăn kéo"
+      ],
+      "correctIndex": 1,
+      "explanation": "箱 (hako) là cái hộp.",
+      "points": 10
+    }
+  ]
+}

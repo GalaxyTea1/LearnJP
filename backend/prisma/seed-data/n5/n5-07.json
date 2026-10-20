@@ -1,0 +1,1829 @@
+{
+  "module": {
+    "code": "N5-07",
+    "level": "N5",
+    "unit": 7,
+    "title": "Shopping",
+    "titleJp": "買い物",
+    "status": "DRAFT"
+  },
+  "sections": [
+    {
+      "sortOrder": 1,
+      "type": "OVERVIEW",
+      "title": "Overview",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 2,
+      "type": "VOCABULARY",
+      "title": "Vocabulary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 3,
+      "type": "KANJI",
+      "title": "Kanji",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 4,
+      "type": "GRAMMAR",
+      "title": "Grammar",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 5,
+      "type": "KAIWA",
+      "title": "Kaiwa",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 6,
+      "type": "LISTENING",
+      "title": "Listening",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 7,
+      "type": "READING",
+      "title": "Reading",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 8,
+      "type": "WRITING",
+      "title": "Writing",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 9,
+      "type": "EXERCISE",
+      "title": "Exercise",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    },
+    {
+      "sortOrder": 10,
+      "type": "SUMMARY",
+      "title": "Summary",
+      "isRequired": true,
+      "status": "DRAFT",
+      "version": 1
+    }
+  ],
+  "vocabulary": [
+    {
+      "sourceRef": "N5-07.vocab.001",
+      "japanese": "買い物",
+      "hiragana": "かいもの",
+      "romaji": "kaimono",
+      "english": "shopping",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "買い物をします。",
+      "exampleEn": "I go shopping."
+    },
+    {
+      "sourceRef": "N5-07.vocab.002",
+      "japanese": "お金",
+      "hiragana": "おかね",
+      "romaji": "okane",
+      "english": "money",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "お金がありません。",
+      "exampleEn": "I don't have money."
+    },
+    {
+      "sourceRef": "N5-07.vocab.003",
+      "japanese": "円",
+      "hiragana": "えん",
+      "romaji": "en",
+      "english": "yen",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "百円です。",
+      "exampleEn": "It is 100 yen."
+    },
+    {
+      "sourceRef": "N5-07.vocab.004",
+      "japanese": "いくら",
+      "hiragana": "いくら",
+      "romaji": "ikura",
+      "english": "how much",
+      "type": "ADVERB",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "これはいくらですか。",
+      "exampleEn": "How much is this?"
+    },
+    {
+      "sourceRef": "N5-07.vocab.005",
+      "japanese": "レジ",
+      "hiragana": "れじ",
+      "romaji": "reji",
+      "english": "cash register",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "レジはあそこです。",
+      "exampleEn": "The cash register is over there."
+    },
+    {
+      "sourceRef": "N5-07.vocab.006",
+      "japanese": "服",
+      "hiragana": "ふく",
+      "romaji": "fuku",
+      "english": "clothes",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "新しい服を買います。",
+      "exampleEn": "I buy new clothes."
+    },
+    {
+      "sourceRef": "N5-07.vocab.007",
+      "japanese": "靴",
+      "hiragana": "くつ",
+      "romaji": "kutsu",
+      "english": "shoes",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "黒い靴がほしいです。",
+      "exampleEn": "I want black shoes."
+    },
+    {
+      "sourceRef": "N5-07.vocab.008",
+      "japanese": "帽子",
+      "hiragana": "ぼうし",
+      "romaji": "boushi",
+      "english": "hat, cap",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "帽子を見せてください。",
+      "exampleEn": "Please show me the hat."
+    },
+    {
+      "sourceRef": "N5-07.vocab.009",
+      "japanese": "シャツ",
+      "hiragana": "しゃつ",
+      "romaji": "shatsu",
+      "english": "shirt",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "白いシャツを買います。",
+      "exampleEn": "I buy a white shirt."
+    },
+    {
+      "sourceRef": "N5-07.vocab.010",
+      "japanese": "ズボン",
+      "hiragana": "ずぼん",
+      "romaji": "zubon",
+      "english": "trousers, pants",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "このズボンは長いです。",
+      "exampleEn": "These pants are long."
+    },
+    {
+      "sourceRef": "N5-07.vocab.011",
+      "japanese": "スカート",
+      "hiragana": "すかーと",
+      "romaji": "sukaato",
+      "english": "skirt",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "青いスカートがほしいです。",
+      "exampleEn": "I want a blue skirt."
+    },
+    {
+      "sourceRef": "N5-07.vocab.012",
+      "japanese": "靴下",
+      "hiragana": "くつした",
+      "romaji": "kutsushita",
+      "english": "socks",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "靴下を３つ買います。",
+      "exampleEn": "I buy 3 pairs of socks."
+    },
+    {
+      "sourceRef": "N5-07.vocab.013",
+      "japanese": "傘",
+      "hiragana": "かさ",
+      "romaji": "kasa",
+      "english": "umbrella",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "赤い傘があります。",
+      "exampleEn": "There is a red umbrella."
+    },
+    {
+      "sourceRef": "N5-07.vocab.014",
+      "japanese": "財布",
+      "hiragana": "さいふ",
+      "romaji": "saifu",
+      "english": "wallet",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "財布に千円あります。",
+      "exampleEn": "There is 1000 yen in the wallet."
+    },
+    {
+      "sourceRef": "N5-07.vocab.015",
+      "japanese": "眼鏡",
+      "hiragana": "めがね",
+      "romaji": "megane",
+      "english": "glasses",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "眼鏡を探しています。",
+      "exampleEn": "I am looking for glasses."
+    },
+    {
+      "sourceRef": "N5-07.vocab.016",
+      "japanese": "色",
+      "hiragana": "いろ",
+      "romaji": "iro",
+      "english": "color",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "何色が好きですか。",
+      "exampleEn": "What color do you like?"
+    },
+    {
+      "sourceRef": "N5-07.vocab.017",
+      "japanese": "赤い",
+      "hiragana": "あかい",
+      "romaji": "akai",
+      "english": "red",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "赤いシャツ",
+      "exampleEn": "red shirt"
+    },
+    {
+      "sourceRef": "N5-07.vocab.018",
+      "japanese": "青い",
+      "hiragana": "あおい",
+      "romaji": "aoi",
+      "english": "blue",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "青い靴",
+      "exampleEn": "blue shoes"
+    },
+    {
+      "sourceRef": "N5-07.vocab.019",
+      "japanese": "黒い",
+      "hiragana": "くろい",
+      "romaji": "kuroi",
+      "english": "black",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "黒いカバン",
+      "exampleEn": "black bag"
+    },
+    {
+      "sourceRef": "N5-07.vocab.020",
+      "japanese": "白い",
+      "hiragana": "しろい",
+      "romaji": "shiroi",
+      "english": "white",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "白い帽子",
+      "exampleEn": "white hat"
+    },
+    {
+      "sourceRef": "N5-07.vocab.021",
+      "japanese": "黄色い",
+      "hiragana": "きいろい",
+      "romaji": "kiiroi",
+      "english": "yellow",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "黄色い傘",
+      "exampleEn": "yellow umbrella"
+    },
+    {
+      "sourceRef": "N5-07.vocab.022",
+      "japanese": "大きい",
+      "hiragana": "おおきい",
+      "romaji": "ookii",
+      "english": "big, large",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "大きいテレビがほしいです。",
+      "exampleEn": "I want a big TV."
+    },
+    {
+      "sourceRef": "N5-07.vocab.023",
+      "japanese": "小さい",
+      "hiragana": "ちいさい",
+      "romaji": "chiisai",
+      "english": "small, little",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "小さいカバンです。",
+      "exampleEn": "It is a small bag."
+    },
+    {
+      "sourceRef": "N5-07.vocab.024",
+      "japanese": "新しい",
+      "hiragana": "あたらしい",
+      "romaji": "atarashii",
+      "english": "new",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "新しい車",
+      "exampleEn": "new car"
+    },
+    {
+      "sourceRef": "N5-07.vocab.025",
+      "japanese": "古い",
+      "hiragana": "ふるい",
+      "romaji": "furui",
+      "english": "old (not used for people)",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "古い時計",
+      "exampleEn": "old clock"
+    },
+    {
+      "sourceRef": "N5-07.vocab.026",
+      "japanese": "高い",
+      "hiragana": "たかい",
+      "romaji": "takai",
+      "english": "expensive, high",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "このカメラは高いです。",
+      "exampleEn": "This camera is expensive."
+    },
+    {
+      "sourceRef": "N5-07.vocab.027",
+      "japanese": "安い",
+      "hiragana": "やすい",
+      "romaji": "yasui",
+      "english": "cheap",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "安い靴を買いました。",
+      "exampleEn": "I bought cheap shoes."
+    },
+    {
+      "sourceRef": "N5-07.vocab.028",
+      "japanese": "ほしい",
+      "hiragana": "ほしい",
+      "romaji": "hoshii",
+      "english": "want (something)",
+      "type": "ADJECTIVE",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "車がほしいです。",
+      "exampleEn": "I want a car."
+    },
+    {
+      "sourceRef": "N5-07.vocab.029",
+      "japanese": "見せます",
+      "hiragana": "みせます",
+      "romaji": "misemasu",
+      "english": "to show",
+      "type": "VERB",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "そのカメラを見せてください。",
+      "exampleEn": "Please show me that camera."
+    },
+    {
+      "sourceRef": "N5-07.vocab.030",
+      "japanese": "一つ",
+      "hiragana": "ひとつ",
+      "romaji": "hitotsu",
+      "english": "one (object)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "りんごを一つください。",
+      "exampleEn": "Please give me one apple."
+    },
+    {
+      "sourceRef": "N5-07.vocab.031",
+      "japanese": "二つ",
+      "hiragana": "ふたつ",
+      "romaji": "futatsu",
+      "english": "two (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "それを二つください。",
+      "exampleEn": "Please give me two of those."
+    },
+    {
+      "sourceRef": "N5-07.vocab.032",
+      "japanese": "三つ",
+      "hiragana": "みっつ",
+      "romaji": "mittsu",
+      "english": "three (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "帽子を三つ買います。",
+      "exampleEn": "I buy three hats."
+    },
+    {
+      "sourceRef": "N5-07.vocab.033",
+      "japanese": "四つ",
+      "hiragana": "よっつ",
+      "romaji": "yottsu",
+      "english": "four (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "四つあります。",
+      "exampleEn": "There are four."
+    },
+    {
+      "sourceRef": "N5-07.vocab.034",
+      "japanese": "五つ",
+      "hiragana": "いつつ",
+      "romaji": "itsutsu",
+      "english": "five (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "五つください。",
+      "exampleEn": "Please give me five."
+    },
+    {
+      "sourceRef": "N5-07.vocab.035",
+      "japanese": "六つ",
+      "hiragana": "むっつ",
+      "romaji": "muttsu",
+      "english": "six (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "六つです。",
+      "exampleEn": "It is six."
+    },
+    {
+      "sourceRef": "N5-07.vocab.036",
+      "japanese": "七つ",
+      "hiragana": "ななつ",
+      "romaji": "nanatsu",
+      "english": "seven (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "七つ買います。",
+      "exampleEn": "I buy seven."
+    },
+    {
+      "sourceRef": "N5-07.vocab.037",
+      "japanese": "八つ",
+      "hiragana": "やっつ",
+      "romaji": "yattsu",
+      "english": "eight (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "八つあります。",
+      "exampleEn": "There are eight."
+    },
+    {
+      "sourceRef": "N5-07.vocab.038",
+      "japanese": "九つ",
+      "hiragana": "ここのつ",
+      "romaji": "kokonotsu",
+      "english": "nine (objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "九つです。",
+      "exampleEn": "It is nine."
+    },
+    {
+      "sourceRef": "N5-07.vocab.039",
+      "japanese": "いくつ",
+      "hiragana": "いくつ",
+      "romaji": "ikutsu",
+      "english": "how many",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "いくつありますか。",
+      "exampleEn": "How many are there?"
+    },
+    {
+      "sourceRef": "N5-07.vocab.040",
+      "japanese": "一枚",
+      "hiragana": "いちまい",
+      "romaji": "ichimai",
+      "english": "one (flat object)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "シャツを一枚ください。",
+      "exampleEn": "Please give me one shirt."
+    },
+    {
+      "sourceRef": "N5-07.vocab.041",
+      "japanese": "二枚",
+      "hiragana": "にまい",
+      "romaji": "nimai",
+      "english": "two (flat objects)",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "切手を二枚買います。",
+      "exampleEn": "I buy two stamps."
+    },
+    {
+      "sourceRef": "N5-07.vocab.042",
+      "japanese": "何枚",
+      "hiragana": "なんまい",
+      "romaji": "nanmai",
+      "english": "how many (flat objects)",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "何枚ですか。",
+      "exampleEn": "How many flat objects?"
+    },
+    {
+      "sourceRef": "N5-07.vocab.043",
+      "japanese": "一階",
+      "hiragana": "いっかい",
+      "romaji": "ikkai",
+      "english": "first floor",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "レジは一階にあります。",
+      "exampleEn": "The register is on the 1st floor."
+    },
+    {
+      "sourceRef": "N5-07.vocab.044",
+      "japanese": "二階",
+      "hiragana": "にかい",
+      "romaji": "nikai",
+      "english": "second floor",
+      "type": "NOUN",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "二階で服を売っています。",
+      "exampleEn": "They sell clothes on the 2nd floor."
+    },
+    {
+      "sourceRef": "N5-07.vocab.045",
+      "japanese": "何階",
+      "hiragana": "なんがい",
+      "romaji": "nangai",
+      "english": "what floor",
+      "type": "EXPRESSION",
+      "level": "N5",
+      "lesson": "N5-07",
+      "introducedIn": "N5-07",
+      "exampleJp": "トイレは何階ですか。",
+      "exampleEn": "What floor is the toilet on?"
+    }
+  ],
+  "kanji": [
+    {
+      "sourceRef": "N5-07.kanji.001",
+      "character": "円",
+      "meaning": "yen, circle",
+      "onyomi": "エン",
+      "kunyomi": "まる.い",
+      "level": "N5",
+      "strokeCount": 4,
+      "radical": "冂",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "百円 (hyakuen)",
+          "en": "100 yen"
+        }
+      ],
+      "mnemonic": "Learn the kanji for yen, circle."
+    },
+    {
+      "sourceRef": "N5-07.kanji.002",
+      "character": "百",
+      "meaning": "hundred",
+      "onyomi": "ヒャク",
+      "kunyomi": "",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "白",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "三百 (sanbyaku)",
+          "en": "300"
+        }
+      ],
+      "mnemonic": "Learn the kanji for hundred."
+    },
+    {
+      "sourceRef": "N5-07.kanji.003",
+      "character": "千",
+      "meaning": "thousand",
+      "onyomi": "セン",
+      "kunyomi": "ち",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "十",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "三千 (sanzen)",
+          "en": "3000"
+        }
+      ],
+      "mnemonic": "Learn the kanji for thousand."
+    },
+    {
+      "sourceRef": "N5-07.kanji.004",
+      "character": "万",
+      "meaning": "ten thousand",
+      "onyomi": "マン、バン",
+      "kunyomi": "",
+      "level": "N5",
+      "strokeCount": 3,
+      "radical": "一",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "一万 (ichiman)",
+          "en": "10,000"
+        }
+      ],
+      "mnemonic": "Learn the kanji for ten thousand."
+    },
+    {
+      "sourceRef": "N5-07.kanji.005",
+      "character": "高",
+      "meaning": "high, expensive",
+      "onyomi": "コウ",
+      "kunyomi": "たか.い",
+      "level": "N5",
+      "strokeCount": 10,
+      "radical": "高",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "高い (takai)",
+          "en": "expensive"
+        }
+      ],
+      "mnemonic": "Learn the kanji for high, expensive."
+    },
+    {
+      "sourceRef": "N5-07.kanji.006",
+      "character": "安",
+      "meaning": "cheap, peaceful",
+      "onyomi": "アン",
+      "kunyomi": "やす.い",
+      "level": "N5",
+      "strokeCount": 6,
+      "radical": "女",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "安い (yasui)",
+          "en": "cheap"
+        }
+      ],
+      "mnemonic": "Learn the kanji for cheap, peaceful."
+    },
+    {
+      "sourceRef": "N5-07.kanji.007",
+      "character": "新",
+      "meaning": "new",
+      "onyomi": "シン",
+      "kunyomi": "あたら.しい",
+      "level": "N5",
+      "strokeCount": 13,
+      "radical": "斤",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "新しい (atarashii)",
+          "en": "new"
+        }
+      ],
+      "mnemonic": "Learn the kanji for new."
+    },
+    {
+      "sourceRef": "N5-07.kanji.008",
+      "character": "古",
+      "meaning": "old",
+      "onyomi": "コ",
+      "kunyomi": "ふる.い",
+      "level": "N5",
+      "strokeCount": 5,
+      "radical": "口",
+      "introducedIn": "N5-07",
+      "exampleWords": [
+        {
+          "jp": "古い (furui)",
+          "en": "old"
+        }
+      ],
+      "mnemonic": "Learn the kanji for old."
+    }
+  ],
+  "grammar": [
+    {
+      "sourceRef": "N5-07.grammar.001",
+      "pattern": "いくらですか",
+      "meaningVn": "Bao nhiêu tiền?",
+      "meaningEn": "How much is it?",
+      "explanation": "Dùng để hỏi giá tiền của một món đồ.",
+      "introducedIn": "N5-07",
+      "examples": [
+        {
+          "japanese": "このシャツはいくらですか。",
+          "romaji": "Kono shatsu wa ikura desu ka.",
+          "english": "How much is this shirt?",
+          "vietnamese": "Cái áo sơ mi này bao nhiêu tiền?"
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-07.grammar.002",
+      "pattern": "N が ほしいです",
+      "meaningVn": "Muốn có N",
+      "meaningEn": "Want N",
+      "explanation": "ほしい là tính từ đuôi い, biểu thị mong muốn sở hữu một vật nào đó. Trợ từ đi kèm là が.",
+      "introducedIn": "N5-07",
+      "examples": [
+        {
+          "japanese": "私は新しい靴がほしいです。",
+          "romaji": "Watashi wa atarashii kutsu ga hoshii desu.",
+          "english": "I want new shoes.",
+          "vietnamese": "Tôi muốn có một đôi giày mới."
+        },
+        {
+          "japanese": "お金がほしいです。",
+          "romaji": "Okane ga hoshii desu.",
+          "english": "I want money.",
+          "vietnamese": "Tôi muốn có tiền."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-07.grammar.003",
+      "pattern": "Tính từ い + N",
+      "meaningVn": "Tính từ bổ nghĩa cho danh từ",
+      "meaningEn": "Adjective modifying Noun",
+      "explanation": "Tính từ đuôi い giữ nguyên 'い' khi bổ nghĩa trực tiếp cho danh từ đứng sau nó.",
+      "introducedIn": "N5-07",
+      "examples": [
+        {
+          "japanese": "大きいカバンを買います。",
+          "romaji": "Ookii kaban o kaimasu.",
+          "english": "I buy a big bag.",
+          "vietnamese": "Tôi mua cái túi to."
+        },
+        {
+          "japanese": "これは古い時計です。",
+          "romaji": "Kore wa furui tokei desu.",
+          "english": "This is an old clock.",
+          "vietnamese": "Đây là chiếc đồng hồ cũ."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-07.grammar.004",
+      "pattern": "Cách đếm đồ vật (Counters)",
+      "meaningVn": "Đếm số lượng vật",
+      "meaningEn": "Counting objects",
+      "explanation": "Đếm vật chung: 一つ (1), 二つ (2), 三つ (3)... Đếm vật mỏng, phẳng (áo, giấy): 一枚 (1), 二枚 (2)... Số lượng đứng ngay trước động từ hoặc sau trợ từ を.",
+      "introducedIn": "N5-07",
+      "examples": [
+        {
+          "japanese": "りんごを三つください。",
+          "romaji": "Ringo o mittsu kudasai.",
+          "english": "Please give me three apples.",
+          "vietnamese": "Làm ơn cho tôi 3 quả táo."
+        },
+        {
+          "japanese": "シャツを二枚買います。",
+          "romaji": "Shatsu o nimai kaimasu.",
+          "english": "I buy two shirts.",
+          "vietnamese": "Tôi mua 2 cái áo sơ mi."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-07.grammar.005",
+      "pattern": "この / その / あの + N",
+      "meaningVn": "N này / N đó / N kia",
+      "meaningEn": "This / That N",
+      "explanation": "Khác với これ/それ/あれ đứng một mình, この/その/あの bắt buộc phải đi kèm một danh từ ngay phía sau.",
+      "introducedIn": "N5-07",
+      "examples": [
+        {
+          "japanese": "その靴を見せてください。",
+          "romaji": "Sono kutsu o misete kudasai.",
+          "english": "Please show me those shoes.",
+          "vietnamese": "Hãy cho tôi xem đôi giày đó."
+        },
+        {
+          "japanese": "あの人は田中さんです。",
+          "romaji": "Ano hito wa Tanaka-san desu.",
+          "english": "That person is Mr. Tanaka.",
+          "vietnamese": "Người kia là anh Tanaka."
+        }
+      ]
+    }
+  ],
+  "conversations": [
+    {
+      "sourceRef": "N5-07.kaiwa.001",
+      "title": "Shopping for a shirt",
+      "titleJp": "シャツを買います",
+      "situation": "Buying clothes in a store",
+      "lines": [
+        {
+          "speaker": "店員",
+          "japanese": "いらっしゃいませ。",
+          "hiragana": "いらっしゃいませ。",
+          "romaji": "Irasshaimase.",
+          "translation": "Welcome.",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "客",
+          "japanese": "すみません、その青いシャツを見せてください。",
+          "hiragana": "すみません、そのあおいしゃつをみせてください。",
+          "romaji": "Sumimasen, sono aoi shatsu o misete kudasai.",
+          "translation": "Excuse me, please show me that blue shirt.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "店員",
+          "japanese": "はい、どうぞ。",
+          "hiragana": "はい、どうぞ。",
+          "romaji": "Hai, douzo.",
+          "translation": "Here you go.",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "客",
+          "japanese": "これはいくらですか。",
+          "hiragana": "これはいくらですか。",
+          "romaji": "Kore wa ikura desu ka.",
+          "translation": "How much is this?",
+          "sortOrder": 4
+        },
+        {
+          "speaker": "店員",
+          "japanese": "それは三千円です。",
+          "hiragana": "それはさんぜんえんです。",
+          "romaji": "Sore wa sanzen en desu.",
+          "translation": "That is 3000 yen.",
+          "sortOrder": 5
+        },
+        {
+          "speaker": "客",
+          "japanese": "じゃ、これをお願いします。",
+          "hiragana": "じゃ、これをおねがいします。",
+          "romaji": "Ja, kore o onegaishimasu.",
+          "translation": "Well then, I'll take this.",
+          "sortOrder": 6
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-07.kaiwa.002",
+      "title": "Wanting a new bag",
+      "titleJp": "新しいカバンがほしいです",
+      "situation": "Talking about things you want to buy",
+      "lines": [
+        {
+          "speaker": "田中",
+          "japanese": "山田さん、何がほしいですか。",
+          "hiragana": "やまださん、なにがほしいですか。",
+          "romaji": "Yamada-san, nani ga hoshii desu ka.",
+          "translation": "Yamada, what do you want?",
+          "sortOrder": 1
+        },
+        {
+          "speaker": "山田",
+          "japanese": "私は新しいカバンがほしいです。",
+          "hiragana": "わたしはあたらしいかばんがほしいです。",
+          "romaji": "Watashi wa atarashii kaban ga hoshii desu.",
+          "translation": "I want a new bag.",
+          "sortOrder": 2
+        },
+        {
+          "speaker": "田中",
+          "japanese": "どんなカバンですか。",
+          "hiragana": "どんなかばんですか。",
+          "romaji": "Donna kaban desu ka.",
+          "translation": "What kind of bag?",
+          "sortOrder": 3
+        },
+        {
+          "speaker": "山田",
+          "japanese": "大きいカバンがほしいです。",
+          "hiragana": "おおきいかばんがほしいです。",
+          "romaji": "Ookii kaban ga hoshii desu.",
+          "translation": "I want a big bag.",
+          "sortOrder": 4
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "sourceRef": "N5-07.listening.001",
+      "title": "At the cashier",
+      "instructions": "Listen to the customer buying items.",
+      "audioUrl": "PENDING_AUDIO:n5-07-listening-01",
+      "transcriptJp": "客: すみません、この黒い帽子を一つと、白いシャツを二枚ください。\n店員: はい、黒い帽子が一つと、白いシャツが二枚ですね。全部で五千円です。\n客: はい、五千円どうぞ。",
+      "transcriptRomaji": "Kyaku: Sumimasen, kono kuroi boushi o hitotsu to, shiroi shatsu o nimai kudasai.\nTen'in: Hai, kuroi boushi ga hitotsu to, shiroi shatsu ga nimai desu ne. Zenbu de gosen en desu.\nKyaku: Hai, gosen en douzo.",
+      "transcriptEn": "Customer: Excuse me, please give me one of this black hat and two white shirts.\nClerk: Yes, one black hat and two white shirts, right. It is 5000 yen in total.\nCustomer: Yes, here is 5000 yen.",
+      "durationSeconds": 35,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    },
+    {
+      "sourceRef": "N5-07.listening.002",
+      "title": "Looking for shoes",
+      "instructions": "Listen to the man looking for shoes.",
+      "audioUrl": "PENDING_AUDIO:n5-07-listening-02",
+      "transcriptJp": "A: すみません、靴売り場は何階ですか。\nB: 靴ですか。靴は二階です。\nA: ありがとうございます。二階ですね。\nB: はい、そうです。",
+      "transcriptRomaji": "A: Sumimasen, kutsu uriba wa nangai desu ka.\nB: Kutsu desu ka. Kutsu wa nikai desu.\nA: Arigatou gozaimasu. Nikai desu ne.\nB: Hai, sou desu.",
+      "transcriptEn": "A: Excuse me, what floor is the shoe department?\nB: Shoes? Shoes are on the second floor.\nA: Thank you. Second floor, right.\nB: Yes, that's right.",
+      "durationSeconds": 30,
+      "playbackSpeed": 0.9,
+      "source": "Original SumaryJapanese content"
+    }
+  ],
+  "reading": [
+    {
+      "sourceRef": "N5-07.reading.001",
+      "title": "Going Shopping",
+      "passage": "昨日は日曜日でした。私はデパートへ行きました。デパートで新しい靴を買いました。靴は五千円でした。少し高かったです。それから、帽子を二つ買いました。帽子は安かったです。一つ千円でした。",
+      "reading": "きのうはにちようびでした。わたしはでぱーとへいきました。でぱーとであたらしいくつをかいました。くつはごせんえんでした。すこしたかかったです。それから、ぼうしをふたつかいました。ぼうしはやすかったです。ひとつせんえんでした。",
+      "translation": "Yesterday was Sunday. I went to the department store. I bought new shoes at the department store. The shoes were 5000 yen. They were a little expensive. Then, I bought two hats. The hats were cheap. They were 1000 yen for one.",
+      "questions": [
+        {
+          "question": "デパートで何を買いましたか。",
+          "options": [
+            "シャツと靴",
+            "靴と帽子",
+            "帽子とカバン",
+            "靴と財布"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bài đọc ghi: 新しい靴を買いました... それから、帽子を二つ買いました。"
+        },
+        {
+          "question": "靴はいくらでしたか。",
+          "options": [
+            "千円",
+            "二千円",
+            "五千円",
+            "六千円"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bài đọc ghi: 靴は五千円でした。"
+        },
+        {
+          "question": "帽子は全部で（total）いくらですか。",
+          "options": [
+            "千円",
+            "二千円",
+            "三千円",
+            "五千円"
+          ],
+          "correctIndex": 1,
+          "explanation": "Mua 2 cái mũ (帽子を二つ), mỗi cái 1000 yên (一つ千円) -> Tổng là 2000 yên (二千円)."
+        }
+      ]
+    },
+    {
+      "sourceRef": "N5-07.reading.002",
+      "title": "Store Guide",
+      "passage": "ABCデパートのご案内\n一階：靴、財布、傘\n二階：女の人の服、帽子\n三階：男の人の服、ネクタイ\n四階：レストラン",
+      "reading": "ABCでぱーとのごあんない\nいっかい：くつ、さいふ、かさ\nにかい：おんなのひとのふく、ぼうし\nさんがい：おとこのひとのふく、ねくたい\nよんかい：れすとらん",
+      "translation": "ABC Department Store Guide\n1st floor: Shoes, wallets, umbrellas\n2nd floor: Women's clothes, hats\n3rd floor: Men's clothes, ties\n4th floor: Restaurants",
+      "questions": [
+        {
+          "question": "靴は何階にありますか。",
+          "options": [
+            "一階",
+            "二階",
+            "三階",
+            "四階"
+          ],
+          "correctIndex": 0,
+          "explanation": "Bảng hướng dẫn ghi: 一階：靴..."
+        },
+        {
+          "question": "女の人の服はどこですか。",
+          "options": [
+            "一階",
+            "二階",
+            "三階",
+            "四階"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bảng hướng dẫn ghi: 二階：女の人の服..."
+        },
+        {
+          "question": "四階に何がありますか。",
+          "options": [
+            "男の人の服",
+            "帽子",
+            "レストラン",
+            "傘"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bảng hướng dẫn ghi: 四階：レストラン"
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "sourceRef": "N5-07.writing.001",
+      "prompt": "Write about what you want.",
+      "instructions": "Write 1-2 sentences about an item you want to buy using ほしい.",
+      "sampleAnswer": "私は新しいカメラがほしいです。",
+      "rubric": "Use が ほしいです correctly with an adjective.",
+      "minLength": 1,
+      "maxLength": 2,
+      "lengthUnit": "SENTENCES"
+    },
+    {
+      "sourceRef": "N5-07.writing.002",
+      "prompt": "Describe a past shopping trip.",
+      "instructions": "Write 2-3 sentences about what you bought recently and how much it was.",
+      "sampleAnswer": "昨日、デパートでシャツを買いました。シャツは二千円でした。",
+      "rubric": "Use past tense and numbers/yen properly.",
+      "minLength": 2,
+      "maxLength": 3,
+      "lengthUnit": "SENTENCES"
+    }
+  ],
+  "exercises": [
+    {
+      "sourceRef": "N5-07.exercise.001",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Mua sắm' tiếng Nhật là gì?",
+      "options": [
+        "買い物",
+        "食べ物",
+        "飲み物",
+        "動物"
+      ],
+      "correctIndex": 0,
+      "explanation": "買い物 (kaimono) là mua sắm.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.002",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Đôi giày' là gì?",
+      "options": [
+        "帽子",
+        "服",
+        "靴",
+        "傘"
+      ],
+      "correctIndex": 2,
+      "explanation": "靴 (kutsu) là đôi giày.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.003",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Cái ô' tiếng Nhật là gì?",
+      "options": [
+        "財布",
+        "傘",
+        "鞄",
+        "時計"
+      ],
+      "correctIndex": 1,
+      "explanation": "傘 (kasa) là cái ô.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.004",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ nào sau đây có nghĩa là 'Màu đỏ'?",
+      "options": [
+        "青い",
+        "白い",
+        "黒い",
+        "赤い"
+      ],
+      "correctIndex": 3,
+      "explanation": "赤い (akai) là màu đỏ.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.005",
+      "exerciseType": "FILL_BLANK",
+      "question": "この（　　）は安いです。",
+      "options": [
+        "服",
+        "色",
+        "円",
+        "いくら"
+      ],
+      "correctIndex": 0,
+      "explanation": "服 (quần áo) thì rẻ.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.006",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch từ 'Đắt' sang tiếng Nhật.",
+      "options": [
+        "安い",
+        "高い",
+        "新しい",
+        "古い"
+      ],
+      "correctIndex": 1,
+      "explanation": "高い (takai) là đắt (hoặc cao).",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.007",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Bao nhiêu tiền' là gì?",
+      "options": [
+        "いくつ",
+        "いくら",
+        "どこ",
+        "いつ"
+      ],
+      "correctIndex": 1,
+      "explanation": "いくら (ikura) là bao nhiêu tiền.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.008",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Ba cái (đồ vật)' là gì?",
+      "options": [
+        "一つ",
+        "二つ",
+        "三つ",
+        "四つ"
+      ],
+      "correctIndex": 2,
+      "explanation": "三つ (mittsu) là ba cái.",
+      "points": 1,
+      "skill": "VOCABULARY"
+    },
+    {
+      "sourceRef": "N5-07.exercise.009",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 円 có nghĩa là gì?",
+      "options": [
+        "Trăm",
+        "Ngàn",
+        "Vạn",
+        "Đồng Yên"
+      ],
+      "correctIndex": 3,
+      "explanation": "円 (Viên) là đồng Yên Nhật.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-07.exercise.010",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 百 đọc là gì?",
+      "options": [
+        "ひゃく",
+        "せん",
+        "まん",
+        "えん"
+      ],
+      "correctIndex": 0,
+      "explanation": "百 (Bách) đọc là hyaku.",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-07.exercise.011",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 新 có nghĩa là gì?",
+      "options": [
+        "Cũ",
+        "Mới",
+        "To",
+        "Nhỏ"
+      ],
+      "correctIndex": 1,
+      "explanation": "新 (Tân) là mới (新しい).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-07.exercise.012",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Đắt' chứa chữ Hán nào?",
+      "options": [
+        "安",
+        "古",
+        "高",
+        "新"
+      ],
+      "correctIndex": 2,
+      "explanation": "高い chứa chữ Cao (高).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-07.exercise.013",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 小 đọc là gì trong 小さい?",
+      "options": [
+        "おお",
+        "ちい",
+        "あたら",
+        "ふる"
+      ],
+      "correctIndex": 1,
+      "explanation": "小さい đọc là chiisai (nhỏ).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-07.exercise.014",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 万 có nghĩa là gì?",
+      "options": [
+        "Một trăm",
+        "Một nghìn",
+        "Mười nghìn",
+        "Đồng Yên"
+      ],
+      "correctIndex": 2,
+      "explanation": "万 (Vạn) là mười nghìn (10,000).",
+      "points": 1,
+      "skill": "KANJI"
+    },
+    {
+      "sourceRef": "N5-07.exercise.015",
+      "exerciseType": "FILL_BLANK",
+      "question": "私は新しいカメラ（　　）ほしいです。",
+      "options": [
+        "は",
+        "が",
+        "を",
+        "に"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mong muốn ほしい đi với trợ từ が.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.016",
+      "exerciseType": "FILL_BLANK",
+      "question": "（　　）時計は十万円です。",
+      "options": [
+        "これ",
+        "この",
+        "ここ",
+        "だれ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Đi trước danh từ phải dùng この (cái ... này).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.017",
+      "exerciseType": "FILL_BLANK",
+      "question": "りんごを（　　）買います。",
+      "options": [
+        "四つ",
+        "四枚",
+        "四階",
+        "四円"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quả táo đếm bằng hệ đếm chung (つ): 四つ (4 quả).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.018",
+      "exerciseType": "FILL_BLANK",
+      "question": "この靴は（　　）ですか。",
+      "options": [
+        "いくつ",
+        "いくら",
+        "いつ",
+        "だれ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hỏi giá tiền dùng いくら.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.019",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Chọn câu đúng ngữ pháp.",
+      "options": [
+        "赤いカバンを買います。",
+        "赤カバンを買います。",
+        "赤いのカバンを買います。",
+        "カバン赤いを買います。"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tính từ đuôi い bổ nghĩa trực tiếp cho danh từ: 赤いカバン.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.020",
+      "exerciseType": "FILL_BLANK",
+      "question": "シャツを（　　）ください。",
+      "options": [
+        "二つ",
+        "二回",
+        "二枚",
+        "二人"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vật mỏng, phẳng (áo sơ mi) đếm bằng 枚 (mai).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.021",
+      "exerciseType": "FILL_BLANK",
+      "question": "それは（　　）車ですね。",
+      "options": [
+        "新しい",
+        "新しいの",
+        "新しく",
+        "新しか"
+      ],
+      "correctIndex": 0,
+      "explanation": "新しい車 (Xe ô tô mới).",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.022",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Dịch: Hãy cho tôi xem cái áo đó.",
+      "options": [
+        "このシャツを見せてください。",
+        "そのシャツを見せてください。",
+        "あのシャツを見せてください。",
+        "どのシャツを見せてください。"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cái áo 'đó' (gần người nghe) dùng その.",
+      "points": 2,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.023",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Khách hàng trong bài 1 mua gì?",
+      "options": [
+        "1 mũ đen, 2 áo trắng",
+        "2 mũ đen, 1 áo trắng",
+        "1 mũ trắng, 2 áo đen",
+        "2 mũ trắng, 1 áo đen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Audio nói: 黒い帽子を一つと、白いシャツを二枚 (1 mũ đen, 2 áo trắng).",
+      "points": 2,
+      "listeningRef": "N5-07.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-07.exercise.024",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Tổng số tiền là bao nhiêu? (Bài 1)",
+      "options": [
+        "3000 yên",
+        "4000 yên",
+        "5000 yên",
+        "6000 yên"
+      ],
+      "correctIndex": 2,
+      "explanation": "Audio nói: 全部で五千円です (Tổng cộng 5000 yên).",
+      "points": 2,
+      "listeningRef": "N5-07.listening.001",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-07.exercise.025",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Khu bán giày nằm ở tầng 1. (Bài 2)",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Audio nói: 靴は二階です (Giày ở tầng 2).",
+      "points": 2,
+      "listeningRef": "N5-07.listening.002",
+      "skill": "LISTENING"
+    },
+    {
+      "sourceRef": "N5-07.exercise.026",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Trong bài đọc 1, người viết đi mua sắm vào thứ mấy?",
+      "options": [
+        "Thứ 7",
+        "Chủ nhật",
+        "Thứ 2",
+        "Thứ 6"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 昨日は日曜日でした。私はデパートへ行きました。",
+      "points": 2,
+      "readingRef": "N5-07.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-07.exercise.027",
+      "exerciseType": "MULTIPLE_CHOICE",
+      "question": "Đôi giày mà người viết mua thì thế nào?",
+      "options": [
+        "Mới và rẻ",
+        "Mới và hơi đắt",
+        "Cũ và rẻ",
+        "Cũ và hơi đắt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bài đọc ghi: 新しい靴を買いました... 少し高かったです (Giày mới, hơi đắt).",
+      "points": 2,
+      "readingRef": "N5-07.reading.001",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-07.exercise.028",
+      "exerciseType": "TRUE_FALSE",
+      "question": "Theo bảng hướng dẫn (Bài 2), áo quần của nữ được bán ở tầng 3.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bảng ghi: 二階：女の人の服 (Đồ nữ ở tầng 2).",
+      "points": 2,
+      "readingRef": "N5-07.reading.002",
+      "skill": "READING"
+    },
+    {
+      "sourceRef": "N5-07.exercise.029",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Tôi muốn cái ví nhỏ.",
+      "options": [
+        "私",
+        "は",
+        "小さい財布が",
+        "ほしいです"
+      ],
+      "correctIndex": 0,
+      "explanation": "私は小さい財布がほしいです。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    },
+    {
+      "sourceRef": "N5-07.exercise.030",
+      "exerciseType": "SENTENCE_ORDERING",
+      "question": "Sắp xếp thành câu: Hãy cho tôi 5 quả táo.",
+      "options": [
+        "りんご",
+        "を",
+        "五つ",
+        "ください"
+      ],
+      "correctIndex": 0,
+      "explanation": "りんごを五つください。",
+      "points": 3,
+      "skill": "GRAMMAR"
+    }
+  ],
+  "quiz": [
+    {
+      "sourceRef": "N5-07.quiz.001",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng nào có nghĩa là 'Cái mũ'?",
+      "options": [
+        "服",
+        "帽子",
+        "靴下",
+        "眼鏡"
+      ],
+      "correctIndex": 1,
+      "explanation": "帽子 (boushi) là cái mũ.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.002",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 高 đọc là gì trong 高い?",
+      "options": [
+        "やす",
+        "おお",
+        "たか",
+        "ちい"
+      ],
+      "correctIndex": 2,
+      "explanation": "高い đọc là takai (đắt/cao).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.003",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ vựng 'Màu xanh' tiếng Nhật là gì?",
+      "options": [
+        "黒い",
+        "赤い",
+        "白い",
+        "青い"
+      ],
+      "correctIndex": 3,
+      "explanation": "青い (aoi) là màu xanh.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.004",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Chữ Hán 万 trong 一万 có nghĩa là gì?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "correctIndex": 3,
+      "explanation": "万 (vạn) là 10,000.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.005",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ 'Cái ví' tiếng Nhật là gì?",
+      "options": [
+        "ズボン",
+        "スカート",
+        "財布",
+        "シャツ"
+      ],
+      "correctIndex": 2,
+      "explanation": "財布 (saifu) là cái ví.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.006",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: そのカメラ（　　）ほしいです。",
+      "options": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "correctIndex": 0,
+      "explanation": "ほしい đi với trợ từ が (mong muốn cái gì).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.007",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: （　　）靴下はいくらですか。",
+      "options": [
+        "これ",
+        "この",
+        "ここ",
+        "だれ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bổ nghĩa cho danh từ phải dùng この.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.008",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Tôi mua 2 cái áo':",
+      "options": [
+        "シャツを二つ買います。",
+        "シャツを二枚買います。",
+        "シャツを二人買います。",
+        "シャツを二階買います。"
+      ],
+      "correctIndex": 1,
+      "explanation": "Áo là vật mỏng đếm bằng 枚 (mai).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.009",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Cái máy tính này đắt':",
+      "options": [
+        "このコンピューターは高いです。",
+        "これコンピューターは高いです。",
+        "このコンピューターは安いです。",
+        "これコンピューターは安いです。"
+      ],
+      "correctIndex": 0,
+      "explanation": "このコンピューター (Máy tính này) は 高いです (đắt).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.010",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Điền vào chỗ trống: りんごを（　　）食べましたか。",
+      "options": [
+        "いくら",
+        "いくつ",
+        "いつ",
+        "だれ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hỏi số lượng đồ vật dùng いくつ (mấy quả).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.011",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Khi muốn yêu cầu nhân viên lấy món đồ cho xem, bạn nói gì?",
+      "options": [
+        "それを見ます。",
+        "それを見せてください。",
+        "それを見ましょう。",
+        "それが見えます。"
+      ],
+      "correctIndex": 1,
+      "explanation": "見せてください (Xin hãy cho tôi xem).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.012",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu muốn hỏi giá tiền của một cái túi, bạn nói:",
+      "options": [
+        "このカバンはいくつですか。",
+        "このカバンはいくらですか。",
+        "このカバンはいつですか。",
+        "このカバンはどこですか。"
+      ],
+      "correctIndex": 1,
+      "explanation": "いくらですか (Bao nhiêu tiền).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.013",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Dịch câu 'Tôi lấy cái này (mua cái này)':",
+      "options": [
+        "これを買いますください。",
+        "これを見せてください。",
+        "これをお願いします。",
+        "これをほしいです。"
+      ],
+      "correctIndex": 2,
+      "explanation": "これをお願いします (Cho tôi lấy cái này - Dùng khi chốt mua ở quầy).",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.014",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Nếu một người nói '帽子を三つ買いました。一つ千円でした', họ trả tổng cộng bao nhiêu tiền?",
+      "options": [
+        "1000 yên",
+        "2000 yên",
+        "3000 yên",
+        "4000 yên"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mua 3 cái (三つ), mỗi cái 1000 yên (一つ千円) -> Tổng 3000 yên.",
+      "points": 10
+    },
+    {
+      "sourceRef": "N5-07.quiz.015",
+      "questionType": "MULTIPLE_CHOICE",
+      "question": "Từ '四階' (Yonkai) có nghĩa là gì?",
+      "options": [
+        "4 cái",
+        "4 tờ",
+        "Tầng 4",
+        "4 giờ"
+      ],
+      "correctIndex": 2,
+      "explanation": "階 (kai/gai) là bộ đếm tầng nhà. 四階 là tầng 4.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "sumaryjapanese-cloudflare",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build-cloudflare.mjs",
+    "dev": "wrangler dev --config wrangler.local.jsonc --local --ip 127.0.0.1 --port 8787",
+    "types": "wrangler types --config wrangler.local.jsonc",
+    "typecheck": "npm run types && tsc --noEmit && npm --prefix frontend run typecheck",
+    "check:bundle": "wrangler deploy --config wrangler.local.jsonc --dry-run --outdir .wrangler/dry-run",
+    "test:routing": "node --test scripts/cloudflare-routing.test.mjs",
+    "test:build-config": "node --test scripts/build-config.test.mjs",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local --config wrangler.local.jsonc",
+    "db:check:local": "node scripts/import-d1-local.mjs",
+    "db:import:local": "node scripts/import-d1-local.mjs --apply",
+    "db:review:check": "node scripts/apply-n5-content-local.mjs",
+    "db:review:apply": "node scripts/apply-n5-content-local.mjs --apply",
+    "test:content": "node --test scripts/cloudflare-content.test.mjs",
+    "test:schema": "node --test scripts/d1-schema.test.mjs",
+    "test:auth": "node --test scripts/cloudflare-auth.test.mjs scripts/cloudflare-auth-http.test.mjs",
+    "test:learning": "node --test scripts/cloudflare-learning.test.mjs scripts/cloudflare-learning-http.test.mjs",
+    "test:admin": "node --test scripts/cloudflare-admin.test.mjs scripts/cloudflare-admin-http.test.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "wrangler": "4.151.0"
+  },
+  "dependencies": {
+    "bcryptjs": "3.0.3",
+    "jose": "6.2.12",
+    "zod": "4.6.7"
+  }
+}
