@@ -1,0 +1,28 @@
+{
+  "exportedAt": "2026-10-14T16:53:42.521Z",
+  "scope": "N5 content only; all level metadata; no accounts/sessions/progress",
+  "transforms": [
+    "test_templates.createdBy=null (no account import)"
+  ],
+  "sha256": "f6179bfab8b0180c4e1a98fa6aab4fe944454593319f3ecf6c491a9c54b7788f",
+  "counts": {
+    "jlpt_levels": 1,
+    "learning_modules": 14,
+    "lesson_sections": 140,
+    "conversations": 24,
+    "conversation_lines": 106,
+    "listening_content": 26,
+    "reading_passages": 26,
+    "writing_tasks": 24,
+    "lesson_exercises": 450,
+    "vocabulary": 540,
+    "kanji": 96,
+    "grammar_patterns": 60,
+    "grammar_examples": 112,
+    "quiz_questions": 184,
+    "dictionary_entries": 0,
+    "test_templates": 0,
+    "test_sections": 0,
+    "test_questions": 0
+  }
+}
