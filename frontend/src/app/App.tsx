@@ -1,17 +1,18 @@
-import React, { useEffect, useState, Suspense, lazy } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import { ArrowLeftRight, ClipboardCheck, Home, Map, Menu, PenTool, Search, Shield, Loader2 } from 'lucide-react';
 import { useBrowserUrl, pageFromUrl, navigateUrl } from './services/navigation';
 import { Page } from './data/basicData';
 import { translationEnabled } from './services/features';
 import { AuthProvider, AccountButton, useAuth } from './components/auth/AuthProvider';
+import { lazyScreen } from './services/staleBuild';
 
-const HomePage = lazy(() => import('./screens/HomePage'));
-const LearningPage = lazy(() => import('./screens/LearningPage'));
-const TestsPage = lazy(() => import('./screens/TestsPage'));
-const TranslatePage = lazy(() => import('./screens/TranslatePage'));
-const DictionaryPage = lazy(() => import('./screens/DictionaryPage'));
-const WritingPage = lazy(() => import('./screens/WritingPage'));
-const AdminPage = lazy(() => import('./screens/AdminPage'));
+const HomePage = lazyScreen(() => import('./screens/HomePage'));
+const LearningPage = lazyScreen(() => import('./screens/LearningPage'));
+const TestsPage = lazyScreen(() => import('./screens/TestsPage'));
+const TranslatePage = lazyScreen(() => import('./screens/TranslatePage'));
+const DictionaryPage = lazyScreen(() => import('./screens/DictionaryPage'));
+const WritingPage = lazyScreen(() => import('./screens/WritingPage'));
+const AdminPage = lazyScreen(() => import('./screens/AdminPage'));
 
 export default function App() {
   return (
