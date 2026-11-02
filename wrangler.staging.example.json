@@ -1,0 +1,40 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "learnjp-staging",
+  "main": "backend/cloudflare/worker.ts",
+  "compatibility_date": "2026-10-14",
+  "workers_dev": true,
+  "preview_urls": false,
+  "triggers": {
+    "crons": ["17 * * * *"]
+  },
+  "vars": {
+    "APP_ENV": "production",
+    "FRONTEND_URL": "https://learnjp-staging.REPLACE_SUBDOMAIN.workers.dev",
+    "GOOGLE_AUTH_ENABLED": "false",
+    "EMAIL_AUTH_ENABLED": "false",
+    "SUPABASE_URL": "https://REPLACE_PROJECT.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "REPLACE_PUBLIC_KEY"
+  },
+  "secrets": {
+    "required": ["JWT_SECRET", "QUIZ_REVISION_SECRET"]
+  },
+  "assets": {
+    "directory": "./frontend/dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api", "/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "learnjp-staging",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "backend/cloudflare/migrations"
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

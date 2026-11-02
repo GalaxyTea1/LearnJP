@@ -1,0 +1,32 @@
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.env
+**/.env.*
+!**/.env.example
+**/.dev.vars*
+**/.wrangler/
+**/*.log
+**/*.pem
+**/*.key
+**/*.pfx
+**/*.p12
+worker-configuration.d.ts
+# Local backups, generated SQL and archived notes; never tracked.
+.local/
+
+**/*.tsbuildinfo
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+**/.DS_Store
+**/Thumbs.db
+
+# Account-specific staging configuration (generated from the checked-in example).
+/wrangler.staging.json
+/wrangler.production.json
+
+# Local assistant instructions.
+AGENTS.md
+CLAUDE.md

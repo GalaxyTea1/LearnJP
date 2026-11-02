@@ -1,0 +1,1767 @@
+{
+  "users": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "email",
+      "column": "email",
+      "type": "String"
+    },
+    {
+      "name": "username",
+      "column": "username",
+      "type": "String"
+    },
+    {
+      "name": "passwordHash",
+      "column": "password_hash",
+      "type": "String"
+    },
+    {
+      "name": "displayName",
+      "column": "display_name",
+      "type": "String"
+    },
+    {
+      "name": "avatarUrl",
+      "column": "avatar_url",
+      "type": "String"
+    },
+    {
+      "name": "role",
+      "column": "role",
+      "type": "UserRole"
+    },
+    {
+      "name": "currentStreak",
+      "column": "current_streak",
+      "type": "Int"
+    },
+    {
+      "name": "lastStudyDate",
+      "column": "last_study_date",
+      "type": "DateTime"
+    },
+    {
+      "name": "isActive",
+      "column": "is_active",
+      "type": "Boolean"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "refresh_tokens": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "token",
+      "column": "token",
+      "type": "String"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "expiresAt",
+      "column": "expires_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    }
+  ],
+  "auth_rate_limits": [
+    {
+      "name": "key",
+      "column": "key",
+      "type": "String"
+    },
+    {
+      "name": "count",
+      "column": "count",
+      "type": "Int"
+    },
+    {
+      "name": "resetAt",
+      "column": "reset_at",
+      "type": "DateTime"
+    }
+  ],
+  "user_learning_settings": [
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "weeklyGoalTarget",
+      "column": "weekly_goal_target",
+      "type": "Int"
+    },
+    {
+      "name": "dailyReminderTime",
+      "column": "daily_reminder_time",
+      "type": "String"
+    },
+    {
+      "name": "preferredLevel",
+      "column": "preferred_level",
+      "type": "String"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "jlpt_levels": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "level",
+      "column": "level",
+      "type": "String"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "titleJp",
+      "column": "title_jp",
+      "type": "String"
+    },
+    {
+      "name": "color",
+      "column": "color",
+      "type": "String"
+    },
+    {
+      "name": "badge",
+      "column": "badge",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "column": "description",
+      "type": "String"
+    },
+    {
+      "name": "totalVocab",
+      "column": "total_vocab",
+      "type": "Int"
+    },
+    {
+      "name": "totalKanji",
+      "column": "total_kanji",
+      "type": "Int"
+    },
+    {
+      "name": "totalGrammar",
+      "column": "total_grammar",
+      "type": "Int"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    }
+  ],
+  "learning_modules": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "levelId",
+      "column": "level_id",
+      "type": "Int"
+    },
+    {
+      "name": "unitNumber",
+      "column": "unit_number",
+      "type": "Int"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "titleJp",
+      "column": "title_jp",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "column": "description",
+      "type": "String"
+    },
+    {
+      "name": "topics",
+      "column": "topics",
+      "type": "Json"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "contentStatus",
+      "column": "content_status",
+      "type": "ContentStatus"
+    },
+    {
+      "name": "version",
+      "column": "version",
+      "type": "Int"
+    },
+    {
+      "name": "publishedAt",
+      "column": "published_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "lesson_sections": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "moduleId",
+      "column": "module_id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionType",
+      "column": "section_type",
+      "type": "LessonSectionType"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "titleJp",
+      "column": "title_jp",
+      "type": "String"
+    },
+    {
+      "name": "instructions",
+      "column": "instructions",
+      "type": "String"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "isRequired",
+      "column": "is_required",
+      "type": "Boolean"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "ContentStatus"
+    },
+    {
+      "name": "version",
+      "column": "version",
+      "type": "Int"
+    },
+    {
+      "name": "reviewNotes",
+      "column": "review_notes",
+      "type": "String"
+    },
+    {
+      "name": "publishedAt",
+      "column": "published_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "conversations": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionId",
+      "column": "section_id",
+      "type": "Int"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "context",
+      "column": "context",
+      "type": "String"
+    },
+    {
+      "name": "audioUrl",
+      "column": "audio_url",
+      "type": "String"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "ContentStatus"
+    },
+    {
+      "name": "version",
+      "column": "version",
+      "type": "Int"
+    },
+    {
+      "name": "publishedAt",
+      "column": "published_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "conversation_lines": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "conversationId",
+      "column": "conversation_id",
+      "type": "Int"
+    },
+    {
+      "name": "speaker",
+      "column": "speaker",
+      "type": "String"
+    },
+    {
+      "name": "japanese",
+      "column": "japanese",
+      "type": "String"
+    },
+    {
+      "name": "hiragana",
+      "column": "hiragana",
+      "type": "String"
+    },
+    {
+      "name": "romaji",
+      "column": "romaji",
+      "type": "String"
+    },
+    {
+      "name": "translation",
+      "column": "translation",
+      "type": "String"
+    },
+    {
+      "name": "audioUrl",
+      "column": "audio_url",
+      "type": "String"
+    },
+    {
+      "name": "notes",
+      "column": "notes",
+      "type": "String"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "listening_content": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionId",
+      "column": "section_id",
+      "type": "Int"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "instructions",
+      "column": "instructions",
+      "type": "String"
+    },
+    {
+      "name": "audioUrl",
+      "column": "audio_url",
+      "type": "String"
+    },
+    {
+      "name": "durationSeconds",
+      "column": "duration_seconds",
+      "type": "Int"
+    },
+    {
+      "name": "playbackSpeed",
+      "column": "playback_speed",
+      "type": "Float"
+    },
+    {
+      "name": "transcript",
+      "column": "transcript",
+      "type": "String"
+    },
+    {
+      "name": "transcriptReading",
+      "column": "transcript_reading",
+      "type": "String"
+    },
+    {
+      "name": "transcriptTranslation",
+      "column": "transcript_translation",
+      "type": "String"
+    },
+    {
+      "name": "source",
+      "column": "source",
+      "type": "String"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "ContentStatus"
+    },
+    {
+      "name": "version",
+      "column": "version",
+      "type": "Int"
+    },
+    {
+      "name": "publishedAt",
+      "column": "published_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "reading_passages": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionId",
+      "column": "section_id",
+      "type": "Int"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "content",
+      "column": "content",
+      "type": "String"
+    },
+    {
+      "name": "reading",
+      "column": "reading",
+      "type": "String"
+    },
+    {
+      "name": "translation",
+      "column": "translation",
+      "type": "String"
+    },
+    {
+      "name": "source",
+      "column": "source",
+      "type": "String"
+    },
+    {
+      "name": "estimatedLevel",
+      "column": "estimated_level",
+      "type": "String"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "ContentStatus"
+    },
+    {
+      "name": "version",
+      "column": "version",
+      "type": "Int"
+    },
+    {
+      "name": "publishedAt",
+      "column": "published_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionId",
+      "column": "section_id",
+      "type": "Int"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "prompt",
+      "column": "prompt",
+      "type": "String"
+    },
+    {
+      "name": "instructions",
+      "column": "instructions",
+      "type": "String"
+    },
+    {
+      "name": "sampleAnswer",
+      "column": "sample_answer",
+      "type": "String"
+    },
+    {
+      "name": "rubric",
+      "column": "rubric",
+      "type": "Json"
+    },
+    {
+      "name": "minLength",
+      "column": "min_length",
+      "type": "Int"
+    },
+    {
+      "name": "maxLength",
+      "column": "max_length",
+      "type": "Int"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "ContentStatus"
+    },
+    {
+      "name": "version",
+      "column": "version",
+      "type": "Int"
+    },
+    {
+      "name": "publishedAt",
+      "column": "published_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "lesson_exercises": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionId",
+      "column": "section_id",
+      "type": "Int"
+    },
+    {
+      "name": "listeningId",
+      "column": "listening_id",
+      "type": "Int"
+    },
+    {
+      "name": "readingPassageId",
+      "column": "reading_passage_id",
+      "type": "Int"
+    },
+    {
+      "name": "exerciseType",
+      "column": "exercise_type",
+      "type": "LessonExerciseType"
+    },
+    {
+      "name": "prompt",
+      "column": "prompt",
+      "type": "String"
+    },
+    {
+      "name": "options",
+      "column": "options",
+      "type": "Json"
+    },
+    {
+      "name": "correctAnswer",
+      "column": "correct_answer",
+      "type": "Json"
+    },
+    {
+      "name": "explanation",
+      "column": "explanation",
+      "type": "String"
+    },
+    {
+      "name": "points",
+      "column": "points",
+      "type": "Int"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "ContentStatus"
+    },
+    {
+      "name": "version",
+      "column": "version",
+      "type": "Int"
+    },
+    {
+      "name": "metadata",
+      "column": "metadata",
+      "type": "Json"
+    },
+    {
+      "name": "publishedAt",
+      "column": "published_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "vocabulary": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "moduleId",
+      "column": "module_id",
+      "type": "Int"
+    },
+    {
+      "name": "japanese",
+      "column": "japanese",
+      "type": "String"
+    },
+    {
+      "name": "hiragana",
+      "column": "hiragana",
+      "type": "String"
+    },
+    {
+      "name": "romaji",
+      "column": "romaji",
+      "type": "String"
+    },
+    {
+      "name": "english",
+      "column": "english",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "column": "type",
+      "type": "VocabType"
+    },
+    {
+      "name": "level",
+      "column": "level",
+      "type": "String"
+    },
+    {
+      "name": "lesson",
+      "column": "lesson",
+      "type": "String"
+    },
+    {
+      "name": "exampleJp",
+      "column": "example_jp",
+      "type": "String"
+    },
+    {
+      "name": "exampleEn",
+      "column": "example_en",
+      "type": "String"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    }
+  ],
+  "kanji": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "moduleId",
+      "column": "module_id",
+      "type": "Int"
+    },
+    {
+      "name": "character",
+      "column": "character",
+      "type": "String"
+    },
+    {
+      "name": "meaning",
+      "column": "meaning",
+      "type": "String"
+    },
+    {
+      "name": "onyomi",
+      "column": "onyomi",
+      "type": "String"
+    },
+    {
+      "name": "kunyomi",
+      "column": "kunyomi",
+      "type": "String"
+    },
+    {
+      "name": "level",
+      "column": "level",
+      "type": "String"
+    },
+    {
+      "name": "strokeCount",
+      "column": "stroke_count",
+      "type": "Int"
+    },
+    {
+      "name": "radical",
+      "column": "radical",
+      "type": "String"
+    },
+    {
+      "name": "exampleWords",
+      "column": "example_words",
+      "type": "Json"
+    },
+    {
+      "name": "relatedChars",
+      "column": "related_chars",
+      "type": "Json"
+    },
+    {
+      "name": "mnemonic",
+      "column": "mnemonic",
+      "type": "String"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    }
+  ],
+  "grammar_patterns": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "moduleId",
+      "column": "module_id",
+      "type": "Int"
+    },
+    {
+      "name": "pattern",
+      "column": "pattern",
+      "type": "String"
+    },
+    {
+      "name": "meaning",
+      "column": "meaning",
+      "type": "String"
+    },
+    {
+      "name": "explanation",
+      "column": "explanation",
+      "type": "String"
+    },
+    {
+      "name": "level",
+      "column": "level",
+      "type": "String"
+    },
+    {
+      "name": "lesson",
+      "column": "lesson",
+      "type": "String"
+    },
+    {
+      "name": "textbook",
+      "column": "textbook",
+      "type": "String"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    }
+  ],
+  "grammar_examples": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "grammarPatternId",
+      "column": "grammar_pattern_id",
+      "type": "Int"
+    },
+    {
+      "name": "japanese",
+      "column": "japanese",
+      "type": "String"
+    },
+    {
+      "name": "romaji",
+      "column": "romaji",
+      "type": "String"
+    },
+    {
+      "name": "english",
+      "column": "english",
+      "type": "String"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    }
+  ],
+  "quiz_questions": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "moduleId",
+      "column": "module_id",
+      "type": "Int"
+    },
+    {
+      "name": "question",
+      "column": "question",
+      "type": "String"
+    },
+    {
+      "name": "options",
+      "column": "options",
+      "type": "Json"
+    },
+    {
+      "name": "correctIndex",
+      "column": "correct_index",
+      "type": "Int"
+    },
+    {
+      "name": "explanation",
+      "column": "explanation",
+      "type": "String"
+    },
+    {
+      "name": "questionType",
+      "column": "question_type",
+      "type": "QuestionType"
+    },
+    {
+      "name": "points",
+      "column": "points",
+      "type": "Int"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    }
+  ],
+  "user_module_progress": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "moduleId",
+      "column": "module_id",
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "ModuleStatus"
+    },
+    {
+      "name": "progressPercent",
+      "column": "progress_percent",
+      "type": "Int"
+    },
+    {
+      "name": "startedAt",
+      "column": "started_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "completedAt",
+      "column": "completed_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "user_quiz_attempts": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "moduleId",
+      "column": "module_id",
+      "type": "Int"
+    },
+    {
+      "name": "score",
+      "column": "score",
+      "type": "Int"
+    },
+    {
+      "name": "totalQuestions",
+      "column": "total_questions",
+      "type": "Int"
+    },
+    {
+      "name": "answers",
+      "column": "answers",
+      "type": "Json"
+    },
+    {
+      "name": "timeTaken",
+      "column": "time_taken",
+      "type": "Int"
+    },
+    {
+      "name": "attemptedAt",
+      "column": "attempted_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "requestId",
+      "column": "request_id",
+      "type": "String"
+    },
+    {
+      "name": "requestHash",
+      "column": "request_hash",
+      "type": "String"
+    },
+    {
+      "name": "response",
+      "column": "response",
+      "type": "Json"
+    }
+  ],
+  "user_flashcard_progress": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "itemType",
+      "column": "item_type",
+      "type": "SrsItemType"
+    },
+    {
+      "name": "itemId",
+      "column": "item_id",
+      "type": "Int"
+    },
+    {
+      "name": "repetitions",
+      "column": "repetitions",
+      "type": "Int"
+    },
+    {
+      "name": "interval",
+      "column": "interval",
+      "type": "Int"
+    },
+    {
+      "name": "easeFactor",
+      "column": "ease_factor",
+      "type": "Float"
+    },
+    {
+      "name": "nextReview",
+      "column": "next_review",
+      "type": "DateTime"
+    },
+    {
+      "name": "lastReview",
+      "column": "last_review",
+      "type": "DateTime"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "SrsStatus"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "user_game_scores": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "gameType",
+      "column": "game_type",
+      "type": "GameType"
+    },
+    {
+      "name": "score",
+      "column": "score",
+      "type": "Int"
+    },
+    {
+      "name": "streak",
+      "column": "streak",
+      "type": "Int"
+    },
+    {
+      "name": "details",
+      "column": "details",
+      "type": "Json"
+    },
+    {
+      "name": "playedAt",
+      "column": "played_at",
+      "type": "DateTime"
+    }
+  ],
+  "user_kana_progress": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "kanaType",
+      "column": "kana_type",
+      "type": "KanaType"
+    },
+    {
+      "name": "character",
+      "column": "character",
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "KanaStatus"
+    },
+    {
+      "name": "reviewCount",
+      "column": "review_count",
+      "type": "Int"
+    },
+    {
+      "name": "lastReviewed",
+      "column": "last_reviewed",
+      "type": "DateTime"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "user_gamification": [
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "xp",
+      "column": "xp",
+      "type": "Int"
+    },
+    {
+      "name": "totalXpEarned",
+      "column": "total_xp_earned",
+      "type": "Int"
+    },
+    {
+      "name": "dailyXp",
+      "column": "daily_xp",
+      "type": "Int"
+    },
+    {
+      "name": "dailyXpDate",
+      "column": "daily_xp_date",
+      "type": "DateTime"
+    },
+    {
+      "name": "streak",
+      "column": "streak",
+      "type": "Int"
+    },
+    {
+      "name": "lastActiveDate",
+      "column": "last_active_date",
+      "type": "DateTime"
+    },
+    {
+      "name": "badges",
+      "column": "badges",
+      "type": "Json"
+    },
+    {
+      "name": "stats",
+      "column": "stats",
+      "type": "Json"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "dictionary_entries": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "japanese",
+      "column": "japanese",
+      "type": "String"
+    },
+    {
+      "name": "romaji",
+      "column": "romaji",
+      "type": "String"
+    },
+    {
+      "name": "english",
+      "column": "english",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "column": "type",
+      "type": "String"
+    },
+    {
+      "name": "level",
+      "column": "level",
+      "type": "String"
+    },
+    {
+      "name": "exampleJp",
+      "column": "example_jp",
+      "type": "String"
+    },
+    {
+      "name": "exampleEn",
+      "column": "example_en",
+      "type": "String"
+    }
+  ],
+  "search_history": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "query",
+      "column": "query",
+      "type": "String"
+    },
+    {
+      "name": "resultsCount",
+      "column": "results_count",
+      "type": "Int"
+    },
+    {
+      "name": "searchedAt",
+      "column": "searched_at",
+      "type": "DateTime"
+    }
+  ],
+  "translation_history": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "sourceText",
+      "column": "source_text",
+      "type": "String"
+    },
+    {
+      "name": "translatedText",
+      "column": "translated_text",
+      "type": "String"
+    },
+    {
+      "name": "direction",
+      "column": "direction",
+      "type": "String"
+    },
+    {
+      "name": "translatedAt",
+      "column": "translated_at",
+      "type": "DateTime"
+    }
+  ],
+  "test_templates": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "level",
+      "column": "level",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "column": "description",
+      "type": "String"
+    },
+    {
+      "name": "durationMinutes",
+      "column": "duration_minutes",
+      "type": "Int"
+    },
+    {
+      "name": "totalQuestions",
+      "column": "total_questions",
+      "type": "Int"
+    },
+    {
+      "name": "isPublished",
+      "column": "is_published",
+      "type": "Boolean"
+    },
+    {
+      "name": "createdBy",
+      "column": "created_by",
+      "type": "Int"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "test_sections": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "templateId",
+      "column": "template_id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionType",
+      "column": "section_type",
+      "type": "TestSectionType"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "durationMinutes",
+      "column": "duration_minutes",
+      "type": "Int"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    }
+  ],
+  "test_questions": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "sectionId",
+      "column": "section_id",
+      "type": "Int"
+    },
+    {
+      "name": "questionType",
+      "column": "question_type",
+      "type": "TestQuestionType"
+    },
+    {
+      "name": "passage",
+      "column": "passage",
+      "type": "String"
+    },
+    {
+      "name": "questionText",
+      "column": "question_text",
+      "type": "String"
+    },
+    {
+      "name": "options",
+      "column": "options",
+      "type": "Json"
+    },
+    {
+      "name": "correctAnswer",
+      "column": "correct_answer",
+      "type": "Int"
+    },
+    {
+      "name": "explanation",
+      "column": "explanation",
+      "type": "String"
+    },
+    {
+      "name": "points",
+      "column": "points",
+      "type": "Int"
+    },
+    {
+      "name": "sortOrder",
+      "column": "sort_order",
+      "type": "Int"
+    }
+  ],
+  "user_test_attempts": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "templateId",
+      "column": "template_id",
+      "type": "Int"
+    },
+    {
+      "name": "startedAt",
+      "column": "started_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "finishedAt",
+      "column": "finished_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "totalScore",
+      "column": "total_score",
+      "type": "Int"
+    },
+    {
+      "name": "maxScore",
+      "column": "max_score",
+      "type": "Int"
+    },
+    {
+      "name": "status",
+      "column": "status",
+      "type": "TestAttemptStatus"
+    },
+    {
+      "name": "answers",
+      "column": "answers",
+      "type": "Json"
+    }
+  ],
+  "user_test_answers": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "attemptId",
+      "column": "attempt_id",
+      "type": "Int"
+    },
+    {
+      "name": "questionId",
+      "column": "question_id",
+      "type": "Int"
+    },
+    {
+      "name": "selectedAnswer",
+      "column": "selected_answer",
+      "type": "Int"
+    },
+    {
+      "name": "isCorrect",
+      "column": "is_correct",
+      "type": "Boolean"
+    },
+    {
+      "name": "pointsEarned",
+      "column": "points_earned",
+      "type": "Int"
+    }
+  ],
+  "site_settings": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "key",
+      "column": "key",
+      "type": "String"
+    },
+    {
+      "name": "value",
+      "column": "value",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "column": "description",
+      "type": "String"
+    },
+    {
+      "name": "updatedAt",
+      "column": "updated_at",
+      "type": "DateTime"
+    }
+  ],
+  "announcements": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "title",
+      "column": "title",
+      "type": "String"
+    },
+    {
+      "name": "content",
+      "column": "content",
+      "type": "String"
+    },
+    {
+      "name": "type",
+      "column": "type",
+      "type": "AnnouncementType"
+    },
+    {
+      "name": "isActive",
+      "column": "is_active",
+      "type": "Boolean"
+    },
+    {
+      "name": "createdBy",
+      "column": "created_by",
+      "type": "Int"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    },
+    {
+      "name": "expiresAt",
+      "column": "expires_at",
+      "type": "DateTime"
+    }
+  ],
+  "activity_logs": [
+    {
+      "name": "id",
+      "column": "id",
+      "type": "Int"
+    },
+    {
+      "name": "userId",
+      "column": "user_id",
+      "type": "Int"
+    },
+    {
+      "name": "action",
+      "column": "action",
+      "type": "String"
+    },
+    {
+      "name": "entityType",
+      "column": "entity_type",
+      "type": "String"
+    },
+    {
+      "name": "entityId",
+      "column": "entity_id",
+      "type": "Int"
+    },
+    {
+      "name": "details",
+      "column": "details",
+      "type": "Json"
+    },
+    {
+      "name": "ipAddress",
+      "column": "ip_address",
+      "type": "String"
+    },
+    {
+      "name": "createdAt",
+      "column": "created_at",
+      "type": "DateTime"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "learnjp",
+  "private": true,
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build-cloudflare.mjs",
+    "dev": "wrangler dev --config wrangler.local.jsonc --local --ip 127.0.0.1 --port 8787",
+    "types": "wrangler types --config wrangler.local.jsonc",
+    "typecheck": "npm run types && tsc --noEmit && npm --prefix frontend run typecheck",
+    "check:bundle": "wrangler deploy --config wrangler.local.jsonc --dry-run --outdir .wrangler/dry-run",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local --config wrangler.local.jsonc",
+    "db:check:local": "node scripts/import-d1-local.mjs",
+    "db:import:local": "node scripts/import-d1-local.mjs --apply",
+    "db:review:check": "node scripts/content/n5/apply-local.mjs",
+    "db:review:apply": "node scripts/content/n5/apply-local.mjs --apply",
+    "backup:staging": "node scripts/tools/backup-d1.mjs staging",
+    "backup:production": "node scripts/tools/backup-d1.mjs production",
+    "test": "node --test \"scripts/**/*.test.mjs\"",
+    "test:worker": "node --test \"scripts/test/*.test.mjs\"",
+    "test:content": "node --test \"scripts/content/**/*.test.mjs\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "jose": "6.2.12",
+    "prettier": "^3.9.10",
+    "typescript": "5.9.3",
+    "wrangler": "4.151.0",
+    "zod": "4.6.7"
+  }
+}
