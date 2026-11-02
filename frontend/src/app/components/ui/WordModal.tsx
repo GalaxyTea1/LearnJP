@@ -99,7 +99,7 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
               onClick={() => speak(word.char)}
               className="flex items-center gap-2 border border-border px-4 py-2 text-sm text-muted-foreground hover:border-accent/50 hover:text-accent transition-colors w-full justify-center"
             >
-              <Volume2 size={14} /> Hear pronunciation
+              <Volume2 size={14} /> Nghe phát âm
             </button>
 
             {/* Practice area */}
