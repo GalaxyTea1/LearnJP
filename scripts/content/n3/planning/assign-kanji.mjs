@@ -4,7 +4,9 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const n4 = JSON.parse(readFileSync(new URL('./n4-ledger.json', import.meta.url))).n4kanji;
 const n5 = JSON.parse(readFileSync(new URL('./n5-kanji.json', import.meta.url)));
 const known = new Set([...n5, ...n4]);
-const gap = [...'一二三四五六七八九十曜半午東西南北口耳川田校何年名間国店同地方問代京主不野以家元重別死朝真有町工研究起質族銀映味写答夜悪黒赤青色洋服夕堂鳥飯昼犬妹姉'];
+const gap = [
+  ...'一二三四五六七八九十曜半午東西南北口耳川田校何年名間国店同地方問代京主不野以家元重別死朝真有町工研究起質族銀映味写答夜悪黒赤青色洋服夕堂鳥飯昼犬妹姉',
+];
 
 const pools = {
   'N3-01': [26, '一二三四五六七八九十年半午曜朝昼夕夜間何名町色赤青黒'],
@@ -34,7 +36,8 @@ for (const [code, [quota, pool]] of Object.entries(pools)) {
     if (picked.length === quota) break;
     if (used.has(ch) || known.has(ch)) continue;
     if (!allowGap && gap.includes(ch)) continue;
-    picked.push(ch); used.add(ch);
+    picked.push(ch);
+    used.add(ch);
   }
   result[code] = picked.join('');
   console.log(code, picked.length, picked.length < quota ? `SHORT ${quota - picked.length}` : '', picked.join(''));

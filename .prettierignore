@@ -2,7 +2,7 @@ node_modules
 **/dist
 .local
 .wrangler
-content
+/content
 worker-configuration.d.ts
 frontend/src/app/utils/kanaData.json
 **/package-lock.json

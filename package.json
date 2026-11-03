@@ -22,7 +22,8 @@
     "test:worker": "node --test \"scripts/test/*.test.mjs\"",
     "test:content": "node --test \"scripts/content/**/*.test.mjs\"",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "db:seed:local": "node scripts/seed-local.mjs"
   },
   "devDependencies": {
     "jose": "6.2.12",
