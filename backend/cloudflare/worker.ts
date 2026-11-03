@@ -16,7 +16,18 @@ export default {
     ]);
   },
   async fetch(request, env, ctx): Promise<Response> {
-    const path = new URL(request.url).pathname;
+    const url = new URL(request.url),
+      path = url.pathname;
+    // Pages opened on the workers.dev address move to the custom domain. API calls are left
+    // alone so a tab that is still open on the old address can finish what it was doing.
+    const canonical = new URL(env.FRONTEND_URL);
+    if (
+      url.hostname.endsWith('.workers.dev') &&
+      url.hostname !== canonical.hostname &&
+      !(path === '/api' || path.startsWith('/api/')) &&
+      (request.method === 'GET' || request.method === 'HEAD')
+    )
+      return Response.redirect(canonical.origin + path + url.search, 301);
     if (path === '/api/v1/health') return health(request, env);
     if (path === '/api' || path.startsWith('/api/')) {
       try {

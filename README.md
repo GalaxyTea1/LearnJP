@@ -3,7 +3,7 @@
 A Japanese course for Vietnamese learners, from JLPT N5 to N3, running entirely on Cloudflare's
 free tier.
 
-**Live:** https://learnjp.trongdv031199.workers.dev
+**Live:** https://learnjp.dev
 
 - 42 lessons (N5: 12, N4: 14, N3: 16) with vocabulary, kanji, grammar, dialogues, listening,
   reading, writing practice and a quiz at the end of every lesson

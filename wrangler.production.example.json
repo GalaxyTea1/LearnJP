@@ -5,12 +5,18 @@
   "compatibility_date": "2026-10-14",
   "workers_dev": true,
   "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "REPLACE_DOMAIN",
+      "custom_domain": true
+    }
+  ],
   "triggers": {
     "crons": ["17 * * * *"]
   },
   "vars": {
     "APP_ENV": "production",
-    "FRONTEND_URL": "https://learnjp.REPLACE_SUBDOMAIN.workers.dev",
+    "FRONTEND_URL": "https://REPLACE_DOMAIN",
     "GOOGLE_AUTH_ENABLED": "false",
     "EMAIL_AUTH_ENABLED": "false",
     "SUPABASE_URL": "https://REPLACE_PROJECT.supabase.co",
