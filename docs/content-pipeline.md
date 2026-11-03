@@ -44,3 +44,10 @@ kanji match the level plan and that the lesson imports cleanly into a local D1 d
 N5 was first imported with English meanings. `scripts/content/n5/apply-vietnamese.mjs`
 applies the Vietnamese text in `content/n5/vi-01.mjs` … `vi-12.mjs` (keyed by row ID), refreshes
 the search index for changed rows and refuses to run if learner-facing English would remain.
+
+## Local database
+
+`npm run db:seed:local` builds a fresh local database with the same course as production: it
+imports the reviewed N5 course, publishes it, adds every N4 and N3 lesson from its package,
+applies the Vietnamese N5 text and imports the mock tests. Delete `.wrangler/state` and run
+`npm run db:migrate:local` to start over.

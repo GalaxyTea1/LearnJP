@@ -68,7 +68,7 @@ Requires Node.js 22 or later.
 npm install
 npm --prefix frontend install
 npm run db:migrate:local   # create the local D1 database
-npm run db:import:local    # load the N5 course
+npm run db:seed:local      # load N5, N4, N3 and the mock tests
 npm run build
 npm run dev                # http://127.0.0.1:8787
 ```
