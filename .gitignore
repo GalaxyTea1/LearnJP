@@ -30,3 +30,4 @@ worker-configuration.d.ts
 # Local assistant instructions.
 AGENTS.md
 CLAUDE.md
+.playwright-mcp/

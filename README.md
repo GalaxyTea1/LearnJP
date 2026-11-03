@@ -1,5 +1,7 @@
 # LearnJP
 
+[![CI](https://github.com/GalaxyTea1/LearnJP/actions/workflows/ci.yml/badge.svg)](https://github.com/GalaxyTea1/LearnJP/actions/workflows/ci.yml)
+
 A Japanese course for Vietnamese learners, from JLPT N5 to N3, running entirely on Cloudflare's
 free tier.
 
@@ -11,6 +13,16 @@ free tier.
   submission
 - Learn without an account; sign in with email or Google to sync progress across devices
 - Admin tools for editing and publishing lessons
+
+## Screenshots
+
+| Home                                    | Lesson (N3 grammar)                    |
+| --------------------------------------- | -------------------------------------- |
+| ![Home page](docs/screenshots/home.png) | ![Lesson](docs/screenshots/lesson.png) |
+
+| Mock tests                                | Mobile                                                                      |
+| ----------------------------------------- | --------------------------------------------------------------------------- |
+| ![Mock tests](docs/screenshots/tests.png) | <img src="docs/screenshots/mobile.png" alt="Lesson on a phone" width="260"> |
 
 ## Stack
 
@@ -64,6 +76,7 @@ npm run dev                # http://127.0.0.1:8787
 ## Tests
 
 ```bash
+npm run build              # the routing tests serve the built frontend
 npm test                   # Worker, database and content tests (Node test runner)
 npm --prefix frontend test # frontend logic tests
 npm run typecheck
