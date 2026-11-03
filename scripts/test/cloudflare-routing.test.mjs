@@ -1,7 +1,12 @@
 import assert from 'node:assert/strict';
-import test from 'node:test';
+import test, { after } from 'node:test';
+import { startLocalServer } from './local-server.mjs';
+import { migrate } from './learning-fixture.mjs';
 
-const origin = process.env.CF_TEST_ORIGIN || 'http://127.0.0.1:8787';
+// CF_TEST_ORIGIN points the checks at a running deployment instead of a local server.
+const server = process.env.CF_TEST_ORIGIN ? null : await startLocalServer(migrate);
+const origin = process.env.CF_TEST_ORIGIN || server.origin;
+after(() => server?.stop());
 async function get(path, options = {}) {
   return fetch(`${origin}${path}`, { ...options, signal: AbortSignal.timeout(10000) });
 }

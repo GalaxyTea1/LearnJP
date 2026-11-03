@@ -1,12 +1,24 @@
 import assert from 'node:assert/strict';
-import test from 'node:test';
+import test, { after } from 'node:test';
 import { createHmac } from 'node:crypto';
 import { reviewedPackage } from '../content/n5/package.mjs';
+import { importPackage } from '../content/lib/staging-content.mjs';
+import { startLocalServer } from './local-server.mjs';
+import { migrate } from './learning-fixture.mjs';
 
-const { candidate: data } = await reviewedPackage();
+const pkg = await reviewedPackage();
+const { candidate: data } = pkg;
 const publicModules = data.learning_modules.filter(m => m.contentStatus === 'PUBLISHED');
+// The reviewed N5 course in a fresh local database, served by the real Worker.
+const server = await startLocalServer(async db => {
+  await migrate(db);
+  const { statements } = importPackage(pkg);
+  for (let i = 0; i < statements.length; i += 250) await db.batch(statements.slice(i, i + 250).map(s => db.prepare(s)));
+});
+after(() => server.stop());
+const api = server.origin + '/api/v1';
 const get = async path => {
-  const r = await fetch('http://127.0.0.1:8787/api/v1' + path, { signal: AbortSignal.timeout(15000) });
+  const r = await fetch(api + path, { signal: AbortSignal.timeout(15000) });
   return { status: r.status, body: await r.json() };
 };
 const sort = rows => [...rows].sort((a, b) => (a.sortOrder ?? 0) - (b.sortOrder ?? 0) || a.id - b.id);
@@ -137,7 +149,7 @@ test('draft module IDs, preview bypass, invalid input and invalid auth fail safe
     '/dictionary/search?q=',
   ])
     assert.equal((await get(path)).status, 400);
-  const r = await fetch('http://127.0.0.1:8787/api/v1/modules', { headers: { Authorization: 'Bearer fake' } });
+  const r = await fetch(api + '/modules', { headers: { Authorization: 'Bearer fake' } });
   assert.equal(r.status, 401);
   assert.equal((await get('/announcements/all')).status, 401);
 });
