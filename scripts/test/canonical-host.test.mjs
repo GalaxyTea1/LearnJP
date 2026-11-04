@@ -32,3 +32,9 @@ test('the www address redirects to the bare domain', async () => {
   assert.equal(res.status, 301);
   assert.equal(res.headers.get('location'), 'https://learnjp.dev/tests');
 });
+
+test('the old /home address redirects to the site root, keeping the query', async () => {
+  const res = await call('https://learnjp.dev/home?google=success', { FRONTEND_URL: 'https://learnjp.dev' });
+  assert.equal(res.status, 301);
+  assert.equal(res.headers.get('location'), 'https://learnjp.dev/?google=success');
+});

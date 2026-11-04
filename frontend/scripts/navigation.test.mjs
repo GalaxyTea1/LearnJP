@@ -13,7 +13,13 @@ const bundle = await build({
 });
 const mod = { exports: {} };
 new Function('require', 'module', 'exports', bundle.outputFiles[0].text)(require, mod, mod.exports);
-const { pageFromUrl, moduleFromUrl, navigateUrl, openStudyModule, subscribeNavigation } = mod.exports;
+const { pageFromUrl, moduleFromUrl, navigateUrl, openStudyModule, subscribeNavigation, pathFor } = mod.exports;
+test('home lives at the site root and /home still resolves to it', () => {
+  assert.equal(pathFor('home'), '/');
+  assert.equal(pathFor('learning'), '/learning');
+  assert.equal(pageFromUrl('https://test/'), 'home');
+  assert.equal(pageFromUrl('https://test/home'), 'home');
+});
 test('URL resolves direct lessons and legacy hash pages, rejects invalid module IDs', () => {
   assert.equal(pageFromUrl('https://test/learning?moduleId=7'), 'learning');
   assert.equal(pageFromUrl('https://test/#learning'), 'learning');

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, Suspense } from 'react';
 import { ArrowLeftRight, ClipboardCheck, Home, Map, Menu, PenTool, Search, Shield, Loader2 } from 'lucide-react';
-import { useBrowserUrl, pageFromUrl, navigateUrl } from './services/navigation';
+import { useBrowserUrl, pageFromUrl, navigateUrl, pathFor } from './services/navigation';
 import { Page } from './data/basicData';
 import { translationEnabled } from './services/features';
 import { AuthProvider, AccountButton, useAuth } from './components/auth/AuthProvider';
@@ -28,10 +28,9 @@ function AppContent() {
   const page = pageFromUrl(href);
   const [menuOpen, setMenuOpen] = useState(false);
 
+  // Old links to /home land on the root address, which is the home page.
   useEffect(() => {
-    if (window.location.pathname === '/' && !window.location.hash) {
-      navigateUrl('/home', true);
-    }
+    if (window.location.pathname === '/home') navigateUrl('/' + window.location.search + window.location.hash, true);
   }, []);
 
   useEffect(() => {
@@ -54,7 +53,7 @@ function AppContent() {
 
   const navigate = (nextPage: Page) => {
     setMenuOpen(false);
-    navigateUrl(`/${nextPage}`);
+    navigateUrl(pathFor(nextPage));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

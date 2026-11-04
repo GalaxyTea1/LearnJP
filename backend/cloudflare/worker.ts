@@ -28,6 +28,9 @@ export default {
       (request.method === 'GET' || request.method === 'HEAD')
     )
       return Response.redirect(canonical.origin + path + url.search, 301);
+    // The home page moved from /home to the site root.
+    if (path === '/home' && (request.method === 'GET' || request.method === 'HEAD'))
+      return Response.redirect(url.origin + '/' + url.search, 301);
     if (path === '/api/v1/health') return health(request, env);
     if (path === '/api' || path.startsWith('/api/')) {
       try {
