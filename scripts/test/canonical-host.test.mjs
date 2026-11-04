@@ -26,3 +26,9 @@ test('a deployment whose canonical address is workers.dev serves pages directly'
   assert.equal(res.status, 200);
   assert.equal(await res.text(), 'app');
 });
+
+test('the www address redirects to the bare domain', async () => {
+  const res = await call('https://www.learnjp.dev/tests', { FRONTEND_URL: 'https://learnjp.dev' });
+  assert.equal(res.status, 301);
+  assert.equal(res.headers.get('location'), 'https://learnjp.dev/tests');
+});
