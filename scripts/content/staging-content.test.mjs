@@ -1,12 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp } from 'node:fs/promises';
+import { mkdtemp, rm } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { getPlatformProxy } from 'wrangler';
 import { migrate } from '../test/learning-fixture.mjs';
 import { reviewedPackage } from './n5/package.mjs';
 import { importPackage, literal } from './lib/staging-content.mjs';
 test('content SQL imports losslessly, preserves accounts and refuses nonempty target', async () => {
-  const path = await mkdtemp(new URL('../../.local/staging-import-test-', import.meta.url));
+  // The OS temp dir always exists; .local/ is gitignored and missing on a fresh checkout (CI).
+  const path = await mkdtemp(join(tmpdir(), 'staging-import-test-'));
   const runtime = await getPlatformProxy({
     configPath: 'wrangler.local.jsonc',
     persist: { path },
@@ -39,5 +42,6 @@ test('content SQL imports losslessly, preserves accounts and refuses nonempty ta
     assert.deepEqual((await db.prepare('PRAGMA foreign_key_check').all()).results, []);
   } finally {
     await runtime.dispose();
+    await rm(path, { recursive: true, force: true });
   }
 });
