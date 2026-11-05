@@ -167,7 +167,7 @@ export default function TestsPage() {
       {!checking && !user && (
         <div className="border border-border p-4 flex flex-col sm:flex-row sm:items-center gap-3 justify-between">
           <p className="text-sm text-muted-foreground">Bạn cần đăng nhập để làm bài, lưu điểm và xem lại kết quả.</p>
-          <button onClick={openLogin} className="min-h-11 px-5 bg-foreground text-background text-sm font-medium">
+          <button onClick={openLogin} className="btn-solid min-h-11 px-5 text-sm font-medium">
             Đăng nhập
           </button>
         </div>
@@ -181,7 +181,7 @@ export default function TestsPage() {
           <button
             disabled={busy}
             onClick={() => begin(resumable.templateId, resumable)}
-            className="min-h-11 px-5 bg-accent text-accent-foreground text-sm font-medium disabled:opacity-50"
+            className="min-h-11 px-5 bg-accent text-accent-foreground text-sm font-medium disabled:opacity-50 enabled:hover:bg-[#a53125] enabled:hover:-translate-y-0.5 enabled:hover:shadow-md"
           >
             Tiếp tục làm bài
           </button>
@@ -254,7 +254,7 @@ export default function TestsPage() {
                 <button
                   disabled={busy || checking}
                   onClick={() => begin(t.id)}
-                  className="min-h-11 px-5 bg-foreground text-background text-sm font-medium flex items-center justify-center gap-2 shrink-0 disabled:opacity-50"
+                  className="btn-solid min-h-11 justify-center px-5 text-sm font-medium shrink-0 disabled:opacity-50"
                 >
                   {busy ? <Loader2 size={15} className="animate-spin" /> : <Play size={14} fill="currentColor" />}{' '}
                   {user ? (done.length ? 'Làm lại' : 'Bắt đầu') : 'Đăng nhập để làm'}
@@ -375,7 +375,7 @@ function ExamView({
         })}
       </nav>
       <div className="flex flex-col gap-6">
-        <h2 className="text-xl font-medium" style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}>
+        <h2 className="text-xl font-medium" style={{ fontFamily: 'var(--font-jp)' }}>
           {section.title}
         </h2>
         {section.sectionType === 'LISTENING' && (
@@ -391,7 +391,7 @@ function ExamView({
               {newPassage && section.sectionType === 'READING' && (
                 <div
                   className="border-l-4 border-accent/60 bg-muted/30 p-4 text-sm leading-loose whitespace-pre-line"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                  style={{ fontFamily: 'var(--font-jp)' }}
                 >
                   {q.passage}
                 </div>
@@ -400,7 +400,7 @@ function ExamView({
                 <div className="flex items-center gap-3">
                   <button
                     onClick={() => (speech.playing ? speech.stop() : speech.speakJapanese(speakable(q.passage!)))}
-                    className="min-h-11 px-4 border border-border text-sm flex items-center gap-2"
+                    className="min-h-11 px-4 border border-border text-sm flex items-center gap-2 enabled:hover:bg-muted enabled:hover:border-foreground/40"
                   >
                     {speech.playing ? <Square size={14} /> : <Play size={14} fill="currentColor" />}{' '}
                     {speech.playing ? 'Dừng' : 'Nghe đoạn này'}
@@ -408,10 +408,7 @@ function ExamView({
                   {speech.error && <span className="text-xs text-rose-700">{speech.error}</span>}
                 </div>
               )}
-              <p
-                className="text-base leading-relaxed whitespace-pre-line"
-                style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-              >
+              <p className="text-base leading-relaxed whitespace-pre-line" style={{ fontFamily: 'var(--font-jp)' }}>
                 <span className="font-semibold mr-2">{number}.</span>
                 {q.questionText}
               </p>
@@ -428,7 +425,7 @@ function ExamView({
                     <span className="w-6 h-6 shrink-0 flex items-center justify-center border border-border text-xs">
                       {o + 1}
                     </span>
-                    <span style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}>{option}</span>
+                    <span style={{ fontFamily: 'var(--font-jp)' }}>{option}</span>
                   </button>
                 ))}
               </div>
@@ -450,7 +447,7 @@ function ExamView({
               setSectionIndex(i => i - 1);
               window.scrollTo({ top: 0 });
             }}
-            className="min-h-11 px-4 border border-border text-sm disabled:opacity-40"
+            className="min-h-11 px-4 border border-border text-sm disabled:opacity-40 enabled:hover:bg-muted enabled:hover:border-foreground/40"
           >
             Phần trước
           </button>
@@ -461,7 +458,7 @@ function ExamView({
               setSectionIndex(i => i + 1);
               window.scrollTo({ top: 0 });
             }}
-            className="min-h-11 px-4 border border-border text-sm disabled:opacity-40"
+            className="min-h-11 px-4 border border-border text-sm disabled:opacity-40 enabled:hover:bg-muted enabled:hover:border-foreground/40"
           >
             Phần sau
           </button>
@@ -480,7 +477,7 @@ function ExamView({
             <button
               disabled={submitting}
               onClick={submit}
-              className="min-h-11 px-5 bg-rose-700 text-white text-sm font-medium flex items-center gap-2 disabled:opacity-50"
+              className="min-h-11 px-5 bg-rose-700 text-white text-sm font-medium flex items-center gap-2 disabled:opacity-50 enabled:hover:bg-rose-800 enabled:hover:-translate-y-0.5"
             >
               {submitting ? <Loader2 size={15} className="animate-spin" /> : <Send size={14} />} Nộp dù còn{' '}
               {questions.length - answered} câu trống
@@ -560,23 +557,23 @@ function ResultView({
         })}
       </div>
       <div className="flex flex-wrap gap-2">
-        <button onClick={onBack} className="min-h-11 px-5 border border-border text-sm">
+        <button
+          onClick={onBack}
+          className="min-h-11 px-5 border border-border text-sm enabled:hover:bg-muted enabled:hover:border-foreground/40"
+        >
           Về danh sách đề
         </button>
         <button
           disabled={busy}
           onClick={onRetake}
-          className="min-h-11 px-5 bg-foreground text-background text-sm font-medium flex items-center gap-2 disabled:opacity-50"
+          className="min-h-11 px-5 bg-foreground text-background text-sm font-medium flex items-center gap-2 disabled:opacity-50 enabled:hover:bg-accent enabled:hover:-translate-y-0.5"
         >
           <RotateCcw size={14} /> Làm lại đề này
         </button>
       </div>
       {template.sections.map(s => (
         <div key={s.id} className="flex flex-col gap-5">
-          <h2
-            className="text-lg font-medium border-b border-border pb-2"
-            style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-          >
+          <h2 className="text-lg font-medium border-b border-border pb-2" style={{ fontFamily: 'var(--font-jp)' }}>
             {s.title}
           </h2>
           {(s.questions ?? []).map((q, i, list) => {
@@ -594,17 +591,14 @@ function ResultView({
                     <summary className="cursor-pointer text-xs text-muted-foreground">
                       {s.sectionType === 'LISTENING' ? 'Bản chép bài nghe' : 'Đoạn văn'}
                     </summary>
-                    <p
-                      className="whitespace-pre-line leading-loose mt-2"
-                      style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                    >
+                    <p className="whitespace-pre-line leading-loose mt-2" style={{ fontFamily: 'var(--font-jp)' }}>
                       {q.passage}
                     </p>
                   </details>
                 )}
                 <p
                   className="text-sm leading-relaxed whitespace-pre-line flex gap-2"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                  style={{ fontFamily: 'var(--font-jp)' }}
                 >
                   {r?.isCorrect ? (
                     <CheckCircle2 size={16} className="text-green-700 shrink-0 mt-0.5" />
@@ -625,7 +619,7 @@ function ResultView({
                         key={o}
                         className={`w-full sm:w-[calc(50%-0.25rem)] px-3 py-2 border text-sm flex justify-between gap-2 ${correct ? 'border-green-700 bg-green-700/10 font-medium' : picked ? 'border-rose-700 bg-rose-700/10' : 'border-border text-muted-foreground'}`}
                       >
-                        <span style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}>{option}</span>
+                        <span style={{ fontFamily: 'var(--font-jp)' }}>{option}</span>
                         {correct ? (
                           <span className="text-[10px] uppercase font-semibold text-green-700">Đáp án</span>
                         ) : picked ? (

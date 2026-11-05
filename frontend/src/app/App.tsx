@@ -60,15 +60,22 @@ function AppContent() {
   return (
     <div
       className="min-h-screen bg-background text-foreground flex flex-col"
-      style={{ fontFamily: "'DM Sans', sans-serif" }}
+      style={{ fontFamily: 'var(--font-sans)' }}
     >
       <nav
         className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-sm border-b border-border"
         aria-label="Điều hướng chính"
       >
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-          <button onClick={() => navigate('home')} className="flex items-center gap-2.5" aria-label="Về trang chủ">
-            <span className="text-accent font-bold text-xl" style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}>
+          <button
+            onClick={() => navigate('home')}
+            className="group flex items-center gap-2.5"
+            aria-label="Về trang chủ"
+          >
+            <span
+              className="text-accent font-bold text-xl transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110"
+              style={{ fontFamily: 'var(--font-jp)' }}
+            >
               日
             </span>
             <span className="text-sm font-medium tracking-widest uppercase text-foreground/70">LearnJP</span>
@@ -79,7 +86,7 @@ function AppContent() {
                 key={link.page}
                 onClick={() => navigate(link.page)}
                 aria-current={page === link.page ? 'page' : undefined}
-                className={`flex items-center gap-1.5 text-sm px-3 py-1.5 transition-colors ${page === link.page ? 'text-accent' : 'text-muted-foreground hover:text-foreground'}`}
+                className={`relative flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-md after:absolute after:left-3 after:right-3 after:-bottom-0.5 after:h-0.5 after:bg-accent after:origin-left after:transition-transform after:duration-300 ${page === link.page ? 'text-accent after:scale-x-100' : 'text-muted-foreground hover:text-foreground hover:bg-muted/60 after:scale-x-0 hover:after:scale-x-100'}`}
               >
                 {link.icon} {link.label}
               </button>
@@ -88,7 +95,7 @@ function AppContent() {
           <div className="flex items-center gap-2">
             <AccountButton />
             <button
-              className="lg:hidden text-foreground p-2 -mr-2"
+              className="lg:hidden text-foreground p-2 -mr-2 rounded-md hover:bg-muted/60"
               onClick={() => setMenuOpen(open => !open)}
               aria-label="Mở hoặc đóng menu"
               aria-expanded={menuOpen}
@@ -108,7 +115,7 @@ function AppContent() {
                 key={link.page}
                 onClick={() => navigate(link.page)}
                 aria-current={page === link.page ? 'page' : undefined}
-                className={`flex basis-[calc(50%-0.25rem)] min-h-11 items-center gap-2 text-sm py-2 ${page === link.page ? 'text-accent font-medium' : 'text-muted-foreground'}`}
+                className={`flex basis-[calc(50%-0.25rem)] min-h-11 items-center gap-2 text-sm py-2 ${page === link.page ? 'text-accent font-medium' : 'text-muted-foreground hover:text-foreground'}`}
               >
                 {link.icon} {link.label}
               </button>
@@ -135,7 +142,7 @@ function AppContent() {
               <section className="max-w-3xl mx-auto px-6 py-12 flex flex-col items-start gap-5">
                 <h1 className="text-2xl font-semibold">Dịch văn bản hiện chưa khả dụng</h1>
                 <p className="text-muted-foreground">Bạn có thể tra từng từ trong từ điển.</p>
-                <button onClick={() => navigate('dictionary')} className="border border-border px-5 py-3">
+                <button onClick={() => navigate('dictionary')} className="btn-outline px-5 py-3">
                   Mở từ điển
                 </button>
               </section>
@@ -149,7 +156,7 @@ function AppContent() {
       <footer className="border-t border-border py-8 px-6">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="text-accent font-bold text-lg" style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}>
+            <span className="text-accent font-bold text-lg" style={{ fontFamily: 'var(--font-jp)' }}>
               日
             </span>
             <span className="text-sm text-muted-foreground">LearnJP · Học tiếng Nhật theo lộ trình JLPT</span>

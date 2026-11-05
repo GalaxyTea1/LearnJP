@@ -34,7 +34,7 @@ export function AdminAuthForm({ user, onLogout }: AdminAuthFormProps) {
           <button
             type="button"
             onClick={openLogin}
-            className="w-full bg-accent text-accent-foreground py-2.5 rounded-lg font-medium hover:bg-accent/90 transition-colors flex items-center justify-center gap-2"
+            className="w-full bg-accent text-accent-foreground py-2.5 rounded-lg font-medium enabled:hover:bg-[#a53125] enabled:hover:-translate-y-0.5 enabled:hover:shadow-md transition-colors flex items-center justify-center gap-2"
           >
             <LogIn size={18} /> Sign In
           </button>

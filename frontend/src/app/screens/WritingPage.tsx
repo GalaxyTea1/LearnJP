@@ -40,11 +40,11 @@ export default function WritingPage() {
               >
                 <span
                   className="text-xl text-foreground leading-none mb-1 group-hover:scale-110 transition-transform"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                  style={{ fontFamily: 'var(--font-jp)' }}
                 >
                   {h.char}
                 </span>
-                <span className="text-[10px] text-muted-foreground" style={{ fontFamily: "'DM Mono', monospace" }}>
+                <span className="text-[10px] text-muted-foreground" style={{ fontFamily: 'var(--font-mono)' }}>
                   {h.rom}
                 </span>
               </button>
@@ -67,11 +67,11 @@ export default function WritingPage() {
               >
                 <span
                   className="text-xl text-foreground leading-none mb-1 group-hover:scale-110 transition-transform"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                  style={{ fontFamily: 'var(--font-jp)' }}
                 >
                   {k.char}
                 </span>
-                <span className="text-[10px] text-muted-foreground" style={{ fontFamily: "'DM Mono', monospace" }}>
+                <span className="text-[10px] text-muted-foreground" style={{ fontFamily: 'var(--font-mono)' }}>
                   {k.rom}
                 </span>
               </button>

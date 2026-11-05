@@ -60,10 +60,7 @@ export default function TranslatePage() {
     <div className="max-w-3xl mx-auto py-12 px-6">
       <div className="mb-8">
         <p className="text-xs tracking-widest uppercase text-accent font-medium mb-2">Translate</p>
-        <h2
-          className="text-4xl text-foreground mb-2"
-          style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif", fontWeight: 300 }}
-        >
+        <h2 className="text-4xl text-foreground mb-2" style={{ fontFamily: 'var(--font-jp)', fontWeight: 300 }}>
           Japanese ↔ English
         </h2>
         <p className="text-muted-foreground text-sm">Type a word, paste a sentence, or upload an image to translate.</p>
@@ -85,7 +82,7 @@ export default function TranslatePage() {
         </button>
         <span
           className={`text-sm font-medium ${direction === 'jp-en' ? 'text-foreground' : 'text-muted-foreground'}`}
-          style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+          style={{ fontFamily: 'var(--font-jp)' }}
         >
           日本語
         </span>
@@ -162,7 +159,7 @@ export default function TranslatePage() {
             ) : result ? (
               <p
                 className="text-2xl text-foreground leading-relaxed"
-                style={{ fontFamily: direction === 'en-jp' ? "'DM Sans', 'Noto Serif JP', serif" : 'inherit' }}
+                style={{ fontFamily: direction === 'en-jp' ? 'var(--font-jp)' : 'inherit' }}
               >
                 {result}
               </p>

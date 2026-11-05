@@ -50,7 +50,7 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
                   ? 'bg-accent text-accent-foreground font-bold shadow-xs scale-105'
                   : 'bg-muted/50 hover:bg-muted text-foreground border border-border/60'
               }`}
-              style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+              style={{ fontFamily: 'var(--font-jp)' }}
             >
               {k.character}
             </button>
@@ -72,7 +72,7 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
                 </div>
                 <span
                   className="text-7xl text-foreground font-bold select-none"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                  style={{ fontFamily: 'var(--font-jp)' }}
                 >
                   {selectedKanji.character}
                 </span>
@@ -90,7 +90,7 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
                 {selectedKanji.radical && (
                   <span className="px-2 py-0.5 bg-muted rounded-md">
                     Bộ:{' '}
-                    <strong className="text-foreground" style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}>
+                    <strong className="text-foreground" style={{ fontFamily: 'var(--font-jp)' }}>
                       {selectedKanji.radical}
                     </strong>
                   </span>
@@ -131,10 +131,7 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
                       <Volume2 size={14} />
                     </button>
                   </div>
-                  <p
-                    className="text-lg font-medium text-foreground"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                  >
+                  <p className="text-lg font-medium text-foreground" style={{ fontFamily: 'var(--font-jp)' }}>
                     {selectedKanji.onyomi || '—'}
                   </p>
                   <p className="text-[11px] text-muted-foreground mt-1">Thường dùng khi ghép 2 chữ Hán trở lên</p>
@@ -153,10 +150,7 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
                       <Volume2 size={14} />
                     </button>
                   </div>
-                  <p
-                    className="text-lg font-medium text-foreground"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                  >
+                  <p className="text-lg font-medium text-foreground" style={{ fontFamily: 'var(--font-jp)' }}>
                     {selectedKanji.kunyomi || '—'}
                   </p>
                   <p className="text-[11px] text-muted-foreground mt-1">
@@ -178,10 +172,7 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
                         className="p-3 bg-background border border-border/80 rounded-xl flex items-center justify-between gap-3 hover:border-accent/40 transition-colors"
                       >
                         <div>
-                          <p
-                            className="text-base font-medium text-foreground"
-                            style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                          >
+                          <p className="text-base font-medium text-foreground" style={{ fontFamily: 'var(--font-jp)' }}>
                             {ex.jp}
                           </p>
                           <p className="text-xs text-muted-foreground mt-0.5">{ex.en}</p>
@@ -221,10 +212,7 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
               }`}
             >
               <div className="flex items-center justify-between mb-2">
-                <span
-                  className="text-3xl font-bold text-foreground"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                >
+                <span className="text-3xl font-bold text-foreground" style={{ fontFamily: 'var(--font-jp)' }}>
                   {item.character}
                 </span>
                 <span className="text-xs text-muted-foreground font-mono">{item.strokeCount} nét</span>

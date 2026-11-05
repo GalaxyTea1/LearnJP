@@ -1,1 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Mono:wght@400;500&display=swap');
+/*
+ * Font families are loaded from index.html (preconnect + non-blocking <link>), not @import,
+ * so the browser fetches them in parallel with the app bundle.
+ *
+ * Be Vietnam Pro: designed for Vietnamese (DM Sans had no Vietnamese glyphs).
+ * Noto Sans JP: kana/kanji matching Be Vietnam Pro. Noto Serif JP: large display kanji.
+ * JetBrains Mono: readings/romaji with Vietnamese diacritics.
+ */

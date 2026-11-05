@@ -141,7 +141,7 @@ export default function DictionaryPage() {
               >
                 <span
                   className="text-lg sm:text-2xl shrink-0 max-w-[50%] break-words"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                  style={{ fontFamily: 'var(--font-jp)' }}
                 >
                   {w.jp}
                 </span>
@@ -153,7 +153,7 @@ export default function DictionaryPage() {
                   </p>
                   <p
                     className={`text-xs truncate ${selected?.jp === w.jp ? 'text-primary-foreground/50' : 'text-muted-foreground'}`}
-                    style={{ fontFamily: "'DM Mono', monospace" }}
+                    style={{ fontFamily: 'var(--font-mono)' }}
                   >
                     {w.rom}
                   </p>
@@ -185,7 +185,7 @@ export default function DictionaryPage() {
                 <div className="flex items-start justify-between mb-4">
                   <span
                     className="text-4xl min-w-0 break-words text-foreground"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                    style={{ fontFamily: 'var(--font-jp)' }}
                   >
                     {selected.jp}
                   </span>
@@ -197,7 +197,7 @@ export default function DictionaryPage() {
                     <Volume2 size={18} />
                   </button>
                 </div>
-                <p className="text-muted-foreground text-sm mb-1" style={{ fontFamily: "'DM Mono', monospace" }}>
+                <p className="text-muted-foreground text-sm mb-1" style={{ fontFamily: 'var(--font-mono)' }}>
                   {selected.rom}
                 </p>
                 <p className="text-foreground font-medium text-lg mb-3">{selected.en}</p>
@@ -210,7 +210,7 @@ export default function DictionaryPage() {
                 {selected.example && (
                   <div className="border-t border-border pt-4">
                     <p className="text-xs text-muted-foreground uppercase tracking-widest mb-2">Ví dụ</p>
-                    <p className="text-foreground mb-1" style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}>
+                    <p className="text-foreground mb-1" style={{ fontFamily: 'var(--font-jp)' }}>
                       {selected.example}
                     </p>
                     <p className="text-sm text-muted-foreground italic">{selected.exampleEn}</p>
@@ -225,10 +225,7 @@ export default function DictionaryPage() {
               </>
             ) : (
               <div className="flex flex-col items-center justify-center py-12 text-center">
-                <span
-                  className="text-5xl text-muted-foreground/20 mb-4"
-                  style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                >
+                <span className="text-5xl text-muted-foreground/20 mb-4" style={{ fontFamily: 'var(--font-jp)' }}>
                   辞
                 </span>
                 <p className="text-muted-foreground text-sm">Chọn một từ để xem chi tiết</p>

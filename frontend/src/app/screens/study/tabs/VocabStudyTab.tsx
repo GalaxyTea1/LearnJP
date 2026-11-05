@@ -213,7 +213,7 @@ export function VocabStudyTab({
                       <div className="flex flex-col items-center gap-3 my-auto">
                         <h2
                           className="text-4xl sm:text-5xl font-medium text-foreground tracking-wide"
-                          style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                          style={{ fontFamily: 'var(--font-jp)' }}
                         >
                           {currentCard.japanese}
                         </h2>
@@ -265,10 +265,7 @@ export function VocabStudyTab({
                                 <Volume2 size={13} />
                               </button>
                             </div>
-                            <p
-                              className="text-sm font-medium leading-relaxed"
-                              style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                            >
+                            <p className="text-sm font-medium leading-relaxed" style={{ fontFamily: 'var(--font-jp)' }}>
                               {currentCard.exampleJp}
                             </p>
                             {currentCard.exampleEn && (
@@ -296,7 +293,7 @@ export function VocabStudyTab({
                 </button>
                 <button
                   onClick={handleNextCard}
-                  className="h-11 px-6 rounded-xl bg-accent text-accent-foreground hover:bg-accent/90 text-sm font-medium flex items-center gap-2 shadow-xs active:scale-95 transition-all"
+                  className="h-11 px-6 rounded-xl bg-accent text-accent-foreground enabled:hover:bg-[#a53125] enabled:hover:-translate-y-0.5 enabled:hover:shadow-md text-sm font-medium flex items-center gap-2 shadow-xs active:scale-95 transition-all"
                 >
                   Từ tiếp theo <ChevronRight size={16} />
                 </button>
@@ -337,7 +334,7 @@ export function VocabStudyTab({
                         </div>
                         <h4
                           className="text-2xl font-bold text-foreground leading-tight"
-                          style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                          style={{ fontFamily: 'var(--font-jp)' }}
                         >
                           {item.japanese}
                         </h4>
@@ -385,7 +382,7 @@ export function VocabStudyTab({
                         <div className="flex items-start justify-between gap-1">
                           <p
                             className="text-xs font-medium text-foreground/90"
-                            style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                            style={{ fontFamily: 'var(--font-jp)' }}
                           >
                             {item.exampleJp}
                           </p>

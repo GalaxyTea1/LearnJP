@@ -31,6 +31,12 @@
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.625rem;
+  --font-sans: 'Be Vietnam Pro', 'Noto Sans JP', system-ui, sans-serif;
+  --font-jp: 'Be Vietnam Pro', 'Noto Sans JP', sans-serif;
+  --font-display: 'Noto Serif JP', 'Be Vietnam Pro', serif;
+  --font-heading: 'Fraunces', 'Noto Serif JP', Georgia, serif;
+  --font-mono: 'JetBrains Mono', 'Be Vietnam Pro', 'Noto Sans JP', monospace;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: #030213;
@@ -79,6 +85,9 @@
 }
 
 @theme inline {
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-display);
+  --font-mono: var(--font-mono);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -126,6 +135,55 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  :lang(ja),
+  [lang='ja'] {
+    font-family: var(--font-jp);
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  /* Vietnamese editorial serif for page and section titles; Noto Serif JP covers any kana/kanji in them. */
+  h1,
+  h2 {
+    font-family: var(--font-heading);
+    font-optical-sizing: auto;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Interactive feedback for every button: pointer, smooth state changes, press-down. */
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  button:not(:disabled):active {
+    scale: 0.97;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--accent) 25%, transparent);
   }
 
   /**
@@ -178,4 +236,168 @@
     font-weight: var(--font-weight-normal);
     line-height: 1.5;
   }
+}
+
+@layer components {
+  /*
+   * Hero buttons: a colour layer sweeps in from the left on hover (::before), the button lifts and
+   * the arrow slides forward. The sweep uses a gentle ease-in-out so it reads as smooth, not snappy.
+   */
+  .btn-solid,
+  .btn-accent,
+  .btn-outline {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: var(--radius-md);
+    --sweep-ease: cubic-bezier(0.65, 0, 0.35, 1);
+    transition:
+      color 0.35s var(--sweep-ease),
+      border-color 0.35s var(--sweep-ease),
+      translate 0.35s var(--sweep-ease),
+      box-shadow 0.35s var(--sweep-ease),
+      scale 0.15s ease-out;
+  }
+  .btn-solid::before,
+  .btn-accent::before,
+  .btn-outline::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    translate: -101% 0;
+    transition: translate 0.45s var(--sweep-ease);
+  }
+  .btn-solid:not(:disabled):hover::before,
+  .btn-accent:not(:disabled):hover::before,
+  .btn-outline:not(:disabled):hover::before {
+    translate: 0 0;
+  }
+
+  .btn-solid {
+    background: var(--foreground);
+    color: var(--background);
+  }
+  .btn-solid::before {
+    background: var(--accent);
+  }
+  .btn-solid:not(:disabled):hover {
+    color: var(--accent-foreground);
+    translate: 0 -2px;
+    box-shadow: 0 10px 24px -10px rgba(192, 57, 43, 0.6);
+  }
+
+  .btn-accent {
+    background: var(--accent);
+    color: var(--accent-foreground);
+  }
+  .btn-accent::before {
+    background: #8f2a20;
+  }
+  .btn-accent:not(:disabled):hover {
+    translate: 0 -2px;
+    box-shadow: 0 10px 24px -10px rgba(192, 57, 43, 0.7);
+  }
+
+  .btn-outline {
+    border: 1px solid var(--foreground);
+    color: var(--foreground);
+  }
+  .btn-outline::before {
+    background: var(--accent);
+  }
+  .btn-outline:not(:disabled):hover {
+    color: var(--accent-foreground);
+    border-color: var(--accent);
+    translate: 0 -2px;
+    box-shadow: 0 10px 24px -10px rgba(192, 57, 43, 0.6);
+  }
+
+  .btn-solid svg,
+  .btn-accent svg,
+  .btn-outline svg {
+    transition: translate 0.35s var(--sweep-ease);
+  }
+  .btn-solid:hover svg:last-child,
+  .btn-accent:hover svg:last-child {
+    translate: 4px 0;
+  }
+
+  /* Clickable card: lifts, accent border, icon pops. */
+  .card-hover {
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    transition:
+      translate 0.25s var(--ease-out),
+      box-shadow 0.25s var(--ease-out),
+      border-color 0.25s var(--ease-out);
+  }
+  .card-hover:hover {
+    translate: 0 -4px;
+    border-color: var(--accent);
+    box-shadow: 0 14px 30px -14px rgba(28, 23, 18, 0.35);
+  }
+  .card-hover svg {
+    transition: transform 0.25s var(--ease-out);
+  }
+  .card-hover:hover svg {
+    transform: scale(1.15) rotate(-4deg);
+  }
+
+  /* Text link-style button with an animated underline. */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.25s var(--ease-out);
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+
+  /* Staggered entrance for page sections. */
+  .fade-up {
+    animation: fade-up 0.6s var(--ease-out) both;
+    animation-delay: calc(var(--i, 0) * 80ms);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/*
+ * Unlayered on purpose: it must beat Tailwind's `transition-colors` utilities, which would otherwise
+ * stop translate/scale (hover lift, press-down) from animating and make them snap.
+ */
+button {
+  transition:
+    background-color 0.2s var(--ease-out),
+    color 0.2s var(--ease-out),
+    border-color 0.2s var(--ease-out),
+    box-shadow 0.2s var(--ease-out),
+    opacity 0.2s var(--ease-out),
+    translate 0.2s var(--ease-out),
+    scale 0.15s var(--ease-out);
 }

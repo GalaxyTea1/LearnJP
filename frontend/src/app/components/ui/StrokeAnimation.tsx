@@ -53,7 +53,7 @@ export default function StrokeAnimation({ char, strokes }: { char: string; strok
             <span
               className="text-8xl select-none"
               style={{
-                fontFamily: "'DM Sans', 'Noto Serif JP', serif",
+                fontFamily: 'var(--font-jp)',
                 color: 'rgba(28,23,18,0.08)',
               }}
             >
@@ -100,7 +100,7 @@ export default function StrokeAnimation({ char, strokes }: { char: string; strok
               <span
                 className="text-8xl select-none"
                 style={{
-                  fontFamily: "'DM Sans', 'Noto Serif JP', serif",
+                  fontFamily: 'var(--font-jp)',
                   color: '#1C1712',
                 }}
               >
@@ -113,7 +113,7 @@ export default function StrokeAnimation({ char, strokes }: { char: string; strok
         {/* stroke counter badge */}
         <div
           className="absolute bottom-2 right-2 bg-accent/10 border border-accent/20 text-accent text-xs px-2 py-0.5 font-medium"
-          style={{ fontFamily: "'DM Mono', monospace" }}
+          style={{ fontFamily: 'var(--font-mono)' }}
         >
           {step}/{totalStrokes}
         </div>

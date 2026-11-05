@@ -191,10 +191,16 @@ export function QuizStudyTab({ moduleId, quizQuestions, onCompleteTab, revision 
               : 'Bỏ các câu trả lời đang làm và bắt đầu lại?'}
           </p>
           <div className="flex flex-wrap gap-3">
-            <button onClick={handleRetake} className="min-h-11 rounded-lg border px-4">
+            <button
+              onClick={handleRetake}
+              className="min-h-11 rounded-lg border px-4 enabled:hover:bg-muted enabled:hover:border-foreground/40"
+            >
               Xác nhận bắt đầu lại
             </button>
-            <button onClick={() => setConfirmRetake(false)} className="min-h-11 rounded-lg border px-4">
+            <button
+              onClick={() => setConfirmRetake(false)}
+              className="min-h-11 rounded-lg border px-4 enabled:hover:bg-muted enabled:hover:border-foreground/40"
+            >
               Giữ bài hiện tại
             </button>
           </div>
@@ -220,7 +226,7 @@ export function QuizStudyTab({ moduleId, quizQuestions, onCompleteTab, revision 
             )
               window.location.reload();
           }}
-          className="self-start min-h-11 rounded-lg border border-border px-4 text-sm"
+          className="self-start min-h-11 rounded-lg border border-border px-4 text-sm enabled:hover:bg-muted enabled:hover:border-foreground/40"
         >
           Tải đề mới và làm lại
         </button>
@@ -398,7 +404,7 @@ export function QuizStudyTab({ moduleId, quizQuestions, onCompleteTab, revision 
             </span>
             <h3
               className="text-xl sm:text-2xl font-bold text-foreground mt-2 leading-relaxed"
-              style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+              style={{ fontFamily: 'var(--font-jp)' }}
             >
               {currentQ.question}
             </h3>
@@ -467,7 +473,7 @@ export function QuizStudyTab({ moduleId, quizQuestions, onCompleteTab, revision 
             <button
               onClick={handleSubmit}
               disabled={isSubmitting || checking}
-              className="w-full sm:w-auto h-11 px-6 rounded-xl bg-accent text-accent-foreground hover:bg-accent/90 text-sm font-medium flex items-center justify-center gap-2 shadow-xs transition-colors disabled:opacity-50"
+              className="btn-accent w-full sm:w-auto h-11 px-6 justify-center text-sm font-medium disabled:opacity-50"
             >
               {isSubmitting ? (
                 <>

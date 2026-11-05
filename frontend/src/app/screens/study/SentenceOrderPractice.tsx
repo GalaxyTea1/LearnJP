@@ -18,7 +18,7 @@ export function SentenceOrderPractice({ options }: { options: string[] }) {
               type="button"
               disabled={order.includes(index)}
               onClick={() => setOrder(current => appendToken(current, index, options.length))}
-              className="min-h-11 px-3 py-2 border rounded-lg text-sm disabled:opacity-40 disabled:cursor-not-allowed"
+              className="min-h-11 px-3 py-2 border rounded-lg text-sm disabled:opacity-40 disabled:cursor-not-allowed enabled:hover:bg-muted enabled:hover:border-foreground/40"
             >
               {text}
             </button>
@@ -38,7 +38,7 @@ export function SentenceOrderPractice({ options }: { options: string[] }) {
               type="button"
               aria-label={`Bỏ mảnh ${position + 1}: ${options[index]}`}
               onClick={() => setOrder(current => current.filter(item => item !== index))}
-              className="min-h-11 border rounded px-3 text-sm"
+              className="min-h-11 border rounded px-3 text-sm enabled:hover:bg-muted enabled:hover:border-foreground/40"
             >
               {options[index]} ×
             </button>

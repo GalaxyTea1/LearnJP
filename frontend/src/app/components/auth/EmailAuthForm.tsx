@@ -211,10 +211,7 @@ export function EmailAuthForm({
               Quên mật khẩu?
             </button>
           )}
-          <button
-            type="submit"
-            className="flex min-h-11 items-center justify-center gap-2 rounded-lg bg-accent px-4 font-semibold text-accent-foreground disabled:opacity-60"
-          >
+          <button type="submit" className="btn-accent min-h-11 justify-center px-4 font-semibold disabled:opacity-60">
             {busy && <Loader2 size={16} className="animate-spin" />}
             {busy ? 'Đang xử lý…' : labels[mode]}
           </button>

@@ -277,7 +277,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
                 type="button"
                 disabled={busy}
                 onClick={googleLogin}
-                className="flex min-h-11 items-center justify-center gap-2 rounded-lg border border-border px-4 text-sm font-semibold disabled:opacity-60"
+                className="flex min-h-11 items-center justify-center gap-2 rounded-lg border border-border px-4 text-sm font-semibold disabled:opacity-60 enabled:hover:bg-muted enabled:hover:border-foreground/40"
               >
                 {googleBusy && <Loader2 size={16} className="animate-spin" />}Tiếp tục với Google
               </button>
@@ -342,7 +342,7 @@ export function AccountButton() {
       <button
         disabled={checking}
         onClick={() => (user ? setOpen(true) : openLogin())}
-        className="flex min-h-11 items-center gap-1.5 rounded-lg border border-border px-3 text-sm font-medium disabled:opacity-50"
+        className="btn-outline min-h-11 gap-1.5 px-3 text-sm font-medium disabled:opacity-50"
       >
         {checking ? (
           <Loader2 size={16} className="animate-spin" />
@@ -427,10 +427,7 @@ export function GuestNotice() {
       <p className="text-sm leading-relaxed">
         Đăng nhập để lưu tiến độ, nộp bài kiểm tra và học tiếp trên thiết bị khác.
       </p>
-      <button
-        onClick={openLogin}
-        className="min-h-11 shrink-0 rounded-lg bg-accent px-4 text-sm font-medium text-accent-foreground"
-      >
+      <button onClick={openLogin} className="btn-accent min-h-11 shrink-0 px-4 text-sm font-medium">
         Đăng nhập
       </button>
     </div>

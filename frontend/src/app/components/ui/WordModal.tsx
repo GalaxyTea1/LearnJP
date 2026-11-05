@@ -55,7 +55,7 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
               <span className="text-xs bg-secondary text-muted-foreground px-2 py-0.5 font-medium">{word.level}</span>
             )}
             {(word.strokes || (kanaData as Record<string, string[]>)[word.char]?.length > 0) && (
-              <span className="text-xs text-muted-foreground" style={{ fontFamily: "'DM Mono', monospace" }}>
+              <span className="text-xs text-muted-foreground" style={{ fontFamily: 'var(--font-mono)' }}>
                 {word.strokes || (kanaData as Record<string, string[]>)[word.char].length} nét
               </span>
             )}
@@ -77,7 +77,7 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
             ) : Array.from(word.char).length > 1 ? (
               <p
                 className="w-full break-all text-center text-4xl leading-relaxed py-6 select-none text-foreground"
-                style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                style={{ fontFamily: 'var(--font-jp)' }}
               >
                 {word.char}
               </p>
@@ -85,10 +85,7 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
               <div className="relative" style={{ width: 200, height: 200 }}>
                 <WritingGrid size={200} />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span
-                    className="text-8xl select-none text-foreground"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                  >
+                  <span className="text-8xl select-none text-foreground" style={{ fontFamily: 'var(--font-jp)' }}>
                     {word.char}
                   </span>
                 </div>
@@ -110,7 +107,7 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
                 <div className="absolute inset-0 flex items-center justify-center opacity-10 select-none">
                   <span
                     className="max-w-full max-h-full overflow-y-auto px-3 break-all text-center text-3xl leading-relaxed text-foreground"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                    style={{ fontFamily: 'var(--font-jp)' }}
                   >
                     {word.char}
                   </span>
@@ -125,14 +122,11 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
             {/* Main reading */}
             <div>
               <p className="text-xs text-muted-foreground uppercase tracking-widest mb-1">Cách đọc</p>
-              <p
-                className="text-3xl text-foreground font-light mb-0.5"
-                style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-              >
+              <p className="text-3xl text-foreground font-light mb-0.5" style={{ fontFamily: 'var(--font-jp)' }}>
                 {word.char}
               </p>
               {word.romaji && (
-                <p className="text-lg text-muted-foreground" style={{ fontFamily: "'DM Mono', monospace" }}>
+                <p className="text-lg text-muted-foreground" style={{ fontFamily: 'var(--font-mono)' }}>
                   {word.romaji}
                 </p>
               )}
@@ -151,20 +145,14 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
               <div className="flex gap-3">
                 <div className="flex-1 min-w-0 bg-secondary p-3">
                   <p className="text-xs text-muted-foreground mb-1">Âm On (音読み)</p>
-                  <p
-                    className="text-foreground font-medium text-sm"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                  >
+                  <p className="text-foreground font-medium text-sm" style={{ fontFamily: 'var(--font-jp)' }}>
                     {word.onyomi}
                   </p>
                   <p className="text-xs text-muted-foreground mt-0.5">Âm On</p>
                 </div>
                 <div className="flex-1 min-w-0 bg-secondary p-3">
                   <p className="text-xs text-muted-foreground mb-1">Âm Kun (訓読み)</p>
-                  <p
-                    className="text-foreground font-medium text-sm"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-                  >
+                  <p className="text-foreground font-medium text-sm" style={{ fontFamily: 'var(--font-jp)' }}>
                     {word.kunyomi}
                   </p>
                   <p className="text-xs text-muted-foreground mt-0.5">Âm Kun</p>
@@ -193,7 +181,7 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
                       >
                         <span
                           className="text-foreground text-base group-hover:text-accent transition-colors"
-                          style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                          style={{ fontFamily: 'var(--font-jp)' }}
                         >
                           {ex.jp}
                         </span>
@@ -218,7 +206,7 @@ export default function WordModal({ word, onClose }: { word: WordDetail; onClose
                     <div
                       key={r}
                       className="w-10 h-10 bg-secondary border border-border flex items-center justify-center text-xl text-foreground hover:border-accent/50 transition-colors cursor-default"
-                      style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                      style={{ fontFamily: 'var(--font-jp)' }}
                     >
                       {r}
                     </div>

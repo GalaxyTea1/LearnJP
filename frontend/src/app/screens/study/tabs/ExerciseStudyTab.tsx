@@ -91,7 +91,7 @@ export function ExerciseStudyTab({
                   {/* Japanese Content */}
                   <div
                     className="p-4 sm:p-5 bg-background border border-border/80 rounded-xl leading-loose text-base text-foreground font-medium whitespace-pre-wrap"
-                    style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                    style={{ fontFamily: 'var(--font-jp)' }}
                   >
                     {rp.content}
                   </div>
@@ -288,7 +288,7 @@ export function ExerciseStudyTab({
                       <p className="font-bold text-accent uppercase text-[11px]">Bài viết mẫu:</p>
                       <p
                         className="text-sm font-medium text-foreground leading-relaxed whitespace-pre-wrap"
-                        style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                        style={{ fontFamily: 'var(--font-jp)' }}
                       >
                         {wt.sampleAnswer}
                       </p>

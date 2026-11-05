@@ -165,12 +165,18 @@ export function DialogueStudyTab({
       )}
       <p className="text-xs text-muted-foreground">Giọng đọc dùng giọng tiếng Nhật có sẵn trên thiết bị của bạn.</p>
       {playing && (
-        <button onClick={() => stopPlayback()} className="self-start min-h-11 px-4 border rounded-lg">
+        <button
+          onClick={() => stopPlayback()}
+          className="self-start min-h-11 px-4 border rounded-lg enabled:hover:bg-muted enabled:hover:border-foreground/40"
+        >
           Dừng giọng đọc
         </button>
       )}
       {playing && !isPlayingAll && (
-        <button onClick={() => stopPlayback()} className="self-start min-h-11 rounded-lg border px-4 text-sm">
+        <button
+          onClick={() => stopPlayback()}
+          className="self-start min-h-11 rounded-lg border px-4 text-sm enabled:hover:bg-muted enabled:hover:border-foreground/40"
+        >
           Dừng giọng đọc
         </button>
       )}
@@ -213,7 +219,7 @@ export function DialogueStudyTab({
           {activeConv && activeConv.lines && activeConv.lines.length > 0 && (
             <button
               onClick={handlePlayAll}
-              className="px-3 py-1.5 rounded-lg text-xs font-medium bg-accent text-accent-foreground hover:bg-accent/90 flex items-center gap-1.5 shadow-xs transition-colors"
+              className="px-3 py-1.5 rounded-lg text-xs font-medium bg-accent text-accent-foreground enabled:hover:bg-[#a53125] enabled:hover:-translate-y-0.5 enabled:hover:shadow-md flex items-center gap-1.5 shadow-xs transition-colors"
             >
               {isPlayingAll ? <Pause size={13} /> : <Play size={13} />}
               {isPlayingAll ? 'Dừng phát' : 'Phát cả bài'}
@@ -298,7 +304,7 @@ export function DialogueStudyTab({
                     {/* Japanese Text */}
                     <p
                       className="text-base sm:text-lg font-medium text-foreground leading-relaxed"
-                      style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                      style={{ fontFamily: 'var(--font-jp)' }}
                     >
                       {line.japanese}
                     </p>
@@ -378,7 +384,10 @@ export function DialogueStudyTab({
                     </button>
                   )}
                   {playing && (
-                    <button onClick={() => stopPlayback()} className="min-h-11 px-3 border rounded">
+                    <button
+                      onClick={() => stopPlayback()}
+                      className="min-h-11 px-3 border rounded enabled:hover:bg-muted enabled:hover:border-foreground/40"
+                    >
                       Dừng giọng đọc
                     </button>
                   )}
@@ -391,7 +400,7 @@ export function DialogueStudyTab({
                     <p className="font-semibold text-muted-foreground text-[11px] uppercase">Lời thoại:</p>
                     <p
                       className="text-sm font-medium leading-relaxed whitespace-pre-wrap"
-                      style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                      style={{ fontFamily: 'var(--font-jp)' }}
                     >
                       {item.transcript}
                     </p>

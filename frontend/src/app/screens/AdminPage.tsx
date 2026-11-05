@@ -635,7 +635,7 @@ export default function AdminPage() {
                   </button>
 
                   <button
-                    className="px-4 py-2 bg-accent hover:bg-accent/90 text-white rounded-lg text-sm font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                    className="px-4 py-2 bg-accent enabled:hover:bg-[#a53125] enabled:hover:-translate-y-0.5 enabled:hover:shadow-md text-white rounded-lg text-sm font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
                     onClick={() => updateStatus('PUBLISHED')}
                     disabled={actionLoading || fullContent.contentStatus === 'PUBLISHED' || !canPublish}
                     title={!canPublish ? 'Publish Guard: chưa đủ điều kiện' : 'Publish module cho người học'}

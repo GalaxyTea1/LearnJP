@@ -5,7 +5,11 @@ export function SpeechStatus({ playing, error, stop }: SpeechState & { stop: () 
   return (
     <div className="flex flex-col gap-2 text-sm">
       {playing && (
-        <button type="button" onClick={stop} className="self-start rounded-lg border border-border px-3 py-2">
+        <button
+          type="button"
+          onClick={stop}
+          className="self-start rounded-lg border border-border px-3 py-2 enabled:hover:bg-muted enabled:hover:border-foreground/40"
+        >
           Dừng giọng đọc
         </button>
       )}

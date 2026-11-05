@@ -196,13 +196,13 @@ export function ModuleStudyViewer({ moduleId, onBack }: ModuleStudyViewerProps) 
         <p className="text-sm text-rose-600 mb-4">{error || 'Không tìm thấy dữ liệu module.'}</p>
         <button
           onClick={() => setLoadAttempt(n => n + 1)}
-          className="min-h-11 px-5 py-2.5 rounded-xl border border-border mr-3 mb-3"
+          className="min-h-11 px-5 py-2.5 rounded-xl border border-border mr-3 mb-3 enabled:hover:bg-muted enabled:hover:border-foreground/40"
         >
           Thử lại tải bài
         </button>
         <button
           onClick={onBack}
-          className="px-5 py-2.5 rounded-xl bg-foreground text-background text-sm font-medium hover:opacity-90 transition-opacity"
+          className="px-5 py-2.5 rounded-xl bg-foreground text-background text-sm font-medium enabled:hover:bg-accent enabled:hover:-translate-y-0.5 transition-opacity"
         >
           Quay lại lộ trình
         </button>
@@ -240,7 +240,10 @@ export function ModuleStudyViewer({ moduleId, onBack }: ModuleStudyViewerProps) 
             {!user && !checking && (
               <>
                 {' '}
-                <button onClick={openLogin} className="font-medium text-accent underline underline-offset-4">
+                <button
+                  onClick={openLogin}
+                  className="font-medium text-accent underline underline-offset-4 underline-offset-4 hover:opacity-70"
+                >
                   Đăng nhập
                 </button>{' '}
                 để lưu vào tài khoản.
@@ -248,7 +251,10 @@ export function ModuleStudyViewer({ moduleId, onBack }: ModuleStudyViewerProps) 
             )}
           </span>
           {study.error && (
-            <button onClick={study.retry} className="border border-border rounded-lg px-3 py-2">
+            <button
+              onClick={study.retry}
+              className="border border-border rounded-lg px-3 py-2 enabled:hover:bg-muted enabled:hover:border-foreground/40"
+            >
               Thử lại
             </button>
           )}
@@ -262,7 +268,7 @@ export function ModuleStudyViewer({ moduleId, onBack }: ModuleStudyViewerProps) 
           {user && study.ready && study.canImport((moduleData.vocabulary || []).map(v => v.id)) && (
             <button
               onClick={() => study.importLocal((moduleData.vocabulary || []).map(v => v.id))}
-              className="border border-border rounded-lg px-3 py-2"
+              className="border border-border rounded-lg px-3 py-2 enabled:hover:bg-muted enabled:hover:border-foreground/40"
             >
               Thêm tiến độ đã học trên máy này vào tài khoản
             </button>

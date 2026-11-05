@@ -86,7 +86,7 @@ export function GrammarStudyTab({
                   <div>
                     <h3
                       className="text-xl sm:text-2xl font-bold text-foreground tracking-wide"
-                      style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                      style={{ fontFamily: 'var(--font-jp)' }}
                     >
                       {pattern.pattern}
                     </h3>
@@ -127,7 +127,7 @@ export function GrammarStudyTab({
                           <div className="space-y-1">
                             <p
                               className="text-base sm:text-lg font-medium text-foreground leading-relaxed"
-                              style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
+                              style={{ fontFamily: 'var(--font-jp)' }}
                             >
                               {ex.japanese}
                             </p>

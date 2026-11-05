@@ -242,7 +242,7 @@ function Overview({
         ) : catalog.error ? (
           <p className="mt-4">
             Không tải được khóa học.{' '}
-            <button onClick={catalog.retry} className="text-accent underline">
+            <button onClick={catalog.retry} className="text-accent underline underline-offset-4 hover:opacity-70">
               Thử lại
             </button>
           </p>
@@ -261,7 +261,10 @@ function Overview({
             ) : catalog.progressError ? (
               <p className="mt-4" role="status">
                 Không tải được tiến độ của bạn.{' '}
-                <button onClick={catalog.retryProgress} className="text-accent underline">
+                <button
+                  onClick={catalog.retryProgress}
+                  className="text-accent underline underline-offset-4 hover:opacity-70"
+                >
                   Thử lại
                 </button>
               </p>
@@ -346,7 +349,7 @@ function Curriculum({
       {catalog.progressError && (
         <p className="mb-4" role="status">
           Không tải được tiến độ của bạn.{' '}
-          <button onClick={catalog.retryProgress} className="text-accent underline">
+          <button onClick={catalog.retryProgress} className="text-accent underline underline-offset-4 hover:opacity-70">
             Thử lại
           </button>
         </p>
@@ -359,7 +362,7 @@ function Curriculum({
         ) : error ? (
           <p>
             Không tải được bài học.{' '}
-            <button onClick={retry} className="text-accent underline">
+            <button onClick={retry} className="text-accent underline underline-offset-4 hover:opacity-70">
               Thử lại
             </button>
           </p>

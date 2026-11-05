@@ -38,10 +38,7 @@ export function StudyHeader({ module, onBack, completedTabsCount, totalTabsCount
             </div>
 
             <h1 className="text-base sm:text-lg font-bold text-foreground truncate mt-0.5">{module.title}</h1>
-            <p
-              className="text-xs text-muted-foreground truncate font-light"
-              style={{ fontFamily: "'DM Sans', 'Noto Serif JP', serif" }}
-            >
+            <p className="text-xs text-muted-foreground truncate font-light" style={{ fontFamily: 'var(--font-jp)' }}>
               {module.titleJp}
             </p>
           </div>
