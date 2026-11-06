@@ -69,7 +69,7 @@ export class Content {
   private get modulesWhere() {
     return this.preview
       ? '1=1'
-      : "content_status='PUBLISHED' AND level_id IN (SELECT id FROM jlpt_levels WHERE level IN ('N5','N4','N3'))";
+      : "content_status='PUBLISHED' AND level_id IN (SELECT id FROM jlpt_levels WHERE level IN ('N5','N4','N3','N2','N1'))";
   }
   async progress(moduleId: number) {
     if (!this.userId) return guest();
@@ -334,7 +334,7 @@ export class Content {
   }
   async templates(params: URLSearchParams, id?: number) {
     const args: any[] = [];
-    let where = "is_published=1 AND level IN ('N5','N4','N3')";
+    let where = "is_published=1 AND level IN ('N5','N4','N3','N2','N1')";
     if (id !== undefined) {
       where += ' AND id=?';
       args.push(id);

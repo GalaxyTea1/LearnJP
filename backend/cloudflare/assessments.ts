@@ -186,7 +186,10 @@ export class Assessments extends LearningDB {
     }
     const snapshot = await this.db.batch<Row>([
       this.sql('SELECT version FROM assessment_revision WHERE id=1'),
-      this.sql("SELECT * FROM test_templates WHERE id=? AND is_published=1 AND level IN ('N5','N4','N3')", templateId),
+      this.sql(
+        "SELECT * FROM test_templates WHERE id=? AND is_published=1 AND level IN ('N5','N4','N3','N2','N1')",
+        templateId,
+      ),
       this.sql(
         'SELECT q.* FROM test_questions q JOIN test_sections s ON s.id=q.section_id WHERE s.template_id=? ORDER BY q.id',
         templateId,
@@ -213,7 +216,7 @@ export class Assessments extends LearningDB {
       const r = await this.batch([
         this.revisionGuard(Number(snapshot[0].results[0].version)),
         this.guard(
-          "EXISTS(SELECT 1 FROM test_templates WHERE id=? AND is_published=1 AND level IN ('N5','N4','N3'))",
+          "EXISTS(SELECT 1 FROM test_templates WHERE id=? AND is_published=1 AND level IN ('N5','N4','N3','N2','N1'))",
           templateId,
         ),
         this.sql(
@@ -295,7 +298,7 @@ export class Assessments extends LearningDB {
       await this.batch([
         this.revisionGuard(Number(snapshot[0].results[0].version)),
         this.guard(
-          "EXISTS(SELECT 1 FROM test_templates WHERE id=? AND is_published=1 AND level IN ('N5','N4','N3'))",
+          "EXISTS(SELECT 1 FROM test_templates WHERE id=? AND is_published=1 AND level IN ('N5','N4','N3','N2','N1'))",
           saved.template_id,
         ),
         this.guard(

@@ -1,7 +1,7 @@
 import { HttpError } from './http';
 
 export const PUBLIC_MODULES =
-  "SELECT m.id FROM learning_modules m JOIN jlpt_levels l ON l.id=m.level_id WHERE m.content_status='PUBLISHED' AND l.level IN ('N5','N4','N3')";
+  "SELECT m.id FROM learning_modules m JOIN jlpt_levels l ON l.id=m.level_id WHERE m.content_status='PUBLISHED' AND l.level IN ('N5','N4','N3','N2','N1')";
 export const utcNow = () => new Date().toISOString();
 export type Row = Record<string, any>;
 export class LearningDB {
