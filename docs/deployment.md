@@ -18,7 +18,37 @@ Set with `npx wrangler secret put <NAME> --config <config>`:
 - `JWT_SECRET`, `QUIZ_REVISION_SECRET`: random, at least 32 bytes, different per environment.
 - Public Supabase settings (`SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`) are plain vars in the config.
 
-## Release
+## Automatic deploys (GitHub Actions)
+
+`.github/workflows/deploy.yml` does the release below for you:
+
+- **Staging** deploys on its own after CI passes on a push to `main`. New migrations are
+  applied to staging automatically.
+- **Production** is manual: Actions → Deploy → Run workflow → target `production`. It checks
+  that CI passed for the latest `main`, deploys it to staging, then to production. If production
+  has an unapplied migration the run stops; back up and apply it by hand (step 2 below), then
+  re-run.
+- Each deploy ends with a `/api/v1/health` check that must report `ready: true`.
+
+The wrangler configs are not in Git, so the workflow builds them with
+`scripts/tools/write-wrangler-config.mjs` from the example files and these GitHub settings.
+
+**One-time setup** (repository Settings → Secrets and variables → Actions, and Settings →
+Environments):
+
+1. Create a Cloudflare API token (My Profile → API Tokens → "Edit Cloudflare Workers" template,
+   plus Account → D1 → Edit) and save it as the repository secret `CLOUDFLARE_API_TOKEN`.
+2. Repository variable `CLOUDFLARE_ACCOUNT_ID`.
+3. Create environments `staging` and `production`. On `production`, add yourself as a required
+   reviewer so a production run waits for approval.
+4. In each environment, add the variables `D1_DATABASE_ID`, `FRONTEND_URL`, `SUPABASE_URL`,
+   `SUPABASE_PUBLISHABLE_KEY`, `GOOGLE_AUTH_ENABLED`, `EMAIL_AUTH_ENABLED`, and for production
+   `DOMAINS` (comma-separated, e.g. `learnjp.dev,www.learnjp.dev`). Take the values from your
+   local `wrangler.<env>.json`.
+
+Worker secrets (`JWT_SECRET`, `QUIZ_REVISION_SECRET`) stay in Cloudflare; deploys keep them.
+
+## Release (by hand)
 
 1. Deploy to staging and check it: `npm run build`, then
    `npx wrangler deploy --config wrangler.staging.json`.
