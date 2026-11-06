@@ -1,5 +1,5 @@
 // Copy a published level (N3 or N4) from staging D1 to production D1.
-// Usage: node scripts/content/promote-level.mjs <N3|N4> [--apply]
+// Usage: node scripts/content/promote-level.mjs <N1|N2|N3|N4> [--apply]
 //   (no flag)  dry run: reads both databases and writes the SQL to .local/<level>-production/
 //   --apply    backs up production, then copies one lesson per request (one transaction each)
 // Lessons already present and identical on production are skipped, so the script can be re-run.
@@ -12,8 +12,8 @@ import { connect, literal, insert } from './lib/remote-d1.mjs';
 
 const level = process.argv[2]?.toUpperCase(),
   apply = process.argv.includes('--apply');
-assert.ok(/^N[34]$/.test(level), 'Usage: node scripts/content/promote-level.mjs <N3|N4> [--apply]');
-const previousLevel = { N4: 'N5', N3: 'N4' }[level];
+assert.ok(/^N[1-4]$/.test(level), 'Usage: node scripts/content/promote-level.mjs <N1|N2|N3|N4> [--apply]');
+const previousLevel = { N4: 'N5', N3: 'N4', N2: 'N3', N1: 'N2' }[level];
 
 const folder = new URL(`./${level.toLowerCase()}/`, import.meta.url);
 const lessons = [];

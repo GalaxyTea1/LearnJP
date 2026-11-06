@@ -23,7 +23,8 @@
     "test:content": "node --test \"scripts/content/**/*.test.mjs\"",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "db:seed:local": "node scripts/seed-local.mjs"
+    "db:seed:local": "node scripts/seed-local.mjs",
+    "plan:kanji": "node scripts/content/planning/assign-kanji.mjs"
   },
   "devDependencies": {
     "jose": "6.2.12",

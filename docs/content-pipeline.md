@@ -39,6 +39,20 @@ content/n4/n4-05.mjs ──> scripts/content/n4/unit-05.mjs (buildUnit) ──> 
 The per-unit tests load the earlier lessons and check that vocabulary is not repeated, that the
 kanji match the level plan and that the lesson imports cleanly into a local D1 database.
 
+## Planning N2 and N1
+
+`content/n2/syllabus.mjs` (20 lessons) and `content/n1/syllabus.mjs` (24 lessons) fix each
+lesson's topic and grammar. Lesson IDs start at 60001 (N2) and 80001 (N1), one block of 1,000
+per lesson as for the lower levels.
+
+Kanji come from the 2,136 joyo kanji in `content/joyo-kanji.json` (from
+[kanji-data](https://github.com/davidluzgouveia/kanji-data), MIT). The 1,486 the course does not
+teach yet are split by `npm run plan:kanji`: N2 takes the 398 graded N2 or N3, N1 the other
+1,088, and each kanji goes to the lesson whose topic matches its meaning, most frequent first.
+The result is `content/n2|n1/kanji-plan.json`; kanji may be swapped between lessons of a level
+as long as `scripts/content/planning/syllabus.test.mjs` still passes. That test also rejects any
+grammar point already taught in N5–N3 or repeated between lessons.
+
 ## Translating the N5 course
 
 N5 was first imported with English meanings. `scripts/content/n5/apply-vietnamese.mjs`

@@ -39,8 +39,10 @@ const search = [
   ['kanji', 'kanji', ['character', 'meaning', 'onyomi', 'kunyomi']],
   ['grammar_patterns', 'grammar', ['pattern', 'meaning', 'explanation']],
 ];
-for (const level of ['n4', 'n3']) {
+// Levels are added once their first lesson package exists.
+for (const level of ['n4', 'n3', 'n2', 'n1']) {
   const folder = new URL(`./content/${level}/`, import.meta.url);
+  if (!(await readdir(folder).catch(() => null))) continue;
   let levelId;
   for (const name of (await readdir(folder)).filter(n => /^unit-\d+\.mjs$/.test(n)).sort()) {
     const unit = await import(new URL(name, folder));

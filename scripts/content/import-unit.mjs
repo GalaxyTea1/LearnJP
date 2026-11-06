@@ -1,5 +1,5 @@
 // Import one lesson into staging D1.
-// Usage: node scripts/content/import-unit.mjs <N3|N4> <unit> [--apply | --publish]
+// Usage: node scripts/content/import-unit.mjs <N1|N2|N3|N4> <unit> [--apply | --publish]
 //   (no flag)  dry run: builds the rows and writes the SQL to .local/<level>-<unit>-release/
 //   --apply    inserts the lesson as DRAFT (invisible to learners)
 //   --publish  publishes a draft that still matches the package
@@ -15,8 +15,8 @@ const [levelArg, unitArg] = process.argv.slice(2);
 const level = levelArg?.toUpperCase(),
   unit = Number(unitArg);
 assert.ok(
-  /^N[34]$/.test(level) && Number.isInteger(unit) && unit > 0,
-  'Usage: node scripts/content/import-unit.mjs <N3|N4> <unit> [--apply | --publish]',
+  /^N[1-4]$/.test(level) && Number.isInteger(unit) && unit > 0,
+  'Usage: node scripts/content/import-unit.mjs <N1|N2|N3|N4> <unit> [--apply | --publish]',
 );
 const apply = process.argv.includes('--apply'),
   publish = process.argv.includes('--publish');
@@ -69,10 +69,11 @@ if (publish) {
     `UPDATE jlpt_levels SET total_vocab=${total('vocabulary', 'v')}, total_kanji=${total('kanji', 'k')}, total_grammar=${total('grammar_patterns', 'g')} WHERE id=${levelId}`,
   );
 } else {
+  // The first lesson of a level carries the level row itself.
   assert.equal(
     (await db.rows(`SELECT id FROM jlpt_levels WHERE id=${levelId} AND level='${level}'`)).length,
-    1,
-    `${level} level row missing`,
+    rows.jlpt_levels?.length ? 0 : 1,
+    rows.jlpt_levels?.length ? `${level} level row already exists` : `${level} level row missing`,
   );
   assert.equal(
     (await db.rows(`SELECT id FROM learning_modules WHERE level_id=${levelId} AND unit_number=${unit}`)).length,

@@ -1,10 +1,10 @@
 // Check a deployed level against its lesson packages through the public API.
-// Usage: node scripts/content/check-level.mjs <N3|N4> [host]   (default host: staging)
+// Usage: node scripts/content/check-level.mjs <N1|N2|N3|N4> [host]   (default host: staging)
 import { readdir } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 
 const level = process.argv[2]?.toUpperCase();
-assert.ok(/^N[34]$/.test(level), 'Usage: node scripts/content/check-level.mjs <N3|N4> [host]');
+assert.ok(/^N[1-4]$/.test(level), 'Usage: node scripts/content/check-level.mjs <N1|N2|N3|N4> [host]');
 const host = process.argv[3] || 'learnjp-staging.trongdv031199.workers.dev';
 const get = async path => {
   const response = await fetch(`https://${host}/api/v1/${path}`, { signal: AbortSignal.timeout(30000) });
