@@ -1,4 +1,4 @@
-// Checks shared by every N2/N1 lesson test: the curriculum ledger (only new vocabulary and the
+// Checks shared by every N4–N1 lesson test (the N3-16 and N4-14 review lessons have their own): the curriculum ledger (only new vocabulary and the
 // planned kanji and grammar), the shape of the questions, and a full round trip through a
 // throwaway D1 database (draft is hidden, publishing shows it, the quiz scores and a draft
 // lesson accepts no learner writes).
@@ -32,32 +32,57 @@ export async function earlierLessons(level, unitNumber) {
   return packages;
 }
 
-export async function checkCurriculum(p, { level, code, earlier, vocabulary, grammar, readingLength }) {
+/**
+ * kanjiPlan and grammarPlan default to content/<level>/kanji-plan.json and syllabus.mjs; pass null to skip
+ * the check (N4 has no kanji plan, N3 and N4 have no syllabus file). readingLength is optional.
+ */
+export async function checkCurriculum(
+  p,
+  {
+    level,
+    code,
+    earlier,
+    vocabulary,
+    grammar = 7,
+    readingLength,
+    kanjiPlan,
+    grammarPlan,
+    listenings = 3,
+    exercises = 47,
+    quiz = 25,
+  },
+) {
   const n5 = JSON.parse(await readFile(new URL('../../../content/n5/review/candidate.json', import.meta.url), 'utf8'));
   const knownVocab = new Set([...n5.vocabulary, ...earlier.flatMap(x => x.vocabulary)].map(x => x.japanese));
   const knownKanji = new Set([...n5.kanji, ...earlier.flatMap(x => x.kanji)].map(x => x.character));
-  const plan = JSON.parse(
-    await readFile(new URL(`../../../content/${level.toLowerCase()}/kanji-plan.json`, import.meta.url), 'utf8'),
-  );
-  const { units } = await import(`../../../content/${level.toLowerCase()}/syllabus.mjs`);
-  const syllabus = units.find(u => u.code === code);
+  const plan =
+    kanjiPlan === undefined
+      ? JSON.parse(
+          await readFile(new URL(`../../../content/${level.toLowerCase()}/kanji-plan.json`, import.meta.url), 'utf8'),
+        )
+      : kanjiPlan;
+  const patterns =
+    grammarPlan === undefined
+      ? (await import(`../../../content/${level.toLowerCase()}/syllabus.mjs`)).units.find(u => u.code === code).grammar
+      : grammarPlan;
 
   assert.equal(new Set(p.vocabulary.map(x => x.japanese)).size, vocabulary, 'vocabulary count');
   for (const v of p.vocabulary) assert.ok(!knownVocab.has(v.japanese), `Already introduced vocabulary: ${v.japanese}`);
   for (const k of p.kanji) assert.ok(!knownKanji.has(k.character), `Already introduced kanji: ${k.character}`);
-  assert.equal(p.kanji.map(k => k.character).join(''), plan[code], 'kanji differ from kanji-plan.json');
-  assert.deepEqual(
-    p.grammar_patterns.map(g => g.pattern),
-    syllabus.grammar,
-    'grammar differs from the syllabus',
-  );
+  if (plan) assert.equal(p.kanji.map(k => k.character).join(''), plan[code], 'kanji differ from the kanji plan');
+  if (patterns)
+    assert.deepEqual(
+      p.grammar_patterns.map(g => g.pattern),
+      patterns,
+      'grammar differs from the syllabus',
+    );
   assert.equal(p.grammar_patterns.length, grammar);
   assert.ok(p.grammar_examples.length >= grammar * 3, 'at least three examples per grammar point');
   assert.equal(p.lesson_sections.length, 10);
   assert.ok(p.lesson_sections.every(s => s.instructions?.trim()));
-  assert.equal(p.lesson_exercises.length, 47);
-  assert.equal(p.quiz_questions.length, 25);
-  assert.equal(p.listening_content.length, 3);
+  assert.equal(p.lesson_exercises.length, exercises);
+  assert.equal(p.quiz_questions.length, quiz);
+  assert.equal(p.listening_content.length, listenings);
   assert.equal(p.reading_passages.length, 2);
   assert.equal(p.writing_tasks.length, 2);
   for (const q of [...p.quiz_questions, ...p.lesson_exercises]) {
@@ -77,11 +102,12 @@ export async function checkCurriculum(p, { level, code, earlier, vocabulary, gra
       w.sample_answer.length >= w.min_length && w.sample_answer.length <= w.max_length,
       `Writing sample length ${w.sample_answer.length} outside ${w.min_length}–${w.max_length}`,
     );
-  for (const r of p.reading_passages)
-    assert.ok(
-      r.content.length >= readingLength[0] && r.content.length <= readingLength[1],
-      `Reading “${r.title}” is ${r.content.length} characters`,
-    );
+  if (readingLength)
+    for (const r of p.reading_passages)
+      assert.ok(
+        r.content.length >= readingLength[0] && r.content.length <= readingLength[1],
+        `Reading “${r.title}” is ${r.content.length} characters`,
+      );
 }
 
 const insertAll = async (db, packages) => {
@@ -115,11 +141,12 @@ export async function checkInDatabase(p, { level, moduleId, earlier }) {
     assert.deepEqual((await db.prepare('PRAGMA foreign_key_check').all()).results, []);
     const { Content } = await load('content'),
       { Assessments } = await load('assessments'),
-      { Study } = await load('study');
+      { Study } = await load('study'),
+      { Srs } = await load('srs');
     const key = 'local-only-lesson-revision-key-for-tests',
       content = new Content(db, key);
-    const published = async () =>
-      (await content.modules(new URLSearchParams({ level }))).filter(m => m.id === moduleId);
+    // Every lesson is inserted as a draft, so this lesson is the only one the level can list.
+    const published = async () => content.modules(new URLSearchParams({ level }));
 
     // A draft lesson is invisible to learners but visible in the staff preview.
     assert.equal((await published()).length, 0);
@@ -138,13 +165,16 @@ export async function checkInDatabase(p, { level, moduleId, earlier }) {
       'lesson_exercises',
     ])
       await db.prepare(`UPDATE ${table} SET status='PUBLISHED' WHERE id BETWEEN ? AND ?`).bind(moduleId, last).run();
-    assert.equal((await published()).length, 1);
+    assert.deepEqual(
+      (await published()).map(m => m.id),
+      [moduleId],
+    );
     const full = await content.full(moduleId, true);
     assert.equal(full.sections.length, 10);
     assert.equal(full.vocabulary.length, p.vocabulary.length);
     assert.equal(full.kanji.length, p.kanji.length);
     assert.equal(full.grammarPatterns.length, p.grammar_patterns.length);
-    assert.equal(full.quizQuestions.length, 25);
+    assert.equal(full.quizQuestions.length, p.quiz_questions.length);
     assert.ok(
       full.quizQuestions.every(q => !('correctIndex' in q) && !('explanation' in q)),
       'quiz answers leak',
@@ -171,13 +201,16 @@ export async function checkInDatabase(p, { level, moduleId, earlier }) {
     };
     const assess = new Assessments(db, 1, key),
       result = await assess.quiz(payload);
-    assert.equal(result.score, 25);
+    assert.equal(result.score, p.quiz_questions.length);
     assert.equal(result.passed, true);
     assert.deepEqual(await assess.quiz(payload), result);
     assert.equal((await study.read(moduleId)).quizCompleted, true);
+    const srs = new Srs(db, 1);
+    await srs.review({ itemType: 'VOCAB', itemId: p.vocabulary[0].id, quality: 4 });
     await db.prepare("UPDATE learning_modules SET content_status='DRAFT' WHERE id=?").bind(moduleId).run();
     await assert.rejects(study.write(moduleId, { completedTabs: ['kanji'] }), { status: 404 });
     await assert.rejects(assess.quiz({ ...payload, requestId: crypto.randomUUID() }), { status: 404 });
+    await assert.rejects(srs.review({ itemType: 'VOCAB', itemId: p.vocabulary[0].id, quality: 4 }), { status: 404 });
   } finally {
     await proxy.dispose();
   }

@@ -1,6 +1,6 @@
 // Turns a lesson content module (content/<level>/<code>.mjs) into rows for the 13 lesson tables.
 // Every row of a lesson gets an ID in the lesson's own block (moduleId … moduleId + 999).
-// Used by the N2 and N1 lessons; N3 and N4 keep their original per-lesson builders.
+// Used by every N4–N1 lesson; the defaults below are the N2/N1 lesson format.
 import { readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { encodeRow } from '../n5/package.mjs';
@@ -17,8 +17,14 @@ const sectionTypes = [
   'EXERCISE',
   'SUMMARY',
 ];
-// Lesson quiz: 3 vocabulary, 3 kanji, 11 grammar, 4 listening and 4 reading questions = 25.
-const quizGrammar = [0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 13];
+// Default lesson quiz: 3 vocabulary, 3 kanji, 11 grammar, 4 listening and 4 reading questions = 25.
+const defaultQuiz = {
+  vocab: 3,
+  kanji: 3,
+  grammar: [0, 1, 2, 4, 5, 6, 8, 9, 10, 12, 13],
+  listen: [0, 2, 3, 4],
+  read: [0, 2, 3, 4],
+};
 
 // Rotates the options so the correct answer is spread evenly over A–D.
 const choices = (q, i) => {
@@ -38,6 +44,9 @@ const choices = (q, i) => {
  * @param content the lesson content module
  * @param lesson  { level, code, unitNumber, moduleId, levelId, stamp, title, titleJp, description, topics,
  *                  sectionTitles[10], instructions[10], textbook, rubric, levelRow? }
+ *                Optional format settings (N2/N1 defaults): quiz { vocab, kanji, grammar[], listen[], read[] },
+ *                distractors (vocabulary offsets for wrong options), vocabPractice, playbackSpeed, kanjiSection,
+ *                mnemonicTail, listeningInstructions, counts { vocab?, kanji?, quiz, exercises }.
  */
 export async function buildLessonRows(content, lesson) {
   const columns = JSON.parse(
@@ -57,6 +66,16 @@ export async function buildLessonRows(content, lesson) {
     kanjiQuestions,
   } = content;
   const { level, code, moduleId, levelId, stamp } = lesson;
+  const quizPlan = { ...defaultQuiz, ...lesson.quiz };
+  const {
+    distractors = [17, 41, 73],
+    playbackSpeed = 1,
+    vocabPractice = 10,
+    kanjiSection = 'Hán tự',
+    mnemonicTail = 'với các từ ghép ví dụ.',
+    listeningInstructions = 'Nghe và trả lời câu hỏi bên dưới. Sau đó mở bản chép và bản dịch để tự kiểm.',
+    counts = { quiz: 25, exercises: 47 },
+  } = lesson;
   const rows = {};
   const add = (table, data) => {
     const list = (rows[table] ??= []);
@@ -121,7 +140,7 @@ export async function buildLessonRows(content, lesson) {
       level,
       exampleWords: examples.split('; ').map(s => ({ jp: s.split(': ')[0], en: s.split(': ')[1] })),
       relatedChars: [],
-      mnemonic: `Tập viết ${character} theo bộ ${radical}; liên hệ nghĩa “${meaning.split(' / ')[1]}” với các từ ghép ví dụ.`,
+      mnemonic: `Tập viết ${character} theo bộ ${radical}; liên hệ nghĩa “${meaning.split(' / ')[1]}” ${mnemonicTail}`,
     });
   for (const [pattern, meaning, explanation, examples] of grammar) {
     const grammarPatternId = add('grammar_patterns', {
@@ -155,9 +174,9 @@ export async function buildLessonRows(content, lesson) {
       title,
       transcript,
       transcriptTranslation,
-      instructions: 'Nghe và trả lời câu hỏi bên dưới. Sau đó mở bản chép và bản dịch để tự kiểm.',
+      instructions: listeningInstructions,
       audioUrl: 'TTS:ja-JP',
-      playbackSpeed: 1,
+      playbackSpeed,
       source: 'Original LearnJP; browser TTS',
       sortOrder: i + 1,
     }),
@@ -187,21 +206,19 @@ export async function buildLessonRows(content, lesson) {
     }),
   );
 
-  // Practice: 10 vocabulary, 10 kanji, 15 grammar, 6 listening, 6 reading = 47.
+  // Practice: the first vocabPractice words (10 by default), then every kanji, grammar, listening and reading question.
   const vq = vocab
-    .slice(0, 10)
+    .slice(0, vocabPractice)
     .map((v, i) => [
       `「${v[0]}（${v[1]}）」nghĩa là gì?`,
       v[3],
-      vocab[(i + 17) % vocab.length][3],
-      vocab[(i + 41) % vocab.length][3],
-      vocab[(i + 73) % vocab.length][3],
+      ...distractors.map(offset => vocab[(i + offset) % vocab.length][3]),
       `${v[0]} = ${v[3]}. Ví dụ: ${v[5]} (${v[6]})`,
     ]);
   const kq = kanjiQuestions.map(([word, ...options]) => [
     `Cách đọc của 「${word}」?`,
     ...options,
-    `${word} đọc là ${options[0]}. Xem ví dụ trong mục Hán tự.`,
+    `${word} đọc là ${options[0]}. Xem ví dụ trong mục ${kanjiSection}.`,
   ]);
   let exerciseIndex = 0;
   const exercise = (q, sectionId, extra = {}) => {
@@ -223,13 +240,13 @@ export async function buildLessonRows(content, lesson) {
   readQuestions.forEach(([i, ...q]) => exercise(q, section.READING, { readingPassageId: reads[i] }));
 
   const quiz = [
-    ...vq.slice(0, 3),
-    ...kq.slice(0, 3),
-    ...quizGrammar.map(i => grammarQuestions[i]),
-    ...[0, 2, 3, 4]
+    ...vq.slice(0, quizPlan.vocab),
+    ...kq.slice(0, quizPlan.kanji),
+    ...quizPlan.grammar.map(i => grammarQuestions[i]),
+    ...quizPlan.listen
       .map(i => listenQuestions[i])
       .map(([i, p, ...q]) => [`Đọc lại bản chép để ôn nghe:\n${listenings[i][1]}\n\n${p}`, ...q]),
-    ...[0, 2, 3, 4]
+    ...quizPlan.read
       .map(i => readQuestions[i])
       .map(([i, p, ...q]) => [`Đọc đoạn sau:\n${readings[i][1]}\n\n${p}`, ...q]),
   ];
@@ -244,11 +261,9 @@ export async function buildLessonRows(content, lesson) {
       points: 10,
     });
   });
-  assert.equal(kanjiQuestions.length, 10);
-  assert.equal(grammarQuestions.length, 15);
-  assert.equal(listenQuestions.length, 6);
-  assert.equal(readQuestions.length, 6);
-  assert.equal(quiz.length, 25);
-  assert.equal(exerciseIndex, 47);
+  if (counts.vocab) assert.equal(vocab.length, counts.vocab);
+  if (counts.kanji) assert.equal(kanji.length, counts.kanji);
+  assert.equal(quiz.length, counts.quiz);
+  assert.equal(exerciseIndex, counts.exercises);
   return rows;
 }
