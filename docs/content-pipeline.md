@@ -34,10 +34,15 @@ content/n4/n4-05.mjs ──> scripts/content/n4/unit-05.mjs (buildUnit) ──> 
 | N5         | `content/n5/source.json` (imported from the original PostgreSQL database) plus reviewed corrections and the Vietnamese text in `content/n5/vi-*.mjs` | `scripts/content/n5/`            |
 | N4         | `content/n4/n4-01.mjs` … `n4-14.mjs`                                                                                                                 | `scripts/content/n4/unit-XX.mjs` |
 | N3         | `content/n3/n3-01.mjs` … `n3-16.mjs`                                                                                                                 | `scripts/content/n3/unit-XX.mjs` |
+| N2         | `content/n2/n2-01.mjs` … (in progress)                                                                                                               | `scripts/content/n2/unit-XX.mjs` |
 | Mock tests | `content/tests/mock-tests.mjs`                                                                                                                       | `scripts/content/mock-tests/`    |
 
-The per-unit tests load the earlier lessons and check that vocabulary is not repeated, that the
-kanji match the level plan and that the lesson imports cleanly into a local D1 database.
+Each N4–N1 `unit-XX.mjs` is a short config (titles, instructions, quiz plan) passed to the shared
+builder `scripts/content/lib/unit-package.mjs`. N2 and N1 use its defaults; the older N4 and N3
+formats (listening speed, quiz size) sit in `n4/format.mjs` and `n3/format.mjs`. The per-unit tests
+run the shared checks in `lib/unit-checks.mjs`: they load the earlier lessons and check that
+vocabulary is not repeated, that the kanji match the level plan and that the lesson imports,
+publishes and scores cleanly in a local D1 database.
 
 ## Planning N2 and N1
 
