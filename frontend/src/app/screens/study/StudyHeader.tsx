@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowLeft, BookOpen, CheckCircle, Award } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import type { StudyModuleData } from './types';
 
 interface StudyHeaderProps {

@@ -1,4 +1,3 @@
-import React from 'react';
 import type { SpeechState } from './ttsHelper';
 
 export function SpeechStatus({ playing, error, stop }: SpeechState & { stop: () => void }) {

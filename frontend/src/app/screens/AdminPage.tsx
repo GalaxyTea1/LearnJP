@@ -1,5 +1,5 @@
 import { listeningReady, isTtsListening } from './study/dialoguePlayer';
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import {
   CheckCircle,
   AlertTriangle,
@@ -7,7 +7,6 @@ import {
   FileText,
   ChevronRight,
   Database,
-  RefreshCw,
   Loader2,
   Archive,
   LogOut,

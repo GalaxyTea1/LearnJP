@@ -12,7 +12,7 @@ import {
   CheckCircle2,
 } from 'lucide-react';
 import type { StudyModuleData, StudyTabId } from './types';
-import { contentApi, progressApi } from '../../services/api';
+import { contentApi } from '../../services/api';
 import { useStudyProgress } from './useStudyProgress';
 import { StudyHeader } from './StudyHeader';
 import { VocabStudyTab } from './tabs/VocabStudyTab';

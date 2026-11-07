@@ -1,6 +1,6 @@
 import { exerciseTypeLabel } from '../learnerLabels';
-import React, { useState } from 'react';
-import { BookOpen, PenTool, CheckCircle, HelpCircle, CheckCircle2, Eye, EyeOff } from 'lucide-react';
+import { useState } from 'react';
+import { BookOpen, PenTool, CheckCircle, CheckCircle2, Eye, EyeOff } from 'lucide-react';
 import type { SectionItem, ReadingPassage, WritingTask, ExerciseItem } from '../types';
 
 import { answerDisplay } from '../answerDisplay';

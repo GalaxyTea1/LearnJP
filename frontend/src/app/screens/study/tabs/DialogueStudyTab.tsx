@@ -1,16 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import {
-  Volume2,
-  Eye,
-  EyeOff,
-  MessageSquare,
-  Headphones,
-  Play,
-  Pause,
-  Music,
-  UserCheck,
-  CheckCircle2,
-} from 'lucide-react';
+import { useState, useEffect, useRef } from 'react';
+import { Volume2, Eye, EyeOff, MessageSquare, Headphones, Play, Pause, Music, CheckCircle2 } from 'lucide-react';
 import type { SectionItem, Conversation, ListeningItem } from '../types';
 import { createDialoguePlayer, hasListeningAudio, isTtsListening, listeningSpeechLines } from '../dialoguePlayer';
 

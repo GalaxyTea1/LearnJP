@@ -17,7 +17,6 @@ import {
   Sparkles,
   Target,
 } from 'lucide-react';
-import type { Page } from '../data/basicData';
 import { roadmapPlans, weeklyRhythm, type JLPTLevel } from '../data/roadmapPlan';
 import { ModuleStudyViewer } from './study/ModuleStudyViewer';
 import { GuestNotice, useAuth } from '../components/auth/AuthProvider';
@@ -35,7 +34,7 @@ const views: { id: View; label: string; icon: typeof Target }[] = [
   { id: 'assessment', label: 'Tự đánh giá', icon: BarChart3 },
 ];
 
-export default function LearningPage({ setPage }: { setPage: (p: Page) => void }) {
+export default function LearningPage() {
   const { user, checking } = useAuth();
   const [selectedLevel, setSelectedLevel] = useState<JLPTLevel>('N5');
   const [view, setView] = useState<View>('overview');
@@ -507,7 +506,7 @@ function Schedule({ level, hours }: { level: JLPTLevel; hours: string }) {
         Lịch dưới đây là một tuần mẫu. Tăng hoặc giảm thời lượng mỗi ngày cho khớp với cường độ gợi ý của cấp độ.
       </p>
       <div className="border-y border-border divide-y divide-border">
-        {weeklyRhythm.map((day, index) => (
+        {weeklyRhythm.map(day => (
           <div
             key={day.day}
             className="grid grid-cols-[70px_1fr_auto] sm:grid-cols-[100px_1fr_100px] items-center gap-4 py-4"

@@ -133,7 +133,7 @@ function AppContent() {
           }
         >
           {page === 'home' && <HomePage setPage={navigate} />}
-          {page === 'learning' && <LearningPage setPage={navigate} />}
+          {page === 'learning' && <LearningPage />}
           {page === 'tests' && <TestsPage />}
           {page === 'translate' &&
             (translationEnabled ? (

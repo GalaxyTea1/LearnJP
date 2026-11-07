@@ -1,10 +1,9 @@
 import { vocabularyTypeLabel } from '../learnerLabels';
-import React, { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import {
   Volume2,
   Search,
   CheckCircle2,
-  Bookmark,
   RotateCw,
   ChevronLeft,
   ChevronRight,

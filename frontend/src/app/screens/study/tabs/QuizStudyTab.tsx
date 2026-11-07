@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { CheckCircle2, XCircle, Award, RotateCcw, Clock, Send, ChevronLeft, ChevronRight, Loader2 } from 'lucide-react';
 import type { QuizQuestionItem } from '../types';
 import { ApiError, progressApi } from '../../../services/api';

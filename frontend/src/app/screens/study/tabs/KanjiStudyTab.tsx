@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Volume2, Sparkles, BookOpen, PenTool, CheckCircle2 } from 'lucide-react';
+import { useState } from 'react';
+import { Volume2, Sparkles, BookOpen, CheckCircle2 } from 'lucide-react';
 import type { KanjiItem } from '../types';
 import { useJapaneseSpeech } from '../useJapaneseSpeech';
 import { SpeechStatus } from '../SpeechStatus';

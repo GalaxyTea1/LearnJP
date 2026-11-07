@@ -1,4 +1,3 @@
-import React from 'react';
 import { Loader2, RefreshCw } from 'lucide-react';
 import { type ModuleFromApi, type ContentStatus, STATUS_META } from './types';
 
