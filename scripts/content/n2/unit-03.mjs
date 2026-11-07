@@ -40,7 +40,7 @@ export const buildUnit = () =>
       'Bài 1 là trích đoạn hợp đồng nguyên tắc mua bán; bài 2 là bài báo về một cửa hàng nhỏ. Chú giải: 甲・乙（こう・おつ）Bên A, Bên B; やむを得ない bất khả kháng; 漏らす（もらす）tiết lộ; 仕入れる nhập hàng; 品ぞろえ sự phong phú hàng hóa; かなわない không bì được.',
       'Bài 1: email khoảng 250 ký tự (kính ngữ). Bài 2: bài viết khoảng 400 ký tự (だ・である). Có bài mẫu để so sánh sau khi viết. Bản nháp tự lưu trên trình duyệt.',
       '47 câu: 10 từ vựng, 10 Hán tự, 15 ngữ pháp, 6 nghe, 6 đọc. Bài kiểm tra cuối bài 25 câu, đạt từ 70%; phần nghe trong bài kiểm tra có bản chép để ôn lại.',
-      'Tự kiểm sau bài: nói căn cứ của một quyết định bằng に基づいて; kể một sản phẩm ra đời từ ý kiến khách bằng をもとに; nói làm theo kế hoạch bằng に沿って; nói giá thay đổi theo số lượng bằng に応じて; nêu thị trường chính bằng を中心に; tóm tắt một tranh chấp bằng をめぐって; khen sở trường của ai bằng にかけては. Bài tiếp theo (N2-04): sức khỏe và y tế.',
+      'Tự kiểm sau bài: nói căn cứ của một quyết định bằng に基づいて; kể một sản phẩm ra đời từ ý kiến khách bằng をもとに; nói làm theo kế hoạch bằng に沿って; nói giá thay đổi theo số lượng bằng に応じて; nêu thị trường chính bằng を中心に; tóm tắt một tranh chấp bằng をめぐって; khen sở trường của ai bằng にかけては. Bài tiếp theo (N2-04): văn bản trang trọng.',
     ],
     rubric:
       'Tự kiểm: đúng độ dài ký tự (20%); dùng đúng các mẫu của bài theo yêu cầu (35%); bố cục rõ ràng, đủ ý (30%); văn phong phù hợp người đọc (15%). Không có điểm tự động.',
