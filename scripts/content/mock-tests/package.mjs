@@ -5,7 +5,7 @@ import { readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { mocks } from '../../../content/tests/mock-tests.mjs';
-import { encodeRow } from '../n5/package.mjs';
+import { encodeRow } from '../lib/encode-row.mjs';
 
 export const firstId = 50001,
   lastId = 50999;

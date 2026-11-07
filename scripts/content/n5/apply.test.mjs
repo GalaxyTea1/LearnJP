@@ -5,13 +5,13 @@ import { getPlatformProxy } from 'wrangler';
 import { migrate, load } from '../../test/learning-fixture.mjs';
 import {
   reviewedPackage,
-  encodeRow,
   readContentSnapshot,
   planContentUpdate,
   applyContentPatches,
   reverseContentPatches,
 } from './package.mjs';
 import { searchIndexRows, verifySearchIndex } from './search-index.mjs';
+import { encodeRow } from '../lib/encode-row.mjs';
 const pkg = await reviewedPackage();
 async function fixture(run, data = pkg.source) {
   const proxy = await getPlatformProxy({

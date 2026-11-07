@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { encodeRow } from '../n5/package.mjs';
+import { encodeRow } from './encode-row.mjs';
 export const tables = [
   'jlpt_levels',
   'learning_modules',

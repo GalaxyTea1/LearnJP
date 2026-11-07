@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import { isDeepStrictEqual } from 'node:util';
 import { reviewSnapshot, digest } from './review.mjs';
 import { searchIndexEntry } from './search-index.mjs';
+import { encodeRow } from '../lib/encode-row.mjs';
 
 export async function reviewedPackage() {
   const read = async path => JSON.parse(await readFile(new URL(path, import.meta.url), 'utf8'));
@@ -84,19 +85,6 @@ export async function reviewedPackage() {
   assert.deepEqual(report.changes, result.changes);
   return { ...result, source, columns: await read('../../../backend/cloudflare/columns.json') };
 }
-export const encodeRow = (row, fields) =>
-  Object.fromEntries(
-    fields.map(f => [
-      f.column,
-      row[f.name] == null
-        ? null
-        : f.type === 'Json'
-          ? JSON.stringify(row[f.name])
-          : f.type === 'Boolean'
-            ? Number(row[f.name])
-            : row[f.name],
-    ]),
-  );
 
 export async function readContentSnapshot(db, pkg) {
   const tables = Object.keys(pkg.source);

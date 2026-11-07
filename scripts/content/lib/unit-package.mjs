@@ -3,7 +3,7 @@
 // Used by every N4–N1 lesson; the defaults below are the N2/N1 lesson format.
 import { readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
-import { encodeRow } from '../n5/package.mjs';
+import { encodeRow } from './encode-row.mjs';
 
 const sectionTypes = [
   'OVERVIEW',
