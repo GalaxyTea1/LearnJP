@@ -11,7 +11,7 @@ export interface VocabularyItem {
   audioUrl?: string | null;
 }
 
-export interface KanjiExample {
+interface KanjiExample {
   jp: string;
   en: string;
 }
@@ -29,7 +29,7 @@ export interface KanjiItem {
   exampleWords?: KanjiExample[] | null;
 }
 
-export interface GrammarExample {
+interface GrammarExample {
   id: number;
   grammarPatternId?: number;
   japanese: string;
@@ -49,7 +49,7 @@ export interface GrammarPattern {
   examples: GrammarExample[];
 }
 
-export interface DialogueLine {
+interface DialogueLine {
   id: number;
   speaker: string;
   japanese: string;
@@ -76,7 +76,7 @@ export interface ListeningItem {
   transcriptTranslation?: string | null;
 }
 
-export interface ReadingExercise {
+interface ReadingExercise {
   id: number;
   prompt: string;
   options?: string[];
@@ -157,10 +157,3 @@ export interface StudyModuleData {
 }
 
 export type StudyTabId = 'vocab' | 'kanji' | 'grammar' | 'dialogue' | 'exercise' | 'quiz';
-
-export interface StudyTabConfig {
-  id: StudyTabId;
-  label: string;
-  icon: string;
-  countBadge?: number | string;
-}

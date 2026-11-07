@@ -3,7 +3,7 @@ import { LearningDB, PUBLIC_MODULES, utcNow, isGuardError, type Row } from './le
 import { HttpError } from './http';
 import { z } from './validate';
 
-export const studyPatch = z
+const studyPatch = z
   .object({
     completedTabs: z
       .array(z.enum(['vocab', 'kanji', 'grammar', 'dialogue', 'exercise']))

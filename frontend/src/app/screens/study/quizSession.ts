@@ -1,6 +1,6 @@
 import type { QuizQuestionItem } from './types';
 
-export interface SubmittedResult {
+interface SubmittedResult {
   score: number;
   totalQuestions: number;
   scorePercent: number;

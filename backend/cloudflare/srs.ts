@@ -5,8 +5,8 @@ import { HttpError } from './http';
 
 export const itemTypes = z.enum(['VOCAB', 'KANJI', 'GRAMMAR']);
 const tables = { VOCAB: 'vocabulary', KANJI: 'kanji', GRAMMAR: 'grammar_patterns' } as const;
-export const publicSrs = `((item_type='VOCAB' AND item_id IN (SELECT id FROM vocabulary WHERE module_id IN (${PUBLIC_MODULES}))) OR (item_type='KANJI' AND item_id IN (SELECT id FROM kanji WHERE module_id IN (${PUBLIC_MODULES}))) OR (item_type='GRAMMAR' AND item_id IN (SELECT id FROM grammar_patterns WHERE module_id IN (${PUBLIC_MODULES}))))`;
-export function sm2(quality: number, previous: Row | null, stamp: string) {
+const publicSrs = `((item_type='VOCAB' AND item_id IN (SELECT id FROM vocabulary WHERE module_id IN (${PUBLIC_MODULES}))) OR (item_type='KANJI' AND item_id IN (SELECT id FROM kanji WHERE module_id IN (${PUBLIC_MODULES}))) OR (item_type='GRAMMAR' AND item_id IN (SELECT id FROM grammar_patterns WHERE module_id IN (${PUBLIC_MODULES}))))`;
+function sm2(quality: number, previous: Row | null, stamp: string) {
   let repetitions = previous?.repetitions || 0,
     interval = previous?.interval || 0,
     ease = previous?.ease_factor || 2.5;

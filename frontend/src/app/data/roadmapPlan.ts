@@ -1,13 +1,13 @@
 export type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 
-export type RoadmapPhase = {
+type RoadmapPhase = {
   title: string;
   weeks: string;
   focus: string;
   outcomes: string[];
 };
 
-export type RoadmapPlan = {
+type RoadmapPlan = {
   level: JLPTLevel;
   label: string;
   japaneseLabel: string;

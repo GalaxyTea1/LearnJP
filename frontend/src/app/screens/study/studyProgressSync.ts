@@ -1,6 +1,6 @@
-export const studyTabs = ['vocab', 'kanji', 'grammar', 'dialogue', 'exercise'];
-export type StudyDetails = { completedTabs: string[]; masteredVocabularyIds: number[]; quizCompleted: boolean };
-export type StudyPatch = { completedTabs: string[]; vocabulary: { id: number; mastered: boolean }[] };
+const studyTabs = ['vocab', 'kanji', 'grammar', 'dialogue', 'exercise'];
+type StudyDetails = { completedTabs: string[]; masteredVocabularyIds: number[]; quizCompleted: boolean };
+type StudyPatch = { completedTabs: string[]; vocabulary: { id: number; mastered: boolean }[] };
 export const emptyDetails = (): StudyDetails => ({
   completedTabs: [],
   masteredVocabularyIds: [],

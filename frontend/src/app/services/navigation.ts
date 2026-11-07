@@ -3,7 +3,7 @@ import type { Page } from '../data/basicData';
 
 const navigationEvent = 'sumary:navigation';
 const pages: Page[] = ['home', 'learning', 'tests', 'translate', 'dictionary', 'writing', 'admin'];
-export const currentUrl = () => window.location.href;
+const currentUrl = () => window.location.href;
 // The home page lives at the site root; every other page at /<page>.
 export const pathFor = (page: Page) => (page === 'home' ? '/' : `/${page}`);
 export function subscribeNavigation(listener: () => void) {

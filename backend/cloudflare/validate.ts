@@ -8,8 +8,8 @@ const FAIL = Symbol('fail');
 class Invalid {
   constructor(public paths: Path[]) {}
 }
-export type Issue = { path: Path };
-export type SafeParse<T> = { success: true; data: T } | { success: false; error: { issues: Issue[] } };
+type Issue = { path: Path };
+type SafeParse<T> = { success: true; data: T } | { success: false; error: { issues: Issue[] } };
 
 const emailPattern =
   /^(?:[A-Za-z0-9_'+\-]+\.)*[A-Za-z0-9_'+\-]*[A-Za-z0-9_+-]@(?:[A-Za-z0-9][A-Za-z0-9\-]*\.)+[A-Za-z]{2,}$/;
@@ -184,7 +184,6 @@ type Shape = Record<string, Schema<any>>;
 type Out<S> = S extends Schema<infer T> ? T : never;
 type Required<S extends Shape> = { [K in keyof S as undefined extends Out<S[K]> ? never : K]: Out<S[K]> };
 type Optional<S extends Shape> = { [K in keyof S as undefined extends Out<S[K]> ? K : never]?: Out<S[K]> };
-export type Infer<S> = S extends Schema<infer T> ? T : never;
 class ObjectSchema<S extends Shape> extends Schema<Required<S> & Optional<S>> {
   constructor(
     readonly shape: S,

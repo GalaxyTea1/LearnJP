@@ -1,7 +1,7 @@
 // Refresh credentials are HttpOnly cookies. Access tokens are shared between
 // tabs; a session revision prevents old requests from changing a new identity.
 const BASE_URL = `${(import.meta.env.VITE_API_URL || '').replace(/\/$/, '')}/api/v1`;
-export interface ApiResponse<T = any> {
+interface ApiResponse<T = any> {
   success: boolean;
   message: string;
   data: T;
@@ -449,7 +449,7 @@ export const progressApi = {
 
 // ─── 4b. Mock tests ──────────────────────────────────────────────────────────
 
-export interface MockTestQuestion {
+interface MockTestQuestion {
   id: number;
   questionType: string;
   passage: string | null;
@@ -458,7 +458,7 @@ export interface MockTestQuestion {
   points: number;
   sortOrder: number;
 }
-export interface MockTestSection {
+interface MockTestSection {
   id: number;
   sectionType: 'VOCABULARY' | 'GRAMMAR' | 'READING' | 'LISTENING';
   title: string;
@@ -524,34 +524,7 @@ export const testsApi = {
   },
 };
 
-// ─── 5. Gamification & User Dashboard API ────────────────────────────────────
-
-export const userApi = {
-  async getDashboard() {
-    return apiFetch('/users/dashboard');
-  },
-
-  async getSettings() {
-    return apiFetch('/users/settings');
-  },
-
-  async updateSettings(settings: any) {
-    return apiFetch('/users/settings', {
-      method: 'PUT',
-      body: JSON.stringify(settings),
-    });
-  },
-
-  async getLeaderboard(limit = 10) {
-    return apiFetch(`/gamification/leaderboard?limit=${limit}`);
-  },
-
-  async recordDailyCheckIn() {
-    return apiFetch('/gamification/checkin', { method: 'POST' });
-  },
-};
-
-// ─── 6. Admin Content API ────────────────────────────────────────────────────
+// ─── 5. Admin Content API ────────────────────────────────────────────────────
 
 export const adminApi = {
   /** Lấy danh sách module (cần ADMIN/MODERATOR, xem cả bản nháp) */

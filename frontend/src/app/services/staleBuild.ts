@@ -5,7 +5,7 @@ const RELOAD_KEY = 'learnjp-chunk-reload';
 // After a deploy, a tab opened earlier still asks for the previous build's chunks, which no
 // longer exist. Reload once to pick up the new build. The timestamp stops a reload loop when
 // a chunk is genuinely unavailable; the error boundary then shows its reload button instead.
-export function reloadForNewBuild(): boolean {
+function reloadForNewBuild(): boolean {
   try {
     const last = Number(sessionStorage.getItem(RELOAD_KEY) || 0);
     if (Date.now() - last < 30_000) return false;

@@ -1,4 +1,4 @@
-export type DraftStatus = 'empty' | 'saved' | 'unavailable' | 'invalid' | 'unsaved';
+type DraftStatus = 'empty' | 'saved' | 'unavailable' | 'invalid' | 'unsaved';
 export interface WritingDraft {
   text: string;
   status: DraftStatus;
