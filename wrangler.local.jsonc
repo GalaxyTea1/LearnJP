@@ -18,6 +18,8 @@
     "not_found_handling": "single-page-application",
     "run_worker_first": ["/api", "/api/*"],
   },
+  // Each deployment gets a new id, which keys the public content cache.
+  "version_metadata": { "binding": "CF_VERSION_METADATA" },
   "d1_databases": [
     {
       "binding": "DB",

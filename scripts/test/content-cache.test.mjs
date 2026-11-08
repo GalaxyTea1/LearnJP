@@ -138,6 +138,12 @@ test('edge cache serves shared content, keeps progress personal and invalidates 
     [1],
   );
   await db.prepare("UPDATE learning_modules SET content_status='PUBLISHED' WHERE id=2").run();
+  // A new Worker deployment never reads entries cached by the previous one.
+  await guest().full(1, true);
+  const stored = puts;
+  const deployed = new Content(db, secret, undefined, false, edgeCache(db, 'https://learnjp.test', undefined, 'v2'));
+  await deployed.full(1, true);
+  assert.equal(puts, stored + 1);
 });
 
 test('a missing version table disables caching instead of failing reads', async () => {

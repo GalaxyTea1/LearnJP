@@ -1,6 +1,7 @@
 // Public (non-user, non-preview) content is identical for every viewer, so it is cached
 // at the edge under the D1 content version. Any content write bumps the version through
-// triggers, which moves every key at once; no purge list is needed.
+// triggers, which moves every key at once; no purge list is needed. Keys also carry the
+// Worker deployment id, so a deploy never serves results cached by the previous code.
 export type PublicCache = <T>(key: string, compute: () => Promise<T>) => Promise<T>;
 export const noCache: PublicCache = (_key, compute) => compute();
 const TTL_SECONDS = 86400;
@@ -9,6 +10,7 @@ export function edgeCache(
   db: D1Database,
   origin: string,
   waitUntil?: (promise: Promise<unknown>) => void,
+  deployment = '',
 ): PublicCache {
   const cache = (globalThis as { caches?: { default?: Cache } }).caches?.default;
   if (!cache) return noCache;
@@ -24,7 +26,9 @@ export function edgeCache(
       );
     const current = await version;
     if (current === null) return compute();
-    const request = new Request(`${origin}/__content-cache/v${current}/${encodeURIComponent(key)}`);
+    const request = new Request(
+      `${origin}/__content-cache/${encodeURIComponent(deployment)}/v${current}/${encodeURIComponent(key)}`,
+    );
     try {
       const hit = await cache.match(request);
       if (hit) return await hit.json();

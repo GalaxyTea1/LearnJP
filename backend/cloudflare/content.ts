@@ -419,7 +419,7 @@ export async function readContent(
     env.QUIZ_REVISION_SECRET,
     user?.id,
     p.get('preview') === 'true',
-    edgeCache(env.DB, url.origin, waitUntil),
+    edgeCache(env.DB, url.origin, waitUntil, env.CF_VERSION_METADATA?.id),
   );
   if (path === '/api/v1/announcements/all') {
     if (!user) throw new HttpError(401, 'Authentication required');
