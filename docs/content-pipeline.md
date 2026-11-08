@@ -34,7 +34,7 @@ content/n4/n4-05.mjs ──> scripts/content/n4/unit-05.mjs (buildUnit) ──> 
 | N5         | `content/n5/source.json` (imported from the original PostgreSQL database) plus reviewed corrections and the Vietnamese text in `content/n5/vi-*.mjs` | `scripts/content/n5/`            |
 | N4         | `content/n4/n4-01.mjs` … `n4-14.mjs`                                                                                                                 | `scripts/content/n4/unit-XX.mjs` |
 | N3         | `content/n3/n3-01.mjs` … `n3-16.mjs`                                                                                                                 | `scripts/content/n3/unit-XX.mjs` |
-| N2         | `content/n2/n2-01.mjs` … (in progress)                                                                                                               | `scripts/content/n2/unit-XX.mjs` |
+| N2         | `content/n2/n2-01.mjs` … `n2-10.mjs` (10 of 20)                                                                                                      | `scripts/content/n2/unit-XX.mjs` |
 | Mock tests | `content/tests/mock-tests.mjs`                                                                                                                       | `scripts/content/mock-tests/`    |
 
 Each N4–N1 `unit-XX.mjs` is a short config (titles, instructions, quiz plan) passed to the shared
@@ -67,6 +67,6 @@ the search index for changed rows and refuses to run if learner-facing English w
 ## Local database
 
 `npm run db:seed:local` builds a fresh local database with the same course as production: it
-imports the reviewed N5 course, publishes it, adds every N4 and N3 lesson from its package,
+imports the reviewed N5 course, publishes it, adds every N4, N3 and N2 lesson from its package,
 applies the Vietnamese N5 text and imports the mock tests. Delete `.wrangler/state` and run
 `npm run db:migrate:local` to start over.

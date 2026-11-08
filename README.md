@@ -2,12 +2,12 @@
 
 [![CI](https://github.com/GalaxyTea1/LearnJP/actions/workflows/ci.yml/badge.svg)](https://github.com/GalaxyTea1/LearnJP/actions/workflows/ci.yml)
 
-A Japanese course for Vietnamese learners, from JLPT N5 to N3, running entirely on Cloudflare's
+A Japanese course for Vietnamese learners, from JLPT N5 to N2, running entirely on Cloudflare's
 free tier.
 
 **Live:** https://learnjp.dev
 
-- 42 lessons (N5: 12, N4: 14, N3: 16) with vocabulary, kanji, grammar, dialogues, listening,
+- 52 lessons (N5: 12, N4: 14, N3: 16, N2: 10 so far) with vocabulary, kanji, grammar, dialogues, listening,
   reading, writing practice and a quiz at the end of every lesson
 - Timed mock tests for N4 and N3 in the four-section JLPT format, with explanations after
   submission
@@ -55,7 +55,7 @@ More in [docs/architecture.md](docs/architecture.md) and [docs/deployment.md](do
 ```
 backend/cloudflare/   Worker source and D1 migrations
 frontend/             React app
-content/              Course content (N3/N4 lessons, N5 review data and translations, mock tests)
+content/              Course content (N4–N2 lessons, N5 review data and translations, mock tests)
 scripts/              Build, local database, tests and content tooling
 docs/                 Architecture, deployment, performance and content pipeline notes
 ```
@@ -68,7 +68,7 @@ Requires Node.js 22 or later.
 npm install
 npm --prefix frontend install
 npm run db:migrate:local   # create the local D1 database
-npm run db:seed:local      # load N5, N4, N3 and the mock tests
+npm run db:seed:local      # load N5–N2 and the mock tests
 npm run build
 npm run dev                # http://127.0.0.1:8787
 ```
