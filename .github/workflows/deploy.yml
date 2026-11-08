@@ -23,7 +23,7 @@ permissions:
 jobs:
   # Pick the commit and make sure CI passed for it.
   prepare:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     if: >-
       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' &&
        github.event.workflow_run.event == 'push') ||

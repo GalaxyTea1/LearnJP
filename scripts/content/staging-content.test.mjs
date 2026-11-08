@@ -18,6 +18,11 @@ test('content SQL imports losslessly, preserves accounts and refuses nonempty ta
   });
   try {
     const db = runtime.env.DB;
+    // One 2,500-statement request can drop the local proxy connection when CI runs many Workers
+    // in parallel, so send the import in chunks. The guard rejects a nonempty target in the first one.
+    const run = async list => {
+      for (let i = 0; i < list.length; i += 250) await db.batch(list.slice(i, i + 250).map(s => db.prepare(s)));
+    };
     await migrate(db);
     const { expected, statements } = importPackage(await reviewedPackage());
     assert.equal(literal("a'b"), "'a''b'");
@@ -27,7 +32,7 @@ test('content SQL imports losslessly, preserves accounts and refuses nonempty ta
       )
       .run();
     const before = (await db.prepare('SELECT * FROM users').all()).results;
-    await db.batch(statements.map(s => db.prepare(s)));
+    await run(statements);
     for (const [t, rows] of Object.entries(expected)) {
       const order = t === 'content_search' ? 'kind,item_id' : 'id';
       const actual = (await db.prepare(`SELECT * FROM ${t} ORDER BY ${order}`).all()).results;
@@ -38,7 +43,7 @@ test('content SQL imports losslessly, preserves accounts and refuses nonempty ta
       (await db.prepare('SELECT version FROM assessment_revision WHERE id=1').first()).version,
       expected.quiz_questions.length + expected.test_questions.length,
     );
-    await assert.rejects(db.batch(statements.map(s => db.prepare(s))), /CHECK/);
+    await assert.rejects(run(statements), /CHECK/);
     assert.deepEqual((await db.prepare('PRAGMA foreign_key_check').all()).results, []);
   } finally {
     await runtime.dispose();
