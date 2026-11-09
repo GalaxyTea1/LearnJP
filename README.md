@@ -7,7 +7,7 @@ free tier.
 
 **Live:** https://learnjp.dev
 
-- 52 lessons (N5: 12, N4: 14, N3: 16, N2: 10 so far) with vocabulary, kanji, grammar, dialogues, listening,
+- 54 lessons (N5: 12, N4: 14, N3: 16, N2: 12 so far) with vocabulary, kanji, grammar, dialogues, listening,
   reading, writing practice and a quiz at the end of every lesson
 - Timed mock tests for N4 and N3 in the four-section JLPT format, with explanations after
   submission
