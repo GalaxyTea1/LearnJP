@@ -34,7 +34,7 @@ content/n4/n4-05.mjs ──> scripts/content/n4/unit-05.mjs (buildUnit) ──> 
 | N5         | `content/n5/source.json` (imported from the original PostgreSQL database) plus reviewed corrections and the Vietnamese text in `content/n5/vi-*.mjs` | `scripts/content/n5/`            |
 | N4         | `content/n4/n4-01.mjs` … `n4-14.mjs`                                                                                                                 | `scripts/content/n4/unit-XX.mjs` |
 | N3         | `content/n3/n3-01.mjs` … `n3-16.mjs`                                                                                                                 | `scripts/content/n3/unit-XX.mjs` |
-| N2         | `content/n2/n2-01.mjs` … `n2-12.mjs` (12 of 20)                                                                                                      | `scripts/content/n2/unit-XX.mjs` |
+| N2         | `content/n2/n2-01.mjs` … `n2-20.mjs` (all 20; N2-20 is the cumulative review)                                                                        | `scripts/content/n2/unit-XX.mjs` |
 | Mock tests | `content/tests/mock-tests.mjs`                                                                                                                       | `scripts/content/mock-tests/`    |
 
 Each N4–N1 `unit-XX.mjs` is a short config (titles, instructions, quiz plan) passed to the shared
