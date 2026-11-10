@@ -137,7 +137,11 @@ export async function checkInDatabase(p, { level, moduleId, earlier }) {
     const db = proxy.env.DB;
     await migrate(db);
     await fixtures(db);
-    await insertAll(db, [...earlier, p]);
+    // Only the lessons of the same level go in: they carry the level row this lesson points at and
+    // share its listing, and each level has its own ID range. Loading every earlier level made the
+    // later lessons too slow to run in parallel.
+    const levelId = p.learning_modules[0].level_id;
+    await insertAll(db, [...earlier.filter(x => x.learning_modules?.[0]?.level_id === levelId), p]);
     assert.deepEqual((await db.prepare('PRAGMA foreign_key_check').all()).results, []);
     const { Content } = await load('content'),
       { Assessments } = await load('assessments'),
