@@ -35,11 +35,14 @@ content/n4/n4-05.mjs ──> scripts/content/n4/unit-05.mjs (buildUnit) ──> 
 | N4         | `content/n4/n4-01.mjs` … `n4-14.mjs`                                                                                                                 | `scripts/content/n4/unit-XX.mjs` |
 | N3         | `content/n3/n3-01.mjs` … `n3-16.mjs`                                                                                                                 | `scripts/content/n3/unit-XX.mjs` |
 | N2         | `content/n2/n2-01.mjs` … `n2-20.mjs` (all 20; N2-20 is the cumulative review)                                                                        | `scripts/content/n2/unit-XX.mjs` |
+| N1         | `content/n1/n1-01.mjs` … `n1-24.mjs` (all 24; N1-24 is the cumulative review)                                                                        | `scripts/content/n1/unit-XX.mjs` |
 | Mock tests | `content/tests/mock-tests.mjs`                                                                                                                       | `scripts/content/mock-tests/`    |
 
 Each N4–N1 `unit-XX.mjs` is a short config (titles, instructions, quiz plan) passed to the shared
-builder `scripts/content/lib/unit-package.mjs`. N2 and N1 use its defaults; the older N4 and N3
-formats (listening speed, quiz size) sit in `n4/format.mjs` and `n3/format.mjs`. The per-unit tests
+builder `scripts/content/lib/unit-package.mjs`. N2 uses its defaults; the N4, N3 and N1 formats
+(listening speed, quiz size, exercise count) sit in `n4/format.mjs`, `n3/format.mjs` and
+`n1/format.mjs`. The cumulative reviews (N2-20, N1-24) reuse earlier vocabulary on purpose and have
+their own tests. The per-unit tests
 run the shared checks in `lib/unit-checks.mjs`: they load the earlier lessons and check that
 vocabulary is not repeated, that the kanji match the level plan and that the lesson imports,
 publishes and scores cleanly in a local D1 database.
