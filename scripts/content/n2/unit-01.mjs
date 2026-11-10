@@ -15,7 +15,7 @@ export const buildUnit = () =>
     levelRow: {
       title: 'N2 — Năng lực chuyên nghiệp',
       titleJp: '日本語能力試験 N2',
-      description: 'Đang mở N2-01. Các bài N2 tiếp theo chưa xuất bản.',
+      description: 'Đã mở N2-01 đến N2-20. Bài 20 là bài tổng ôn có 133 mục từ lặp lại.',
       color: '#F59E0B',
       badge: '⛰️',
       totalVocab: 150,

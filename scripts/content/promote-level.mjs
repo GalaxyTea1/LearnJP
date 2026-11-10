@@ -98,7 +98,16 @@ const [{ n: previous }] = await dst.rows(
 );
 assert.ok(previous > 0, `Publish ${previousLevel} on production first`);
 const [prodLevel] = await dst.rows(`SELECT * FROM jlpt_levels WHERE id=${levelId} OR level='${level}'`);
-if (prodLevel) assert.deepEqual(prodLevel, levelRow, `Production has a different ${level} level row`);
+// A level grows lesson by lesson, so its description and totals may lag behind staging; everything
+// else about the level row must already match.
+const levelSummary = ['description', 'total_vocab', 'total_kanji', 'total_grammar'];
+const identity = row => Object.fromEntries(Object.entries(row).filter(([key]) => !levelSummary.includes(key)));
+if (prodLevel)
+  assert.deepEqual(identity(prodLevel), identity(levelRow), `Production has a different ${level} level row`);
+const levelUpdate =
+  prodLevel && levelSummary.some(key => prodLevel[key] !== levelRow[key])
+    ? `UPDATE jlpt_levels SET ${levelSummary.map(key => `${key}=${literal(levelRow[key])}`).join(',')} WHERE id=${levelId}`
+    : null;
 const outside = `id<${first} OR id>${last}`;
 const snapshot = async () => {
   const s = {};
@@ -137,7 +146,8 @@ for (const [i, lesson] of lessons.entries()) {
   queries.push(`UPDATE learning_modules SET content_status=${literal(module.content_status)} WHERE id=${module.id}`);
   plan.push({ unit: lesson.unit, skip: false, queries });
 }
-const label = unit => `${level}-${String(unit).padStart(2, '0')}`;
+if (levelUpdate) plan.push({ unit: 'level', skip: false, queries: [levelUpdate] });
+const label = unit => (unit === 'level' ? `${level} level row` : `${level}-${String(unit).padStart(2, '0')}`);
 const sql =
   plan
     .filter(p => !p.skip)
@@ -147,7 +157,8 @@ await writeFile(resolve(dir, 'promote.sql'), sql);
 const summary = {
   mode: apply ? 'apply' : 'dry-run',
   level,
-  copy: plan.filter(p => !p.skip).map(p => p.unit),
+  copy: plan.filter(p => !p.skip && p.unit !== 'level').map(p => p.unit),
+  updateLevelRow: Boolean(levelUpdate),
   skip: plan.filter(p => p.skip).map(p => p.unit),
   statements: plan.reduce((n, p) => n + (p.queries?.length ?? 0), 0),
   sha256: createHash('sha256').update(sql).digest('hex'),
