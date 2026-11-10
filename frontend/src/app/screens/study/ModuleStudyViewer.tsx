@@ -242,7 +242,7 @@ export function ModuleStudyViewer({ moduleId, onBack }: ModuleStudyViewerProps) 
                 {' '}
                 <button
                   onClick={openLogin}
-                  className="font-medium text-accent underline underline-offset-4 underline-offset-4 hover:opacity-70"
+                  className="font-medium text-accent underline underline-offset-4 hover:opacity-70"
                 >
                   Đăng nhập
                 </button>{' '}

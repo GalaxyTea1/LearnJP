@@ -31,6 +31,7 @@
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
   --radius: 0.625rem;
+  /* Font families are loaded in index.html (preconnect + <link>). */
   --font-sans: 'Be Vietnam Pro', 'Noto Sans JP', system-ui, sans-serif;
   --font-jp: 'Be Vietnam Pro', 'Noto Sans JP', sans-serif;
   --font-display: 'Noto Serif JP', 'Be Vietnam Pro', serif;
