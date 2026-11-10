@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir } from 'node:fs/promises';
+import { mkdtemp, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { getPlatformProxy, unstable_dev } from 'wrangler';
@@ -106,5 +106,6 @@ test('workerd HTTP learning flow: progress, quiz retry, SRS, tests, XP, check-in
     assert.equal((await request('/history/search')).data.length, 1);
   } finally {
     await server.stop();
+    await rm(state, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 });
   }
 });

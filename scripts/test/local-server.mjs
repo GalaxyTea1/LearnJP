@@ -1,5 +1,5 @@
 // Starts the Worker on a random local port against a fresh, throwaway D1 database.
-import { mkdtemp, mkdir } from 'node:fs/promises';
+import { mkdtemp, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { getPlatformProxy, unstable_dev } from 'wrangler';
@@ -33,5 +33,11 @@ export async function startLocalServer(seed) {
     logLevel: 'error',
     experimental: { disableExperimentalWarning: true, disableDevRegistry: true, watch: false },
   });
-  return { origin: `http://${server.address}:${server.port}`, stop: () => server.stop() };
+  return {
+    origin: `http://${server.address}:${server.port}`,
+    stop: async () => {
+      await server.stop();
+      await rm(state, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 });
+    },
+  };
 }

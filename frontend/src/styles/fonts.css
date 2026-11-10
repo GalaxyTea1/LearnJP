@@ -1,8 +1,0 @@
-/*
- * Font families are loaded from index.html (preconnect + non-blocking <link>), not @import,
- * so the browser fetches them in parallel with the app bundle.
- *
- * Be Vietnam Pro: designed for Vietnamese (DM Sans had no Vietnamese glyphs).
- * Noto Sans JP: kana/kanji matching Be Vietnam Pro. Noto Serif JP: large display kanji.
- * JetBrains Mono: readings/romaji with Vietnamese diacritics.
- */

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, readFile } from 'node:fs/promises';
+import { mkdtemp, mkdir, readFile, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { getPlatformProxy, unstable_dev, unstable_splitSqlQuery } from 'wrangler';
@@ -78,6 +78,7 @@ test('workerd Google callback exchanges code and refuses provider redirects', { 
     }
   } finally {
     await server.stop();
+    await rm(state, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 });
   }
 });
 
@@ -181,6 +182,7 @@ test(
       assert.equal((await call('/auth/me', { token: first.data.accessToken })).status, 200); // Other device survives.
     } finally {
       await server.stop();
+      await rm(state, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 });
     }
   },
 );

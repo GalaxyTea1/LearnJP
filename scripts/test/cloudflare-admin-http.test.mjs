@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir } from 'node:fs/promises';
+import { mkdtemp, mkdir, rm } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { join } from 'node:path';
 import { getPlatformProxy, unstable_dev } from 'wrangler';
@@ -119,6 +119,7 @@ test(
       assert.equal((await request('/admin/settings')).data[0].value, 'Local test');
     } finally {
       await server.stop();
+      await rm(state, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 });
     }
   },
 );
