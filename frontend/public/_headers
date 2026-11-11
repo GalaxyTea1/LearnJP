@@ -9,3 +9,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
   Strict-Transport-Security: max-age=31536000
+
+# Vite names these files by content hash, so a changed file always gets a new URL.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
