@@ -1,0 +1,10 @@
+{
+  "name": "LearnJP — Học tiếng Nhật theo lộ trình JLPT",
+  "short_name": "LearnJP",
+  "lang": "vi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#1c1712",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
