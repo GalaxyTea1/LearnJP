@@ -17,7 +17,7 @@ export const buildUnit = () =>
     levelRow: {
       title: 'N1 — Thành thạo toàn diện',
       titleJp: '日本語能力試験 N1',
-      description: 'Đang mở N1-01. Các bài N1 tiếp theo chưa xuất bản.',
+      description: 'Đã mở N1-01 đến N1-24. Bài 24 là bài tổng ôn có 150 mục từ lặp lại.',
       color: '#E11D48',
       badge: '🗻',
       totalVocab: 150,
