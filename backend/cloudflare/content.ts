@@ -439,7 +439,7 @@ export async function readContent(
   if (path === '/api/v1/dictionary/search' || path === '/api/v1/dictionary/jisho') {
     const query = p.get('q')?.trim();
     if (!query || query.length > 100) throw new HttpError(400, 'Search keyword must contain 1–100 characters');
-    if (path.endsWith('/jisho')) return { data: await searchJisho(query) };
+    if (path.endsWith('/jisho')) return { data: await cachedJisho(query, url.origin, waitUntil) };
     const rows = await content.rows(
       'dictionary_entries',
       "level='N5' AND id IN (SELECT item_id FROM content_search WHERE kind='dictionary' AND instr(search_text,?)>0)",
@@ -474,6 +474,38 @@ export async function readContent(
   match = path.match(/^\/api\/v1\/kanji\/char\/([^/]+)$/);
   if (match) return content.items('kanji', p, undefined, decodeURIComponent(match[1]));
   return null;
+}
+
+// Jisho answers slowly (about a second) and sometimes not at all, and a word's entry rarely
+// changes, so a successful lookup is kept at the edge for a day. Failures are never stored.
+const JISHO_TTL_SECONDS = 86400;
+export async function cachedJisho(
+  query: string,
+  origin: string,
+  waitUntil?: (promise: Promise<unknown>) => void,
+  search: (query: string) => Promise<unknown> = searchJisho,
+  cache: Cache | undefined = (globalThis as { caches?: { default?: Cache } }).caches?.default,
+) {
+  if (!cache) return search(query);
+  const key = new Request(`${origin}/__jisho-cache/v1/${encodeURIComponent(query.toLowerCase())}`);
+  try {
+    const hit = await cache.match(key);
+    if (hit) return await hit.json();
+  } catch {
+    /* Treat an unreadable entry as a miss. */
+  }
+  const data = await search(query);
+  const put = cache
+    .put(
+      key,
+      new Response(JSON.stringify(data), {
+        headers: { 'Content-Type': 'application/json', 'Cache-Control': `public, max-age=${JISHO_TTL_SECONDS}` },
+      }),
+    )
+    .catch(() => {});
+  if (waitUntil) waitUntil(put);
+  else await put;
+  return data;
 }
 
 export async function searchJisho(query: string, fetcher: typeof fetch = fetch) {

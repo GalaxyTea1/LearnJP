@@ -83,7 +83,7 @@ test('isolated D1 enforces constraints and rolls back an invalid batch', async (
       platform: 'browser',
       write: false,
     });
-    const { Content, searchJisho } = await import(
+    const { Content, searchJisho, cachedJisho } = await import(
       'data:text/javascript;base64,' + Buffer.from(bundled.outputFiles[0].text).toString('base64')
     );
     const repo = new Content(db, 'local-only-quiz-revision-key-not-for-production');
@@ -146,6 +146,29 @@ test('isolated D1 enforces constraints and rolls back an invalid batch', async (
       });
     });
     assert.equal(result[0].jp, 'てすと');
+    // A successful Jisho lookup is stored once and reused (case-insensitively); a failure is not stored.
+    const stored = new Map();
+    const cache = {
+      match: async request => stored.get(request.url)?.clone(),
+      put: async (request, response) => void stored.set(request.url, response),
+    };
+    let calls = 0;
+    const lookup = async () => (calls++, [{ jp: 'ねこ' }]);
+    assert.deepEqual(await cachedJisho('Neko', 'https://x.test', undefined, lookup, cache), [{ jp: 'ねこ' }]);
+    assert.deepEqual(await cachedJisho('neko', 'https://x.test', undefined, lookup, cache), [{ jp: 'ねこ' }]);
+    assert.equal(calls, 1);
+    await assert.rejects(
+      cachedJisho(
+        'inu',
+        'https://x.test',
+        undefined,
+        async () => {
+          throw new Error('down');
+        },
+        cache,
+      ),
+    );
+    assert.equal(stored.size, 1);
   } finally {
     await proxy.dispose();
   }
