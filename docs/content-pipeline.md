@@ -67,6 +67,31 @@ N5 was first imported with English meanings. `scripts/content/n5/apply-vietnames
 applies the Vietnamese text in `content/n5/vi-01.mjs` … `vi-12.mjs` (keyed by row ID), refreshes
 the search index for changed rows and refuses to run if learner-facing English would remain.
 
+## Lesson audio
+
+Dialogue lines and listening passages are read aloud by pre-recorded Azure neural voices instead
+of the browser's own voice, so every device hears the same speakers. `scripts/content/generate-audio.mjs`
+reads published lessons from an environment, casts each speaker (A → `ja-JP-KeitaNeural`,
+B → `ja-JP-NanamiNeural`, then other voices; 男/女 labels pick by gender), slows N5 and N4 down
+and writes one MP3 per line and one per listening passage, with every speaker in it.
+
+Each file is named by a hash of its SSML, so editing a line, a voice or the speed produces a new
+file and the old URL never changes meaning; the Worker serves `/audio/<hash>.mp3` from the `AUDIO`
+R2 bucket with a one-year immutable cache and byte ranges. The script synthesizes only files missing
+from `.local/audio/`, uploads only files not yet in that environment's bucket, and updates the rows
+(`audio_url`) after every file is uploaded. A row without a clip, or a clip that fails to load, falls
+back to the browser voice.
+
+```bash
+node scripts/content/generate-audio.mjs --all                    # plan and character count only
+node scripts/content/generate-audio.mjs --all --apply staging
+node scripts/content/generate-audio.mjs --all --apply production --confirm-production
+```
+
+The Azure key and region live in `.env.tts` (`AZURE_SPEECH_KEY`, `AZURE_SPEECH_REGION`), which
+is never committed. Re-importing a lesson resets its `audio_url` values; run the script again
+afterwards — unchanged clips are reused, so it only rewrites the rows.
+
 ## Local database
 
 `npm run db:seed:local` builds a fresh local database with the same course as production: it

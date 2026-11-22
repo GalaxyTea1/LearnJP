@@ -25,6 +25,7 @@ test('rejects local auth, secrets in vars, production destinations and invalid o
     c => (c.d1_databases[0].database_id = template.d1_databases[0].database_id),
     c => (c.d1_databases[0].database_name = 'learnjp-production'),
     c => (c.assets.run_worker_first = []),
+    c => (c.r2_buckets[0].bucket_name = 'learnjp-audio'),
   ]) {
     const config = valid();
     mutate(config);

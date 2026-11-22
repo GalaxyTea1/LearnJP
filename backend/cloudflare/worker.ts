@@ -1,4 +1,5 @@
 import { health } from './health';
+import { serveAudio } from './audio';
 import { handleGoogleAuth } from './google-auth';
 import { handleEmailAuth } from './email-auth';
 import { readContent } from './content';
@@ -32,6 +33,9 @@ export default {
     if (path === '/home' && (request.method === 'GET' || request.method === 'HEAD'))
       return Response.redirect(url.origin + '/' + url.search, 301);
     if (path === '/api/v1/health') return health(request, env);
+    // AUDIO is optional: an environment without the bucket answers 404 and the app reads aloud instead.
+    const audio = await serveAudio(request, (env as Env & { AUDIO?: R2Bucket }).AUDIO);
+    if (audio) return audio;
     if (path === '/api' || path.startsWith('/api/')) {
       try {
         const google = await handleGoogleAuth(request, env);

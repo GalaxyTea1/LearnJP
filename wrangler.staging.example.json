@@ -23,9 +23,17 @@
     "directory": "./frontend/dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api", "/api/*"]
+    "run_worker_first": ["/api", "/api/*", "/audio/*"]
   },
-  "version_metadata": { "binding": "CF_VERSION_METADATA" },
+  "version_metadata": {
+    "binding": "CF_VERSION_METADATA"
+  },
+  "r2_buckets": [
+    {
+      "binding": "AUDIO",
+      "bucket_name": "learnjp-audio-staging"
+    }
+  ],
   "d1_databases": [
     {
       "binding": "DB",

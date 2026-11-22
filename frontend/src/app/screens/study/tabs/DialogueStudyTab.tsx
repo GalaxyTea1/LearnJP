@@ -2,6 +2,11 @@ import { useState, useEffect, useRef } from 'react';
 import { Volume2, Eye, EyeOff, MessageSquare, Headphones, Play, Pause, Music, CheckCircle2 } from 'lucide-react';
 import type { SectionItem, Conversation, ListeningItem } from '../types';
 import { createDialoguePlayer, hasListeningAudio, isTtsListening, listeningSpeechLines } from '../dialoguePlayer';
+import { createClipPlayer } from '../clipPlayer';
+
+type SpokenLine = { japanese: string; audioUrl?: string | null };
+const recordedUrls = (lines: SpokenLine[]) =>
+  lines.every(line => hasListeningAudio(line.audioUrl)) ? lines.map(line => line.audioUrl!.trim()) : null;
 
 interface DialogueStudyTabProps {
   sections: SectionItem[];
@@ -37,6 +42,7 @@ export function DialogueStudyTab({
   const [activeLine, setActiveLine] = useState<number | null>(null);
   const [audioError, setAudioError] = useState('');
   const player = useRef<ReturnType<typeof createDialoguePlayer> | null>(null);
+  const clips = useRef<ReturnType<typeof createClipPlayer> | null>(null);
   const audioElements = useRef(new Map<number, HTMLAudioElement>());
   const audioRefs = useRef(new Map<number, (element: HTMLAudioElement | null) => void>());
   const audioRef = (id: number) => {
@@ -55,6 +61,7 @@ export function DialogueStudyTab({
   const stopPlayback = (except?: HTMLAudioElement) => {
     playback.current++;
     player.current?.stop();
+    clips.current?.stop();
     audioElements.current.forEach(audio => {
       if (audio !== except) audio.pause();
     });
@@ -75,6 +82,7 @@ export function DialogueStudyTab({
     return () => {
       playback.current++;
       player.current?.stop();
+      clips.current?.stop();
       elements.forEach(audio => audio.pause());
       document.removeEventListener('visibilitychange', stopOnHide);
       window.removeEventListener('pagehide', stopPlaybackOnPageHide);
@@ -106,7 +114,40 @@ export function DialogueStudyTab({
     }
   };
 
+  /** Recorded clips when every line has one; otherwise, or if a clip fails, the device voice. */
+  const playLines = async (lines: SpokenLine[], all = false, lineIndex?: number) => {
+    const urls = recordedUrls(lines);
+    if (!urls)
+      return playTexts(
+        lines.map(line => line.japanese),
+        all,
+        lineIndex,
+      );
+    stopPlayback();
+    setAudioError('');
+    clips.current ??= createClipPlayer(() => new Audio());
+    const session = playback.current;
+    setPlaying(true);
+    setIsPlayingAll(all);
+    try {
+      await clips.current.play(urls, index => setActiveLine(all ? index : (lineIndex ?? null)));
+    } catch {
+      if (session === playback.current)
+        return playTexts(
+          lines.map(line => line.japanese),
+          all,
+          lineIndex,
+        );
+    }
+    if (session === playback.current) {
+      setPlaying(false);
+      setIsPlayingAll(false);
+      setActiveLine(null);
+    }
+  };
+
   const activeConv = conversations[activeConvIndex] || conversations[0];
+  const recorded = !!activeConv?.lines?.length && !!recordedUrls(activeConv.lines);
 
   // Helper colors for different speakers
   const getSpeakerColor = (speaker: string) => {
@@ -131,10 +172,7 @@ export function DialogueStudyTab({
       return;
     }
 
-    void playTexts(
-      activeConv.lines.map(line => line.japanese),
-      true,
-    );
+    void playLines(activeConv.lines, true);
   };
 
   if (conversations.length === 0 && listeningItems.length === 0) {
@@ -152,7 +190,11 @@ export function DialogueStudyTab({
           {audioError}
         </p>
       )}
-      <p className="text-xs text-muted-foreground">Giọng đọc dùng giọng tiếng Nhật có sẵn trên thiết bị của bạn.</p>
+      <p className="text-xs text-muted-foreground">
+        {recorded
+          ? 'Hội thoại được thu sẵn bằng giọng đọc AI tiếng Nhật, mỗi nhân vật một giọng.'
+          : 'Giọng đọc dùng giọng tiếng Nhật có sẵn trên thiết bị của bạn.'}
+      </p>
       {playing && (
         <button
           onClick={() => stopPlayback()}
@@ -281,7 +323,7 @@ export function DialogueStudyTab({
                     <div className="flex items-center justify-between gap-3 mb-1">
                       <span className="text-xs font-bold text-foreground">{speaker}</span>
                       <button
-                        onClick={() => void playTexts([line.japanese], false, lineIdx)}
+                        onClick={() => void playLines([line], false, lineIdx)}
                         className="min-h-11 min-w-11 flex items-center justify-center rounded-md text-muted-foreground hover:text-accent transition-colors"
                         title="Nghe câu này"
                         aria-label={`Nghe phát âm của ${speaker}`}
