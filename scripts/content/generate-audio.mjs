@@ -169,8 +169,7 @@ if (args.apply) {
         `.local/audio/${k}.mp3`,
         '--content-type',
         'audio/mpeg',
-        '--cache-control',
-        'public, max-age=31536000, immutable',
+        // No spaced arguments: on Windows npx runs through a shell. The Worker sets cache-control.
         target.where,
       );
       uploaded.add(k);
