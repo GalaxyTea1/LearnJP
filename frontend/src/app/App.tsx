@@ -5,6 +5,7 @@ import { Page } from './data/basicData';
 import { translationEnabled } from './services/features';
 import { AuthProvider, AccountButton, useAuth } from './components/auth/AuthProvider';
 import { lazyScreen } from './services/staleBuild';
+import { supportEnabled } from './data/siteInfo';
 
 const HomePage = lazyScreen(() => import('./screens/HomePage'));
 const LearningPage = lazyScreen(() => import('./screens/LearningPage'));
@@ -13,6 +14,8 @@ const TranslatePage = lazyScreen(() => import('./screens/TranslatePage'));
 const DictionaryPage = lazyScreen(() => import('./screens/DictionaryPage'));
 const WritingPage = lazyScreen(() => import('./screens/WritingPage'));
 const AdminPage = lazyScreen(() => import('./screens/AdminPage'));
+const AboutPage = lazyScreen(() => import('./screens/AboutPage'));
+const PrivacyPage = lazyScreen(() => import('./screens/PrivacyPage'));
 
 export default function App() {
   return (
@@ -147,6 +150,8 @@ function AppContent() {
           {page === 'dictionary' && <DictionaryPage />}
           {page === 'writing' && <WritingPage />}
           {page === 'admin' && <AdminPage />}
+          {page === 'about' && <AboutPage />}
+          {page === 'privacy' && <PrivacyPage />}
         </Suspense>
       </main>
 
@@ -159,6 +164,34 @@ function AppContent() {
             <span className="text-sm text-muted-foreground">LearnJP · Học tiếng Nhật theo lộ trình JLPT</span>
           </div>
           <p className="text-xs text-muted-foreground/50">頑張ってください — Hãy tiếp tục cố gắng nhé.</p>
+          <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm" aria-label="Thông tin">
+            {(['about', 'privacy'] as const).map(target => (
+              <a
+                key={target}
+                href={pathFor(target)}
+                onClick={event => {
+                  event.preventDefault();
+                  navigate(target);
+                }}
+                className="text-muted-foreground hover:text-foreground underline-offset-4 hover:underline"
+              >
+                {target === 'about' ? 'Giới thiệu' : 'Quyền riêng tư'}
+              </a>
+            ))}
+            {supportEnabled && (
+              <a
+                href="/about#ung-ho"
+                onClick={event => {
+                  event.preventDefault();
+                  navigate('about');
+                  setTimeout(() => document.getElementById('ung-ho')?.scrollIntoView({ behavior: 'smooth' }), 300);
+                }}
+                className="text-accent underline-offset-4 hover:underline"
+              >
+                Ủng hộ
+              </a>
+            )}
+          </nav>
         </div>
       </footer>
     </div>
