@@ -5,4 +5,5 @@ node_modules
 /content
 worker-configuration.d.ts
 frontend/src/app/utils/kanaData.json
+frontend/src/app/data/hanViet.json
 **/package-lock.json
