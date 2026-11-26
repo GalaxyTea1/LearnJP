@@ -138,6 +138,8 @@ async function apiFetch<T = any>(
   const headers: Record<string, string> = {
     'Content-Type': 'application/json',
     'X-Requested-With': 'SumaryJP',
+    // Lets the server count study days (streaks) in the learner's own time zone.
+    'X-TZ-Offset': String(-new Date().getTimezoneOffset()),
     ...((options.headers as Record<string, string>) || {}),
   };
   if (token) headers.Authorization = `Bearer ${token}`;
@@ -487,12 +489,6 @@ export const reviewApi = {
   },
   async learner() {
     return apiFetch<LearnerStats>('/gamification/me', { signal: reviewTimeout() });
-  },
-  async checkin() {
-    return apiFetch<{ streak: number; streakUpdated: boolean }>('/gamification/checkin', {
-      method: 'POST',
-      signal: reviewTimeout(),
-    });
   },
 };
 

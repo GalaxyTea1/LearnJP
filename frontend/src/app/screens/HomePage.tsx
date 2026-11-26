@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { navigateUrl, openStudyModule } from '../services/navigation';
 import { ArrowRight, BookOpen, ClipboardCheck, Flame, Languages, Layers, PenTool, Search } from 'lucide-react';
 import { reviewApi } from '../services/api';
-import { liveStreak } from './review/reviewSession';
 import type { Page } from '../data/basicData';
 import { useAuth } from '../components/auth/AuthProvider';
 import { openLevels, summarizeCourse } from '../services/courseSummary';
@@ -201,7 +200,7 @@ function DailyReviewCard({ userId }: { userId: number }) {
     Promise.all([reviewApi.stats(), reviewApi.learner()])
       .then(([stats, learner]) => {
         if (alive)
-          setState({ due: stats.data.dueCount, tracked: stats.data.totalTracked, streak: liveStreak(learner.data) });
+          setState({ due: stats.data.dueCount, tracked: stats.data.totalTracked, streak: learner.data.currentStreak });
       })
       .catch(() => {});
     return () => {

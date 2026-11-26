@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { getPlatformProxy } from 'wrangler';
 import { migrate, fixtures, quizQuestions, load } from './learning-fixture.mjs';
 
-let proxy, db, Study, Assessments, Srs, Learner, Content, worker, Auth, env;
+let proxy, db, Study, Assessments, Srs, Learner, liveStreak, Content, worker, Auth, env;
 const secret = 'local-only-quiz-revision-key-not-for-production';
 const origin = 'http://127.0.0.1:8787';
 before(async () => {
@@ -20,7 +20,7 @@ before(async () => {
   ({ Study } = await load('study'));
   ({ Assessments } = await load('assessments'));
   ({ Srs } = await load('srs'));
-  ({ Learner } = await load('learner'));
+  ({ Learner, liveStreak } = await load('learner'));
   ({ Content } = await load('content'));
   ({ Auth } = await load('auth'));
   worker = (await load('worker')).default;
@@ -382,7 +382,7 @@ test('test changed after start cannot be graded, and a failed submission rolls b
   await assert.rejects(assess(changed).submitTest(a.id, body), { status: 409 });
 });
 
-test('check-in is atomic, UTC streak increments once and daily XP resets on the next award', async () => {
+test('check-in is atomic, streak increments once and daily XP resets on the next award', async () => {
   const yesterday = new Date(Date.now() - 86400000).toISOString();
   await db.prepare('UPDATE users SET last_study_date=?,current_streak=4 WHERE id=1').bind(yesterday).run();
   const results = await Promise.all(Array.from({ length: 10 }, () => new Learner(db, 1).checkin()));
@@ -392,6 +392,55 @@ test('check-in is atomic, UTC streak increments once and daily XP resets on the 
   assert.equal((await new Learner(db, 1).stats()).dailyXp, 0);
   await new Srs(db, 1).review({ itemType: 'VOCAB', itemId: 1, quality: 4 });
   assert.equal((await new Learner(db, 1).stats()).dailyXp, 2);
+});
+
+test('study days follow the learner time zone, not UTC', async () => {
+  // Pick an offset that makes it 00:30 local time now, so one hour ago was local yesterday.
+  const now = Date.now(),
+    minutesUtc = Math.floor(now / 60000) % 1440;
+  let tz = (30 - minutesUtc) % 1440;
+  if (tz < -720) tz += 1440;
+  if (tz > 840) tz -= 1440;
+  const hourAgo = new Date(now - 3600000).toISOString();
+  const reset = () => db.prepare('UPDATE users SET last_study_date=?,current_streak=3 WHERE id=1').bind(hourAgo).run();
+  await reset();
+  assert.deepEqual(await new Learner(db, 1).checkin(tz + 120), { streak: 3, streakUpdated: false });
+  await reset();
+  assert.deepEqual(await new Learner(db, 1).checkin(tz), { streak: 4, streakUpdated: true });
+  assert.equal((await new Learner(db, 1).stats(tz)).currentStreak, 4);
+
+  const at = Date.parse('2026-11-27T18:00:00Z'); // 01:00 on the 28th in Vietnam
+  assert.equal(liveStreak(5, '2026-11-26T17:30:00Z', 420, at), 5); // 00:30 on the 27th, yesterday
+  assert.equal(liveStreak(5, '2026-11-26T16:30:00Z', 420, at), 0); // 23:30 on the 26th, broken
+  assert.equal(liveStreak(5, '2026-11-26T16:30:00Z', 0, at), 5); // UTC: the 26th is yesterday
+  assert.equal(liveStreak(0, '2026-11-27T17:30:00Z', 420, at), 0);
+  assert.equal(liveStreak(5, null, 420, at), 0);
+});
+
+test('study writes count toward the streak through the HTTP routes', async () => {
+  const session = await new Auth(env).providerLogin(
+    'https://test.supabase.co',
+    crypto.randomUUID(),
+    'streak@test.invalid',
+    'email',
+  );
+  const token = session.data.accessToken;
+  const headers = { 'X-TZ-Offset': '420' };
+  assert.equal(
+    (
+      await http('/flashcards/review', {
+        method: 'POST',
+        token,
+        headers,
+        body: { itemType: 'VOCAB', itemId: 1, quality: 4 },
+      })
+    ).status,
+    200,
+  );
+  const me = await (await http('/gamification/me', { token, headers })).json();
+  assert.equal(me.data.currentStreak, 1);
+  for (const bad of ['abc', '9999', '1.5'])
+    assert.equal((await http('/gamification/me', { token, headers: { 'X-TZ-Offset': bad } })).status, 200);
 });
 
 test('settings reject mass assignment; kana increments merge; game claims never earn XP; history is isolated', async () => {

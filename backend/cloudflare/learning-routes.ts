@@ -5,7 +5,7 @@ import { HttpError, json } from './http';
 import { Study } from './study';
 import { Assessments } from './assessments';
 import { Srs, itemTypes } from './srs';
-import { Learner, gameTypes, kanaTypes } from './learner';
+import { Learner, gameTypes, kanaTypes, tzOffset } from './learner';
 import { isGuardError } from './learning-db';
 
 export async function readJsonBody(request: Request) {
@@ -87,22 +87,30 @@ export async function handleLearning(request: Request, env: Env, user?: AuthUser
   }
   const input = method !== 'GET' && method !== 'DELETE' ? await readJsonBody(request) : undefined;
   const limit = () => positive(p.get('limit'), 20, 100);
+  const tz = tzOffset(request.headers.get('X-TZ-Offset'));
+  // Any study write counts toward today's streak; a failed check-in never fails the write itself.
+  const studied = async <T>(work: Promise<T>) => {
+    const result = await work;
+    await learner.checkin(tz).catch(() => undefined);
+    return result;
+  };
   let data: unknown,
     status = 200,
     match;
   try {
     if ((match = path.match(/\/progress\/module\/([^/]+)\/study$/)))
-      data = method === 'GET' ? await study.read(positive(match[1])) : await study.write(positive(match[1]), input);
+      data =
+        method === 'GET' ? await study.read(positive(match[1])) : await studied(study.write(positive(match[1]), input));
     else if (path.endsWith('/progress/me')) data = await study.summary();
     else if (path.endsWith('/progress/review-items')) data = await study.reviewItems(limit());
     else if (path.endsWith('/progress/module')) data = await study.update(input);
-    else if (path.endsWith('/quizzes/submit')) data = await assess.quiz(input);
-    else if (path.endsWith('/flashcards/review')) data = await srs.review(input);
+    else if (path.endsWith('/quizzes/submit')) data = await studied(assess.quiz(input));
+    else if (path.endsWith('/flashcards/review')) data = await studied(srs.review(input));
     else if (path.endsWith('/flashcards/due')) data = await srs.due(filter(itemTypes, p.get('itemType')), limit());
     else if (path.endsWith('/flashcards/new')) data = await srs.fresh(limit());
     else if (path.endsWith('/flashcards/stats')) data = await srs.stats();
     else if ((match = path.match(/\/tests\/attempts\/([^/]+)\/submit$/)))
-      data = await assess.submitTest(positive(match[1]), input);
+      data = await studied(assess.submitTest(positive(match[1]), input));
     else if (path.endsWith('/tests/attempts')) {
       data =
         method === 'GET'
@@ -110,9 +118,9 @@ export async function handleLearning(request: Request, env: Env, user?: AuthUser
           : await assess.startTest(input);
       if (method === 'POST') status = 201;
     } else if (path.endsWith('/users/settings')) data = await learner.settings(input);
-    else if (path.endsWith('/users/dashboard')) data = await learner.dashboard();
-    else if (path.endsWith('/gamification/me')) data = await learner.stats();
-    else if (path.endsWith('/gamification/checkin')) data = await learner.checkin();
+    else if (path.endsWith('/users/dashboard')) data = await learner.dashboard(tz);
+    else if (path.endsWith('/gamification/me')) data = await learner.stats(tz);
+    else if (path.endsWith('/gamification/checkin')) data = await learner.checkin(tz);
     else if (path.endsWith('/leaderboard'))
       data = await learner.leaderboard(
         path.includes('/games/') ? 'games' : 'gamification',

@@ -12,6 +12,21 @@ function parsed<T>(schema: Schema<T>, input: unknown): T {
   if (!r.success) throw new HttpError(400, 'Invalid request data');
   return r.data;
 }
+// Most learners are in Vietnam (UTC+7); clients send their own offset in X-TZ-Offset.
+export const DEFAULT_TZ_OFFSET = 420;
+export function tzOffset(value: string | null) {
+  if (value === null || !/^-?\d{1,4}$/.test(value)) return DEFAULT_TZ_OFFSET;
+  const n = Number(value);
+  return n >= -720 && n <= 840 ? n : DEFAULT_TZ_OFFSET;
+}
+const localDay = (ms: number, tz: number) => new Date(ms + tz * 60000).toISOString().slice(0, 10);
+const modifier = (tz: number) => `${tz >= 0 ? '+' : ''}${tz} minutes`;
+// The stored streak only counts while its last study day is today or yesterday for the learner.
+export function liveStreak(streak: number, lastStudyDate: string | null, tz: number, now = Date.now()) {
+  if (!streak || !lastStudyDate) return 0;
+  const last = localDay(Date.parse(lastStudyDate), tz);
+  return last === localDay(now, tz) || last === localDay(now - 86400000, tz) ? streak : 0;
+}
 export class Learner extends LearningDB {
   async settings(input?: unknown) {
     if (input !== undefined) {
@@ -51,7 +66,7 @@ export class Learner extends LearningDB {
       ? decode('user_learning_settings', row)
       : { userId: this.userId, weeklyGoalTarget: 20, dailyReminderTime: null, preferredLevel: null };
   }
-  async stats() {
+  async stats(tz = DEFAULT_TZ_OFFSET) {
     const [game, user] = await this.db.batch<Row>([
       this.sql('SELECT * FROM user_gamification WHERE user_id=?', this.userId),
       this.sql('SELECT current_streak,last_study_date FROM users WHERE id=?', this.userId),
@@ -62,19 +77,29 @@ export class Learner extends LearningDB {
       ? decode('user_gamification', row)
       : { xp: 0, totalXpEarned: 0, dailyXp: 0, streak: 0, badges: [], stats: {} };
     if (String(stats.dailyXpDate || '').slice(0, 10) !== utcNow().slice(0, 10)) stats.dailyXp = 0;
-    return { ...stats, currentStreak: u?.current_streak || 0, lastStudyDate: u?.last_study_date || null };
+    return {
+      ...stats,
+      currentStreak: liveStreak(u?.current_streak || 0, u?.last_study_date || null, tz),
+      lastStudyDate: u?.last_study_date || null,
+    };
   }
-  async checkin() {
+  // Counts today in the learner's own time zone (minutes east of UTC); a day with any study keeps
+  // the streak, so lesson, quiz and review writes all call this. Repeat calls on one day are no-ops.
+  async checkin(tz = DEFAULT_TZ_OFFSET) {
     const stamp = utcNow(),
-      today = stamp.slice(0, 10),
-      yesterday = new Date(Date.parse(stamp) - 86400000).toISOString().slice(0, 10);
+      now = Date.parse(stamp),
+      today = localDay(now, tz),
+      yesterday = localDay(now - 86400000, tz),
+      shift = modifier(tz);
     const r = await this.batch([
       this.sql(
-        `UPDATE users SET current_streak=CASE WHEN substr(last_study_date,1,10)=? THEN current_streak+1 ELSE 1 END,last_study_date=?,updated_at=? WHERE id=? AND (last_study_date IS NULL OR substr(last_study_date,1,10)<?) RETURNING current_streak`,
+        `UPDATE users SET current_streak=CASE WHEN date(last_study_date,?)=? THEN current_streak+1 ELSE 1 END,last_study_date=?,updated_at=? WHERE id=? AND (last_study_date IS NULL OR date(last_study_date,?)<?) RETURNING current_streak`,
+        shift,
         yesterday,
         stamp,
         stamp,
         this.userId,
+        shift,
         today,
       ),
       this.sql(
@@ -85,14 +110,14 @@ export class Learner extends LearningDB {
     ]);
     return { streak: r[3].results[0].current_streak, streakUpdated: r[1].results.length === 1 };
   }
-  async dashboard() {
+  async dashboard(tz = DEFAULT_TZ_OFFSET) {
     const user = await this.sql(
-      'SELECT id,username,display_name,avatar_url,current_streak FROM users WHERE id=?',
+      'SELECT id,username,display_name,avatar_url,current_streak,last_study_date FROM users WHERE id=?',
       this.userId,
     ).first<Row>();
     const [settings, gamification, srs, progress] = await Promise.all([
       this.settings(),
-      this.stats(),
+      this.stats(tz),
       new Srs(this.db, this.userId).stats(),
       new Study(this.db, this.userId).summary(),
     ]);
@@ -102,7 +127,7 @@ export class Learner extends LearningDB {
         username: user!.username,
         displayName: user!.display_name,
         avatarUrl: user!.avatar_url,
-        currentStreak: user!.current_streak,
+        currentStreak: liveStreak(user!.current_streak, user!.last_study_date, tz),
       },
       settings,
       gamification,

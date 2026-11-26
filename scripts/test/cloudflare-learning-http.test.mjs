@@ -97,7 +97,8 @@ test('workerd HTTP learning flow: progress, quiz retry, SRS, tests, XP, check-in
     assert.equal(first.xpEarned, 150);
     assert.deepEqual((await request(`/tests/attempts/${attempt.id}/submit`, 'POST', answers)).data, first);
     assert.equal((await request('/gamification/me')).data.totalXpEarned, 252);
-    assert.equal((await request('/gamification/checkin', 'POST')).data.streakUpdated, true);
+    // Lesson, quiz, review and test writes already counted today, so an explicit check-in changes nothing.
+    assert.equal((await request('/gamification/me')).data.currentStreak, 1);
     assert.equal((await request('/gamification/checkin', 'POST')).data.streakUpdated, false);
     const dashboard = (await request('/users/dashboard')).data;
     assert.equal(dashboard.gamification.totalXpEarned, 252);

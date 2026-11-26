@@ -1,4 +1,4 @@
-import type { LearnerStats, ReviewCard } from '../../services/api';
+import type { ReviewCard } from '../../services/api';
 
 export interface QueuedCard {
   card: ReviewCard;
@@ -90,14 +90,4 @@ export function cardFace(card: ReviewCard): CardFace {
     speakText: d.hiragana || d.japanese,
     lesson: 'Từ vựng',
   };
-}
-
-// A streak stored on the server only counts while its last study day is today or yesterday (UTC,
-// matching the server's check-in).
-export function liveStreak(stats: Pick<LearnerStats, 'currentStreak' | 'lastStudyDate'> | null, now = Date.now()) {
-  if (!stats?.lastStudyDate || !stats.currentStreak) return 0;
-  const last = stats.lastStudyDate.slice(0, 10);
-  const today = new Date(now).toISOString().slice(0, 10);
-  const yesterday = new Date(now - 86400000).toISOString().slice(0, 10);
-  return last === today || last === yesterday ? stats.currentStreak : 0;
 }

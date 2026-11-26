@@ -1,18 +1,10 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { ArrowRight, Flame, Loader2, RotateCcw, Volume2 } from 'lucide-react';
 import { useAuth } from '../components/auth/AuthProvider';
 import { reviewApi, type ReviewStats } from '../services/api';
 import { navigateUrl } from '../services/navigation';
 import { speak } from '../utils/helpers';
-import {
-  answerCard,
-  buildQueue,
-  cardFace,
-  GRADES,
-  liveStreak,
-  NEW_CARDS_PER_ROUND,
-  type QueuedCard,
-} from './review/reviewSession';
+import { answerCard, buildQueue, cardFace, GRADES, NEW_CARDS_PER_ROUND, type QueuedCard } from './review/reviewSession';
 
 type Phase = 'loading' | 'error' | 'studying' | 'done';
 
@@ -27,7 +19,6 @@ export default function ReviewPage() {
   const [sendError, setSendError] = useState(false);
   const [sending, setSending] = useState(false);
   const [noMoreNew, setNoMoreNew] = useState(false);
-  const checkedIn = useRef(false);
 
   const load = useCallback(async (onlyNew = false) => {
     setPhase('loading');
@@ -40,7 +31,7 @@ export default function ReviewPage() {
         reviewApi.learner(),
       ]);
       setStats(statsRes.data);
-      setStreak(liveStreak(learner.data));
+      setStreak(learner.data.currentStreak);
       const next = buildQueue(due.data, fresh.data);
       setNoMoreNew(fresh.data.length < NEW_CARDS_PER_ROUND);
       setQueue(next);
@@ -52,21 +43,19 @@ export default function ReviewPage() {
 
   useEffect(() => {
     if (checking || !user) return;
-    checkedIn.current = false;
     setAnswered({ total: 0, remembered: 0, xp: 0 });
     load();
   }, [user?.id, checking, load]);
 
+  // Each answered card already counts toward today's streak on the server; refresh what it shows.
   const finish = useCallback(async () => {
     setPhase('done');
-    if (checkedIn.current) return;
-    checkedIn.current = true;
     try {
-      const [checkin, statsRes] = await Promise.all([reviewApi.checkin(), reviewApi.stats()]);
-      setStreak(checkin.data.streak);
+      const [learner, statsRes] = await Promise.all([reviewApi.learner(), reviewApi.stats()]);
+      setStreak(learner.data.currentStreak);
       setStats(statsRes.data);
     } catch {
-      checkedIn.current = false;
+      // The summary still shows this session's own counts.
     }
   }, []);
 

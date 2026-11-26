@@ -9,7 +9,7 @@ const load = async entry => {
   new Function('require', 'module', 'exports', bundle.outputFiles[0].text)(require, mod, mod.exports);
   return mod.exports;
 };
-const { buildQueue, answerCard, cardFace, liveStreak } = await load('src/app/screens/review/reviewSession.ts');
+const { buildQueue, answerCard, cardFace } = await load('src/app/screens/review/reviewSession.ts');
 
 const vocab = (id, extra = {}) => ({
   itemType: 'VOCAB',
@@ -64,12 +64,4 @@ test('card faces show reading only when it differs and handle both kanji example
   assert.equal(face.speakText, 'ひと');
   assert.ok(face.details.some(d => d.value === '一人: một người'));
   assert.ok(cardFace(kanji('一日中: cả ngày')).details.some(d => d.value === '一日中: cả ngày'));
-});
-
-test('a streak only counts while the last study day is today or yesterday (UTC)', () => {
-  const now = Date.parse('2026-11-27T10:00:00Z');
-  assert.equal(liveStreak({ currentStreak: 4, lastStudyDate: '2026-11-27T01:00:00Z' }, now), 4);
-  assert.equal(liveStreak({ currentStreak: 4, lastStudyDate: '2026-11-26T23:00:00Z' }, now), 4);
-  assert.equal(liveStreak({ currentStreak: 4, lastStudyDate: '2026-11-25T23:00:00Z' }, now), 0);
-  assert.equal(liveStreak(null, now), 0);
 });
