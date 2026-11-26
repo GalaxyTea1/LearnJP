@@ -16,7 +16,8 @@
     "directory": "./frontend/dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/api", "/api/*", "/audio/*"],
+    // Page loads go through the Worker for per-page titles and content (seo.ts); hashed bundles do not.
+    "run_worker_first": ["/*", "!/assets/*"],
   },
   // Pre-generated lesson audio (scripts/content/generate-audio.mjs).
   "r2_buckets": [{ "binding": "AUDIO", "bucket_name": "learnjp-audio-local" }],

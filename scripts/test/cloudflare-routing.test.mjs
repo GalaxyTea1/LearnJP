@@ -46,9 +46,22 @@ test('frontend deep link serves the SPA and built JavaScript is available', asyn
   assert.equal(home.status, 200);
   const html = await home.text();
   assert.match(html, /id="root"/);
+  // Every page load is the same app with its own head; a lesson that does not exist answers 404.
+  const strip = page =>
+    page
+      .replace(/<head>[\s\S]*<\/head>/, '')
+      .replace(/<div id="root">[\s\S]*?<\/main><\/div>/, '<div id="root"></div>');
   const deepLink = await get('/learning?moduleId=7', options);
-  assert.equal(deepLink.status, 200);
-  assert.equal(await deepLink.text(), html);
+  assert.equal(deepLink.status, 404);
+  const deepHtml = await deepLink.text();
+  assert.match(deepHtml, /<meta name="robots" content="noindex" \/>/);
+  assert.equal(strip(deepHtml), strip(html));
+  const tests = await get('/tests', options);
+  assert.equal(tests.status, 200);
+  assert.match(await tests.text(), /<link rel="canonical" href="[^"]+\/tests" \/>/);
+  const sitemap = await get('/sitemap.xml');
+  assert.equal(sitemap.status, 200);
+  assert.match(await sitemap.text(), /<urlset/);
   const script = html.match(/src="([^\"]+\.js)"/)[1];
   const asset = await get(script);
   assert.equal(asset.status, 200);

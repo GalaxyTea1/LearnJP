@@ -87,6 +87,12 @@ export function ModuleStudyViewer({ moduleId, onBack }: ModuleStudyViewerProps) 
   const unitCompleted = !!user && study.quizCompleted;
   const completedTabs = new Set(study.completedTabs as StudyTabId[]);
 
+  // Match the title the server renders for this lesson URL.
+  useEffect(() => {
+    if (moduleData)
+      document.title = `${moduleData.level.level} Bài ${moduleData.unitNumber}: ${moduleData.title} — Từ vựng, ngữ pháp | LearnJP`;
+  }, [moduleData]);
+
   useEffect(() => {
     let isMounted = true;
     async function loadModuleContent() {

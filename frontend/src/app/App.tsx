@@ -11,12 +11,26 @@ import {
   Shield,
   Loader2,
 } from 'lucide-react';
-import { useBrowserUrl, pageFromUrl, navigateUrl, pathFor } from './services/navigation';
+import { useBrowserUrl, pageFromUrl, moduleFromUrl, navigateUrl, pathFor } from './services/navigation';
 import { Page } from './data/basicData';
 import { translationEnabled } from './services/features';
 import { AuthProvider, AccountButton, useAuth } from './components/auth/AuthProvider';
 import { lazyScreen } from './services/staleBuild';
 import { supportEnabled } from './data/siteInfo';
+
+const DEFAULT_TITLE = 'LearnJP — Học tiếng Nhật theo lộ trình JLPT';
+// Same titles the Worker renders for each page (backend/cloudflare/seo.ts); a lesson sets its own.
+const pageTitles: Partial<Record<Page, string>> = {
+  learning: 'Lộ trình học tiếng Nhật theo JLPT — LearnJP',
+  review: 'Ôn tập hôm nay — LearnJP',
+  tests: 'Đề thi thử JLPT N4, N3 có giải thích — LearnJP',
+  translate: 'Dịch văn bản tiếng Nhật — LearnJP',
+  dictionary: 'Từ điển Nhật – Việt: tra nghĩa, cách đọc, ví dụ — LearnJP',
+  writing: 'Luyện viết Hiragana và Katakana theo thứ tự nét — LearnJP',
+  admin: 'Quản trị — LearnJP',
+  about: 'Giới thiệu LearnJP',
+  privacy: 'Quyền riêng tư — LearnJP',
+};
 
 const HomePage = lazyScreen(() => import('./screens/HomePage'));
 const LearningPage = lazyScreen(() => import('./screens/LearningPage'));
@@ -50,6 +64,7 @@ function AppContent() {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'auto' });
+    if (!moduleFromUrl(href)) document.title = pageTitles[page] ?? DEFAULT_TITLE;
   }, [href]);
 
   const navLinks: { label: string; page: Page; icon: React.ReactNode }[] = [

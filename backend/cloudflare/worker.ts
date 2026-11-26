@@ -7,6 +7,7 @@ import { HttpError, json } from './http';
 import { authenticate, cleanupExpiredAuth, handleAuth, requireRole } from './auth';
 import { handleLearning } from './learning-routes';
 import { handleAdmin } from './admin-routes';
+import { servePage, serveSitemap } from './seo';
 import { supabaseKeepalive, type KeepaliveEnv } from './supabase-keepalive';
 
 export default {
@@ -82,6 +83,11 @@ export default {
         503,
       );
     }
+    const waitUntil = (promise: Promise<unknown>) => ctx.waitUntil(promise);
+    const sitemap = await serveSitemap(request, env, waitUntil);
+    if (sitemap) return sitemap;
+    const page = await servePage(request, env, waitUntil);
+    if (page) return page;
     return env.ASSETS.fetch(request);
   },
 } satisfies ExportedHandler<Env>;
