@@ -1,5 +1,16 @@
 import React, { useEffect, useState, Suspense } from 'react';
-import { ArrowLeftRight, ClipboardCheck, Home, Map, Menu, PenTool, Search, Shield, Loader2 } from 'lucide-react';
+import {
+  ArrowLeftRight,
+  ClipboardCheck,
+  Home,
+  Layers,
+  Map,
+  Menu,
+  PenTool,
+  Search,
+  Shield,
+  Loader2,
+} from 'lucide-react';
 import { useBrowserUrl, pageFromUrl, navigateUrl, pathFor } from './services/navigation';
 import { Page } from './data/basicData';
 import { translationEnabled } from './services/features';
@@ -9,6 +20,7 @@ import { supportEnabled } from './data/siteInfo';
 
 const HomePage = lazyScreen(() => import('./screens/HomePage'));
 const LearningPage = lazyScreen(() => import('./screens/LearningPage'));
+const ReviewPage = lazyScreen(() => import('./screens/ReviewPage'));
 const TestsPage = lazyScreen(() => import('./screens/TestsPage'));
 const TranslatePage = lazyScreen(() => import('./screens/TranslatePage'));
 const DictionaryPage = lazyScreen(() => import('./screens/DictionaryPage'));
@@ -43,6 +55,7 @@ function AppContent() {
   const navLinks: { label: string; page: Page; icon: React.ReactNode }[] = [
     { label: 'Trang chủ', page: 'home', icon: <Home size={14} /> },
     { label: 'Lộ trình', page: 'learning', icon: <Map size={14} /> },
+    { label: 'Ôn tập', page: 'review', icon: <Layers size={14} /> },
     { label: 'Thi thử', page: 'tests', icon: <ClipboardCheck size={14} /> },
     ...(translationEnabled
       ? [{ label: 'Dịch văn bản', page: 'translate' as Page, icon: <ArrowLeftRight size={14} /> }]
@@ -134,6 +147,7 @@ function AppContent() {
         >
           {page === 'home' && <HomePage setPage={navigate} />}
           {page === 'learning' && <LearningPage />}
+          {page === 'review' && <ReviewPage />}
           {page === 'tests' && <TestsPage />}
           {page === 'translate' &&
             (translationEnabled ? (

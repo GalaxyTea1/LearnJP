@@ -1,5 +1,8 @@
-import { openStudyModule } from '../services/navigation';
-import { ArrowRight, BookOpen, ClipboardCheck, Languages, PenTool, Search } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { navigateUrl, openStudyModule } from '../services/navigation';
+import { ArrowRight, BookOpen, ClipboardCheck, Flame, Languages, Layers, PenTool, Search } from 'lucide-react';
+import { reviewApi } from '../services/api';
+import { liveStreak } from './review/reviewSession';
 import type { Page } from '../data/basicData';
 import { useAuth } from '../components/auth/AuthProvider';
 import { openLevels, summarizeCourse } from '../services/courseSummary';
@@ -115,6 +118,7 @@ export default function HomePage({ setPage }: { setPage: (p: Page) => void }) {
           )}
         </div>
       </section>
+      {user && <DailyReviewCard userId={user.id} />}
       <section className="fade-up" style={{ '--i': 1 } as React.CSSProperties}>
         <h2 className="text-xl font-semibold">Khóa học có gì</h2>
         {catalog.loading ? (
@@ -186,5 +190,47 @@ export default function HomePage({ setPage }: { setPage: (p: Page) => void }) {
         </div>
       </section>
     </div>
+  );
+}
+
+function DailyReviewCard({ userId }: { userId: number }) {
+  const [state, setState] = useState<{ due: number; tracked: number; streak: number } | null>(null);
+  useEffect(() => {
+    let alive = true;
+    setState(null);
+    Promise.all([reviewApi.stats(), reviewApi.learner()])
+      .then(([stats, learner]) => {
+        if (alive)
+          setState({ due: stats.data.dueCount, tracked: stats.data.totalTracked, streak: liveStreak(learner.data) });
+      })
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, [userId]);
+  if (!state) return null;
+  const title = state.due
+    ? `${state.due} thẻ đang chờ bạn ôn`
+    : state.tracked
+      ? 'Hôm nay bạn đã ôn xong'
+      : 'Bắt đầu ôn từ vựng và Hán tự đã học';
+  return (
+    <section className="fade-up border border-border bg-card rounded-lg p-5 md:p-6 flex flex-col sm:flex-row sm:items-center gap-4">
+      <Layers size={26} className="text-accent shrink-0" />
+      <div className="flex-1 min-w-0">
+        <p className="text-xs uppercase tracking-widest text-muted-foreground">Ôn tập hôm nay</p>
+        <h2 className="text-lg font-semibold mt-1">{title}</h2>
+        <p className="text-sm text-muted-foreground mt-1 flex items-center gap-1.5">
+          <Flame size={14} className={state.streak ? 'text-accent' : ''} />
+          {state.streak ? `Chuỗi ${state.streak} ngày học liên tiếp` : 'Ôn mỗi ngày để bắt đầu chuỗi ngày học'}
+        </p>
+      </div>
+      <button
+        onClick={() => navigateUrl('/review')}
+        className={`${state.due ? 'btn-accent' : 'btn-outline'} px-5 py-3`}
+      >
+        {state.due ? 'Ôn ngay' : 'Mở ôn tập'} <ArrowRight size={16} />
+      </button>
+    </section>
   );
 }

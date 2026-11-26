@@ -447,6 +447,55 @@ export const progressApi = {
   },
 };
 
+// ─── 4a. Daily review (spaced repetition) ───────────────────────────────────
+
+export type ReviewItemType = 'VOCAB' | 'KANJI';
+export interface ReviewCard {
+  itemType: ReviewItemType;
+  itemId: number;
+  itemData: Record<string, any>;
+}
+export interface ReviewStats {
+  dueCount: number;
+  learning: number;
+  reviewing: number;
+  mastered: number;
+  totalTracked: number;
+}
+export interface LearnerStats {
+  currentStreak: number;
+  lastStudyDate: string | null;
+  dailyXp: number;
+}
+const reviewTimeout = () => AbortSignal.timeout(15000);
+export const reviewApi = {
+  async stats() {
+    return apiFetch<ReviewStats>('/flashcards/stats', { signal: reviewTimeout() });
+  },
+  async due(limit = 50) {
+    return apiFetch<ReviewCard[]>(`/flashcards/due?limit=${limit}`, { signal: reviewTimeout() });
+  },
+  async fresh(limit = 10) {
+    return apiFetch<ReviewCard[]>(`/flashcards/new?limit=${limit}`, { signal: reviewTimeout() });
+  },
+  async review(itemType: ReviewItemType, itemId: number, quality: number) {
+    return apiFetch<{ xpEarned: number; interval: number }>('/flashcards/review', {
+      method: 'POST',
+      body: JSON.stringify({ itemType, itemId, quality }),
+      signal: reviewTimeout(),
+    });
+  },
+  async learner() {
+    return apiFetch<LearnerStats>('/gamification/me', { signal: reviewTimeout() });
+  },
+  async checkin() {
+    return apiFetch<{ streak: number; streakUpdated: boolean }>('/gamification/checkin', {
+      method: 'POST',
+      signal: reviewTimeout(),
+    });
+  },
+};
+
 // ─── 4b. Mock tests ──────────────────────────────────────────────────────────
 
 interface MockTestQuestion {

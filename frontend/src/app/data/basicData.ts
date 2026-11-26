@@ -590,6 +590,7 @@ const katakana = [
   { char: 'ン', rom: 'n' },
 ];
 
-type Page = 'home' | 'learning' | 'tests' | 'translate' | 'dictionary' | 'writing' | 'admin' | 'about' | 'privacy';
+type Page =
+  'home' | 'learning' | 'review' | 'tests' | 'translate' | 'dictionary' | 'writing' | 'admin' | 'about' | 'privacy';
 export { hiraganaDetails, hiragana, katakana };
 export type { Page };

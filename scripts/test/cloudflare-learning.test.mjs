@@ -311,6 +311,26 @@ test('SRS hides draft content and rollback keeps review due when XP fails', asyn
   assert.deepEqual(await srs.due(undefined, 20), []);
 });
 
+test('new review cards come only from started public lessons and leave once reviewed', async () => {
+  const srs = new Srs(db, 1);
+  assert.deepEqual(await srs.fresh(20), []);
+  await db.prepare("INSERT INTO user_module_progress(user_id,module_id,status) VALUES (1,1,'IN_PROGRESS')").run();
+  const cards = await srs.fresh(20);
+  assert.ok(cards.length > 0);
+  assert.ok(cards.every(c => c.itemData.moduleId === 1 && ['VOCAB', 'KANJI'].includes(c.itemType)));
+  assert.deepEqual(await new Srs(db, 2).fresh(20), []);
+  const first = cards[0];
+  await srs.review({ itemType: first.itemType, itemId: first.itemId, quality: 4 });
+  const after = await srs.fresh(20);
+  assert.equal(after.length, cards.length - 1);
+  assert.ok(!after.some(c => c.itemType === first.itemType && c.itemId === first.itemId));
+  await db.prepare("UPDATE user_flashcard_progress SET next_review='2000-01-01T00:00:00.000Z'").run();
+  const due = await srs.due(undefined, 20);
+  assert.equal(due.length, 1);
+  assert.equal(due[0].itemData.id, first.itemId);
+  assert.equal((await srs.fresh(1)).length, 1);
+});
+
 test('test start retry is idempotent and snapshot never leaves server responses', async () => {
   const p = { templateId: 1, requestId: crypto.randomUUID() };
   const rows = await Promise.all([assess().startTest(p), assess().startTest(p)]);

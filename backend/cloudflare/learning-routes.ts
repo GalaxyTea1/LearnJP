@@ -53,7 +53,7 @@ export async function handleLearning(request: Request, env: Env, user?: AuthUser
     [/^\/api\/v1\/progress\/(me|review-items)$/, ['GET']],
     [/^\/api\/v1\/progress\/module$/, ['POST']],
     [/^\/api\/v1\/quizzes\/submit$/, ['POST']],
-    [/^\/api\/v1\/flashcards\/(due|stats)$/, ['GET']],
+    [/^\/api\/v1\/flashcards\/(due|new|stats)$/, ['GET']],
     [/^\/api\/v1\/flashcards\/review$/, ['POST']],
     [/^\/api\/v1\/tests\/attempts$/, ['GET', 'POST']],
     [/^\/api\/v1\/tests\/attempts\/[^/]+\/submit$/, ['POST']],
@@ -99,6 +99,7 @@ export async function handleLearning(request: Request, env: Env, user?: AuthUser
     else if (path.endsWith('/quizzes/submit')) data = await assess.quiz(input);
     else if (path.endsWith('/flashcards/review')) data = await srs.review(input);
     else if (path.endsWith('/flashcards/due')) data = await srs.due(filter(itemTypes, p.get('itemType')), limit());
+    else if (path.endsWith('/flashcards/new')) data = await srs.fresh(limit());
     else if (path.endsWith('/flashcards/stats')) data = await srs.stats();
     else if ((match = path.match(/\/tests\/attempts\/([^/]+)\/submit$/)))
       data = await assess.submitTest(positive(match[1]), input);

@@ -97,20 +97,53 @@ export class Srs extends LearningDB {
         utcNow(),
         ...(type ? [type] : []),
         limit,
-      ).all()
+      ).all<Row>()
     ).results;
-    return Promise.all(
-      rows.map(async r => ({
-        ...decode('user_flashcard_progress', r),
-        itemData: decode(
-          tables[r.item_type as keyof typeof tables],
-          (await this.sql(
-            `SELECT * FROM ${tables[r.item_type as keyof typeof tables]} WHERE id=?`,
-            r.item_id,
-          ).first<Row>())!,
-        ),
-      })),
-    );
+    const items = await this.items(rows.map(r => ({ type: r.item_type, id: r.item_id })));
+    return rows
+      .filter(r => items.has(`${r.item_type}:${r.item_id}`))
+      .map(r => ({ ...decode('user_flashcard_progress', r), itemData: items.get(`${r.item_type}:${r.item_id}`) }));
+  }
+  // Vocabulary and kanji from lessons the learner has opened that are not yet in their review deck,
+  // in course order, so a daily session can introduce a few new cards after the due ones.
+  async fresh(limit: number) {
+    const started = `SELECT module_id FROM user_module_progress WHERE user_id=? AND module_id IN (${PUBLIC_MODULES})`;
+    const untracked = (type: string) =>
+      `NOT EXISTS(SELECT 1 FROM user_flashcard_progress f WHERE f.user_id=? AND f.item_type='${type}' AND f.item_id=t.id)`;
+    const rows = (
+      await this.sql(
+        `SELECT q.type,q.id FROM (
+          SELECT 'VOCAB' type,t.id,t.module_id FROM vocabulary t WHERE t.module_id IN (${started}) AND ${untracked('VOCAB')}
+          UNION ALL
+          SELECT 'KANJI' type,t.id,t.module_id FROM kanji t WHERE t.module_id IN (${started}) AND ${untracked('KANJI')}
+        ) q JOIN learning_modules m ON m.id=q.module_id ORDER BY m.sort_order,m.id,q.type DESC,q.id LIMIT ?`,
+        this.userId,
+        this.userId,
+        this.userId,
+        this.userId,
+        limit,
+      ).all<Row>()
+    ).results;
+    const items = await this.items(rows.map(r => ({ type: r.type, id: r.id })));
+    return rows
+      .filter(r => items.has(`${r.type}:${r.id}`))
+      .map(r => ({ itemType: r.type, itemId: r.id, itemData: items.get(`${r.type}:${r.id}`) }));
+  }
+  // One query per item type instead of one per card.
+  private async items(refs: { type: string; id: number }[]) {
+    const out = new Map<string, Row>();
+    for (const type of ['VOCAB', 'KANJI', 'GRAMMAR'] as const) {
+      const ids = refs.filter(r => r.type === type).map(r => r.id);
+      if (!ids.length) continue;
+      const rows = (
+        await this.sql(
+          `SELECT * FROM ${tables[type]} WHERE id IN (SELECT value FROM json_each(?))`,
+          JSON.stringify(ids),
+        ).all<Row>()
+      ).results;
+      for (const row of rows) out.set(`${type}:${row.id}`, decode(tables[type], row));
+    }
+    return out;
   }
   async stats() {
     const rows = (
