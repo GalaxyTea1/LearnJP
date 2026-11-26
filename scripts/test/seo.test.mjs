@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { getPlatformProxy } from 'wrangler';
 import { migrate, fixtures, load } from './learning-fixture.mjs';
 
-let proxy, db, Content, describePage, renderShell, vietnamese, serveSitemap;
+let proxy, db, Content, describePage, renderShell, vietnamese, serveSitemap, hanVietOf;
 const shell = await readFile(new URL('../../frontend/index.html', import.meta.url), 'utf8');
 const origin = 'https://learnjp.dev';
 before(async () => {
@@ -19,7 +19,7 @@ before(async () => {
   await migrate(db);
   await fixtures(db);
   ({ Content } = await load('content'));
-  ({ describePage, renderShell, vietnamese, serveSitemap } = await load('seo'));
+  ({ describePage, renderShell, vietnamese, serveSitemap, hanVietOf } = await load('seo'));
 });
 after(async () => {
   await proxy?.dispose();
@@ -35,6 +35,7 @@ test('a lesson page carries its own title, description, canonical URL and readab
   assert.equal(p.path, '/learning?moduleId=1');
   assert.match(p.body, /<h1>N5 · Bài/);
   assert.match(p.body, /<h2>Từ vựng<\/h2>/);
+  assert.ok(p.body.includes('[GIA TỘC]: family'), 'vocabulary shows Han-Viet readings'); // 家族
   const html = renderShell(shell, p, origin);
   assert.match(html, /<link rel="canonical" href="https:\/\/learnjp.dev\/learning\?moduleId=1" \/>/);
   assert.match(html, /<div id="root"><main class="ssr-content"/);
@@ -83,6 +84,13 @@ test('text from the database is escaped', () => {
   assert.doesNotMatch(html, /<script>x/);
   assert.doesNotMatch(html, /content=""><img>/);
   assert.match(html, /href="https:\/\/learnjp.dev\/x&quot;"/);
+});
+
+test('Han-Viet readings cover every kanji of a word and skip kana', () => {
+  assert.equal(hanVietOf('新生活'), 'TÂN SINH HOẠT');
+  assert.equal(hanVietOf('一人暮らし'), 'NHẤT NHÂN MỘ');
+  assert.equal(hanVietOf('おはよう'), '');
+  assert.equal(hanVietOf('大学'), 'ĐẠI HỌC');
 });
 
 test('meanings show their Vietnamese half', () => {

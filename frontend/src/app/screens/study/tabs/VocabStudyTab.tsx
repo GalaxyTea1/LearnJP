@@ -1,3 +1,4 @@
+import { hanVietOf } from '../../../utils/hanViet';
 import { vocabularyTypeLabel } from '../learnerLabels';
 import { useState, useMemo } from 'react';
 import {
@@ -246,6 +247,11 @@ export function VocabStudyTab({
                       <div className="flex flex-col items-center gap-4 my-auto max-w-sm">
                         <div>
                           <p className="text-sm font-mono text-muted-foreground mb-1">{currentCard.romaji}</p>
+                          {hanVietOf(currentCard.japanese) && (
+                            <p className="text-xs font-semibold tracking-widest text-accent mb-1" title="Âm Hán Việt">
+                              {hanVietOf(currentCard.japanese)}
+                            </p>
+                          )}
                           <h3 className="text-2xl sm:text-3xl font-bold text-foreground">{currentCard.english}</h3>
                         </div>
 
@@ -367,6 +373,11 @@ export function VocabStudyTab({
                     {/* Romaji & Meaning */}
                     <div className="mb-3">
                       <p className="text-[11px] font-mono text-muted-foreground/80">{item.romaji}</p>
+                      {hanVietOf(item.japanese) && (
+                        <p className="text-[11px] font-semibold tracking-wider text-accent" title="Âm Hán Việt">
+                          {hanVietOf(item.japanese)}
+                        </p>
+                      )}
                       <p className="text-sm font-medium text-foreground mt-0.5">{item.english}</p>
                       {item.type && (
                         <span className="inline-block mt-1 text-[10px] px-2 py-0.5 rounded-md bg-muted text-muted-foreground uppercase tracking-wider font-semibold">

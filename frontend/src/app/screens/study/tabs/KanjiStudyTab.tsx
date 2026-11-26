@@ -1,3 +1,4 @@
+import { hanVietChar } from '../../../utils/hanViet';
 import { useState } from 'react';
 import { Volume2, Sparkles, BookOpen, CheckCircle2 } from 'lucide-react';
 import type { KanjiItem } from '../types';
@@ -113,6 +114,11 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
               {/* Meaning Header */}
               <div>
                 <span className="text-xs uppercase tracking-widest text-accent font-semibold">Ý nghĩa chính</span>
+                {hanVietChar(selectedKanji.character) && (
+                  <p className="mt-1 text-sm font-semibold tracking-widest text-accent" title="Âm Hán Việt">
+                    {hanVietChar(selectedKanji.character)}
+                  </p>
+                )}
                 <h3 className="text-2xl sm:text-3xl font-bold text-foreground mt-1">{selectedKanji.meaning}</h3>
               </div>
 
@@ -217,6 +223,9 @@ export function KanjiStudyTab({ kanjiList, onCompleteTab, isCompleted, progressR
                 </span>
                 <span className="text-xs text-muted-foreground font-mono">{item.strokeCount} nét</span>
               </div>
+              {hanVietChar(item.character) && (
+                <p className="text-xs font-semibold tracking-widest text-accent">{hanVietChar(item.character)}</p>
+              )}
               <p className="text-sm font-semibold text-foreground line-clamp-1">{item.meaning}</p>
               <div className="mt-2 text-xs text-muted-foreground flex flex-col gap-0.5">
                 <span className="line-clamp-1">

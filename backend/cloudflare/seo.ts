@@ -5,6 +5,7 @@
 import { Content } from './content';
 import { edgeCache } from './content-cache';
 import type { Row } from './learning-db';
+import hanVietTable from '../../frontend/src/app/data/hanViet.json';
 
 const SITE = 'LearnJP';
 const DEFAULT_TITLE = 'LearnJP — Học tiếng Nhật theo lộ trình JLPT';
@@ -69,6 +70,13 @@ export const vietnamese = (meaning: unknown) => {
   return i === -1 ? text : text.slice(i + 3);
 };
 const lessonPath = (id: number) => `/learning?moduleId=${id}`;
+const hanViet = hanVietTable as Record<string, string>;
+// Sino-Vietnamese readings of the kanji in a word, upper-cased ("新生活" → "TÂN SINH HOẠT").
+export const hanVietOf = (text: unknown) =>
+  [...String(text ?? '')]
+    .map(c => hanViet[c]?.toLocaleUpperCase('vi'))
+    .filter(Boolean)
+    .join(' ');
 
 function courseList(modules: Row[]) {
   const levels = [...new Set(modules.map(m => m.level.level as string))];
@@ -91,13 +99,13 @@ function lessonBody(lesson: Row) {
   const vocab = (lesson.vocabulary as Row[])
     .map(
       v =>
-        `<li><span lang="ja">${escape(v.japanese)}</span>${v.hiragana && v.hiragana !== v.japanese ? ` (<span lang="ja">${escape(v.hiragana)}</span>)` : ''}: ${escape(vietnamese(v.english))}</li>`,
+        `<li><span lang="ja">${escape(v.japanese)}</span>${v.hiragana && v.hiragana !== v.japanese ? ` (<span lang="ja">${escape(v.hiragana)}</span>)` : ''}${hanVietOf(v.japanese) ? ` [${escape(hanVietOf(v.japanese))}]` : ''}: ${escape(vietnamese(v.english))}</li>`,
     )
     .join('');
   const kanji = (lesson.kanji as Row[])
     .map(
       k =>
-        `<li><span lang="ja">${escape(k.character)}</span>: ${escape(vietnamese(k.meaning))} — On: <span lang="ja">${escape(k.onyomi)}</span>, Kun: <span lang="ja">${escape(k.kunyomi)}</span></li>`,
+        `<li><span lang="ja">${escape(k.character)}</span>${hanVietOf(k.character) ? ` (Hán Việt: ${escape(hanVietOf(k.character))})` : ''}: ${escape(vietnamese(k.meaning))} — On: <span lang="ja">${escape(k.onyomi)}</span>, Kun: <span lang="ja">${escape(k.kunyomi)}</span></li>`,
     )
     .join('');
   const grammar = (lesson.grammarPatterns as Row[])

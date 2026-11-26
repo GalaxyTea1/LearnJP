@@ -203,6 +203,11 @@ export default function ReviewPage() {
                     {face.romaji}
                   </p>
                 )}
+                {face.hanViet && (
+                  <p className="text-sm font-semibold tracking-widest text-accent" title="Âm Hán Việt">
+                    {face.hanViet}
+                  </p>
+                )}
                 <p className="text-xl font-semibold">{face.meaning}</p>
                 {face.details.map(d => (
                   <p key={d.label} className="text-sm">

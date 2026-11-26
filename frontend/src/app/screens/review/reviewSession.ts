@@ -1,4 +1,5 @@
 import type { ReviewCard } from '../../services/api';
+import { hanVietChar, hanVietOf } from '../../utils/hanViet';
 
 export interface QueuedCard {
   card: ReviewCard;
@@ -48,6 +49,7 @@ export interface CardFace {
   prompt: string;
   reading?: string;
   romaji?: string;
+  hanViet?: string;
   meaning: string;
   details: { label: string; value: string }[];
   example?: { jp: string; vi?: string };
@@ -74,6 +76,7 @@ export function cardFace(card: ReviewCard): CardFace {
     ].filter(x => x.value && x.value !== '—');
     return {
       prompt: d.character,
+      hanViet: hanVietChar(d.character) || undefined,
       meaning: d.meaning || '',
       details,
       speakText: (d.kunyomi || d.onyomi || d.character || '').split(/[、,]/)[0],
@@ -84,6 +87,7 @@ export function cardFace(card: ReviewCard): CardFace {
     prompt: d.japanese,
     reading: d.hiragana && d.hiragana !== d.japanese ? d.hiragana : undefined,
     romaji: d.romaji || undefined,
+    hanViet: hanVietOf(d.japanese) || undefined,
     meaning: d.english || '',
     details: [],
     example: d.exampleJp ? { jp: d.exampleJp, vi: d.exampleEn || undefined } : undefined,
